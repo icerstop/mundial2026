@@ -1,15 +1,15 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-12T20:18:58.451Z",
+    "lastUpdated": "2026-06-12T21:42:18.024Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
-    "completedCount": 2
+    "completedCount": 3
   },
   "stats": {
-    "totalGoals": 5,
-    "matchesPlayed": 2,
-    "avgGoalsPerMatch": "2.50"
+    "totalGoals": 7,
+    "matchesPlayed": 3,
+    "avgGoalsPerMatch": "2.33"
   },
   "topScorers": [
     {
@@ -37,6 +37,20 @@
           "matchId": "760415",
           "clock": "67'",
           "vs": "RSA"
+        }
+      ]
+    },
+    {
+      "id": "205024",
+      "name": "Cyle Larin",
+      "teamId": "206",
+      "teamName": "Canada",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760416",
+          "clock": "78'",
+          "vs": "BIH"
         }
       ]
     },
@@ -81,9 +95,37 @@
           "vs": "CZE"
         }
       ]
+    },
+    {
+      "id": "305118",
+      "name": "Jovo Lukic",
+      "teamId": "452",
+      "teamName": "Bosnia-Herzegovina",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760416",
+          "clock": "21'",
+          "vs": "CAN"
+        }
+      ]
     }
   ],
   "topAssisters": [
+    {
+      "id": "170553",
+      "name": "Sead Kolasinac",
+      "teamId": "452",
+      "teamName": "Bosnia-Herzegovina",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760416",
+          "clock": "21'",
+          "vs": "CAN"
+        }
+      ]
+    },
     {
       "id": "191209",
       "name": "Vladimír Coufal",
@@ -151,6 +193,20 @@
           "matchId": "760414",
           "clock": "80'",
           "vs": "CZE"
+        }
+      ]
+    },
+    {
+      "id": "318522",
+      "name": "Promise David",
+      "teamId": "206",
+      "teamName": "Canada",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760416",
+          "clock": "78'",
+          "vs": "BIH"
         }
       ]
     }
@@ -214,6 +270,23 @@
       "assistDetails": []
     },
     {
+      "id": "205024",
+      "name": "Cyle Larin",
+      "teamId": "206",
+      "teamName": "Canada",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760416",
+          "clock": "78'",
+          "vs": "BIH"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
       "id": "233075",
       "name": "Julián Quiñones",
       "teamId": "203",
@@ -246,6 +319,40 @@
         }
       ],
       "assistDetails": []
+    },
+    {
+      "id": "305118",
+      "name": "Jovo Lukic",
+      "teamId": "452",
+      "teamName": "Bosnia-Herzegovina",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760416",
+          "clock": "21'",
+          "vs": "CAN"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
+      "id": "170553",
+      "name": "Sead Kolasinac",
+      "teamId": "452",
+      "teamName": "Bosnia-Herzegovina",
+      "goals": 0,
+      "assists": 1,
+      "total": 1,
+      "goalDetails": [],
+      "assistDetails": [
+        {
+          "matchId": "760416",
+          "clock": "21'",
+          "vs": "CAN"
+        }
+      ]
     },
     {
       "id": "191209",
@@ -312,6 +419,23 @@
           "matchId": "760415",
           "clock": "9'",
           "vs": "RSA"
+        }
+      ]
+    },
+    {
+      "id": "318522",
+      "name": "Promise David",
+      "teamId": "206",
+      "teamName": "Canada",
+      "goals": 0,
+      "assists": 1,
+      "total": 1,
+      "goalDetails": [],
+      "assistDetails": [
+        {
+          "matchId": "760416",
+          "clock": "78'",
+          "vs": "BIH"
         }
       ]
     }
@@ -21052,28 +21176,28 @@
       "name": "Bosnia-Herzegovina at Canada",
       "shortName": "BIH @ CAN",
       "status": {
-        "state": "in",
-        "detail": "56'",
-        "shortDetail": "56'",
-        "clock": "56'",
+        "state": "post",
+        "detail": "FT",
+        "shortDetail": "FT",
+        "clock": "90'+7'",
         "period": 2,
-        "completed": false
+        "completed": true
       },
       "venue": {
         "name": "BMO Field",
         "city": "Toronto",
         "country": "Canada"
       },
-      "attendance": null,
+      "attendance": 43002,
       "home": {
         "id": "206",
         "name": "Canada",
         "abbr": "CAN",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
-        "score": "0",
+        "score": "1",
         "winner": false,
-        "record": "0-0-0",
-        "form": "DWDDW"
+        "record": "0-1-0",
+        "form": "DDWDD"
       },
       "away": {
         "id": "452",
@@ -21082,8 +21206,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
         "score": "1",
         "winner": false,
-        "record": "0-0-0",
-        "form": "DDWWD"
+        "record": "0-1-0",
+        "form": "DDDWW"
       },
       "group": null,
       "details": {
@@ -21096,7 +21220,7 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "5",
+                "value": "10",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -21120,15 +21244,15 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "65",
-                "label": "POSSESSION"
+                "value": "61.2",
+                "label": "Possession"
               },
               "totalShots": {
-                "value": "8",
+                "value": "13",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "2",
+                "value": "4",
                 "label": "ON GOAL"
               },
               "shotPct": {
@@ -21144,15 +21268,15 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "196",
+                "value": "310",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "260",
+                "value": "417",
                 "label": "Passes"
               },
               "passPct": {
-                "value": "0.8",
+                "value": "0.7",
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
@@ -21160,51 +21284,51 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "19",
+                "value": "24",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.3",
+                "value": "0.2",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "28",
+                "value": "43",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "15",
+                "value": "19",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.5",
+                "value": "0.4",
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "3",
+                "value": "4",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "10",
+                "value": "15",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "12",
+                "value": "23",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.8",
+                "value": "0.7",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "3",
+                "value": "4",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "11",
+                "value": "21",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "11",
+                "value": "21",
                 "label": "Clearances"
               }
             }
@@ -21217,11 +21341,11 @@
             "homeAway": "away",
             "stats": {
               "foulsCommitted": {
-                "value": "11",
+                "value": "20",
                 "label": "Fouls"
               },
               "yellowCards": {
-                "value": "2",
+                "value": "3",
                 "label": "Yellow Cards"
               },
               "redCards": {
@@ -21233,7 +21357,7 @@
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "2",
+                "value": "4",
                 "label": "Corner Kicks"
               },
               "saves": {
@@ -21241,11 +21365,11 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "35",
-                "label": "POSSESSION"
+                "value": "38.8",
+                "label": "Possession"
               },
               "totalShots": {
-                "value": "6",
+                "value": "8",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
@@ -21253,7 +21377,7 @@
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.5",
+                "value": "0.4",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -21265,11 +21389,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "92",
+                "value": "170",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "144",
+                "value": "268",
                 "label": "Passes"
               },
               "passPct": {
@@ -21277,23 +21401,23 @@
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "4",
+                "value": "6",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "6",
+                "value": "10",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.7",
+                "value": "0.6",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "36",
+                "value": "62",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "10",
+                "value": "18",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -21301,15 +21425,15 @@
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "0",
+                "value": "1",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "7",
+                "value": "13",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "12",
+                "value": "21",
                 "label": "Tackles"
               },
               "tacklePct": {
@@ -21317,15 +21441,15 @@
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "7",
+                "value": "10",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "52",
+                "value": "71",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "52",
+                "value": "71",
                 "label": "Clearances"
               }
             }
@@ -21516,12 +21640,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "3",
+                    "value": "4",
                     "label": "FA"
                   },
                   {
@@ -21602,7 +21726,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -21683,7 +21807,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -21750,7 +21874,7 @@
                 "position": "Center Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -21759,12 +21883,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "3",
                     "label": "FA"
                   },
                   {
@@ -21819,7 +21943,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -21840,12 +21964,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -21912,7 +22036,7 @@
                 "position": "Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -21993,7 +22117,7 @@
                 "position": "Right Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -22074,7 +22198,7 @@
                 "position": "Center Left Forward",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -22088,7 +22212,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -22133,7 +22257,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -22143,7 +22267,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "1",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -22155,7 +22279,7 @@
                 "position": "Center Right Forward",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -22397,12 +22521,12 @@
                 "shortName": "J. Shaffelburg",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -22427,7 +22551,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -22559,12 +22683,12 @@
                 "shortName": "J. Osorio",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -22589,7 +22713,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -22721,12 +22845,12 @@
                 "shortName": "C. Larin",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -22736,7 +22860,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -22751,7 +22875,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -22781,17 +22905,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -22802,12 +22926,12 @@
                 "shortName": "A. Ahmed",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -22832,7 +22956,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -22883,22 +23007,22 @@
                 "shortName": "P. David",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -22913,7 +23037,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -22933,7 +23057,7 @@
                   },
                   {
                     "name": "goalAssists",
-                    "value": "0",
+                    "value": "1",
                     "label": "A"
                   },
                   {
@@ -22953,7 +23077,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -23498,7 +23622,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -23554,7 +23678,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -23579,7 +23703,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -23609,7 +23733,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -23630,7 +23754,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -23655,12 +23779,12 @@
                   },
                   {
                     "name": "yellowCards",
-                    "value": "0",
+                    "value": "1",
                     "label": "YC"
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -23702,7 +23826,7 @@
                 "position": "Left Back",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -23711,12 +23835,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "3",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -23741,7 +23865,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -23822,7 +23946,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -23864,7 +23988,7 @@
                 "position": "Center Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -23959,7 +24083,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -23984,7 +24108,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -24026,7 +24150,7 @@
                 "position": "Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -24107,7 +24231,7 @@
                 "position": "Right Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -24116,7 +24240,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -24188,7 +24312,7 @@
                 "position": "Center Left Forward",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -24278,7 +24402,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "3",
+                    "value": "4",
                     "label": "FC"
                   },
                   {
@@ -24308,7 +24432,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -24592,22 +24716,22 @@
                 "shortName": "S. Bazdar",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -24622,7 +24746,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -24632,7 +24756,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -24835,12 +24959,12 @@
                 "shortName": "A. Gigovic",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -24850,7 +24974,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -24865,7 +24989,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -24875,7 +24999,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -24997,12 +25121,12 @@
                 "shortName": "D. Burnic",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -25027,7 +25151,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -25067,7 +25191,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -25078,17 +25202,17 @@
                 "shortName": "K. Alajbegovic",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -25108,7 +25232,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -25118,7 +25242,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -25402,17 +25526,17 @@
                 "shortName": "I. Sunjic",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -25432,7 +25556,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -25442,7 +25566,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -25594,19 +25718,6 @@
             "ownGoal": false
           },
           {
-            "id": "49486216",
-            "type": "Start Delay",
-            "clock": "12'",
-            "period": 1,
-            "teamId": "206",
-            "teamName": "Canada",
-            "athletes": [],
-            "text": null,
-            "shootout": false,
-            "penaltyKick": false,
-            "ownGoal": false
-          },
-          {
             "id": "49486217",
             "type": "Start Delay",
             "clock": "12'",
@@ -25615,6 +25726,19 @@
             "teamName": "Bosnia-Herzegovina",
             "athletes": [],
             "text": "Delay in match because of an injury Amar Memic (Bosnia and Herzegovina).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49486216",
+            "type": "Start Delay",
+            "clock": "12'",
+            "period": 1,
+            "teamId": "206",
+            "teamName": "Canada",
+            "athletes": [],
+            "text": null,
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -25834,6 +25958,19 @@
             "ownGoal": false
           },
           {
+            "id": "49486842",
+            "type": "Start Delay",
+            "clock": "49'",
+            "period": 2,
+            "teamId": "452",
+            "teamName": "Bosnia-Herzegovina",
+            "athletes": [],
+            "text": "Delay in match because of an injury Nikola Vasilj (Bosnia and Herzegovina).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
             "id": "49486843",
             "type": "Start Delay",
             "clock": "49'",
@@ -25847,14 +25984,14 @@
             "ownGoal": false
           },
           {
-            "id": "49486842",
-            "type": "Start Delay",
-            "clock": "49'",
+            "id": "49486846",
+            "type": "End Delay",
+            "clock": "50'",
             "period": 2,
-            "teamId": "452",
-            "teamName": "Bosnia-Herzegovina",
+            "teamId": "206",
+            "teamName": "Canada",
             "athletes": [],
-            "text": "Delay in match because of an injury Nikola Vasilj (Bosnia and Herzegovina).",
+            "text": "Delay over. They are ready to continue.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -25873,19 +26010,6 @@
             "ownGoal": false
           },
           {
-            "id": "49486846",
-            "type": "End Delay",
-            "clock": "50'",
-            "period": 2,
-            "teamId": "206",
-            "teamName": "Canada",
-            "athletes": [],
-            "text": null,
-            "shootout": false,
-            "penaltyKick": false,
-            "ownGoal": false
-          },
-          {
             "id": "49486903",
             "type": "Yellow Card",
             "clock": "53'",
@@ -25899,6 +26023,383 @@
               }
             ],
             "text": "Luc De Fougerolles (Canada) is shown the yellow card for a bad foul.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487001",
+            "type": "Substitution",
+            "clock": "61'",
+            "period": 2,
+            "teamId": "206",
+            "teamName": "Canada",
+            "athletes": [
+              {
+                "id": "286214",
+                "name": "Jacob Shaffelburg"
+              },
+              {
+                "id": "271879",
+                "name": "Liam Millar"
+              }
+            ],
+            "text": "Substitution, Canada. Jacob Shaffelburg replaces Liam Millar.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487002",
+            "type": "Substitution",
+            "clock": "61'",
+            "period": 2,
+            "teamId": "206",
+            "teamName": "Canada",
+            "athletes": [
+              {
+                "id": "318522",
+                "name": "Promise David"
+              },
+              {
+                "id": "273499",
+                "name": "Jonathan David"
+              }
+            ],
+            "text": "Substitution, Canada. Promise David replaces Jonathan David.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487003",
+            "type": "Substitution",
+            "clock": "61'",
+            "period": 2,
+            "teamId": "206",
+            "teamName": "Canada",
+            "athletes": [
+              {
+                "id": "340228",
+                "name": "Ali Ahmed"
+              },
+              {
+                "id": "284769",
+                "name": "Tajon Buchanan"
+              }
+            ],
+            "text": "Substitution, Canada. Ali Ahmed replaces Tajon Buchanan.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487004",
+            "type": "Substitution",
+            "clock": "62'",
+            "period": 2,
+            "teamId": "452",
+            "teamName": "Bosnia-Herzegovina",
+            "athletes": [
+              {
+                "id": "322244",
+                "name": "Samed Bazdar"
+              },
+              {
+                "id": "305118",
+                "name": "Jovo Lukic"
+              }
+            ],
+            "text": "Substitution, Bosnia and Herzegovina. Samed Bazdar replaces Jovo Lukic.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487006",
+            "type": "Substitution",
+            "clock": "62'",
+            "period": 2,
+            "teamId": "452",
+            "teamName": "Bosnia-Herzegovina",
+            "athletes": [
+              {
+                "id": "288932",
+                "name": "Armin Gigovic"
+              },
+              {
+                "id": "306256",
+                "name": "Ivan Basic"
+              }
+            ],
+            "text": "Substitution, Bosnia and Herzegovina. Armin Gigovic replaces Ivan Basic.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487114",
+            "type": "Start Delay",
+            "clock": "69'",
+            "period": 2,
+            "teamId": "206",
+            "teamName": "Canada",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487113",
+            "type": "Start Delay",
+            "clock": "69'",
+            "period": 2,
+            "teamId": "452",
+            "teamName": "Bosnia-Herzegovina",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487116",
+            "type": "End Delay",
+            "clock": "71'",
+            "period": 2,
+            "teamId": "206",
+            "teamName": "Canada",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487117",
+            "type": "End Delay",
+            "clock": "71'",
+            "period": 2,
+            "teamId": "452",
+            "teamName": "Bosnia-Herzegovina",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487156",
+            "type": "Substitution",
+            "clock": "74'",
+            "period": 2,
+            "teamId": "452",
+            "teamName": "Bosnia-Herzegovina",
+            "athletes": [
+              {
+                "id": "194767",
+                "name": "Ivan Sunjic"
+              },
+              {
+                "id": "325410",
+                "name": "Esmir Bajraktarevic"
+              }
+            ],
+            "text": "Substitution, Bosnia and Herzegovina. Ivan Sunjic replaces Esmir Bajraktarevic.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487158",
+            "type": "Substitution",
+            "clock": "74'",
+            "period": 2,
+            "teamId": "452",
+            "teamName": "Bosnia-Herzegovina",
+            "athletes": [
+              {
+                "id": "391034",
+                "name": "Kerim Alajbegovic"
+              },
+              {
+                "id": "338199",
+                "name": "Amar Memic"
+              }
+            ],
+            "text": "Substitution, Bosnia and Herzegovina. Kerim Alajbegovic replaces Amar Memic.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487218",
+            "type": "Substitution",
+            "clock": "76'",
+            "period": 2,
+            "teamId": "206",
+            "teamName": "Canada",
+            "athletes": [
+              {
+                "id": "205024",
+                "name": "Cyle Larin"
+              },
+              {
+                "id": "294039",
+                "name": "Tani Oluwaseyi"
+              }
+            ],
+            "text": "Substitution, Canada. Cyle Larin replaces Tani Oluwaseyi.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487265",
+            "type": "Goal",
+            "clock": "78'",
+            "period": 2,
+            "teamId": "206",
+            "teamName": "Canada",
+            "athletes": [
+              {
+                "id": "205024",
+                "name": "Cyle Larin"
+              },
+              {
+                "id": "318522",
+                "name": "Promise David"
+              }
+            ],
+            "text": "Goal! Canada 1, Bosnia and Herzegovina 1. Cyle Larin (Canada) right footed shot from the centre of the box to the bottom right corner. Assisted by Promise David.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487319",
+            "type": "Start Delay",
+            "clock": "83'",
+            "period": 2,
+            "teamId": "452",
+            "teamName": "Bosnia-Herzegovina",
+            "athletes": [],
+            "text": "Delay in match because of an injury Sead Kolasinac (Bosnia and Herzegovina).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487320",
+            "type": "Start Delay",
+            "clock": "83'",
+            "period": 2,
+            "teamId": "206",
+            "teamName": "Canada",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487324",
+            "type": "End Delay",
+            "clock": "84'",
+            "period": 2,
+            "teamId": "452",
+            "teamName": "Bosnia-Herzegovina",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487323",
+            "type": "End Delay",
+            "clock": "84'",
+            "period": 2,
+            "teamId": "206",
+            "teamName": "Canada",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487331",
+            "type": "Substitution",
+            "clock": "84'",
+            "period": 2,
+            "teamId": "452",
+            "teamName": "Bosnia-Herzegovina",
+            "athletes": [
+              {
+                "id": "225571",
+                "name": "Dzenis Burnic"
+              },
+              {
+                "id": "170553",
+                "name": "Sead Kolasinac"
+              }
+            ],
+            "text": "Substitution, Bosnia and Herzegovina. Dzenis Burnic replaces Sead Kolasinac because of an injury.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487456",
+            "type": "Substitution",
+            "clock": "90'+1'",
+            "period": 2,
+            "teamId": "206",
+            "teamName": "Canada",
+            "athletes": [
+              {
+                "id": "184221",
+                "name": "Jonathan Osorio"
+              },
+              {
+                "id": "270505",
+                "name": "Stephen Eustáquio"
+              }
+            ],
+            "text": "Substitution, Canada. Jonathan Osorio replaces Stephen Eustaquio.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487480",
+            "type": "Yellow Card",
+            "clock": "90'+3'",
+            "period": 2,
+            "teamId": "452",
+            "teamName": "Bosnia-Herzegovina",
+            "athletes": [
+              {
+                "id": "220538",
+                "name": "Nikola Katic"
+              }
+            ],
+            "text": "Nikola Katic (Bosnia and Herzegovina) is shown the yellow card for a bad foul.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487533",
+            "type": "End Regular Time",
+            "clock": "90'+7'",
+            "period": 2,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": "Second Half ends, Canada 1, Bosnia and Herzegovina 1.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -26157,7 +26658,7 @@
           }
         ],
         "gameInfo": {
-          "attendance": null,
+          "attendance": 43002,
           "venue": {
             "name": "BMO Field",
             "city": "Toronto",
@@ -26212,17 +26713,17 @@
                   "shortName": "I. Koné",
                   "jersey": "8",
                   "position": "Midfielder",
-                  "value": "33",
-                  "summary": "39 PASS",
+                  "value": "51",
+                  "summary": "61 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "33",
+                      "value": "51",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "39",
+                      "value": "61",
                       "label": "PASS"
                     }
                   ]
@@ -26236,22 +26737,22 @@
                   "shortName": "D. Cornelius",
                   "jersey": "13",
                   "position": "Defender",
-                  "value": "6",
-                  "summary": "1 TKLW, 4 DUELW",
+                  "value": "13",
+                  "summary": "2 TKLW, 9 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "6",
+                      "value": "13",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "1",
+                      "value": "2",
                       "label": "TKLW"
                     },
                     {
                       "name": "duelsWon",
-                      "value": "4",
+                      "value": "9",
                       "label": "DUELW"
                     }
                   ]
@@ -26266,7 +26767,7 @@
                   "jersey": "16",
                   "position": "Goalkeeper",
                   "value": "2",
-                  "summary": "3 SOGA, 0.79 xGC",
+                  "summary": "3 SOGA, 0.98 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -26280,7 +26781,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.79",
+                      "value": "0.98",
                       "label": "xGC"
                     }
                   ]
@@ -26325,21 +26826,21 @@
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "Ivan Basic",
-                  "shortName": "I. Basic",
-                  "jersey": "13",
-                  "position": "Midfielder",
-                  "value": "15",
-                  "summary": "18 PASS",
+                  "name": "Tarik Muharemovic",
+                  "shortName": "T. Muharemovic",
+                  "jersey": "4",
+                  "position": "Defender",
+                  "value": "24",
+                  "summary": "31 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "15",
+                      "value": "24",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "18",
+                      "value": "31",
                       "label": "PASS"
                     }
                   ]
@@ -26353,22 +26854,22 @@
                   "shortName": "T. Muharemovic",
                   "jersey": "4",
                   "position": "Defender",
-                  "value": "18",
-                  "summary": "0 TKLW, 3 DUELW",
+                  "value": "28",
+                  "summary": "1 TKLW, 8 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "18",
+                      "value": "28",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "0",
+                      "value": "1",
                       "label": "TKLW"
                     },
                     {
                       "name": "duelsWon",
-                      "value": "3",
+                      "value": "8",
                       "label": "DUELW"
                     }
                   ]
@@ -26383,7 +26884,7 @@
                   "jersey": "1",
                   "position": "Goalkeeper",
                   "value": "1",
-                  "summary": "1 SOGA, 0.83 xGC",
+                  "summary": "2 SOGA, 1.25 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -26392,12 +26893,12 @@
                     },
                     {
                       "name": "shotsOnGoalAgainst",
-                      "value": "1",
+                      "value": "2",
                       "label": "SOGA"
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.83",
+                      "value": "1.25",
                       "label": "xGC"
                     }
                   ]
@@ -27323,8 +27824,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "DDWWD"
+        "record": "0-1-0",
+        "form": "DDDWW"
       },
       "group": null
     },
@@ -27353,8 +27854,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "DWDDW"
+        "record": "0-1-0",
+        "form": "DDWDD"
       },
       "away": {
         "id": "4398",
@@ -28233,8 +28734,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "DDWWD"
+        "record": "0-1-0",
+        "form": "DDDWW"
       },
       "away": {
         "id": "4398",
@@ -28283,8 +28784,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "DWDDW"
+        "record": "0-1-0",
+        "form": "DDWDD"
       },
       "group": null
     },
