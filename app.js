@@ -221,6 +221,7 @@ function init() {
   setupModal();
   updateLastUpdated();
   startLiveClockTicker();
+  startLiveScoreRefresh(); // pull live scores from ESPN directly, independent of the scraper
 
   // Hide loading
   setTimeout(() => {
@@ -228,8 +229,22 @@ function init() {
   }, 400);
 }
 
+// Recompute aggregate stats from the live match list (same method as the scraper) so the
+// counters track refreshLiveScores/modal updates instead of waiting for the next scraper push.
+function recomputeStats() {
+  if (!DATA?.matches) return;
+  if (!DATA.stats) DATA.stats = {};
+  const completed = DATA.matches.filter(m => m.status.completed);
+  const totalGoals = completed.reduce((sum, m) =>
+    sum + (parseInt(m.home.score) || 0) + (parseInt(m.away.score) || 0), 0);
+  DATA.stats.matchesPlayed = completed.length;
+  DATA.stats.totalGoals = totalGoals;
+  DATA.stats.avgGoalsPerMatch = completed.length ? (totalGoals / completed.length).toFixed(2) : 0;
+}
+
 // ── Hero Stats ─────────────────────────────────────────────────────────────
 function renderHeroStats() {
+  recomputeStats();
   const el = document.getElementById('heroStats');
   const completed = DATA.matches.filter(m => m.status.completed);
   const live = DATA.matches.filter(m => m.status.state === 'in');
@@ -562,6 +577,54 @@ function renderGroups() {
 
   const groupMap = buildGroupsFromMatches();
   el.innerHTML = groupMap.map(g => renderGroupCard(g)).join('');
+  renderThirdPlaceTable(groupMap);
+}
+
+// Standalone ranking table of all third-placed teams — preview of who advances (top 8)
+function renderThirdPlaceTable(groupMap) {
+  const el = document.getElementById('thirdPlaceTable');
+  if (!el) return;
+
+  const ranked = rankThirdPlaced(groupMap);
+  if (ranked.length === 0) {
+    el.innerHTML = '';
+    return;
+  }
+
+  const rows = ranked.map((x, i) => {
+    const s = x.e.stats;
+    const gd = s.pointsFor - s.pointsAgainst;
+    const cls = (i < 8 ? 'qualify-third' : 'eliminated-third') + (i === 8 ? ' cutoff' : '');
+    return `
+      <tr class="${cls}">
+        <td>${i + 1}</td>
+        <td>
+          <div class="group-team" onclick="openTeamModal('${x.e.team.name}')" style="cursor:pointer;">
+            ${x.e.team.logo ? `<img class="group-team__logo" src="${x.e.team.logo}" alt="${x.e.team.name}" loading="lazy" />` : ''}
+            <span class="group-team__name">${x.e.team.name}</span>
+            <span class="third-group">${x.group}</span>
+          </div>
+        </td>
+        <td>${s.gamesPlayed}</td>
+        <td>${s.wins}</td>
+        <td>${s.draws}</td>
+        <td>${s.losses}</td>
+        <td>${s.pointsFor}:${s.pointsAgainst}</td>
+        <td style="color:${gd > 0 ? 'var(--green)' : gd < 0 ? 'var(--red)' : 'var(--muted)'}">${gd > 0 ? '+' : ''}${gd}</td>
+        <td style="color:var(--yellow);font-weight:800;">${s.points}</td>
+      </tr>`;
+  }).join('');
+
+  el.innerHTML = `
+    <div class="group-card animate-in">
+      <div class="group-card__header">🥉 Ranking drużyn z 3. miejsc — awansuje 8 najlepszych</div>
+      <table class="group-table">
+        <thead>
+          <tr><th>#</th><th>Drużyna</th><th>M</th><th>W</th><th>R</th><th>P</th><th>G</th><th>+/-</th><th>Pkt</th></tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
 }
 
 function buildGroupsFromMatches() {
@@ -664,7 +727,26 @@ function buildGroupsFromMatches() {
     });
   });
 
+  // World Cup 2026: besides the top 2 of each group (24 teams), the 8 best third-placed
+  // teams (of 12) also advance to the Round of 32. Flag them so group cards mark them.
+  rankThirdPlaced(sortedGroups).slice(0, 8).forEach(x => { x.e.qualifyThird = true; });
+
   return sortedGroups;
+}
+
+// Rank the third-placed teams by FIFA criteria: points → goal difference → goals scored.
+// Only teams that have actually played count. Returns [{ group, e, gd }] best-first.
+function rankThirdPlaced(sortedGroups) {
+  return sortedGroups
+    .map(g => ({ group: g.name, e: g.standings[2] }))
+    .filter(x => x.e && x.e.stats.gamesPlayed > 0)
+    .map(x => ({ ...x, gd: x.e.stats.pointsFor - x.e.stats.pointsAgainst }))
+    .sort((a, b) =>
+      b.e.stats.points - a.e.stats.points ||
+      b.gd - a.gd ||
+      b.e.stats.pointsFor - a.e.stats.pointsFor ||
+      a.e.team.name.localeCompare(b.e.team.name)
+    );
 }
 
 function renderGroupCard(group) {
@@ -678,7 +760,8 @@ function renderGroupCard(group) {
     const ga = s.pointsAgainst ?? s.GA ?? s.overall?.pointsAgainst ?? '0';
     const gd = s.goalDifference ?? s.GD ?? (parseInt(gf) - parseInt(ga));
     const pts = s.points ?? s.P ?? '0';
-    const qualify = i < 2 ? 'qualify' : '';
+    // Top 2 advance directly; 3rd place advances only if among the 8 best third-placed teams
+    const qualify = i < 2 ? 'qualify' : (i === 2 && entry.qualifyThird ? 'qualify-third' : '');
 
     return `
       <tr class="${qualify}">
@@ -723,6 +806,7 @@ function renderGroupCard(group) {
 
 // ── Tournament Stats ───────────────────────────────────────────────────────
 function renderTournamentStats() {
+  recomputeStats();
   const el = document.getElementById('tournamentStats');
   const completed = DATA.matches.filter(m => m.status.completed);
 
@@ -803,7 +887,18 @@ function renderTournamentStats() {
 let liveModalInterval = null;
 let liveModalLastFetch = null;
 let liveModalPollingId = null;
-let liveMatchCache = null; // last ESPN fetch result, preserved across Firebase pushes
+// matchId -> latest authoritative ESPN state; re-applied after every Firebase push so a
+// stale scraper snapshot can't clobber a live/finished match the frontend already corrected
+const liveScoreCache = new Map();
+
+function cacheLive(match) {
+  liveScoreCache.set(match.id, {
+    home: { score: match.home.score, winner: match.home.winner },
+    away: { score: match.away.score, winner: match.away.winner },
+    status: { ...match.status },
+    details: match.details ?? liveScoreCache.get(match.id)?.details,
+  });
+}
 
 function parseSummaryForModal(data) {
   const result = {};
@@ -898,13 +993,7 @@ async function fetchAndUpdateLiveMatch(matchId) {
   }
 
   // Cache fresh ESPN state so a stale Firebase push can't clobber it (see applyLiveOverride)
-  liveMatchCache = {
-    id: matchId,
-    home: { score: match.home.score, winner: match.home.winner },
-    away: { score: match.away.score, winner: match.away.winner },
-    status: { ...match.status },
-    details: match.details,
-  };
+  cacheLive(match);
 
   // Re-render the card through the same path as the grid — card == modal, one source
   syncLiveCard(matchId);
@@ -919,15 +1008,99 @@ function syncLiveCard(matchId) {
 
 // Re-apply the latest live ESPN data on top of DATA after a Firebase push replaces it wholesale
 function applyLiveOverride() {
-  if (!liveMatchCache) return;
-  const m = DATA?.matches?.find(x => x.id === liveMatchCache.id);
-  if (!m) return;
-  m.home.score = liveMatchCache.home.score;
-  m.home.winner = liveMatchCache.home.winner;
-  m.away.score = liveMatchCache.away.score;
-  m.away.winner = liveMatchCache.away.winner;
-  Object.assign(m.status, liveMatchCache.status);
-  m.details = liveMatchCache.details;
+  if (!DATA?.matches || liveScoreCache.size === 0) return;
+  for (const m of DATA.matches) {
+    const c = liveScoreCache.get(m.id);
+    if (!c) continue;
+    m.home.score = c.home.score; m.home.winner = c.home.winner;
+    m.away.score = c.away.score; m.away.winner = c.away.winner;
+    Object.assign(m.status, c.status);
+    if (c.details) m.details = c.details;
+  }
+}
+
+// ── Self-refresh live scores straight from ESPN (independent of the scraper) ──
+// The scraper pushes to Firebase only every ~10 min and may lag or be down, so a
+// finished match can stay frozen as "56' live" in the persisted snapshot. This pulls
+// the authoritative scoreboard on load + every 30s so the main page is never stuck.
+const ESPN_BASE = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world';
+
+function espnDateStr(d) {
+  // UTC YYYYMMDD — same bucket the scraper (runs in UTC on Actions) indexes events under
+  return d.getUTCFullYear().toString()
+    + String(d.getUTCMonth() + 1).padStart(2, '0')
+    + String(d.getUTCDate()).padStart(2, '0');
+}
+
+async function refreshLiveScores() {
+  if (!DATA?.matches) return;
+  const now = Date.now();
+
+  // Which days have a match that's live, just finished, or about to start?
+  const dates = new Set();
+  for (const m of DATA.matches) {
+    if (m.status.completed) continue;
+    const hoursFromStart = (now - new Date(m.date).getTime()) / 3600e3;
+    if (m.status.state === 'in' || (hoursFromStart > -3 && hoursFromStart < 6)) {
+      dates.add(espnDateStr(new Date(m.date)));
+    }
+  }
+  if (dates.size === 0) return; // nothing live or near — no request, no churn
+
+  let changed = false;
+  for (const dt of dates) {
+    let board;
+    try {
+      const res = await fetch(`${ESPN_BASE}/scoreboard?dates=${dt}`);
+      if (!res.ok) continue;
+      board = await res.json();
+    } catch { continue; }
+
+    for (const ev of (board.events || [])) {
+      const match = DATA.matches.find(m => m.id === ev.id);
+      if (!match) continue;
+      if (match.id === liveModalPollingId) continue; // modal owns this one (fresher, per-second)
+      const comp = ev.competitions?.[0];
+      if (!comp) continue;
+
+      const home = comp.competitors?.find(c => c.homeAway === 'home');
+      const away = comp.competitors?.find(c => c.homeAway === 'away');
+
+      // Only touch the DOM when something actually changed — otherwise re-rendering the
+      // card every 30s re-triggers its fade-in animation (a visible flash on live cards)
+      const before = `${match.home.score}|${match.away.score}|${match.status.clock}|${match.status.state}|${match.status.completed}`;
+
+      if (home) { match.home.score = home.score ?? null; match.home.winner = home.winner || false; }
+      if (away) { match.away.score = away.score ?? null; match.away.winner = away.winner || false; }
+      match.status.state = comp.status?.type?.state ?? match.status.state;
+      match.status.detail = comp.status?.type?.detail ?? match.status.detail;
+      match.status.shortDetail = comp.status?.type?.shortDetail ?? match.status.shortDetail;
+      match.status.clock = comp.status?.displayClock ?? match.status.clock;
+      match.status.period = comp.status?.period ?? match.status.period;
+      match.status.completed = comp.status?.type?.completed || false;
+
+      const after = `${match.home.score}|${match.away.score}|${match.status.clock}|${match.status.state}|${match.status.completed}`;
+      cacheLive(match); // always cache, so it survives the next Firebase push
+      if (after !== before) {
+        syncLiveCard(match.id);
+        changed = true;
+      }
+    }
+  }
+  if (changed) {
+    // Same full re-render as a Firebase push, so every score-derived view stays live:
+    // hero counters, group tables (computed from completed matches), tournament stats, records
+    renderHeroStats();
+    renderScorers();
+    renderGroups();
+    renderTournamentStats();
+    renderRecords();
+  }
+}
+
+function startLiveScoreRefresh() {
+  refreshLiveScores();                   // immediate on load — corrects frozen snapshots
+  setInterval(refreshLiveScores, 30000); // then every 30s
 }
 
 let liveBadgeTicker = null;
@@ -989,7 +1162,7 @@ function stopLiveModalPolling() {
   if (liveBadgeTicker) { clearInterval(liveBadgeTicker); liveBadgeTicker = null; }
   liveModalPollingId = null;
   liveModalLastFetch = null;
-  liveMatchCache = null;
+  // liveScoreCache is intentionally NOT cleared — it keeps the main page correct across pushes
 }
 
 function getLiveModalBadge(m) {
@@ -1422,6 +1595,7 @@ function getCountryMatchesCount(countryNamePl, countryNameEn) {
 }
 
 function renderRecords() {
+  recomputeStats();
   const el = document.getElementById('recordsGrid');
   if (!el) return;
 
