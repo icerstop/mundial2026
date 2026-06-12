@@ -1,0 +1,12 @@
+# Dependencies (scraper uses only built-in Node modules — nothing here is needed at runtime)
+node_modules/
+
+# Logs / OS / editor noise
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local design scratch file (not part of the site)
+style.txt

@@ -1,0 +1,31 @@
+name: Update Tournament Data
+
+on:
+  schedule:
+    - cron: '*/10 * * * *' # runs every 10 minutes
+  workflow_dispatch: # allows running manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run Scraper
+        run: node scraper.js
+
+      - name: Commit and Push if updated
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add data/matches.json
+          git diff-index --quiet HEAD || (git commit -m "chore: auto-update tournament stats & standings" && git push)

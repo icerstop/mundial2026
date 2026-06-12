@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mundial 2026 — Dashboard</title>
+  <meta name="description" content="Dashboard Mistrzostw Świata w piłce nożnej 2026. Wyniki, statystyki, składy, tabele grupowe — na żywo." />
+  <meta property="og:title" content="Mundial 2026 — Dashboard" />
+  <meta property="og:description" content="Śledź Mistrzostwa Świata 2026 na żywo. Wyniki, gole, statystyki meczowe." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>" />
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-spinner"></div>
+    <p class="loading-text">Ładowanie danych...</p>
+  </div>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <div class="container">
+      <div class="hero__top">
+        <div class="hero__badge">
+          <span class="dot"></span>
+          <span>FIFA World Cup 2026</span>
+        </div>
+        <span class="hero__updated" id="lastUpdated"></span>
+      </div>
+      <div class="hero__title">
+        <h1>MISTRZOSTWA <span>ŚWIATA</span> 2026</h1>
+      </div>
+      <p class="hero__subtitle">Kanada · Meksyk · Stany Zjednoczone &nbsp;|&nbsp; 11 czerwca – 19 lipca</p>
+
+      <div class="hero-stats" id="heroStats">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Navigation -->
+    <div class="container">
+      <nav class="nav-tabs" id="mainNav">
+        <button class="nav-tab active" data-section="matches">⚽ Mecze</button>
+        <button class="nav-tab" data-section="scorers">🏅 Strzelcy</button>
+        <button class="nav-tab" data-section="groups">📊 Grupy</button>
+        <button class="nav-tab" data-section="stats">📈 Statystyki</button>
+        <button class="nav-tab" data-section="records">🏆 Rekordy</button>
+      </nav>
+    </div>
+
+    <!-- Matches Section -->
+    <section class="section" id="section-matches">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">
+            <span class="icon">⚽</span>
+            Mecze
+          </h2>
+          <div class="nav-tabs" id="matchFilter" style="padding:2px; gap:2px;">
+            <button class="nav-tab active" data-filter="all">Wszystkie</button>
+            <button class="nav-tab" data-filter="completed">Zakończone</button>
+            <button class="nav-tab" data-filter="live">Na żywo</button>
+            <button class="nav-tab" data-filter="upcoming">Nadchodzące</button>
+          </div>
+        </div>
+        <div class="matches-grid" id="matchesGrid">
+          <!-- filled by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Scorers Section -->
+    <section class="section" id="section-scorers" style="display:none;">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">
+            <span class="icon">🏅</span>
+            Klasyfikacje indywidualne
+          </h2>
+          <span class="section__count" id="scorersCount"></span>
+        </div>
+        <div class="nav-tabs" id="scorerFilter" style="padding:2px; gap:2px; margin-bottom: 20px;">
+          <button class="nav-tab active" data-scorer-tab="goals">⚽ Strzelcy</button>
+          <button class="nav-tab" data-scorer-tab="assists">🅰️ Asysty</button>
+          <button class="nav-tab" data-scorer-tab="canadian">🍁 Kanadyjska (G+A)</button>
+        </div>
+        <div class="scorers-list" id="scorersList">
+          <!-- filled by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Groups Section -->
+    <section class="section" id="section-groups" style="display:none;">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">
+            <span class="icon">📊</span>
+            Tabele grupowe
+          </h2>
+        </div>
+        <div class="groups-grid" id="groupsGrid">
+          <!-- filled by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section" id="section-stats" style="display:none;">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">
+            <span class="icon">📈</span>
+            Statystyki turnieju
+          </h2>
+        </div>
+        <div class="tournament-stats-grid" id="tournamentStats">
+          <!-- filled by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Records Section -->
+    <section class="section" id="section-records" style="display:none;">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">
+            <span class="icon">🏆</span>
+            Tropiciel Rekordów MŚ 2026
+          </h2>
+          <div class="nav-tabs" id="recordFilter" style="padding:2px; gap:2px;">
+            <button class="nav-tab active" data-record-filter="all">Wszystkie</button>
+            <button class="nav-tab" data-record-filter="chasing">W toku</button>
+            <button class="nav-tab" data-record-filter="achieved">Osiągnięte / Pewne</button>
+          </div>
+        </div>
+        <p style="color: var(--muted); font-size: 0.9rem; margin-top: -16px; margin-bottom: 24px;">
+          Mundial z udziałem 48 drużyn i 104 meczami to historyczna okazja do pobicia legendarnych rekordów. Śledź na bieżąco postępy w ich łamaniu!
+        </p>
+        <div class="records-grid" id="recordsGrid">
+          <!-- filled by JS -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Match Detail Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="matchModal">
+      <div class="modal__header">
+        <span class="modal__badge" id="modalBadge"></span>
+        <button class="modal__close" id="modalClose">✕</button>
+      </div>
+      <div class="modal__score-section" id="modalScore"></div>
+      <div class="modal__stats" id="modalStats"></div>
+      <div class="modal__events" id="modalEvents"></div>
+      <div class="modal__lineups" id="modalLineups"></div>
+    </div>
+  </div>
+
+  <!-- Team Detail Modal -->
+  <div class="modal-overlay" id="teamModalOverlay">
+    <div class="modal" id="teamModal">
+      <div class="modal__header">
+        <span class="modal__badge" id="teamModalBadge">Reprezentacja</span>
+        <button class="modal__close" id="teamModalClose">✕</button>
+      </div>
+      <div class="modal__score-section" id="teamModalHeader"></div>
+      <div class="modal__stats" id="teamModalMetadata" style="padding-bottom: 24px;"></div>
+      <div class="modal__events" id="teamModalRoster"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__left">
+          <div class="footer__brand">Mundial 2026 Dashboard</div>
+          <div class="footer__credits">Dane: ESPN Public API &nbsp;·&nbsp; Design: @jakub_bilski palette</div>
+        </div>
+        <div class="footer__right">
+          <div class="footer__social">
+            <span>X: @jakub_bilski</span>
+            <span>|</span>
+            <span>IG: @jakub__bilski</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Firebase SDK (Compat version) for Realtime Database push-streaming -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
