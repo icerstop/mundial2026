@@ -1,0 +1,41 @@
+/* ── Drill-through ──────────────────────────────────────────────────────── */
+.ts-item__value--drill,
+.ts-record__big--drill { cursor: pointer; transition: color var(--transition-fast); }
+.ts-item__value--drill:hover { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+.ts-record__big--drill:hover { filter: brightness(1.15); }
+.drill-cue { font-style: normal; font-size: 0.7em; opacity: 0.5; margin-left: 2px; }
+.ts-bar--click { cursor: pointer; }
+.ts-bar--click:hover .ts-bar__fill { filter: brightness(1.2); box-shadow: 0 0 16px var(--yellow-glow); }
+.ts-drill-hint { font-weight: 400; color: var(--muted); text-transform: none; letter-spacing: 0; font-size: 0.7rem; }
+
+.modal--drill { max-width: 720px; }
+.drill { padding: 0 4px 8px; }
+.drill-toolbar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.drill-toggle { display: inline-flex; background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 3px; }
+.drill-toggle button {
+  border: none; background: none; color: var(--muted); padding: 6px 14px; border-radius: 6px;
+  font-size: 0.82rem; font-weight: 600; cursor: pointer; transition: var(--transition-fast);
+}
+.drill-toggle button.active { background: var(--yellow); color: var(--bg); }
+.drill-filter {
+  flex: 1; min-width: 140px; background: var(--bg); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 8px 12px; color: var(--text); font-size: 0.85rem;
+}
+.drill-filter:focus { outline: none; border-color: var(--yellow-dim); }
+.drill-total { font-size: 0.8rem; color: var(--muted); margin-bottom: 10px; }
+.drill-total b { color: var(--yellow); font-weight: 700; }
+.drill-list { display: flex; flex-direction: column; gap: 6px; max-height: 60vh; overflow-y: auto; }
+.drill-row {
+  display: flex; align-items: center; gap: 12px; width: 100%; text-align: left;
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm);
+  padding: 10px 14px; cursor: pointer; transition: var(--transition-fast); color: var(--text); font-family: inherit;
+}
+.drill-row:hover { border-color: var(--yellow-dim); background: var(--bg-card-hover); transform: translateX(2px); }
+.drill-row__rank { font-size: 0.78rem; font-weight: 700; color: var(--yellow-dim); min-width: 22px; }
+.drill-row__logo { width: 26px; height: 26px; border-radius: 50%; object-fit: contain; background: var(--grid); padding: 2px; }
+.drill-row__name { font-weight: 600; flex: 1; }
+.drill-row__main { display: flex; flex-direction: column; gap: 2px; flex: 1; min-width: 0; }
+.drill-row__teams { font-weight: 600; font-size: 0.92rem; }
+.drill-row__teams b { color: var(--yellow); }
+.drill-row__meta { font-size: 0.72rem; color: var(--muted); }
+.drill-row__val { font-size: 1.15rem; font-weight: 800; color: var(--yellow); margin-left: auto; }

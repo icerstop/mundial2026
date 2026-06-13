@@ -1,0 +1,116 @@
+/* ── Records Tracker ────────────────────────────────────────────────────── */
+.records-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  margin-top: 16px;
+}
+
+.record-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.record-card:hover {
+  border-color: var(--yellow-dim);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+}
+
+.record-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.record-card__title-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.record-card__icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.record-card__title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.record-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.record-badge--chasing {
+  background: rgba(245, 197, 24, 0.15);
+  color: var(--yellow);
+}
+
+.record-badge--achieved {
+  background: rgba(46, 204, 113, 0.15);
+  color: var(--green);
+}
+
+.record-card__description {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-bottom: 14px;
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+.record-card__stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 600;
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+
+.record-card__value {
+  color: var(--yellow);
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+
+.record-progress-bar {
+  height: 6px;
+  background: var(--grid);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.record-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--yellow-dim), var(--yellow));
+  border-radius: 3px;
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.record-progress-fill--achieved {
+  background: linear-gradient(90deg, #27ae60, var(--green));
+}

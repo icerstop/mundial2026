@@ -47,6 +47,7 @@
         <button class="nav-tab" data-section="scorers">🏅 Strzelcy</button>
         <button class="nav-tab" data-section="groups">📊 Grupy</button>
         <button class="nav-tab" data-section="stats">📈 Statystyki</button>
+        <button class="nav-tab" data-section="xg">🎯 xG</button>
         <button class="nav-tab" data-section="records">🏆 Rekordy</button>
       </nav>
     </div>
@@ -125,6 +126,21 @@
           </h2>
         </div>
         <div class="tournament-stats-grid" id="tournamentStats">
+          <!-- filled by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- xG & Style Section -->
+    <section class="section" id="section-xg" style="display:none;">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">
+            <span class="icon">🎯</span>
+            xG i styl gry
+          </h2>
+        </div>
+        <div class="tournament-stats-grid" id="xgStats">
           <!-- filled by JS -->
         </div>
       </div>
@@ -214,6 +230,6 @@
   <!-- Firebase SDK (Compat version) for Realtime Database push-streaming -->
   <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js"></script>
-  <script src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>

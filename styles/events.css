@@ -1,0 +1,67 @@
+/* ── Key Events Timeline ────────────────────────────────────────────────── */
+.modal__events {
+  padding: 0 28px 28px;
+}
+
+.event-timeline {
+  position: relative;
+  padding-left: 24px;
+}
+
+.event-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 8px;
+  width: 2px;
+  height: 100%;
+  background: var(--grid);
+}
+
+.timeline-item {
+  position: relative;
+  padding: 8px 0 8px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--grid);
+  border: 2px solid var(--bg-card);
+  z-index: 1;
+}
+
+.timeline-item--goal::before {
+  background: var(--yellow);
+}
+
+.timeline-item--card-yellow::before {
+  background: #f1c40f;
+}
+
+.timeline-item--card-red::before {
+  background: var(--red);
+}
+
+.timeline-item--sub::before {
+  background: var(--blue);
+}
+
+.timeline-item__time {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--yellow);
+  min-width: 40px;
+}
+
+.timeline-item__text {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}

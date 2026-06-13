@@ -1,0 +1,285 @@
+/* ── Match Detail Modal ─────────────────────────────────────────────────── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition);
+  padding: 24px;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  width: 100%;
+  max-width: 720px;
+  max-height: 85vh;
+  overflow-y: auto;
+  transform: translateY(20px) scale(0.98);
+  transition: var(--transition);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.6);
+}
+
+.modal-overlay.active .modal {
+  transform: translateY(0) scale(1);
+}
+
+.modal__header {
+  padding: 24px 28px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal__close {
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  border-radius: 50%;
+  color: var(--muted);
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+  font-family: 'Parkinsans', sans-serif;
+}
+
+.modal__close:hover {
+  border-color: var(--yellow-dim);
+  color: var(--yellow);
+}
+
+.modal__score-section {
+  padding: 28px;
+  text-align: center;
+}
+
+.modal__teams-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.modal__team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.modal__team-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: contain;
+  background: var(--grid);
+  padding: 8px;
+}
+
+.modal__team-name {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.modal__team-name.winner {
+  color: var(--yellow);
+}
+
+.modal__big-score {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.modal__big-score-num {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.modal__big-score-sep {
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--muted);
+}
+
+.modal__meta {
+  margin-top: 16px;
+  font-size: 0.8rem;
+  color: var(--muted);
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.modal__meta span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ── Modal Stats Comparison ─────────────────────────────────────────────── */
+.modal__stats {
+  padding: 0 28px 28px;
+}
+
+.modal__stats-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.stat-row {
+  display: grid;
+  grid-template-columns: 60px 1fr 80px 1fr 60px;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+}
+
+.stat-row__value {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.stat-row__value--home {
+  text-align: right;
+}
+
+.stat-row__value--away {
+  text-align: left;
+}
+
+.stat-row__label {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.stat-bar {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--grid);
+  overflow: hidden;
+  position: relative;
+}
+
+.stat-bar--home {
+  direction: rtl;
+}
+
+.stat-bar__fill {
+  height: 100%;
+  border-radius: 2px;
+  background: var(--yellow);
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.stat-bar__fill--dim {
+  background: var(--yellow-dim);
+}
+
+/* ── Modal Lineups ──────────────────────────────────────────────────────── */
+.modal__lineups {
+  padding: 0 28px 28px;
+}
+
+.lineup-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.lineup-col__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.lineup-col__formation {
+  font-size: 0.75rem;
+  color: var(--yellow);
+  font-weight: 600;
+}
+
+.lineup-player {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  font-size: 0.8rem;
+}
+
+.lineup-player__jersey {
+  width: 24px;
+  height: 24px;
+  background: var(--grid);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.lineup-player__name {
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
+.lineup-player__pos {
+  font-size: 0.65rem;
+  color: var(--muted);
+  margin-left: auto;
+}
+
+.lineup-player--starter .lineup-player__jersey {
+  background: var(--yellow-dim);
+  color: var(--text);
+}
+
+.lineup-player--starter .lineup-player__name {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.lineup-divider {
+  margin: 8px 0;
+  font-size: 0.65rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}

@@ -1,0 +1,5 @@
+- [DE migration direction](de-migration-direction.md) — kierunek: backend → pipeline Data Engineering (Python/DuckDB/dbt/Dagster), warunek = zostaje na GitHub Pages; plan w docs/MIGRATION_PLAN.md
+- [Architecture](architecture.md) — realna architektura: serverless ESPN → Firebase → static vanilla JS na GitHub Pages (NIE ma streamingu)
+- [Design palette](design-palette.md) — stała paleta + Parkinsans + caps lock, marka @jakub_bilski
+- [Free data APIs](free-data-apis.md) — ESPN (faktyczne źródło, darmowe, pełne) + alternatywy i ich limity
+- [Analytics roadmap](analytics-roadmap.md) — plan analityki: etap 0 (xG tab) ZROBIONY, flagowiec = Elo→Poisson→Monte Carlo; trik xG z xGC bramkarza

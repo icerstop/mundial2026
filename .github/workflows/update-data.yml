@@ -20,6 +20,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Run Contract Tests
+        run: npm test
+
       - name: Run Scraper
         run: node scraper.js
 

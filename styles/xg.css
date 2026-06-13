@@ -1,0 +1,25 @@
+/* ── xG & styl gry (etap 0) ─────────────────────────────────────────────── */
+.chart-scatterlabel { font-size: 10px; fill: var(--text-dim); font-weight: 600; }
+.chart-scatterlabel.over { fill: var(--green); }
+.chart-scatterlabel.under { fill: var(--red); }
+.chart-axis-title { fill: var(--muted); font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; }
+
+.xg-note { font-size: 0.85rem; color: var(--text-dim); line-height: 1.55; margin: 0; }
+.xg-intro .xg-note b { color: var(--text); }
+
+.xg-table th:first-child { width: 38%; }
+.xg-table td, .xg-table th { white-space: nowrap; }
+.xg-pos { color: var(--green); font-weight: 700; }
+.xg-neg { color: var(--red); font-weight: 700; }
+.xg-warn { color: var(--yellow); font-weight: 700; }
+.xg-hi { color: var(--yellow); font-weight: 700; }
+.xg-muted { color: var(--muted); font-style: italic; }
+
+.xg-match { display: flex; align-items: center; gap: 10px; }
+.xg-side { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font-weight: 600; }
+.xg-side.w { color: var(--text); }
+.xg-score { font-weight: 800; color: var(--yellow); letter-spacing: 0.02em; }
+.xg-mini { width: 18px; height: 18px; }
+.xg-rank-i { display: inline-block; width: 16px; color: var(--muted); font-weight: 700; font-size: 0.8rem; }
+
+#xgStats .ts-item__label { display: inline-flex; align-items: center; gap: 8px; }

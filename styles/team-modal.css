@@ -1,0 +1,26 @@
+/* ── Team Modal & Interactive Links Additions ───────────────────────────── */
+.match-card__team--clickable {
+  cursor: pointer;
+  transition: var(--transition);
+}
+.match-card__team--clickable:hover .match-card__team-name {
+  color: var(--yellow);
+}
+.match-card__team--clickable:hover .match-card__team-logo {
+  border-color: var(--yellow);
+  box-shadow: 0 0 8px var(--yellow-glow);
+}
+.match-card__team-logo {
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+.scorer-team--clickable {
+  cursor: pointer;
+  transition: var(--transition);
+}
+.scorer-team--clickable:hover {
+  color: var(--yellow);
+}
+.team-tab-panel {
+  animation: fadeIn 0.3s ease forwards;
+}
