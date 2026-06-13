@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-13T19:36:40.023Z",
+    "lastUpdated": "2026-06-13T20:09:28.226Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -33012,9 +33012,9 @@
       "shortName": "SUI @ QAT",
       "status": {
         "state": "in",
-        "detail": "31'",
-        "shortDetail": "31'",
-        "clock": "31'",
+        "detail": "HT",
+        "shortDetail": "HT",
+        "clock": "45'+6'",
         "period": 1,
         "completed": false
       },
@@ -33055,7 +33055,7 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "3",
+                "value": "6",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -33071,23 +33071,23 @@
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "1",
+                "value": "3",
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "3",
+                "value": "4",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "26.1",
+                "value": "25.1",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "2",
+                "value": "4",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "1",
+                "value": "2",
                 "label": "ON GOAL"
               },
               "shotPct": {
@@ -33103,15 +33103,15 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "29",
+                "value": "58",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "53",
+                "value": "98",
                 "label": "Passes"
               },
               "passPct": {
-                "value": "0.5",
+                "value": "0.6",
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
@@ -33119,23 +33119,23 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "1",
+                "value": "4",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "1.0",
+                "value": "0.3",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "19",
+                "value": "34",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "7",
+                "value": "11",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.4",
+                "value": "0.3",
                 "label": "Long Balls %"
               },
               "blockedShots": {
@@ -33143,27 +33143,27 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "1",
+                "value": "2",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "3",
+                "value": "4",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.3",
+                "value": "0.5",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "3",
+                "value": "6",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "9",
+                "value": "20",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "9",
+                "value": "20",
                 "label": "Clearances"
               }
             }
@@ -33176,11 +33176,11 @@
             "homeAway": "away",
             "stats": {
               "foulsCommitted": {
-                "value": "3",
+                "value": "8",
                 "label": "Fouls"
               },
               "yellowCards": {
-                "value": "0",
+                "value": "1",
                 "label": "Yellow Cards"
               },
               "redCards": {
@@ -33192,27 +33192,27 @@
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "2",
+                "value": "4",
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "1",
+                "value": "2",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "73.9",
+                "value": "74.9",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "8",
+                "value": "14",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "4",
+                "value": "6",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.5",
+                "value": "0.4",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -33224,11 +33224,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "130",
+                "value": "263",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "147",
+                "value": "294",
                 "label": "Passes"
               },
               "passPct": {
@@ -33236,55 +33236,55 @@
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "3",
+                "value": "4",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "8",
+                "value": "16",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.4",
+                "value": "0.3",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "10",
+                "value": "23",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "6",
+                "value": "17",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.6",
+                "value": "0.7",
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "3",
+                "value": "5",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "0",
+                "value": "1",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "1",
+                "value": "2",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.0",
+                "value": "0.5",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "0",
+                "value": "2",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "6",
+                "value": "12",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "6",
+                "value": "12",
                 "label": "Clearances"
               }
             }
@@ -33348,7 +33348,7 @@
                   },
                   {
                     "name": "saves",
-                    "value": "3",
+                    "value": "4",
                     "label": "SV"
                   },
                   {
@@ -33480,7 +33480,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "2",
+                    "value": "3",
                     "label": "FA"
                   },
                   {
@@ -33556,7 +33556,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -33616,7 +33616,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -33718,12 +33718,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -33966,7 +33966,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -34047,7 +34047,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -34123,7 +34123,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -34173,7 +34173,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "1",
+                    "value": "2",
                     "label": "SOG"
                   },
                   {
@@ -34183,7 +34183,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "1",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -35462,7 +35462,7 @@
                   },
                   {
                     "name": "saves",
-                    "value": "1",
+                    "value": "2",
                     "label": "SV"
                   },
                   {
@@ -35670,7 +35670,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -35751,7 +35751,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -35776,7 +35776,7 @@
                   },
                   {
                     "name": "yellowCards",
-                    "value": "0",
+                    "value": "1",
                     "label": "YC"
                   },
                   {
@@ -35811,7 +35811,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "1",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -36044,7 +36044,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -36054,7 +36054,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -36075,7 +36075,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -36135,7 +36135,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "2",
+                    "value": "3",
                     "label": "SHOT"
                   }
                 ]
@@ -36156,7 +36156,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -36242,7 +36242,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "3",
                     "label": "FA"
                   },
                   {
@@ -36287,7 +36287,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "1",
+                    "value": "2",
                     "label": "SOG"
                   },
                   {
@@ -36297,7 +36297,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "2",
+                    "value": "5",
                     "label": "SHOT"
                   }
                 ]
@@ -37693,6 +37693,19 @@
             "ownGoal": false
           },
           {
+            "id": "49494272",
+            "type": "Start Delay",
+            "clock": "30'",
+            "period": 1,
+            "teamId": "4398",
+            "teamName": "Qatar",
+            "athletes": [],
+            "text": "Delay in match because of an injury Pedro Miguel (Qatar).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
             "id": "49494269",
             "type": "Start Delay",
             "clock": "30'",
@@ -37706,14 +37719,14 @@
             "ownGoal": false
           },
           {
-            "id": "49494272",
-            "type": "Start Delay",
-            "clock": "30'",
+            "id": "49494279",
+            "type": "End Delay",
+            "clock": "31'",
             "period": 1,
             "teamId": "4398",
             "teamName": "Qatar",
             "athletes": [],
-            "text": null,
+            "text": "Delay over. They are ready to continue.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -37732,12 +37745,30 @@
             "ownGoal": false
           },
           {
-            "id": "49494279",
-            "type": "End Delay",
-            "clock": "31'",
+            "id": "49494583",
+            "type": "Yellow Card",
+            "clock": "42'",
             "period": 1,
-            "teamId": "4398",
-            "teamName": "Qatar",
+            "teamId": "475",
+            "teamName": "Switzerland",
+            "athletes": [
+              {
+                "id": "222628",
+                "name": "Denis Zakaria"
+              }
+            ],
+            "text": "Denis Zakaria (Switzerland) is shown the yellow card for a bad foul.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49494782",
+            "type": "Halftime",
+            "clock": "45'+7'",
+            "period": 1,
+            "teamId": null,
+            "teamName": null,
             "athletes": [],
             "text": null,
             "shootout": false,
@@ -37883,11 +37914,6 @@
           },
           {
             "time": "24'",
-            "text": "Attempt blocked. Rubén Vargas (Switzerland) right footed shot from a difficult angle and long range on the left is blocked.",
-            "type": null
-          },
-          {
-            "time": "24'",
             "text": "Corner, Switzerland. Conceded by Jassem Gaber.",
             "type": null
           },
@@ -37918,7 +37944,87 @@
           },
           {
             "time": "30'",
-            "text": "Attempt missed. Issa Laye (Qatar) header from the centre of the box following a corner.",
+            "text": "Attempt missed. Issa Laye (Qatar) header from the centre of the box is high and wide to the right. Assisted by Akram Afif with a cross following a corner.",
+            "type": null
+          },
+          {
+            "time": "30'",
+            "text": "Delay in match because of an injury Pedro Miguel (Qatar).",
+            "type": null
+          },
+          {
+            "time": "31'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
+          },
+          {
+            "time": "34'",
+            "text": "Attempt blocked. Dan Ndoye (Switzerland) left footed shot from the right side of the box is blocked. Assisted by Nico Elvedi.",
+            "type": null
+          },
+          {
+            "time": "35'",
+            "text": "Attempt missed. Dan Ndoye (Switzerland) right footed shot from the right side of the box misses to the right. Assisted by Breel Embolo.",
+            "type": null
+          },
+          {
+            "time": "36'",
+            "text": "Pedro Miguel (Qatar) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "36'",
+            "text": "Foul by Breel Embolo (Switzerland).",
+            "type": null
+          },
+          {
+            "time": "36'",
+            "text": "Dan Ndoye (Switzerland) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "36'",
+            "text": "Foul by Assim Madibo (Qatar).",
+            "type": null
+          },
+          {
+            "time": "38'",
+            "text": "Dan Ndoye (Switzerland) wins a free kick on the right wing.",
+            "type": null
+          },
+          {
+            "time": "38'",
+            "text": "Foul by Edmílson Junior (Qatar).",
+            "type": null
+          },
+          {
+            "time": "39'",
+            "text": "Dan Ndoye (Switzerland) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "39'",
+            "text": "Foul by Homam El Amin (Qatar).",
+            "type": null
+          },
+          {
+            "time": "40'",
+            "text": "Assim Madibo (Qatar) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "40'",
+            "text": "Foul by Rubén Vargas (Switzerland).",
+            "type": null
+          },
+          {
+            "time": "41'",
+            "text": "Corner, Switzerland. Conceded by Mahmoud Abunada.",
+            "type": null
+          },
+          {
+            "time": "42'",
+            "text": "Attempt blocked. Breel Embolo (Switzerland) right footed shot from the centre of the box is blocked. Assisted by Rubén Vargas with a cross.",
             "type": null
           }
         ],
@@ -37945,26 +38051,26 @@
                 "name": "totalShots",
                 "displayName": "Total Shots",
                 "leader": {
-                  "name": "Issa Laye",
-                  "shortName": "I. Laye",
-                  "jersey": "4",
-                  "position": "Defender",
-                  "value": "1",
-                  "summary": "0 SOG, 0.07 xG",
+                  "name": "Edmílson Junior",
+                  "shortName": "Edmílson Junior",
+                  "jersey": "8",
+                  "position": "Forward",
+                  "value": "2",
+                  "summary": "2 SOG, 0.37 xG",
                   "stats": [
                     {
                       "name": "totalShots",
-                      "value": "1",
+                      "value": "2",
                       "label": "SHOT"
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "0",
+                      "value": "2",
                       "label": "SOG"
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.07",
+                      "value": "0.37",
                       "label": "xG"
                     }
                   ]
@@ -37978,17 +38084,17 @@
                   "shortName": "B. Khoukhi",
                   "jersey": "16",
                   "position": "Defender",
-                  "value": "7",
-                  "summary": "8 PASS",
+                  "value": "13",
+                  "summary": "16 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "7",
+                      "value": "13",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "8",
+                      "value": "16",
                       "label": "PASS"
                     }
                   ]
@@ -37998,27 +38104,22 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Pedro Miguel",
-                  "shortName": "P. Miguel",
-                  "jersey": "2",
+                  "name": "Boualem Khoukhi",
+                  "shortName": "B. Khoukhi",
+                  "jersey": "16",
                   "position": "Defender",
-                  "value": "4",
-                  "summary": "0 TKLW, 2 DUELW",
+                  "value": "7",
+                  "summary": "0 TKLW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "4",
+                      "value": "7",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
                       "value": "0",
                       "label": "TKLW"
-                    },
-                    {
-                      "name": "duelsWon",
-                      "value": "2",
-                      "label": "DUELW"
                     }
                   ]
                 }
@@ -38031,22 +38132,22 @@
                   "shortName": "M. Abunada",
                   "jersey": "1",
                   "position": "Goalkeeper",
-                  "value": "3",
-                  "summary": "4 SOGA, 1.56 xGC",
+                  "value": "4",
+                  "summary": "5 SOGA, 2.27 xGC",
                   "stats": [
                     {
                       "name": "saves",
-                      "value": "3",
+                      "value": "4",
                       "label": "SV"
                     },
                     {
                       "name": "shotsOnGoalAgainst",
-                      "value": "4",
+                      "value": "5",
                       "label": "SOGA"
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "1.56",
+                      "value": "2.27",
                       "label": "xGC"
                     }
                   ]
@@ -38066,22 +38167,22 @@
                   "shortName": "D. Ndoye",
                   "jersey": "11",
                   "position": "Forward",
-                  "value": "2",
-                  "summary": "1 SOG, 0.25 xG",
+                  "value": "5",
+                  "summary": "2 SOG, 0.36 xG",
                   "stats": [
                     {
                       "name": "totalShots",
-                      "value": "2",
+                      "value": "5",
                       "label": "SHOT"
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "1",
+                      "value": "2",
                       "label": "SOG"
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.25",
+                      "value": "0.36",
                       "label": "xG"
                     }
                   ]
@@ -38095,17 +38196,17 @@
                   "shortName": "M. Akanji",
                   "jersey": "5",
                   "position": "Defender",
-                  "value": "24",
-                  "summary": "26 PASS",
+                  "value": "45",
+                  "summary": "50 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "24",
+                      "value": "45",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "26",
+                      "value": "50",
                       "label": "PASS"
                     }
                   ]
@@ -38115,22 +38216,27 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Nico Elvedi",
-                  "shortName": "N. Elvedi",
-                  "jersey": "4",
+                  "name": "Ricardo Rodríguez",
+                  "shortName": "R. Rodríguez",
+                  "jersey": "13",
                   "position": "Defender",
-                  "value": "4",
-                  "summary": "0 TKLW",
+                  "value": "7",
+                  "summary": "0 TKLW, 1 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "4",
+                      "value": "7",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
                       "value": "0",
                       "label": "TKLW"
+                    },
+                    {
+                      "name": "duelsWon",
+                      "value": "1",
+                      "label": "DUELW"
                     }
                   ]
                 }
@@ -38143,22 +38249,22 @@
                   "shortName": "G. Kobel",
                   "jersey": "1",
                   "position": "Goalkeeper",
-                  "value": "1",
-                  "summary": "1 SOGA, 0.31 xGC",
+                  "value": "2",
+                  "summary": "2 SOGA, 0.45 xGC",
                   "stats": [
                     {
                       "name": "saves",
-                      "value": "1",
+                      "value": "2",
                       "label": "SV"
                     },
                     {
                       "name": "shotsOnGoalAgainst",
-                      "value": "1",
+                      "value": "2",
                       "label": "SOGA"
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.31",
+                      "value": "0.45",
                       "label": "xGC"
                     }
                   ]
