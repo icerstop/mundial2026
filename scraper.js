@@ -398,87 +398,66 @@ function parseStandings(data) {
   return groups;
 }
 
-// Check if we should execute a full scrape
+// Decide whether to run a full scrape — driven by our OWN fixture list.
+// We already know every kickoff time, so we can work only around matches and rest
+// otherwise, with no dependency on ESPN's date bucketing (which is US-Eastern, not UTC —
+// a 01:00 UTC match lands in the *previous* ET day, which broke the old "today" check).
 async function shouldRunScrape() {
   const force = process.argv.includes('--force') || process.argv.includes('-f');
   if (force) {
-    console.log('⚡ Force flag detected. Proceeding with full scrape.');
+    console.log('⚡ Flaga --force — pełny scrape.');
     return true;
   }
 
-  // If output file does not exist, we must run
   if (!fs.existsSync(OUT_FILE)) {
-    console.log('⚡ matches.json does not exist. Proceeding with initial scrape.');
+    console.log('⚡ Brak matches.json — pierwszy scrape.');
     return true;
   }
 
-  // Check how long ago matches.json was updated
-  let lastUpdated = null;
+  let existing;
   try {
-    const existing = JSON.parse(fs.readFileSync(OUT_FILE, 'utf-8'));
-    if (existing.meta?.lastUpdated) {
-      lastUpdated = new Date(existing.meta.lastUpdated);
-    }
+    existing = JSON.parse(fs.readFileSync(OUT_FILE, 'utf-8'));
   } catch (e) {
-    console.warn('⚠️  Failed to parse existing matches.json. Proceeding with full scrape.');
+    console.warn('⚠️  Nie udało się sparsować matches.json — pełny scrape.');
     return true;
   }
 
-  const now = new Date();
-  if (lastUpdated) {
-    const hoursSinceUpdate = (now - lastUpdated) / (1000 * 60 * 60);
-    if (hoursSinceUpdate >= 24) {
-      console.log(`⚡ Last update was ${hoursSinceUpdate.toFixed(1)} hours ago (>= 24h). Proceeding with daily sync.`);
+  const matches = existing.matches || [];
+  if (matches.length === 0) {
+    console.log('⚡ Brak meczów w danych — pełny scrape.');
+    return true;
+  }
+
+  const now = Date.now();
+  const PRE_MS     = 10 * 60 * 1000;      // zacznij chwilę przed gwizdkiem
+  const LIVE_MS    = 165 * 60 * 1000;     // 90' + przerwa + doliczony + ew. dogrywka + bufor
+  const CATCHUP_MS = 18 * 60 * 60 * 1000; // dogoń wynik meczu, którego nie zdążyliśmy zapisać
+
+  for (const m of matches) {
+    const k = new Date(m.date).getTime();
+    if (isNaN(k)) continue;
+    const since = now - k;
+
+    // Mecz w oknie: za chwilę start / trwa / dopiero co się skończył
+    if (since >= -PRE_MS && since <= LIVE_MS) {
+      console.log(`🔥 ${m.shortName || m.name} w oknie meczowym — scraping.`);
       return true;
     }
-  } else {
-    console.log('⚡ No lastUpdated timestamp found. Proceeding with full scrape.');
+    // Mecz powinien być już zakończony, a nie mamy jego wyniku — dogoń (do 18h po gwizdku)
+    if (!m.status?.completed && since > LIVE_MS && since <= CATCHUP_MS) {
+      console.log(`🏁 ${m.shortName || m.name} zakończony, brak wyniku w danych — scraping.`);
+      return true;
+    }
+  }
+
+  // Fallback dzienny: odśwież terminarz/tabele, jeśli dane są starsze niż 12h
+  const lastUpdated = existing.meta?.lastUpdated ? new Date(existing.meta.lastUpdated).getTime() : 0;
+  if (now - lastUpdated >= 12 * 60 * 60 * 1000) {
+    console.log('⚡ Dane starsze niż 12h — odświeżam (terminarz/tabele).');
     return true;
   }
 
-  // Fetch today's scoreboard to see if there are active, upcoming, or recently ended matches
-  const todayDtStr = dateStr(now);
-  console.log(`🔍 Checking scoreboard for today (${todayDtStr})...`);
-  try {
-    const todayScoreboard = await fetchJSON(`${BASE}/scoreboard?dates=${todayDtStr}`);
-    const events = todayScoreboard.events || [];
-    
-    if (events.length === 0) {
-      console.log('🔍 No matches scheduled for today.');
-      return false;
-    }
-
-    for (const ev of events) {
-      const matchTime = new Date(ev.date);
-      const comp = ev.competitions?.[0];
-      const state = comp?.status?.type?.state; // pre | in | post
-      
-      // 1. Live match
-      if (state === 'in') {
-        console.log(`🔥 Match ${ev.shortName} is currently LIVE. Scraping.`);
-        return true;
-      }
-
-      // 2. Upcoming match starting within 30 minutes
-      const minToStart = (matchTime - now) / (60 * 1000);
-      if (state === 'pre' && minToStart <= 30 && minToStart > -180) {
-        console.log(`📅 Match ${ev.shortName} starts in ${minToStart.toFixed(0)} minutes. Scraping.`);
-        return true;
-      }
-
-      // 3. Recently ended match (started within the last 4 hours)
-      const hoursSinceStart = (now - matchTime) / (1000 * 60 * 60);
-      if (state === 'post' && hoursSinceStart >= 0 && hoursSinceStart <= 4) {
-        console.log(`🏁 Match ${ev.shortName} finished recently (started ${hoursSinceStart.toFixed(1)} hours ago). Scraping.`);
-        return true;
-      }
-    }
-  } catch (err) {
-    console.warn(`⚠️  Failed to fetch today's scoreboard: ${err.message}. Defaulting to run.`);
-    return true;
-  }
-
-  console.log('💤 No live, upcoming, or recently ended matches. Skipping scrape.');
+  console.log('💤 Brak meczów w oknie i wszystkie wyniki zapisane — śpię.');
   return false;
 }
 

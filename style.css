@@ -1,9 +1,9 @@
 /* ══════════════════════════════════════════════════════════════════════════
    Mundial 2026 Dashboard — Style System
-   Paleta: @jakub_bilski · Czcionka: Outfit
+   Paleta: @jakub_bilski · Czcionka: Parkinsans
    ══════════════════════════════════════════════════════════════════════════ */
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300;400;500;600;700;800&display=swap');
 
 /* ── CSS Custom Properties ──────────────────────────────────────────────── */
 :root {
@@ -48,7 +48,7 @@ html {
 }
 
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Parkinsans', sans-serif;
   background-color: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -56,6 +56,13 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-transform: uppercase; /* wszystko wielkimi literami */
+}
+
+/* Kontrolki formularza nie dziedziczą text-transform/font — wymuszamy ręcznie */
+button, input, select, textarea {
+  font-family: inherit;
+  text-transform: uppercase;
 }
 
 /* ── Scrollbar ──────────────────────────────────────────────────────────── */
@@ -305,7 +312,7 @@ body {
   border: none;
   background: none;
   color: var(--muted);
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Parkinsans', sans-serif;
   font-size: 0.875rem;
   font-weight: 500;
   border-radius: var(--radius-sm);
@@ -792,7 +799,7 @@ body {
   align-items: center;
   justify-content: center;
   transition: var(--transition);
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Parkinsans', sans-serif;
 }
 
 .modal__close:hover {

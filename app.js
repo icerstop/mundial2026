@@ -887,6 +887,7 @@ function renderTournamentStats() {
 let liveModalInterval = null;
 let liveModalLastFetch = null;
 let liveModalPollingId = null;
+const detailsFetching = new Set(); // matchIds whose one-time summary fetch is in flight
 // matchId -> latest authoritative ESPN state; re-applied after every Firebase push so a
 // stale scraper snapshot can't clobber a live/finished match the frontend already corrected
 const liveScoreCache = new Map();
@@ -1026,10 +1027,11 @@ function applyLiveOverride() {
 const ESPN_BASE = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world';
 
 function espnDateStr(d) {
-  // UTC YYYYMMDD — same bucket the scraper (runs in UTC on Actions) indexes events under
-  return d.getUTCFullYear().toString()
-    + String(d.getUTCMonth() + 1).padStart(2, '0')
-    + String(d.getUTCDate()).padStart(2, '0');
+  // ESPN buckets matches by US-Eastern date, NOT UTC — a 01:00 UTC match (e.g. PAR@USA)
+  // belongs to the PREVIOUS ET day. Query by ET date so late-night matches aren't missed.
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit',
+  }).format(d).replace(/-/g, '');
 }
 
 async function refreshLiveScores() {
@@ -1041,7 +1043,8 @@ async function refreshLiveScores() {
   for (const m of DATA.matches) {
     if (m.status.completed) continue;
     const hoursFromStart = (now - new Date(m.date).getTime()) / 3600e3;
-    if (m.status.state === 'in' || (hoursFromStart > -3 && hoursFromStart < 6)) {
+    // Live, about to start (≤3h), or finished-but-not-yet-recorded (checked up to 24h later)
+    if (m.status.state === 'in' || (hoursFromStart > -3 && hoursFromStart < 24)) {
       dates.add(espnDateStr(new Date(m.date)));
     }
   }
@@ -1237,9 +1240,22 @@ function openMatchModal(matchId) {
   badgeEl.innerHTML = getLiveModalBadge(m);
   badgeEl.style.cssText = '';
 
-  // Start live polling: state='in' OR match time has passed but cache not yet updated
+  // Live match → poll repeatedly. Finished match whose details were never scraped → fetch
+  // the full summary once, so its stats/scorers/lineups still show without the scraper.
   const matchStarted = new Date(m.date) <= new Date();
-  if (!m.status.completed && matchStarted) startLiveModalPolling(matchId);
+  const hasDetails = !!(m.details && (m.details.teamStats?.length || m.details.keyEvents?.length || m.details.lineups?.length));
+  if (matchStarted && !m.status.completed) {
+    startLiveModalPolling(matchId);
+  } else if (matchStarted && !hasDetails && !detailsFetching.has(matchId)) {
+    detailsFetching.add(matchId);
+    fetchAndUpdateLiveMatch(matchId)
+      .catch(e => console.warn('Modal details fetch failed:', e))
+      .finally(() => {
+        detailsFetching.delete(matchId);
+        const overlay = document.getElementById('modalOverlay');
+        if (overlay.dataset.activeMatchId === matchId) openMatchModal(matchId);
+      });
+  }
 
   // Stats
   const statsEl = document.getElementById('modalStats');
@@ -1295,8 +1311,9 @@ function openMatchModal(matchId) {
     }
   } else {
     const matchStarted = new Date(m.date) <= new Date();
-    statsEl.innerHTML = (!m.status.completed && matchStarted)
-      ? `<div class="empty-state" style="padding:24px;"><div class="empty-state__icon" style="font-size:1.5rem;">📡</div><div class="empty-state__text" style="color:var(--muted);">Pobieranie statystyk na żywo…</div></div>`
+    const fetching = (!m.status.completed && matchStarted) || detailsFetching.has(matchId);
+    statsEl.innerHTML = fetching
+      ? `<div class="empty-state" style="padding:24px;"><div class="empty-state__icon" style="font-size:1.5rem;">📡</div><div class="empty-state__text" style="color:var(--muted);">Pobieranie statystyk…</div></div>`
       : `<div class="empty-state" style="padding: 24px;"><div class="empty-state__text" style="color: var(--muted);">Statystyki niedostępne dla tego meczu</div></div>`;
   }
 
