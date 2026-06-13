@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-13T07:04:24.893Z",
+    "lastUpdated": "2026-06-13T18:52:50.795Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -27210,7 +27210,7 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "65.2",
+                "value": "65.3",
                 "label": "Possession"
               },
               "totalShots": {
@@ -27234,7 +27234,7 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "510",
+                "value": "509",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
@@ -27250,7 +27250,7 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "17",
+                "value": "19",
                 "label": "Crosses"
               },
               "crossPct": {
@@ -27258,15 +27258,15 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "50",
+                "value": "48",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "28",
+                "value": "26",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.6",
+                "value": "0.5",
                 "label": "Long Balls %"
               },
               "blockedShots": {
@@ -27274,27 +27274,27 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "6",
+                "value": "7",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "7",
+                "value": "9",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.9",
+                "value": "0.8",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "11",
+                "value": "9",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "17",
+                "value": "15",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "17",
+                "value": "15",
                 "label": "Clearances"
               }
             }
@@ -27331,7 +27331,7 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "34.8",
+                "value": "34.7",
                 "label": "Possession"
               },
               "totalShots": {
@@ -27355,11 +27355,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "230",
+                "value": "232",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "320",
+                "value": "319",
                 "label": "Passes"
               },
               "passPct": {
@@ -27379,11 +27379,11 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "58",
+                "value": "59",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "18",
+                "value": "20",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -27399,15 +27399,15 @@
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "22",
+                "value": "21",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.7",
+                "value": "0.8",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "9",
+                "value": "10",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
@@ -31806,19 +31806,6 @@
             "ownGoal": false
           },
           {
-            "id": "49490259",
-            "type": "Start Delay",
-            "clock": "24'",
-            "period": 1,
-            "teamId": "660",
-            "teamName": "United States",
-            "athletes": [],
-            "text": "Delay in match for a drinks break.",
-            "shootout": false,
-            "penaltyKick": false,
-            "ownGoal": false
-          },
-          {
             "id": "49490258",
             "type": "Start Delay",
             "clock": "24'",
@@ -31827,6 +31814,19 @@
             "teamName": "Paraguay",
             "athletes": [],
             "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49490259",
+            "type": "Start Delay",
+            "clock": "24'",
+            "period": 1,
+            "teamId": "660",
+            "teamName": "United States",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -32805,7 +32805,7 @@
                   "jersey": "17",
                   "position": "Midfielder",
                   "value": "5",
-                  "summary": "2 SOG, 0.64 xG",
+                  "summary": "2 SOG, 0.65 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -32819,7 +32819,7 @@
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.64",
+                      "value": "0.65",
                       "label": "xG"
                     }
                   ]
@@ -32829,21 +32829,21 @@
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "Tim Ream",
-                  "shortName": "T. Ream",
-                  "jersey": "13",
+                  "name": "Chris Richards",
+                  "shortName": "C. Richards",
+                  "jersey": "3",
                   "position": "Defender",
-                  "value": "85",
-                  "summary": "91 PASS",
+                  "value": "84",
+                  "summary": "84 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "85",
+                      "value": "84",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "91",
+                      "value": "84",
                       "label": "PASS"
                     }
                   ]
@@ -32857,12 +32857,12 @@
                   "shortName": "T. Adams",
                   "jersey": "4",
                   "position": "Midfielder",
-                  "value": "12",
+                  "value": "11",
                   "summary": "2 TKLW, 9 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "12",
+                      "value": "11",
                       "label": "DINT"
                     },
                     {
@@ -32898,7 +32898,7 @@
                   "jersey": "8",
                   "position": "Midfielder",
                   "value": "4",
-                  "summary": "0 SOG, 0.16 xG",
+                  "summary": "0 SOG, 0.20 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -32912,7 +32912,7 @@
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.16",
+                      "value": "0.20",
                       "label": "xG"
                     }
                   ]
@@ -32950,12 +32950,12 @@
                   "shortName": "O. Alderete",
                   "jersey": "3",
                   "position": "Defender",
-                  "value": "12",
-                  "summary": "0 TKLW, 2 DUELW",
+                  "value": "13",
+                  "summary": "0 TKLW, 4 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "12",
+                      "value": "13",
                       "label": "DINT"
                     },
                     {
@@ -32965,7 +32965,7 @@
                     },
                     {
                       "name": "duelsWon",
-                      "value": "2",
+                      "value": "4",
                       "label": "DUELW"
                     }
                   ]
@@ -32980,7 +32980,7 @@
                   "jersey": "12",
                   "position": "Goalkeeper",
                   "value": "3",
-                  "summary": "7 SOGA, 1.34 xGC",
+                  "summary": "7 SOGA, 1.42 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -32994,7 +32994,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "1.34",
+                      "value": "1.42",
                       "label": "xGC"
                     }
                   ]
