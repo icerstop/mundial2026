@@ -1,9 +1,9 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-14T19:10:43.321Z",
+    "lastUpdated": "2026-06-14T19:53:11.969Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
-    "matchCount": 98,
+    "matchCount": 104,
     "completedCount": 9
   },
   "stats": {
@@ -10623,6 +10623,34 @@
       "teamId": "131546",
       "teamName": "Third Place Group D/E/I/J/L",
       "abbr": "3RD",
+      "players": [],
+      "coach": null
+    },
+    "round of 32 1 winner": {
+      "teamId": "131525",
+      "teamName": "Round of 32 1 Winner",
+      "abbr": "RD32",
+      "players": [],
+      "coach": null
+    },
+    "round of 32 3 winner": {
+      "teamId": "131527",
+      "teamName": "Round of 32 3 Winner",
+      "abbr": "RD32",
+      "players": [],
+      "coach": null
+    },
+    "round of 32 2 winner": {
+      "teamId": "131526",
+      "teamName": "Round of 32 2 Winner",
+      "abbr": "RD32",
+      "players": [],
+      "coach": null
+    },
+    "round of 32 5 winner": {
+      "teamId": "131529",
+      "teamName": "Round of 32 5 Winner",
+      "abbr": "RD32",
       "players": [],
       "coach": null
     },
@@ -56001,7 +56029,7 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "14",
+                "value": "13",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
@@ -56082,7 +56110,7 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "281",
+                "value": "280",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
@@ -60589,7 +60617,7 @@
                 "name": "Joshua Kimmich"
               }
             ],
-            "text": "Goal! Germany 4, Curaçao 1. Jamal Musiala (Germany) right footed shot from the right side of the box to the bottom left corner. Assisted by Joshua Kimmich.",
+            "text": "Goal! Germany 4, Curaçao 1. Jamal Musiala (Germany) right footed shot from the right side of the box to the bottom left corner. Assisted by Joshua Kimmich with a through ball.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -60640,7 +60668,7 @@
           },
           {
             "id": "49508863",
-            "type": "Goal",
+            "type": "Goal - Volley",
             "clock": "68'",
             "period": 2,
             "teamId": "481",
@@ -61188,17 +61216,17 @@
                   "shortName": "N. Schlotterbeck",
                   "jersey": "15",
                   "position": "Defender",
-                  "value": "73",
-                  "summary": "85 PASS",
+                  "value": "74",
+                  "summary": "86 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "73",
+                      "value": "74",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "85",
+                      "value": "86",
                       "label": "PASS"
                     }
                   ]
@@ -61213,7 +61241,7 @@
                   "jersey": "15",
                   "position": "Defender",
                   "value": "13",
-                  "summary": "1 TKLW, 8 DUELW",
+                  "summary": "1 TKLW, 9 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
@@ -61227,7 +61255,7 @@
                     },
                     {
                       "name": "duelsWon",
-                      "value": "8",
+                      "value": "9",
                       "label": "DUELW"
                     }
                   ]
@@ -61305,17 +61333,17 @@
                   "shortName": "L. Bacuna",
                   "jersey": "10",
                   "position": "Midfielder",
-                  "value": "48",
-                  "summary": "55 PASS",
+                  "value": "47",
+                  "summary": "54 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "48",
+                      "value": "47",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "55",
+                      "value": "54",
                       "label": "PASS"
                     }
                   ]
@@ -61359,7 +61387,7 @@
                   "jersey": "1",
                   "position": "Goalkeeper",
                   "value": "4",
-                  "summary": "11 SOGA, 3.91 xGC",
+                  "summary": "11 SOGA, 4.00 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -61373,7 +61401,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "3.91",
+                      "value": "4.00",
                       "label": "xGC"
                     }
                   ]
@@ -62781,6 +62809,166 @@
         "winner": false,
         "record": "0-0-0",
         "form": "WWDWL"
+      },
+      "group": null
+    },
+    {
+      "id": "760461",
+      "date": "2026-06-23T17:00Z",
+      "name": "Uzbekistan at Portugal",
+      "shortName": "UZB @ POR",
+      "status": {
+        "state": "pre",
+        "detail": "Tue, June 23rd at 1:00 PM EDT",
+        "shortDetail": "Scheduled",
+        "clock": "0'",
+        "completed": false
+      },
+      "venue": {
+        "name": "NRG Stadium",
+        "city": "Houston, Texas",
+        "country": "USA"
+      },
+      "attendance": null,
+      "home": {
+        "id": "482",
+        "name": "Portugal",
+        "abbr": "POR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+        "score": "0",
+        "winner": false,
+        "record": "0-0-0",
+        "form": "WWWDW"
+      },
+      "away": {
+        "id": "2570",
+        "name": "Uzbekistan",
+        "abbr": "UZB",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+        "score": "0",
+        "winner": false,
+        "record": "0-0-0",
+        "form": "LLWWD"
+      },
+      "group": null
+    },
+    {
+      "id": "760458",
+      "date": "2026-06-23T20:00Z",
+      "name": "Ghana at England",
+      "shortName": "GHA @ ENG",
+      "status": {
+        "state": "pre",
+        "detail": "Tue, June 23rd at 4:00 PM EDT",
+        "shortDetail": "Scheduled",
+        "clock": "0'",
+        "completed": false
+      },
+      "venue": {
+        "name": "Gillette Stadium",
+        "city": "Foxborough, Massachusetts",
+        "country": "USA"
+      },
+      "attendance": null,
+      "home": {
+        "id": "448",
+        "name": "England",
+        "abbr": "ENG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+        "score": "0",
+        "winner": false,
+        "record": "0-0-0",
+        "form": "WWLDW"
+      },
+      "away": {
+        "id": "4469",
+        "name": "Ghana",
+        "abbr": "GHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+        "score": "0",
+        "winner": false,
+        "record": "0-0-0",
+        "form": "DLLLL"
+      },
+      "group": null
+    },
+    {
+      "id": "760460",
+      "date": "2026-06-23T23:00Z",
+      "name": "Croatia at Panama",
+      "shortName": "CRO @ PAN",
+      "status": {
+        "state": "pre",
+        "detail": "Tue, June 23rd at 7:00 PM EDT",
+        "shortDetail": "Scheduled",
+        "clock": "0'",
+        "completed": false
+      },
+      "venue": {
+        "name": "BMO Field",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "attendance": null,
+      "home": {
+        "id": "2659",
+        "name": "Panama",
+        "abbr": "PAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+        "score": "0",
+        "winner": false,
+        "record": "0-0-0",
+        "form": "DWLWD"
+      },
+      "away": {
+        "id": "477",
+        "name": "Croatia",
+        "abbr": "CRO",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+        "score": "0",
+        "winner": false,
+        "record": "0-0-0",
+        "form": "WLLWW"
+      },
+      "group": null
+    },
+    {
+      "id": "760459",
+      "date": "2026-06-24T02:00Z",
+      "name": "Congo DR at Colombia",
+      "shortName": "COD @ COL",
+      "status": {
+        "state": "pre",
+        "detail": "Tue, June 23rd at 10:00 PM EDT",
+        "shortDetail": "Scheduled",
+        "clock": "0'",
+        "completed": false
+      },
+      "venue": {
+        "name": "Estadio Akron",
+        "city": "Guadalajara",
+        "country": "Mexico"
+      },
+      "attendance": null,
+      "home": {
+        "id": "208",
+        "name": "Colombia",
+        "abbr": "COL",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+        "score": "0",
+        "winner": false,
+        "record": "0-0-0",
+        "form": "WWLLW"
+      },
+      "away": {
+        "id": "2850",
+        "name": "Congo DR",
+        "abbr": "COD",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+        "score": "0",
+        "winner": false,
+        "record": "0-0-0",
+        "form": "LDWWL"
       },
       "group": null
     },
@@ -64376,6 +64564,86 @@
         "id": "131546",
         "name": "Third Place Group D/E/I/J/L",
         "abbr": "3RD",
+        "logo": "",
+        "score": "0",
+        "winner": false,
+        "record": null,
+        "form": null
+      },
+      "group": null
+    },
+    {
+      "id": "760502",
+      "date": "2026-07-04T17:00Z",
+      "name": "Round of 32 3 Winner at Round of 32 1 Winner",
+      "shortName": "RD32 @ RD32",
+      "status": {
+        "state": "pre",
+        "detail": "Sat, July 4th at 1:00 PM EDT",
+        "shortDetail": "Scheduled",
+        "clock": "0'",
+        "completed": false
+      },
+      "venue": {
+        "name": "NRG Stadium",
+        "city": "Houston, Texas",
+        "country": "USA"
+      },
+      "attendance": null,
+      "home": {
+        "id": "131525",
+        "name": "Round of 32 1 Winner",
+        "abbr": "RD32",
+        "logo": "",
+        "score": "0",
+        "winner": false,
+        "record": null,
+        "form": null
+      },
+      "away": {
+        "id": "131527",
+        "name": "Round of 32 3 Winner",
+        "abbr": "RD32",
+        "logo": "",
+        "score": "0",
+        "winner": false,
+        "record": null,
+        "form": null
+      },
+      "group": null
+    },
+    {
+      "id": "760503",
+      "date": "2026-07-04T21:00Z",
+      "name": "Round of 32 5 Winner at Round of 32 2 Winner",
+      "shortName": "RD32 @ RD32",
+      "status": {
+        "state": "pre",
+        "detail": "Sat, July 4th at 5:00 PM EDT",
+        "shortDetail": "Scheduled",
+        "clock": "0'",
+        "completed": false
+      },
+      "venue": {
+        "name": "Lincoln Financial Field",
+        "city": "Philadelphia, Pennsylvania",
+        "country": "USA"
+      },
+      "attendance": null,
+      "home": {
+        "id": "131526",
+        "name": "Round of 32 2 Winner",
+        "abbr": "RD32",
+        "logo": "",
+        "score": "0",
+        "winner": false,
+        "record": null,
+        "form": null
+      },
+      "away": {
+        "id": "131529",
+        "name": "Round of 32 5 Winner",
+        "abbr": "RD32",
         "logo": "",
         "score": "0",
         "winner": false,
