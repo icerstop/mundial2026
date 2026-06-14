@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-14T17:19:25.743Z",
+    "lastUpdated": "2026-06-14T17:55:58.782Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -55549,9 +55549,9 @@
       "shortName": "CUW @ GER",
       "status": {
         "state": "in",
-        "detail": "16'",
-        "shortDetail": "16'",
-        "clock": "16'",
+        "detail": "HT",
+        "shortDetail": "HT",
+        "clock": "45'+5'",
         "period": 1,
         "completed": false
       },
@@ -55566,7 +55566,7 @@
         "name": "Germany",
         "abbr": "GER",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-        "score": "1",
+        "score": "3",
         "winner": false,
         "record": "0-0-0",
         "form": "WWWWW"
@@ -55576,7 +55576,7 @@
         "name": "Curaçao",
         "abbr": "CUW",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
-        "score": "0",
+        "score": "1",
         "winner": false,
         "record": "0-0-0",
         "form": "WLLLD"
@@ -55592,7 +55592,7 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "2",
+                "value": "7",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -55608,27 +55608,27 @@
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "0",
+                "value": "6",
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "0",
+                "value": "1",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "75.6",
+                "value": "70.6",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "8",
+                "value": "16",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "2",
+                "value": "6",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.3",
+                "value": "0.4",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -55636,15 +55636,15 @@
                 "label": "Penalty Goals"
               },
               "penaltyKickShots": {
-                "value": "0",
+                "value": "1",
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "139",
+                "value": "288",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "154",
+                "value": "326",
                 "label": "Passes"
               },
               "passPct": {
@@ -55652,47 +55652,47 @@
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "0",
+                "value": "4",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "1",
+                "value": "9",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.0",
+                "value": "0.4",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "2",
+                "value": "10",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "2",
+                "value": "6",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "1.0",
+                "value": "0.6",
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "3",
+                "value": "6",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "2",
+                "value": "5",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "3",
+                "value": "8",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.7",
+                "value": "0.6",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "3",
+                "value": "5",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
@@ -55713,7 +55713,7 @@
             "homeAway": "away",
             "stats": {
               "foulsCommitted": {
-                "value": "2",
+                "value": "5",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -55733,23 +55733,23 @@
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "1",
+                "value": "2",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "24.4",
+                "value": "29.4",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "0",
+                "value": "4",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "0",
+                "value": "2",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.0",
+                "value": "0.5",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -55761,39 +55761,39 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "37",
+                "value": "112",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "50",
+                "value": "138",
                 "label": "Passes"
               },
               "passPct": {
-                "value": "0.7",
+                "value": "0.8",
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "0",
+                "value": "1",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "0",
+                "value": "1",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.0",
+                "value": "1.0",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "11",
+                "value": "23",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "4",
+                "value": "12",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.4",
+                "value": "0.5",
                 "label": "Long Balls %"
               },
               "blockedShots": {
@@ -55801,27 +55801,27 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "1",
+                "value": "4",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "3",
+                "value": "9",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.3",
+                "value": "0.4",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "2",
+                "value": "8",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "2",
+                "value": "15",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "2",
+                "value": "15",
                 "label": "Clearances"
               }
             }
@@ -55880,12 +55880,12 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
                     "name": "saves",
-                    "value": "0",
+                    "value": "1",
                     "label": "SV"
                   },
                   {
@@ -55931,7 +55931,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -55961,7 +55961,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -55981,17 +55981,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "2",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -56012,7 +56012,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -56042,7 +56042,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -56123,7 +56123,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -56133,7 +56133,7 @@
                   },
                   {
                     "name": "goalAssists",
-                    "value": "0",
+                    "value": "1",
                     "label": "A"
                   },
                   {
@@ -56153,7 +56153,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -56204,7 +56204,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -56255,12 +56255,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -56285,7 +56285,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -56366,7 +56366,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -56386,7 +56386,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -56396,7 +56396,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -56417,12 +56417,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -56447,7 +56447,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -56503,7 +56503,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -56528,7 +56528,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -56548,17 +56548,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -56609,7 +56609,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -56660,7 +56660,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -56690,7 +56690,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -56720,7 +56720,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "1",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -59209,12 +59209,12 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
                     "name": "saves",
-                    "value": "1",
+                    "value": "2",
                     "label": "SV"
                   },
                   {
@@ -59290,7 +59290,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -59341,7 +59341,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -59371,7 +59371,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -59427,7 +59427,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -59452,7 +59452,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -59533,7 +59533,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -59614,7 +59614,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -59634,7 +59634,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -59644,7 +59644,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -59665,7 +59665,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -59695,7 +59695,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -59725,7 +59725,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -59751,7 +59751,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -59776,7 +59776,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -59827,12 +59827,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -59857,7 +59857,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -59887,7 +59887,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -59938,7 +59938,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -59958,17 +59958,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -59994,7 +59994,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -60019,7 +60019,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -60089,6 +60089,129 @@
               }
             ],
             "text": "Goal! Germany 1, Curaçao 0. Felix Nmecha (Germany) right footed shot from the centre of the box to the bottom right corner. Assisted by Florian Wirtz.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49507416",
+            "type": "Goal",
+            "clock": "21'",
+            "period": 1,
+            "teamId": "11678",
+            "teamName": "Curaçao",
+            "athletes": [
+              {
+                "id": "317285",
+                "name": "Livano Comenencia"
+              }
+            ],
+            "text": "Goal! Germany 1, Curaçao 1. Livano Comenencia (Curaçao) left footed shot from the centre of the box to the bottom left corner.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49507426",
+            "type": "Start Delay",
+            "clock": "23'",
+            "period": 1,
+            "teamId": "481",
+            "teamName": "Germany",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49507427",
+            "type": "Start Delay",
+            "clock": "23'",
+            "period": 1,
+            "teamId": "11678",
+            "teamName": "Curaçao",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49507432",
+            "type": "End Delay",
+            "clock": "25'",
+            "period": 1,
+            "teamId": "481",
+            "teamName": "Germany",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49507431",
+            "type": "End Delay",
+            "clock": "25'",
+            "period": 1,
+            "teamId": "11678",
+            "teamName": "Curaçao",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49507667",
+            "type": "Goal - Header",
+            "clock": "38'",
+            "period": 1,
+            "teamId": "481",
+            "teamName": "Germany",
+            "athletes": [
+              {
+                "id": "286828",
+                "name": "Nico Schlotterbeck"
+              },
+              {
+                "id": "120829",
+                "name": "Nathaniel Brown"
+              }
+            ],
+            "text": "Goal! Germany 2, Curaçao 1. Nico Schlotterbeck (Germany) header from very close range to the bottom left corner. Assisted by Nathaniel Brown with a cross following a corner.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49507949",
+            "type": "Penalty - Scored",
+            "clock": "45'+5'",
+            "period": 1,
+            "teamId": "481",
+            "teamName": "Germany",
+            "athletes": [
+              {
+                "id": "231182",
+                "name": "Kai Havertz"
+              }
+            ],
+            "text": "Goal! Germany 3, Curaçao 1. Kai Havertz (Germany) converts the penalty with a left footed shot to the bottom left corner.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49507970",
+            "type": "Halftime",
+            "clock": "45'+6'",
+            "period": 1,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": null,
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -60184,6 +60307,166 @@
             "time": "14'",
             "text": "Attempt missed. Florian Wirtz (Germany) right footed shot from outside the box is close, but misses to the right. Assisted by Nathaniel Brown.",
             "type": null
+          },
+          {
+            "time": "17'",
+            "text": "Foul by Jonathan Tah (Germany).",
+            "type": null
+          },
+          {
+            "time": "17'",
+            "text": "Jürgen Locadia (Curaçao) wins a free kick on the left wing.",
+            "type": null
+          },
+          {
+            "time": "18'",
+            "text": "Foul by Jamal Musiala (Germany).",
+            "type": null
+          },
+          {
+            "time": "18'",
+            "text": "Tahith Chong (Curaçao) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "19'",
+            "text": "Attempt missed. Leandro Bacuna (Curaçao) left footed shot from outside the box is high and wide to the left. Assisted by Sontje Hansen.",
+            "type": null
+          },
+          {
+            "time": "21'",
+            "text": "Foul by Felix Nmecha (Germany).",
+            "type": null
+          },
+          {
+            "time": "21'",
+            "text": "Juninho Bacuna (Curaçao) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "21'",
+            "text": "Goal! Germany 1, Curaçao 1. Livano Comenencia (Curaçao) left footed shot from the centre of the box to the bottom left corner.",
+            "type": null
+          },
+          {
+            "time": "23'",
+            "text": "Delay in match for a drinks break.",
+            "type": null
+          },
+          {
+            "time": "25'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
+          },
+          {
+            "time": "27'",
+            "text": "Foul by Leandro Bacuna (Curaçao).",
+            "type": null
+          },
+          {
+            "time": "27'",
+            "text": "Jamal Musiala (Germany) wins a free kick on the right wing.",
+            "type": null
+          },
+          {
+            "time": "28'",
+            "text": "Attempt saved. Nico Schlotterbeck (Germany) header from the centre of the box is saved in the top centre of the goal by Eloy Room (Curaçao). Assisted by Joshua Kimmich with a cross.",
+            "type": null
+          },
+          {
+            "time": "28'",
+            "text": "Corner, Germany. Conceded by Eloy Room.",
+            "type": null
+          },
+          {
+            "time": "29'",
+            "text": "Corner, Germany. Conceded by Armando Obispo.",
+            "type": null
+          },
+          {
+            "time": "30'",
+            "text": "Attempt blocked. Aleksandar Pavlovic (Germany) left footed shot from outside the box is blocked. Assisted by Leroy Sané.",
+            "type": null
+          },
+          {
+            "time": "30'",
+            "text": "Corner, Germany. Conceded by Riechedly Bazoer.",
+            "type": null
+          },
+          {
+            "time": "32'",
+            "text": "Attempt missed. Leroy Sané (Germany) left footed shot from the centre of the box misses to the right. Assisted by Florian Wirtz with a through ball.",
+            "type": null
+          },
+          {
+            "time": "34'",
+            "text": "Foul by Nico Schlotterbeck (Germany).",
+            "type": null
+          },
+          {
+            "time": "34'",
+            "text": "Jürgen Locadia (Curaçao) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "36'",
+            "text": "Attempt missed. Juninho Bacuna (Curaçao) right footed shot from outside the box is high and wide to the right. Assisted by Sontje Hansen.",
+            "type": null
+          },
+          {
+            "time": "37'",
+            "text": "Corner, Germany. Conceded by Riechedly Bazoer.",
+            "type": null
+          },
+          {
+            "time": "38'",
+            "text": "Goal! Germany 2, Curaçao 1. Nico Schlotterbeck (Germany) header from very close range to the bottom left corner. Assisted by Nathaniel Brown with a cross following a corner.",
+            "type": null
+          },
+          {
+            "time": "39'",
+            "text": "Foul by Leroy Sané (Germany).",
+            "type": null
+          },
+          {
+            "time": "39'",
+            "text": "Deveron Fonville (Curaçao) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "40'",
+            "text": "Foul by Juninho Bacuna (Curaçao).",
+            "type": null
+          },
+          {
+            "time": "40'",
+            "text": "Kai Havertz (Germany) wins a free kick on the right wing.",
+            "type": null
+          },
+          {
+            "time": "44'",
+            "text": "Corner, Germany. Conceded by Sherel Floranus.",
+            "type": null
+          },
+          {
+            "time": "44'",
+            "text": "Corner, Germany. Conceded by Livano Comenencia.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Attempt blocked. Nathaniel Brown (Germany) right footed shot from the centre of the box is blocked.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Attempt blocked. Aleksandar Pavlovic (Germany) right footed shot from the centre of the box is blocked. Assisted by Leroy Sané.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Attempt blocked. Kai Havertz (Germany) header from the centre of the box is blocked.",
+            "type": null
           }
         ],
         "gameInfo": {
@@ -60242,12 +60525,129 @@
                   "shortName": "J. Tah",
                   "jersey": "4",
                   "position": "Defender",
-                  "value": "22",
+                  "value": "46",
+                  "summary": "48 PASS",
+                  "stats": [
+                    {
+                      "name": "accuratePasses",
+                      "value": "46",
+                      "label": "AC.PASS"
+                    },
+                    {
+                      "name": "totalPasses",
+                      "value": "48",
+                      "label": "PASS"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "defensiveInterventions",
+                "displayName": "Defensive Interventions",
+                "leader": {
+                  "name": "Nico Schlotterbeck",
+                  "shortName": "N. Schlotterbeck",
+                  "jersey": "15",
+                  "position": "Defender",
+                  "value": "7",
+                  "summary": "1 TKLW, 4 DUELW",
+                  "stats": [
+                    {
+                      "name": "defensiveInterventions",
+                      "value": "7",
+                      "label": "DINT"
+                    },
+                    {
+                      "name": "effectiveTackles",
+                      "value": "1",
+                      "label": "TKLW"
+                    },
+                    {
+                      "name": "duelsWon",
+                      "value": "4",
+                      "label": "DUELW"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "saves",
+                "displayName": "Saves",
+                "leader": {
+                  "name": "Manuel Neuer",
+                  "shortName": "M. Neuer",
+                  "jersey": "1",
+                  "position": "Goalkeeper",
+                  "value": "1",
+                  "summary": "2 SOGA, 0.14 xGC",
+                  "stats": [
+                    {
+                      "name": "saves",
+                      "value": "1",
+                      "label": "SV"
+                    },
+                    {
+                      "name": "shotsOnGoalAgainst",
+                      "value": "2",
+                      "label": "SOGA"
+                    },
+                    {
+                      "name": "expectedGoalsConceded",
+                      "value": "0.14",
+                      "label": "xGC"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "teamId": "11678",
+            "teamName": "Curaçao",
+            "categories": [
+              {
+                "name": "totalShots",
+                "displayName": "Total Shots",
+                "leader": {
+                  "name": "Livano Comenencia",
+                  "shortName": "L. Comenencia",
+                  "jersey": "8",
+                  "position": "Defender",
+                  "value": "1",
+                  "summary": "1 SOG, 0.08 xG",
+                  "stats": [
+                    {
+                      "name": "totalShots",
+                      "value": "1",
+                      "label": "SHOT"
+                    },
+                    {
+                      "name": "shotsOnTarget",
+                      "value": "1",
+                      "label": "SOG"
+                    },
+                    {
+                      "name": "expectedGoals",
+                      "value": "0.08",
+                      "label": "xG"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "accuratePasses",
+                "displayName": "Accurate Passes",
+                "leader": {
+                  "name": "Armando Obispo",
+                  "shortName": "A. Obispo",
+                  "jersey": "18",
+                  "position": "Defender",
+                  "value": "21",
                   "summary": "23 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "22",
+                      "value": "21",
                       "label": "AC.PASS"
                     },
                     {
@@ -60262,85 +60662,16 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Nico Schlotterbeck",
-                  "shortName": "N. Schlotterbeck",
-                  "jersey": "15",
+                  "name": "Armando Obispo",
+                  "shortName": "A. Obispo",
+                  "jersey": "18",
                   "position": "Defender",
-                  "value": "5",
-                  "summary": "0 TKLW, 1 DUELW",
+                  "value": "10",
+                  "summary": "1 TKLW, 3 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "5",
-                      "label": "DINT"
-                    },
-                    {
-                      "name": "effectiveTackles",
-                      "value": "0",
-                      "label": "TKLW"
-                    },
-                    {
-                      "name": "duelsWon",
-                      "value": "1",
-                      "label": "DUELW"
-                    }
-                  ]
-                }
-              },
-              {
-                "name": "saves",
-                "displayName": "Saves",
-                "leader": null
-              }
-            ]
-          },
-          {
-            "teamId": "11678",
-            "teamName": "Curaçao",
-            "categories": [
-              {
-                "name": "totalShots",
-                "displayName": "Total Shots",
-                "leader": null
-              },
-              {
-                "name": "accuratePasses",
-                "displayName": "Accurate Passes",
-                "leader": {
-                  "name": "Leandro Bacuna",
-                  "shortName": "L. Bacuna",
-                  "jersey": "10",
-                  "position": "Midfielder",
-                  "value": "7",
-                  "summary": "8 PASS",
-                  "stats": [
-                    {
-                      "name": "accuratePasses",
-                      "value": "7",
-                      "label": "AC.PASS"
-                    },
-                    {
-                      "name": "totalPasses",
-                      "value": "8",
-                      "label": "PASS"
-                    }
-                  ]
-                }
-              },
-              {
-                "name": "defensiveInterventions",
-                "displayName": "Defensive Interventions",
-                "leader": {
-                  "name": "Riechedly Bazoer",
-                  "shortName": "R. Bazoer",
-                  "jersey": "23",
-                  "position": "Defender",
-                  "value": "4",
-                  "summary": "1 TKLW, 1 DUELW",
-                  "stats": [
-                    {
-                      "name": "defensiveInterventions",
-                      "value": "4",
+                      "value": "10",
                       "label": "DINT"
                     },
                     {
@@ -60350,7 +60681,7 @@
                     },
                     {
                       "name": "duelsWon",
-                      "value": "1",
+                      "value": "3",
                       "label": "DUELW"
                     }
                   ]
@@ -60364,22 +60695,22 @@
                   "shortName": "E. Room",
                   "jersey": "1",
                   "position": "Goalkeeper",
-                  "value": "1",
-                  "summary": "2 SOGA, 0.56 xGC",
+                  "value": "2",
+                  "summary": "5 SOGA, 2.38 xGC",
                   "stats": [
                     {
                       "name": "saves",
-                      "value": "1",
+                      "value": "2",
                       "label": "SV"
                     },
                     {
                       "name": "shotsOnGoalAgainst",
-                      "value": "2",
+                      "value": "5",
                       "label": "SOGA"
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.56",
+                      "value": "2.38",
                       "label": "xGC"
                     }
                   ]
