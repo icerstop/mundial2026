@@ -1,15 +1,15 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-14T05:49:13.853Z",
+    "lastUpdated": "2026-06-14T07:24:33.054Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
-    "completedCount": 7
+    "completedCount": 8
   },
   "stats": {
-    "totalGoals": 17,
-    "matchesPlayed": 7,
-    "avgGoalsPerMatch": "2.43"
+    "totalGoals": 19,
+    "matchesPlayed": 8,
+    "avgGoalsPerMatch": "2.38"
   },
   "topScorers": [
     {
@@ -130,6 +130,20 @@
       ]
     },
     {
+      "id": "260643",
+      "name": "Connor Metcalfe",
+      "teamId": "628",
+      "teamName": "Australia",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760421",
+          "clock": "75'",
+          "vs": "TUR"
+        }
+      ]
+    },
+    {
       "id": "280061",
       "name": "Hwang In-Beom",
       "teamId": "451",
@@ -210,6 +224,20 @@
           "matchId": "760416",
           "clock": "21'",
           "vs": "CAN"
+        }
+      ]
+    },
+    {
+      "id": "328535",
+      "name": "Nestory Irankunda",
+      "teamId": "628",
+      "teamName": "Australia",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760421",
+          "clock": "27'",
+          "vs": "TUR"
         }
       ]
     }
@@ -396,6 +424,20 @@
           "vs": "BIH"
         }
       ]
+    },
+    {
+      "id": "403528",
+      "name": "Paul Okon-Engstler",
+      "teamId": "628",
+      "teamName": "Australia",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760421",
+          "clock": "27'",
+          "vs": "TUR"
+        }
+      ]
     }
   ],
   "topCanadian": [
@@ -564,6 +606,23 @@
       "assistDetails": []
     },
     {
+      "id": "260643",
+      "name": "Connor Metcalfe",
+      "teamId": "628",
+      "teamName": "Australia",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760421",
+          "clock": "75'",
+          "vs": "TUR"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
       "id": "289046",
       "name": "Maurício",
       "teamId": "210",
@@ -644,6 +703,23 @@
           "matchId": "760416",
           "clock": "21'",
           "vs": "CAN"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
+      "id": "328535",
+      "name": "Nestory Irankunda",
+      "teamId": "628",
+      "teamName": "Australia",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760421",
+          "clock": "27'",
+          "vs": "TUR"
         }
       ],
       "assistDetails": []
@@ -849,6 +925,23 @@
           "matchId": "760416",
           "clock": "78'",
           "vs": "BIH"
+        }
+      ]
+    },
+    {
+      "id": "403528",
+      "name": "Paul Okon-Engstler",
+      "teamId": "628",
+      "teamName": "Australia",
+      "goals": 0,
+      "assists": 1,
+      "total": 1,
+      "goalDetails": [],
+      "assistDetails": [
+        {
+          "matchId": "760421",
+          "clock": "27'",
+          "vs": "TUR"
         }
       ]
     }
@@ -26551,19 +26644,6 @@
             "ownGoal": false
           },
           {
-            "id": "49487113",
-            "type": "Start Delay",
-            "clock": "69'",
-            "period": 2,
-            "teamId": "452",
-            "teamName": "Bosnia-Herzegovina",
-            "athletes": [],
-            "text": null,
-            "shootout": false,
-            "penaltyKick": false,
-            "ownGoal": false
-          },
-          {
             "id": "49487114",
             "type": "Start Delay",
             "clock": "69'",
@@ -26572,6 +26652,19 @@
             "teamName": "Canada",
             "athletes": [],
             "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49487113",
+            "type": "Start Delay",
+            "clock": "69'",
+            "period": 2,
+            "teamId": "452",
+            "teamName": "Bosnia-Herzegovina",
+            "athletes": [],
+            "text": null,
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -31992,19 +32085,6 @@
             "ownGoal": false
           },
           {
-            "id": "49490258",
-            "type": "Start Delay",
-            "clock": "24'",
-            "period": 1,
-            "teamId": "210",
-            "teamName": "Paraguay",
-            "athletes": [],
-            "text": null,
-            "shootout": false,
-            "penaltyKick": false,
-            "ownGoal": false
-          },
-          {
             "id": "49490259",
             "type": "Start Delay",
             "clock": "24'",
@@ -32013,6 +32093,19 @@
             "teamName": "United States",
             "athletes": [],
             "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49490258",
+            "type": "Start Delay",
+            "clock": "24'",
+            "period": 1,
+            "teamId": "210",
+            "teamName": "Paraguay",
+            "athletes": [],
+            "text": null,
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -49917,28 +50010,28 @@
       "name": "Türkiye at Australia",
       "shortName": "TUR @ AUS",
       "status": {
-        "state": "in",
-        "detail": "88'",
-        "shortDetail": "88'",
-        "clock": "88'",
+        "state": "post",
+        "detail": "FT",
+        "shortDetail": "FT",
+        "clock": "90'+6'",
         "period": 2,
-        "completed": false
+        "completed": true
       },
       "venue": {
         "name": "BC Place",
         "city": "Vancouver",
         "country": "Canada"
       },
-      "attendance": null,
+      "attendance": 52497,
       "home": {
         "id": "628",
         "name": "Australia",
         "abbr": "AUS",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
         "score": "2",
-        "winner": false,
-        "record": "0-0-0",
-        "form": "DLWWL"
+        "winner": true,
+        "record": "1-0-0",
+        "form": "WDLWW"
       },
       "away": {
         "id": "465",
@@ -49947,8 +50040,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WWWWD"
+        "record": "0-0-1",
+        "form": "LWWWW"
       },
       "group": null,
       "details": {
@@ -49961,7 +50054,7 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "10",
+                "value": "12",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -49981,12 +50074,12 @@
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "7",
+                "value": "8",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "30.2",
-                "label": "POSSESSION"
+                "value": "28.3",
+                "label": "Possession"
               },
               "totalShots": {
                 "value": "9",
@@ -50009,15 +50102,15 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "195",
+                "value": "202",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "257",
+                "value": "270",
                 "label": "Passes"
               },
               "passPct": {
-                "value": "0.8",
+                "value": "0.7",
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
@@ -50033,11 +50126,11 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "51",
+                "value": "57",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "16",
+                "value": "17",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -50049,11 +50142,11 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "3",
+                "value": "5",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "12",
+                "value": "16",
                 "label": "Tackles"
               },
               "tacklePct": {
@@ -50065,11 +50158,11 @@
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "44",
+                "value": "55",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "44",
+                "value": "55",
                 "label": "Clearances"
               }
             }
@@ -50094,11 +50187,11 @@
                 "label": "Red Cards"
               },
               "offsides": {
-                "value": "2",
+                "value": "3",
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "6",
+                "value": "8",
                 "label": "Corner Kicks"
               },
               "saves": {
@@ -50106,15 +50199,15 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "69.8",
-                "label": "POSSESSION"
+                "value": "71.7",
+                "label": "Possession"
               },
               "totalShots": {
-                "value": "27",
+                "value": "30",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "7",
+                "value": "8",
                 "label": "ON GOAL"
               },
               "shotPct": {
@@ -50130,11 +50223,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "553",
+                "value": "635",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "615",
+                "value": "704",
                 "label": "Passes"
               },
               "passPct": {
@@ -50142,11 +50235,11 @@
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "1",
+                "value": "2",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "20",
+                "value": "26",
                 "label": "Crosses"
               },
               "crossPct": {
@@ -50154,11 +50247,11 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "27",
+                "value": "29",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "18",
+                "value": "20",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -50166,7 +50259,7 @@
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "11",
+                "value": "12",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
@@ -50254,7 +50347,7 @@
                   },
                   {
                     "name": "saves",
-                    "value": "7",
+                    "value": "8",
                     "label": "SV"
                   },
                   {
@@ -51677,7 +51770,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -51920,7 +52013,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "2",
+                    "value": "3",
                     "label": "FC"
                   },
                   {
@@ -52540,7 +52633,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "1",
+                    "value": "2",
                     "label": "OF"
                   },
                   {
@@ -52555,7 +52648,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -53148,7 +53241,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -53193,7 +53286,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "2",
+                    "value": "3",
                     "label": "SOG"
                   },
                   {
@@ -53203,7 +53296,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "7",
+                    "value": "8",
                     "label": "SHOT"
                   }
                 ]
@@ -53527,7 +53620,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "5",
+                    "value": "6",
                     "label": "SHOT"
                   }
                 ]
@@ -53715,7 +53808,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -54812,7 +54905,7 @@
               },
               {
                 "id": "305629",
-                "name": "Ismail Yüksek"
+                "name": "Ismail Y��ksek"
               }
             ],
             "text": "Substitution, Türkiye. Salih Özcan replaces Ismail Yüksek.",
@@ -54922,6 +55015,19 @@
               }
             ],
             "text": "Yunus Akgün (Türkiye) is shown the yellow card for a bad foul.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504852",
+            "type": "End Regular Time",
+            "clock": "90'+7'",
+            "period": 2,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": null,
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -55180,7 +55286,7 @@
           }
         ],
         "gameInfo": {
-          "attendance": null,
+          "attendance": 52497,
           "venue": {
             "name": "BC Place",
             "city": "Vancouver",
@@ -55255,26 +55361,26 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Alessandro Circati",
-                  "shortName": "A. Circati",
-                  "jersey": "3",
+                  "name": "Harry Souttar",
+                  "shortName": "H. Souttar",
+                  "jersey": "19",
                   "position": "Defender",
-                  "value": "13",
-                  "summary": "0 TKLW, 2 DUELW",
+                  "value": "16",
+                  "summary": "2 TKLW, 6 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "13",
+                      "value": "16",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "0",
+                      "value": "2",
                       "label": "TKLW"
                     },
                     {
                       "name": "duelsWon",
-                      "value": "2",
+                      "value": "6",
                       "label": "DUELW"
                     }
                   ]
@@ -55288,22 +55394,22 @@
                   "shortName": "P. Beach",
                   "jersey": "18",
                   "position": "Goalkeeper",
-                  "value": "7",
-                  "summary": "7 SOGA, 1.24 xGC",
+                  "value": "8",
+                  "summary": "8 SOGA, 1.33 xGC",
                   "stats": [
                     {
                       "name": "saves",
-                      "value": "7",
+                      "value": "8",
                       "label": "SV"
                     },
                     {
                       "name": "shotsOnGoalAgainst",
-                      "value": "7",
+                      "value": "8",
                       "label": "SOGA"
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "1.24",
+                      "value": "1.33",
                       "label": "xGC"
                     }
                   ]
@@ -55323,22 +55429,22 @@
                   "shortName": "A. Güler",
                   "jersey": "8",
                   "position": "Midfielder",
-                  "value": "7",
-                  "summary": "2 SOG, 0.21 xG",
+                  "value": "8",
+                  "summary": "3 SOG, 0.26 xG",
                   "stats": [
                     {
                       "name": "totalShots",
-                      "value": "7",
+                      "value": "8",
                       "label": "SHOT"
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "2",
+                      "value": "3",
                       "label": "SOG"
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.21",
+                      "value": "0.26",
                       "label": "xG"
                     }
                   ]
@@ -55348,22 +55454,27 @@
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "Abdülkerim Bardakçi",
-                  "shortName": "A. Bardakçi",
-                  "jersey": "14",
-                  "position": "Defender",
-                  "value": "82",
-                  "summary": "88 PASS",
+                  "name": "Hakan Çalhanoglu",
+                  "shortName": "H. Çalhanoglu",
+                  "jersey": "10",
+                  "position": "Midfielder",
+                  "value": "93",
+                  "summary": "105 PASS, 1 BCC",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "82",
+                      "value": "93",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "88",
+                      "value": "105",
                       "label": "PASS"
+                    },
+                    {
+                      "name": "bigChanceCreated",
+                      "value": "1",
+                      "label": "BCC"
                     }
                   ]
                 }
@@ -55376,12 +55487,12 @@
                   "shortName": "A. Bardakçi",
                   "jersey": "14",
                   "position": "Defender",
-                  "value": "10",
+                  "value": "11",
                   "summary": "1 TKLW, 8 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "10",
+                      "value": "11",
                       "label": "DINT"
                     },
                     {
@@ -55406,7 +55517,7 @@
                   "jersey": "23",
                   "position": "Goalkeeper",
                   "value": "2",
-                  "summary": "4 SOGA, 0.81 xGC",
+                  "summary": "4 SOGA, 0.77 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -55420,7 +55531,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.81",
+                      "value": "0.77",
                       "label": "xGC"
                     }
                   ]
@@ -56266,8 +56377,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "DLWWL"
+        "record": "1-0-0",
+        "form": "WDLWW"
       },
       "group": null
     },
@@ -56376,8 +56487,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WWWWD"
+        "record": "0-0-1",
+        "form": "LWWWW"
       },
       "away": {
         "id": "210",
@@ -57466,8 +57577,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "DLWWL"
+        "record": "1-0-0",
+        "form": "WDLWW"
       },
       "group": null
     },
@@ -57496,8 +57607,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WWWWD"
+        "record": "0-0-1",
+        "form": "LWWWW"
       },
       "away": {
         "id": "660",
