@@ -1,17 +1,36 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-14T18:38:55.617Z",
+    "lastUpdated": "2026-06-14T19:10:43.321Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
-    "matchCount": 104,
-    "completedCount": 8
+    "matchCount": 98,
+    "completedCount": 9
   },
   "stats": {
-    "totalGoals": 19,
-    "matchesPlayed": 8,
-    "avgGoalsPerMatch": "2.38"
+    "totalGoals": 27,
+    "matchesPlayed": 9,
+    "avgGoalsPerMatch": "3.00"
   },
   "topScorers": [
+    {
+      "id": "231182",
+      "name": "Kai Havertz",
+      "teamId": "481",
+      "teamName": "Germany",
+      "goals": 2,
+      "goalDetails": [
+        {
+          "matchId": "760422",
+          "clock": "45'+5'",
+          "vs": "CUW"
+        },
+        {
+          "matchId": "760422",
+          "clock": "88'",
+          "vs": "CUW"
+        }
+      ]
+    },
     {
       "id": "282643",
       "name": "Folarin Balogun",
@@ -28,6 +47,20 @@
           "matchId": "760417",
           "clock": "45'+5'",
           "vs": "PAR"
+        }
+      ]
+    },
+    {
+      "id": "120829",
+      "name": "Nathaniel Brown",
+      "teamId": "481",
+      "teamName": "Germany",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760422",
+          "clock": "68'",
+          "vs": "CUW"
         }
       ]
     },
@@ -144,6 +177,20 @@
       ]
     },
     {
+      "id": "273300",
+      "name": "Deniz Undav",
+      "teamId": "481",
+      "teamName": "Germany",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760422",
+          "clock": "78'",
+          "vs": "CUW"
+        }
+      ]
+    },
+    {
       "id": "280061",
       "name": "Hwang In-Beom",
       "teamId": "451",
@@ -154,6 +201,34 @@
           "matchId": "760414",
           "clock": "67'",
           "vs": "CZE"
+        }
+      ]
+    },
+    {
+      "id": "281122",
+      "name": "Felix Nmecha",
+      "teamId": "481",
+      "teamName": "Germany",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760422",
+          "clock": "6'",
+          "vs": "CUW"
+        }
+      ]
+    },
+    {
+      "id": "286828",
+      "name": "Nico Schlotterbeck",
+      "teamId": "481",
+      "teamName": "Germany",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760422",
+          "clock": "38'",
+          "vs": "CUW"
         }
       ]
     },
@@ -200,6 +275,20 @@
       ]
     },
     {
+      "id": "303821",
+      "name": "Jamal Musiala",
+      "teamId": "481",
+      "teamName": "Germany",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760422",
+          "clock": "47'",
+          "vs": "CUW"
+        }
+      ]
+    },
+    {
       "id": "304572",
       "name": "Ismael Saibari",
       "teamId": "2869",
@@ -228,6 +317,20 @@
       ]
     },
     {
+      "id": "317285",
+      "name": "Livano Comenencia",
+      "teamId": "11678",
+      "teamName": "Curaçao",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760422",
+          "clock": "21'",
+          "vs": "GER"
+        }
+      ]
+    },
+    {
       "id": "328535",
       "name": "Nestory Irankunda",
       "teamId": "628",
@@ -244,6 +347,44 @@
   ],
   "topAssisters": [
     {
+      "id": "190161",
+      "name": "Joshua Kimmich",
+      "teamId": "481",
+      "teamName": "Germany",
+      "assists": 2,
+      "assistDetails": [
+        {
+          "matchId": "760422",
+          "clock": "47'",
+          "vs": "CUW"
+        },
+        {
+          "matchId": "760422",
+          "clock": "78'",
+          "vs": "CUW"
+        }
+      ]
+    },
+    {
+      "id": "273300",
+      "name": "Deniz Undav",
+      "teamId": "481",
+      "teamName": "Germany",
+      "assists": 2,
+      "assistDetails": [
+        {
+          "matchId": "760422",
+          "clock": "68'",
+          "vs": "CUW"
+        },
+        {
+          "matchId": "760422",
+          "clock": "88'",
+          "vs": "CUW"
+        }
+      ]
+    },
+    {
       "id": "20975",
       "name": "Julio Enciso",
       "teamId": "210",
@@ -254,6 +395,20 @@
           "matchId": "760417",
           "clock": "73'",
           "vs": "USA"
+        }
+      ]
+    },
+    {
+      "id": "120829",
+      "name": "Nathaniel Brown",
+      "teamId": "481",
+      "teamName": "Germany",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760422",
+          "clock": "38'",
+          "vs": "CUW"
         }
       ]
     },
@@ -408,6 +563,20 @@
           "matchId": "760417",
           "clock": "45'+5'",
           "vs": "PAR"
+        }
+      ]
+    },
+    {
+      "id": "303748",
+      "name": "Florian Wirtz",
+      "teamId": "481",
+      "teamName": "Germany",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760422",
+          "clock": "6'",
+          "vs": "CUW"
         }
       ]
     },
@@ -442,6 +611,56 @@
   ],
   "topCanadian": [
     {
+      "id": "273300",
+      "name": "Deniz Undav",
+      "teamId": "481",
+      "teamName": "Germany",
+      "goals": 1,
+      "assists": 2,
+      "total": 3,
+      "goalDetails": [
+        {
+          "matchId": "760422",
+          "clock": "78'",
+          "vs": "CUW"
+        }
+      ],
+      "assistDetails": [
+        {
+          "matchId": "760422",
+          "clock": "68'",
+          "vs": "CUW"
+        },
+        {
+          "matchId": "760422",
+          "clock": "88'",
+          "vs": "CUW"
+        }
+      ]
+    },
+    {
+      "id": "231182",
+      "name": "Kai Havertz",
+      "teamId": "481",
+      "teamName": "Germany",
+      "goals": 2,
+      "assists": 0,
+      "total": 2,
+      "goalDetails": [
+        {
+          "matchId": "760422",
+          "clock": "45'+5'",
+          "vs": "CUW"
+        },
+        {
+          "matchId": "760422",
+          "clock": "88'",
+          "vs": "CUW"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
       "id": "282643",
       "name": "Folarin Balogun",
       "teamId": "660",
@@ -464,6 +683,29 @@
       "assistDetails": []
     },
     {
+      "id": "120829",
+      "name": "Nathaniel Brown",
+      "teamId": "481",
+      "teamName": "Germany",
+      "goals": 1,
+      "assists": 1,
+      "total": 2,
+      "goalDetails": [
+        {
+          "matchId": "760422",
+          "clock": "68'",
+          "vs": "CUW"
+        }
+      ],
+      "assistDetails": [
+        {
+          "matchId": "760422",
+          "clock": "38'",
+          "vs": "CUW"
+        }
+      ]
+    },
+    {
       "id": "280061",
       "name": "Hwang In-Beom",
       "teamId": "451",
@@ -483,6 +725,28 @@
           "matchId": "760414",
           "clock": "80'",
           "vs": "CZE"
+        }
+      ]
+    },
+    {
+      "id": "190161",
+      "name": "Joshua Kimmich",
+      "teamId": "481",
+      "teamName": "Germany",
+      "goals": 0,
+      "assists": 2,
+      "total": 2,
+      "goalDetails": [],
+      "assistDetails": [
+        {
+          "matchId": "760422",
+          "clock": "47'",
+          "vs": "CUW"
+        },
+        {
+          "matchId": "760422",
+          "clock": "78'",
+          "vs": "CUW"
         }
       ]
     },
@@ -623,6 +887,40 @@
       "assistDetails": []
     },
     {
+      "id": "281122",
+      "name": "Felix Nmecha",
+      "teamId": "481",
+      "teamName": "Germany",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760422",
+          "clock": "6'",
+          "vs": "CUW"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
+      "id": "286828",
+      "name": "Nico Schlotterbeck",
+      "teamId": "481",
+      "teamName": "Germany",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760422",
+          "clock": "38'",
+          "vs": "CUW"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
       "id": "289046",
       "name": "Maurício",
       "teamId": "210",
@@ -674,6 +972,23 @@
       "assistDetails": []
     },
     {
+      "id": "303821",
+      "name": "Jamal Musiala",
+      "teamId": "481",
+      "teamName": "Germany",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760422",
+          "clock": "47'",
+          "vs": "CUW"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
       "id": "304572",
       "name": "Ismael Saibari",
       "teamId": "2869",
@@ -703,6 +1018,23 @@
           "matchId": "760416",
           "clock": "21'",
           "vs": "CAN"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
+      "id": "317285",
+      "name": "Livano Comenencia",
+      "teamId": "11678",
+      "teamName": "Curaçao",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760422",
+          "clock": "21'",
+          "vs": "GER"
         }
       ],
       "assistDetails": []
@@ -908,6 +1240,23 @@
           "matchId": "760417",
           "clock": "45'+5'",
           "vs": "PAR"
+        }
+      ]
+    },
+    {
+      "id": "303748",
+      "name": "Florian Wirtz",
+      "teamId": "481",
+      "teamName": "Germany",
+      "goals": 0,
+      "assists": 1,
+      "total": 1,
+      "goalDetails": [],
+      "assistDetails": [
+        {
+          "matchId": "760422",
+          "clock": "6'",
+          "vs": "CUW"
         }
       ]
     },
@@ -10274,34 +10623,6 @@
       "teamId": "131546",
       "teamName": "Third Place Group D/E/I/J/L",
       "abbr": "3RD",
-      "players": [],
-      "coach": null
-    },
-    "round of 32 1 winner": {
-      "teamId": "131525",
-      "teamName": "Round of 32 1 Winner",
-      "abbr": "RD32",
-      "players": [],
-      "coach": null
-    },
-    "round of 32 3 winner": {
-      "teamId": "131527",
-      "teamName": "Round of 32 3 Winner",
-      "abbr": "RD32",
-      "players": [],
-      "coach": null
-    },
-    "round of 32 2 winner": {
-      "teamId": "131526",
-      "teamName": "Round of 32 2 Winner",
-      "abbr": "RD32",
-      "players": [],
-      "coach": null
-    },
-    "round of 32 5 winner": {
-      "teamId": "131529",
-      "teamName": "Round of 32 5 Winner",
-      "abbr": "RD32",
       "players": [],
       "coach": null
     },
@@ -55548,27 +55869,27 @@
       "name": "Curaçao at Germany",
       "shortName": "CUW @ GER",
       "status": {
-        "state": "in",
-        "detail": "75'",
-        "shortDetail": "75'",
-        "clock": "75'",
+        "state": "post",
+        "detail": "FT",
+        "shortDetail": "FT",
+        "clock": "90'+6'",
         "period": 2,
-        "completed": false
+        "completed": true
       },
       "venue": {
         "name": "NRG Stadium",
         "city": "Houston, Texas",
         "country": "USA"
       },
-      "attendance": null,
+      "attendance": 68021,
       "home": {
         "id": "481",
         "name": "Germany",
         "abbr": "GER",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-        "score": "5",
-        "winner": false,
-        "record": "0-0-0",
+        "score": "7",
+        "winner": true,
+        "record": "1-0-0",
         "form": "WWWWW"
       },
       "away": {
@@ -55578,8 +55899,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
         "score": "1",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WLLLD"
+        "record": "0-0-1",
+        "form": "LWLLL"
       },
       "group": null,
       "details": {
@@ -55592,7 +55913,7 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "16",
+                "value": "18",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -55608,7 +55929,7 @@
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "7",
+                "value": "8",
                 "label": "Corner Kicks"
               },
               "saves": {
@@ -55616,19 +55937,19 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "67.4",
-                "label": "POSSESSION"
+                "value": "64.7",
+                "label": "Possession"
               },
               "totalShots": {
-                "value": "23",
+                "value": "26",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "9",
+                "value": "12",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.4",
+                "value": "0.5",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -55640,11 +55961,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "436",
+                "value": "551",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "496",
+                "value": "635",
                 "label": "Passes"
               },
               "passPct": {
@@ -55656,19 +55977,19 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "10",
+                "value": "12",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.5",
+                "value": "0.4",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "16",
+                "value": "26",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "8",
+                "value": "13",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -55680,27 +56001,27 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "7",
+                "value": "14",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "12",
+                "value": "19",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.6",
+                "value": "0.7",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "7",
+                "value": "10",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "6",
+                "value": "9",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "6",
+                "value": "9",
                 "label": "Clearances"
               }
             }
@@ -55713,7 +56034,7 @@
             "homeAway": "away",
             "stats": {
               "foulsCommitted": {
-                "value": "8",
+                "value": "11",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -55729,19 +56050,19 @@
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "0",
+                "value": "1",
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "3",
+                "value": "4",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "32.6",
-                "label": "POSSESSION"
+                "value": "35.3",
+                "label": "Possession"
               },
               "totalShots": {
-                "value": "6",
+                "value": "8",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
@@ -55761,11 +56082,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "195",
+                "value": "281",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "239",
+                "value": "341",
                 "label": "Passes"
               },
               "passPct": {
@@ -55777,19 +56098,19 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "5",
+                "value": "7",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.4",
+                "value": "0.3",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "36",
+                "value": "44",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "16",
+                "value": "17",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -55801,11 +56122,11 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "4",
+                "value": "7",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "11",
+                "value": "16",
                 "label": "Tackles"
               },
               "tacklePct": {
@@ -55813,15 +56134,15 @@
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "12",
+                "value": "16",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "18",
+                "value": "25",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "18",
+                "value": "25",
                 "label": "Clearances"
               }
             }
@@ -55855,7 +56176,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -56165,7 +56486,7 @@
                 "position": "Right Back",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -56214,7 +56535,7 @@
                   },
                   {
                     "name": "goalAssists",
-                    "value": "1",
+                    "value": "2",
                     "label": "A"
                   },
                   {
@@ -56336,12 +56657,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "4",
+                    "value": "6",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -56548,17 +56869,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "1",
+                    "value": "2",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "1",
+                    "value": "2",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "3",
+                    "value": "4",
                     "label": "SHOT"
                   }
                 ]
@@ -56791,7 +57112,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -56801,7 +57122,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -57024,7 +57345,7 @@
                   },
                   {
                     "name": "goalAssists",
-                    "value": "1",
+                    "value": "2",
                     "label": "A"
                   },
                   {
@@ -57034,17 +57355,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -57055,12 +57376,12 @@
                 "shortName": "W. Anton",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -57085,7 +57406,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -58359,17 +58680,17 @@
                 "shortName": "G. Kastaneer",
                 "position": null,
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -58389,7 +58710,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -58399,7 +58720,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -58642,7 +58963,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -58672,7 +58993,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -58723,7 +59044,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "2",
+                    "value": "4",
                     "label": "GA"
                   },
                   {
@@ -59209,12 +59530,12 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "5",
+                    "value": "7",
                     "label": "GA"
                   },
                   {
                     "name": "saves",
-                    "value": "3",
+                    "value": "4",
                     "label": "SV"
                   },
                   {
@@ -59290,7 +59611,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "5",
+                    "value": "7",
                     "label": "GA"
                   },
                   {
@@ -59371,7 +59692,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "5",
+                    "value": "7",
                     "label": "GA"
                   },
                   {
@@ -59452,7 +59773,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "5",
+                    "value": "7",
                     "label": "GA"
                   },
                   {
@@ -59503,7 +59824,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -59533,7 +59854,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "5",
+                    "value": "7",
                     "label": "GA"
                   },
                   {
@@ -59695,7 +60016,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "5",
+                    "value": "7",
                     "label": "GA"
                   },
                   {
@@ -59737,7 +60058,7 @@
                 "position": "Attacking Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -59751,7 +60072,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "7",
+                    "value": "8",
                     "label": "FA"
                   },
                   {
@@ -59776,7 +60097,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "5",
+                    "value": "6",
                     "label": "GA"
                   },
                   {
@@ -59806,7 +60127,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -59832,7 +60153,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -59857,7 +60178,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "5",
+                    "value": "7",
                     "label": "GA"
                   },
                   {
@@ -59908,7 +60229,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -59938,7 +60259,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "5",
+                    "value": "7",
                     "label": "GA"
                   },
                   {
@@ -60319,7 +60640,7 @@
           },
           {
             "id": "49508863",
-            "type": "Goal - Volley",
+            "type": "Goal",
             "clock": "68'",
             "period": 2,
             "teamId": "481",
@@ -60404,11 +60725,11 @@
                 "name": "Antonio Rüdiger"
               },
               {
-                "id": "281122",
-                "name": "Felix Nmecha"
+                "id": "188052",
+                "name": "Jonathan Tah"
               }
             ],
-            "text": "Substitution, Germany. Antonio Rüdiger replaces Felix Nmecha.",
+            "text": "Substitution, Germany. Antonio Rüdiger replaces Jonathan Tah.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -60426,11 +60747,11 @@
                 "name": "Leon Goretzka"
               },
               {
-                "id": "188052",
-                "name": "Jonathan Tah"
+                "id": "281122",
+                "name": "Felix Nmecha"
               }
             ],
-            "text": "Substitution, Germany. Leon Goretzka replaces Jonathan Tah.",
+            "text": "Substitution, Germany. Leon Goretzka replaces Felix Nmecha.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -60453,6 +60774,107 @@
               }
             ],
             "text": "Substitution, Germany. David Raum replaces Nathaniel Brown.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49508963",
+            "type": "Goal",
+            "clock": "78'",
+            "period": 2,
+            "teamId": "481",
+            "teamName": "Germany",
+            "athletes": [
+              {
+                "id": "273300",
+                "name": "Deniz Undav"
+              },
+              {
+                "id": "190161",
+                "name": "Joshua Kimmich"
+              }
+            ],
+            "text": "Goal! Germany 6, Curaçao 1. Deniz Undav (Germany) right footed shot from the centre of the box to the bottom left corner. Assisted by Joshua Kimmich.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49509035",
+            "type": "Substitution",
+            "clock": "83'",
+            "period": 2,
+            "teamId": "11678",
+            "teamName": "Curaçao",
+            "athletes": [
+              {
+                "id": "178273",
+                "name": "Gervane Kastaneer"
+              },
+              {
+                "id": "276218",
+                "name": "Tahith Chong"
+              }
+            ],
+            "text": "Substitution, Curaçao. Gervane Kastaneer replaces Tahith Chong.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49509037",
+            "type": "Substitution",
+            "clock": "83'",
+            "period": 2,
+            "teamId": "481",
+            "teamName": "Germany",
+            "athletes": [
+              {
+                "id": "220714",
+                "name": "Waldemar Anton"
+              },
+              {
+                "id": "190161",
+                "name": "Joshua Kimmich"
+              }
+            ],
+            "text": "Substitution, Germany. Waldemar Anton replaces Joshua Kimmich.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49509123",
+            "type": "Goal",
+            "clock": "88'",
+            "period": 2,
+            "teamId": "481",
+            "teamName": "Germany",
+            "athletes": [
+              {
+                "id": "231182",
+                "name": "Kai Havertz"
+              },
+              {
+                "id": "273300",
+                "name": "Deniz Undav"
+              }
+            ],
+            "text": "Goal! Germany 7, Curaçao 1. Kai Havertz (Germany) left footed shot from the centre of the box to the centre of the goal. Assisted by Deniz Undav following a fast break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49509261",
+            "type": "End Regular Time",
+            "clock": "90'+6'",
+            "period": 2,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": null,
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -60711,7 +61133,7 @@
           }
         ],
         "gameInfo": {
-          "attendance": null,
+          "attendance": 68021,
           "venue": {
             "name": "NRG Stadium",
             "city": "Houston, Texas",
@@ -60733,12 +61155,12 @@
                 "name": "totalShots",
                 "displayName": "Total Shots",
                 "leader": {
-                  "name": "Felix Nmecha",
-                  "shortName": "F. Nmecha",
-                  "jersey": "23",
-                  "position": "Midfielder",
+                  "name": "Kai Havertz",
+                  "shortName": "K. Havertz",
+                  "jersey": "7",
+                  "position": "Forward",
                   "value": "4",
-                  "summary": "3 SOG, 0.25 xG",
+                  "summary": "2 SOG, 0.95 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -60747,12 +61169,12 @@
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "3",
+                      "value": "2",
                       "label": "SOG"
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.25",
+                      "value": "0.95",
                       "label": "xG"
                     }
                   ]
@@ -60762,27 +61184,22 @@
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "Jonathan Tah",
-                  "shortName": "J. Tah",
-                  "jersey": "4",
+                  "name": "Nico Schlotterbeck",
+                  "shortName": "N. Schlotterbeck",
+                  "jersey": "15",
                   "position": "Defender",
-                  "value": "69",
-                  "summary": "71 PASS, 1 BCC",
+                  "value": "73",
+                  "summary": "85 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "69",
+                      "value": "73",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "71",
+                      "value": "85",
                       "label": "PASS"
-                    },
-                    {
-                      "name": "bigChanceCreated",
-                      "value": "1",
-                      "label": "BCC"
                     }
                   ]
                 }
@@ -60795,12 +61212,12 @@
                   "shortName": "N. Schlotterbeck",
                   "jersey": "15",
                   "position": "Defender",
-                  "value": "10",
-                  "summary": "1 TKLW, 5 DUELW",
+                  "value": "13",
+                  "summary": "1 TKLW, 8 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "10",
+                      "value": "13",
                       "label": "DINT"
                     },
                     {
@@ -60810,7 +61227,7 @@
                     },
                     {
                       "name": "duelsWon",
-                      "value": "5",
+                      "value": "8",
                       "label": "DUELW"
                     }
                   ]
@@ -60825,7 +61242,7 @@
                   "jersey": "1",
                   "position": "Goalkeeper",
                   "value": "1",
-                  "summary": "2 SOGA, 0.32 xGC",
+                  "summary": "2 SOGA, 0.40 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -60839,7 +61256,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.32",
+                      "value": "0.40",
                       "label": "xGC"
                     }
                   ]
@@ -60884,21 +61301,21 @@
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "Armando Obispo",
-                  "shortName": "A. Obispo",
-                  "jersey": "18",
-                  "position": "Defender",
-                  "value": "31",
-                  "summary": "34 PASS",
+                  "name": "Leandro Bacuna",
+                  "shortName": "L. Bacuna",
+                  "jersey": "10",
+                  "position": "Midfielder",
+                  "value": "48",
+                  "summary": "55 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "31",
+                      "value": "48",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "34",
+                      "value": "55",
                       "label": "PASS"
                     }
                   ]
@@ -60912,12 +61329,12 @@
                   "shortName": "A. Obispo",
                   "jersey": "18",
                   "position": "Defender",
-                  "value": "13",
+                  "value": "15",
                   "summary": "1 TKLW, 3 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "13",
+                      "value": "15",
                       "label": "DINT"
                     },
                     {
@@ -60941,22 +61358,22 @@
                   "shortName": "E. Room",
                   "jersey": "1",
                   "position": "Goalkeeper",
-                  "value": "3",
-                  "summary": "8 SOGA, 3.35 xGC",
+                  "value": "4",
+                  "summary": "11 SOGA, 3.91 xGC",
                   "stats": [
                     {
                       "name": "saves",
-                      "value": "3",
+                      "value": "4",
                       "label": "SV"
                     },
                     {
                       "name": "shotsOnGoalAgainst",
-                      "value": "8",
+                      "value": "11",
                       "label": "SOGA"
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "3.35",
+                      "value": "3.91",
                       "label": "xGC"
                     }
                   ]
@@ -61952,7 +62369,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
+        "record": "1-0-0",
         "form": "WWWWW"
       },
       "away": {
@@ -62002,8 +62419,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WLLLD"
+        "record": "0-0-1",
+        "form": "LWLLL"
       },
       "group": null
     },
@@ -62368,166 +62785,6 @@
       "group": null
     },
     {
-      "id": "760461",
-      "date": "2026-06-23T17:00Z",
-      "name": "Uzbekistan at Portugal",
-      "shortName": "UZB @ POR",
-      "status": {
-        "state": "pre",
-        "detail": "Tue, June 23rd at 1:00 PM EDT",
-        "shortDetail": "Scheduled",
-        "clock": "0'",
-        "completed": false
-      },
-      "venue": {
-        "name": "NRG Stadium",
-        "city": "Houston, Texas",
-        "country": "USA"
-      },
-      "attendance": null,
-      "home": {
-        "id": "482",
-        "name": "Portugal",
-        "abbr": "POR",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
-        "score": "0",
-        "winner": false,
-        "record": "0-0-0",
-        "form": "WWWDW"
-      },
-      "away": {
-        "id": "2570",
-        "name": "Uzbekistan",
-        "abbr": "UZB",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
-        "score": "0",
-        "winner": false,
-        "record": "0-0-0",
-        "form": "LLWWD"
-      },
-      "group": null
-    },
-    {
-      "id": "760458",
-      "date": "2026-06-23T20:00Z",
-      "name": "Ghana at England",
-      "shortName": "GHA @ ENG",
-      "status": {
-        "state": "pre",
-        "detail": "Tue, June 23rd at 4:00 PM EDT",
-        "shortDetail": "Scheduled",
-        "clock": "0'",
-        "completed": false
-      },
-      "venue": {
-        "name": "Gillette Stadium",
-        "city": "Foxborough, Massachusetts",
-        "country": "USA"
-      },
-      "attendance": null,
-      "home": {
-        "id": "448",
-        "name": "England",
-        "abbr": "ENG",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-        "score": "0",
-        "winner": false,
-        "record": "0-0-0",
-        "form": "WWLDW"
-      },
-      "away": {
-        "id": "4469",
-        "name": "Ghana",
-        "abbr": "GHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
-        "score": "0",
-        "winner": false,
-        "record": "0-0-0",
-        "form": "DLLLL"
-      },
-      "group": null
-    },
-    {
-      "id": "760460",
-      "date": "2026-06-23T23:00Z",
-      "name": "Croatia at Panama",
-      "shortName": "CRO @ PAN",
-      "status": {
-        "state": "pre",
-        "detail": "Tue, June 23rd at 7:00 PM EDT",
-        "shortDetail": "Scheduled",
-        "clock": "0'",
-        "completed": false
-      },
-      "venue": {
-        "name": "BMO Field",
-        "city": "Toronto",
-        "country": "Canada"
-      },
-      "attendance": null,
-      "home": {
-        "id": "2659",
-        "name": "Panama",
-        "abbr": "PAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
-        "score": "0",
-        "winner": false,
-        "record": "0-0-0",
-        "form": "DWLWD"
-      },
-      "away": {
-        "id": "477",
-        "name": "Croatia",
-        "abbr": "CRO",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
-        "score": "0",
-        "winner": false,
-        "record": "0-0-0",
-        "form": "WLLWW"
-      },
-      "group": null
-    },
-    {
-      "id": "760459",
-      "date": "2026-06-24T02:00Z",
-      "name": "Congo DR at Colombia",
-      "shortName": "COD @ COL",
-      "status": {
-        "state": "pre",
-        "detail": "Tue, June 23rd at 10:00 PM EDT",
-        "shortDetail": "Scheduled",
-        "clock": "0'",
-        "completed": false
-      },
-      "venue": {
-        "name": "Estadio Akron",
-        "city": "Guadalajara",
-        "country": "Mexico"
-      },
-      "attendance": null,
-      "home": {
-        "id": "208",
-        "name": "Colombia",
-        "abbr": "COL",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
-        "score": "0",
-        "winner": false,
-        "record": "0-0-0",
-        "form": "WWLLW"
-      },
-      "away": {
-        "id": "2850",
-        "name": "Congo DR",
-        "abbr": "COD",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
-        "score": "0",
-        "winner": false,
-        "record": "0-0-0",
-        "form": "LDWWL"
-      },
-      "group": null
-    },
-    {
       "id": "760462",
       "date": "2026-06-24T19:00Z",
       "name": "Qatar at Bosnia-Herzegovina",
@@ -62792,8 +63049,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WLLLD"
+        "record": "0-0-1",
+        "form": "LWLLL"
       },
       "away": {
         "id": "4789",
@@ -62842,7 +63099,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
+        "record": "1-0-0",
         "form": "WWWWW"
       },
       "group": null
@@ -64119,86 +64376,6 @@
         "id": "131546",
         "name": "Third Place Group D/E/I/J/L",
         "abbr": "3RD",
-        "logo": "",
-        "score": "0",
-        "winner": false,
-        "record": null,
-        "form": null
-      },
-      "group": null
-    },
-    {
-      "id": "760502",
-      "date": "2026-07-04T17:00Z",
-      "name": "Round of 32 3 Winner at Round of 32 1 Winner",
-      "shortName": "RD32 @ RD32",
-      "status": {
-        "state": "pre",
-        "detail": "Sat, July 4th at 1:00 PM EDT",
-        "shortDetail": "Scheduled",
-        "clock": "0'",
-        "completed": false
-      },
-      "venue": {
-        "name": "NRG Stadium",
-        "city": "Houston, Texas",
-        "country": "USA"
-      },
-      "attendance": null,
-      "home": {
-        "id": "131525",
-        "name": "Round of 32 1 Winner",
-        "abbr": "RD32",
-        "logo": "",
-        "score": "0",
-        "winner": false,
-        "record": null,
-        "form": null
-      },
-      "away": {
-        "id": "131527",
-        "name": "Round of 32 3 Winner",
-        "abbr": "RD32",
-        "logo": "",
-        "score": "0",
-        "winner": false,
-        "record": null,
-        "form": null
-      },
-      "group": null
-    },
-    {
-      "id": "760503",
-      "date": "2026-07-04T21:00Z",
-      "name": "Round of 32 5 Winner at Round of 32 2 Winner",
-      "shortName": "RD32 @ RD32",
-      "status": {
-        "state": "pre",
-        "detail": "Sat, July 4th at 5:00 PM EDT",
-        "shortDetail": "Scheduled",
-        "clock": "0'",
-        "completed": false
-      },
-      "venue": {
-        "name": "Lincoln Financial Field",
-        "city": "Philadelphia, Pennsylvania",
-        "country": "USA"
-      },
-      "attendance": null,
-      "home": {
-        "id": "131526",
-        "name": "Round of 32 2 Winner",
-        "abbr": "RD32",
-        "logo": "",
-        "score": "0",
-        "winner": false,
-        "record": null,
-        "form": null
-      },
-      "away": {
-        "id": "131529",
-        "name": "Round of 32 5 Winner",
-        "abbr": "RD32",
         "logo": "",
         "score": "0",
         "winner": false,
