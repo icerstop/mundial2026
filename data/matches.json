@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-14T04:04:51.121Z",
+    "lastUpdated": "2026-06-14T05:49:13.853Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -44438,7 +44438,7 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "53.8",
+                "value": "53.7",
                 "label": "Possession"
               },
               "totalShots": {
@@ -44486,7 +44486,7 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "58",
+                "value": "59",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
@@ -44559,7 +44559,7 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "46.2",
+                "value": "46.3",
                 "label": "Possession"
               },
               "totalShots": {
@@ -44583,11 +44583,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "306",
+                "value": "307",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "373",
+                "value": "374",
                 "label": "Passes"
               },
               "passPct": {
@@ -44623,7 +44623,7 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "6",
+                "value": "5",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
@@ -44631,7 +44631,7 @@
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.5",
+                "value": "0.4",
                 "label": "Tackle %"
               },
               "interceptions": {
@@ -49687,7 +49687,7 @@
                   "jersey": "20",
                   "position": "Forward",
                   "value": "3",
-                  "summary": "1 SOG, 0.82 xG",
+                  "summary": "1 SOG, 0.65 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -49701,7 +49701,7 @@
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.82",
+                      "value": "0.65",
                       "label": "xG"
                     }
                   ]
@@ -49852,26 +49852,26 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Grant Hanley",
-                  "shortName": "G. Hanley",
-                  "jersey": "5",
-                  "position": "Defender",
-                  "value": "9",
-                  "summary": "2 TKLW, 4 DUELW",
+                  "name": "Lewis Ferguson",
+                  "shortName": "L. Ferguson",
+                  "jersey": "19",
+                  "position": "Midfielder",
+                  "value": "8",
+                  "summary": "1 TKLW, 10 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "9",
+                      "value": "8",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "2",
+                      "value": "1",
                       "label": "TKLW"
                     },
                     {
                       "name": "duelsWon",
-                      "value": "4",
+                      "value": "10",
                       "label": "DUELW"
                     }
                   ]
@@ -49886,7 +49886,7 @@
                   "jersey": "1",
                   "position": "Goalkeeper",
                   "value": "2",
-                  "summary": "2 SOGA, 1.21 xGC",
+                  "summary": "2 SOGA, 1.05 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -49900,7 +49900,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "1.21",
+                      "value": "1.05",
                       "label": "xGC"
                     }
                   ]
@@ -49918,10 +49918,10 @@
       "shortName": "TUR @ AUS",
       "status": {
         "state": "in",
-        "detail": "3'",
-        "shortDetail": "3'",
-        "clock": "3'",
-        "period": 1,
+        "detail": "88'",
+        "shortDetail": "88'",
+        "clock": "88'",
+        "period": 2,
         "completed": false
       },
       "venue": {
@@ -49935,7 +49935,7 @@
         "name": "Australia",
         "abbr": "AUS",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
-        "score": "0",
+        "score": "2",
         "winner": false,
         "record": "0-0-0",
         "form": "DLWWL"
@@ -49961,7 +49961,7 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "1",
+                "value": "10",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -49973,31 +49973,31 @@
                 "label": "Red Cards"
               },
               "offsides": {
-                "value": "0",
+                "value": "1",
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "0",
+                "value": "5",
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "0",
+                "value": "7",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "20.9",
+                "value": "30.2",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "0",
+                "value": "9",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "0",
+                "value": "4",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.0",
+                "value": "0.4",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -50009,67 +50009,67 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "5",
+                "value": "195",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "7",
+                "value": "257",
                 "label": "Passes"
               },
               "passPct": {
-                "value": "0.7",
+                "value": "0.8",
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "0",
+                "value": "4",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "2",
+                "value": "14",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.0",
+                "value": "0.3",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "1",
+                "value": "51",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "0",
+                "value": "16",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.0",
+                "value": "0.3",
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "0",
+                "value": "1",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "0",
+                "value": "3",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "0",
+                "value": "12",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.0",
+                "value": "0.3",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "0",
+                "value": "6",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "0",
+                "value": "44",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "0",
+                "value": "44",
                 "label": "Clearances"
               }
             }
@@ -50082,11 +50082,11 @@
             "homeAway": "away",
             "stats": {
               "foulsCommitted": {
-                "value": "0",
+                "value": "4",
                 "label": "Fouls"
               },
               "yellowCards": {
-                "value": "0",
+                "value": "1",
                 "label": "Yellow Cards"
               },
               "redCards": {
@@ -50094,31 +50094,31 @@
                 "label": "Red Cards"
               },
               "offsides": {
-                "value": "0",
+                "value": "2",
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "0",
+                "value": "6",
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "0",
+                "value": "2",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "79.1",
+                "value": "69.8",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "0",
+                "value": "27",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "0",
+                "value": "7",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.0",
+                "value": "0.3",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -50130,11 +50130,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "32",
+                "value": "553",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "34",
+                "value": "615",
                 "label": "Passes"
               },
               "passPct": {
@@ -50142,55 +50142,55 @@
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "0",
+                "value": "1",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "0",
+                "value": "20",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.0",
+                "value": "0.1",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "1",
+                "value": "27",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "1",
+                "value": "18",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "1.0",
+                "value": "0.7",
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "0",
+                "value": "11",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "1",
+                "value": "7",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "1",
+                "value": "12",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "1.0",
+                "value": "0.6",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "0",
+                "value": "4",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "5",
+                "value": "29",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "5",
+                "value": "29",
                 "label": "Clearances"
               }
             }
@@ -50254,7 +50254,7 @@
                   },
                   {
                     "name": "saves",
-                    "value": "0",
+                    "value": "7",
                     "label": "SV"
                   },
                   {
@@ -50300,7 +50300,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -50350,7 +50350,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -50360,7 +50360,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -50462,7 +50462,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -50522,7 +50522,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -50534,7 +50534,7 @@
                 "position": "Left Back",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -50548,7 +50548,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -50603,7 +50603,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -50615,7 +50615,7 @@
                 "position": "Right Back",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -50684,7 +50684,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -50696,7 +50696,7 @@
                 "position": "Center Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -50705,7 +50705,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -50745,7 +50745,7 @@
                   },
                   {
                     "name": "goalAssists",
-                    "value": "0",
+                    "value": "1",
                     "label": "A"
                   },
                   {
@@ -50791,7 +50791,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -50858,7 +50858,7 @@
                 "position": "Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -50867,12 +50867,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -50917,17 +50917,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "2",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -50998,17 +50998,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -51020,7 +51020,7 @@
                 "position": "Forward",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -51029,12 +51029,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -51074,7 +51074,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "1",
                     "label": "OF"
                   },
                   {
@@ -51089,7 +51089,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -51505,12 +51505,12 @@
                 "shortName": "J. Geria",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -51535,7 +51535,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -51667,12 +51667,12 @@
                 "shortName": "A. Behich",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -51697,7 +51697,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -51910,17 +51910,17 @@
                 "shortName": "T. Yengi",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -51940,7 +51940,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -52153,17 +52153,17 @@
                 "shortName": "J. Irvine",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -52183,7 +52183,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -52234,12 +52234,12 @@
                 "shortName": "N. Velupillay",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -52264,7 +52264,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -52363,12 +52363,12 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
                     "name": "saves",
-                    "value": "0",
+                    "value": "2",
                     "label": "SV"
                   },
                   {
@@ -52419,7 +52419,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -52444,7 +52444,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -52464,7 +52464,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -52474,7 +52474,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -52500,7 +52500,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -52525,7 +52525,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -52540,7 +52540,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "1",
                     "label": "OF"
                   },
                   {
@@ -52606,7 +52606,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -52636,7 +52636,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -52648,7 +52648,7 @@
                 "position": "Right Back",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -52657,7 +52657,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -52687,7 +52687,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -52707,7 +52707,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -52717,7 +52717,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -52729,7 +52729,7 @@
                 "position": "Attacking Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -52743,7 +52743,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "3",
                     "label": "FA"
                   },
                   {
@@ -52768,7 +52768,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -52798,15 +52798,15 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
               },
               {
-                "id": "305629",
-                "name": "Ismail Yüksek",
-                "shortName": "I. Yüksek",
+                "id": "170785",
+                "name": "Hakan Çalhanoglu",
+                "shortName": "H. Çalhanoglu",
                 "position": "Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
@@ -52819,12 +52819,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -52849,7 +52849,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -52869,7 +52869,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "2",
                     "label": "SOG"
                   },
                   {
@@ -52879,19 +52879,19 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "5",
                     "label": "SHOT"
                   }
                 ]
               },
               {
-                "id": "170785",
-                "name": "Hakan Çalhanoglu",
-                "shortName": "H. Çalhanoglu",
+                "id": "305629",
+                "name": "Ismail Yüksek",
+                "shortName": "I. Yüksek",
                 "position": "Right Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -52900,7 +52900,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -52930,7 +52930,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -52960,7 +52960,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "3",
                     "label": "SHOT"
                   }
                 ]
@@ -52972,7 +52972,7 @@
                 "position": "Forward",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -52986,7 +52986,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -53011,7 +53011,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -53031,7 +53031,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -53041,7 +53041,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "3",
                     "label": "SHOT"
                   }
                 ]
@@ -53053,7 +53053,7 @@
                 "position": "Attacking Midfielder Left",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -53092,7 +53092,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -53107,7 +53107,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "1",
                     "label": "OF"
                   },
                   {
@@ -53148,7 +53148,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -53173,7 +53173,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -53193,7 +53193,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "2",
                     "label": "SOG"
                   },
                   {
@@ -53203,7 +53203,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "7",
                     "label": "SHOT"
                   }
                 ]
@@ -53214,17 +53214,17 @@
                 "shortName": "Y. Akgün",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -53244,17 +53244,17 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
                     "name": "yellowCards",
-                    "value": "0",
+                    "value": "1",
                     "label": "YC"
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -53295,12 +53295,12 @@
                 "shortName": "D. Gül",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -53325,7 +53325,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -53457,12 +53457,12 @@
                 "shortName": "K. Yildiz",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -53487,7 +53487,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -53497,7 +53497,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -53527,7 +53527,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "5",
                     "label": "SHOT"
                   }
                 ]
@@ -53700,12 +53700,12 @@
                 "shortName": "S. Özcan",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -53730,7 +53730,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -54267,12 +54267,12 @@
                 "shortName": "M. Müldür",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -54297,7 +54297,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -54439,6 +54439,492 @@
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
+          },
+          {
+            "id": "49503542",
+            "type": "Start Delay",
+            "clock": "23'",
+            "period": 1,
+            "teamId": "465",
+            "teamName": "Türkiye",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49503545",
+            "type": "Start Delay",
+            "clock": "23'",
+            "period": 1,
+            "teamId": "628",
+            "teamName": "Australia",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49503546",
+            "type": "End Delay",
+            "clock": "25'",
+            "period": 1,
+            "teamId": "465",
+            "teamName": "Türkiye",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49503547",
+            "type": "End Delay",
+            "clock": "25'",
+            "period": 1,
+            "teamId": "628",
+            "teamName": "Australia",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49503574",
+            "type": "Goal",
+            "clock": "27'",
+            "period": 1,
+            "teamId": "628",
+            "teamName": "Australia",
+            "athletes": [
+              {
+                "id": "328535",
+                "name": "Nestory Irankunda"
+              },
+              {
+                "id": "403528",
+                "name": "Paul Okon-Engstler"
+              }
+            ],
+            "text": "Goal! Australia 1, Türkiye 0. Nestory Irankunda (Australia) right footed shot from the centre of the box to the bottom left corner. Assisted by Paul Okon-Engstler.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49503783",
+            "type": "Start Delay",
+            "clock": "39'",
+            "period": 1,
+            "teamId": "465",
+            "teamName": "Türkiye",
+            "athletes": [],
+            "text": "Delay in match (Türkiye).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49503782",
+            "type": "Start Delay",
+            "clock": "39'",
+            "period": 1,
+            "teamId": "628",
+            "teamName": "Australia",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49503785",
+            "type": "End Delay",
+            "clock": "39'",
+            "period": 1,
+            "teamId": "465",
+            "teamName": "Türkiye",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49503784",
+            "type": "End Delay",
+            "clock": "39'",
+            "period": 1,
+            "teamId": "628",
+            "teamName": "Australia",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49503876",
+            "type": "Start Delay",
+            "clock": "44'",
+            "period": 1,
+            "teamId": "465",
+            "teamName": "Türkiye",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49503878",
+            "type": "End Delay",
+            "clock": "44'",
+            "period": 1,
+            "teamId": "465",
+            "teamName": "Türkiye",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504003",
+            "type": "Halftime",
+            "clock": "45'+5'",
+            "period": 1,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504008",
+            "type": "Substitution",
+            "clock": "45'",
+            "period": 2,
+            "teamId": "465",
+            "teamName": "Türkiye",
+            "athletes": [
+              {
+                "id": "366509",
+                "name": "Kenan Yildiz"
+              },
+              {
+                "id": "322538",
+                "name": "Baris Alper Yilmaz"
+              }
+            ],
+            "text": "Substitution, Türkiye. Kenan Yildiz replaces Baris Alper Yilmaz.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504010",
+            "type": "Start 2nd Half",
+            "clock": "45'",
+            "period": 2,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504283",
+            "type": "Substitution",
+            "clock": "61'",
+            "period": 2,
+            "teamId": "628",
+            "teamName": "Australia",
+            "athletes": [
+              {
+                "id": "318429",
+                "name": "Nishan Velupillay"
+              },
+              {
+                "id": "328535",
+                "name": "Nestory Irankunda"
+              }
+            ],
+            "text": "Substitution, Australia. Nishan Velupillay replaces Nestory Irankunda.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504298",
+            "type": "Substitution",
+            "clock": "62'",
+            "period": 2,
+            "teamId": "465",
+            "teamName": "Türkiye",
+            "athletes": [
+              {
+                "id": "266575",
+                "name": "Yunus Akgün"
+              },
+              {
+                "id": "272700",
+                "name": "Orkun Kökçü"
+              }
+            ],
+            "text": "Substitution, Türkiye. Yunus Akgün replaces Orkun Kökçü.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504421",
+            "type": "Start Delay",
+            "clock": "68'",
+            "period": 2,
+            "teamId": "465",
+            "teamName": "Türkiye",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504420",
+            "type": "Start Delay",
+            "clock": "68'",
+            "period": 2,
+            "teamId": "628",
+            "teamName": "Australia",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504425",
+            "type": "End Delay",
+            "clock": "69'",
+            "period": 2,
+            "teamId": "465",
+            "teamName": "Türkiye",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504423",
+            "type": "End Delay",
+            "clock": "69'",
+            "period": 2,
+            "teamId": "628",
+            "teamName": "Australia",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504484",
+            "type": "Substitution",
+            "clock": "74'",
+            "period": 2,
+            "teamId": "628",
+            "teamName": "Australia",
+            "athletes": [
+              {
+                "id": "312261",
+                "name": "Tete Yengi"
+              },
+              {
+                "id": "302688",
+                "name": "Mohamed Toure"
+              }
+            ],
+            "text": "Substitution, Australia. Tete Yengi replaces Mohamed Touré.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504483",
+            "type": "Substitution",
+            "clock": "74'",
+            "period": 2,
+            "teamId": "628",
+            "teamName": "Australia",
+            "athletes": [
+              {
+                "id": "172137",
+                "name": "Jason Geria"
+              },
+              {
+                "id": "267053",
+                "name": "Jacob Italiano"
+              }
+            ],
+            "text": "Substitution, Australia. Jason Geria replaces Jacob Italiano.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504497",
+            "type": "Goal",
+            "clock": "75'",
+            "period": 2,
+            "teamId": "628",
+            "teamName": "Australia",
+            "athletes": [
+              {
+                "id": "260643",
+                "name": "Connor Metcalfe"
+              }
+            ],
+            "text": "Goal! Australia 2, Türkiye 0. Connor Metcalfe (Australia) left footed shot from outside the box to the bottom right corner.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504578",
+            "type": "Substitution",
+            "clock": "81'",
+            "period": 2,
+            "teamId": "465",
+            "teamName": "Türkiye",
+            "athletes": [
+              {
+                "id": "225563",
+                "name": "Salih Özcan"
+              },
+              {
+                "id": "305629",
+                "name": "Ismail Yüksek"
+              }
+            ],
+            "text": "Substitution, Türkiye. Salih Özcan replaces Ismail Yüksek.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504581",
+            "type": "Substitution",
+            "clock": "81'",
+            "period": 2,
+            "teamId": "465",
+            "teamName": "Türkiye",
+            "athletes": [
+              {
+                "id": "266002",
+                "name": "Mert Müldür"
+              },
+              {
+                "id": "271873",
+                "name": "Zeki Çelik"
+              }
+            ],
+            "text": "Substitution, Türkiye. Mert Müldür replaces Zeki Çelik.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504624",
+            "type": "Substitution",
+            "clock": "84'",
+            "period": 2,
+            "teamId": "628",
+            "teamName": "Australia",
+            "athletes": [
+              {
+                "id": "200414",
+                "name": "Aziz Behich"
+              },
+              {
+                "id": "328541",
+                "name": "Jordan Bos"
+              }
+            ],
+            "text": "Substitution, Australia. Aziz Behich replaces Jordan Bos.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504625",
+            "type": "Substitution",
+            "clock": "84'",
+            "period": 2,
+            "teamId": "628",
+            "teamName": "Australia",
+            "athletes": [
+              {
+                "id": "178071",
+                "name": "Jackson Irvine"
+              },
+              {
+                "id": "403528",
+                "name": "Paul Okon-Engstler"
+              }
+            ],
+            "text": "Substitution, Australia. Jackson Irvine replaces Paul Okon-Engstler.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504639",
+            "type": "Substitution",
+            "clock": "85'",
+            "period": 2,
+            "teamId": "465",
+            "teamName": "Türkiye",
+            "athletes": [
+              {
+                "id": "350513",
+                "name": "Deniz Gül"
+              },
+              {
+                "id": "306789",
+                "name": "Kerem Aktürkoglu"
+              }
+            ],
+            "text": "Substitution, Türkiye. Deniz Gül replaces Kerem Aktürkoglu.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49504644",
+            "type": "Yellow Card",
+            "clock": "86'",
+            "period": 2,
+            "teamId": "465",
+            "teamName": "Türkiye",
+            "athletes": [
+              {
+                "id": "266575",
+                "name": "Yunus Akgün"
+              }
+            ],
+            "text": "Yunus Akgün (Türkiye) is shown the yellow card for a bad foul.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
           }
         ],
         "commentary": [
@@ -54460,6 +54946,236 @@
           {
             "time": "1'",
             "text": "Foul by Aiden O'Neill (Australia).",
+            "type": null
+          },
+          {
+            "time": "3'",
+            "text": "Attempt blocked. Hakan Çalhanoglu (Türkiye) right footed shot from outside the box is blocked. Assisted by Ferdi Kadioglu.",
+            "type": null
+          },
+          {
+            "time": "3'",
+            "text": "Corner, Türkiye. Conceded by Paul Okon-Engstler.",
+            "type": null
+          },
+          {
+            "time": "4'",
+            "text": "Attempt blocked. Ismail Yüksek (Türkiye) header from the centre of the box is blocked. Assisted by Hakan Çalhanoglu with a cross.",
+            "type": null
+          },
+          {
+            "time": "4'",
+            "text": "Corner, Türkiye. Conceded by Harry Souttar.",
+            "type": null
+          },
+          {
+            "time": "7'",
+            "text": "Attempt missed. Arda Güler (Türkiye) left footed shot from the right side of the box is high and wide to the left. Assisted by Orkun Kökçü.",
+            "type": null
+          },
+          {
+            "time": "7'",
+            "text": "Corner, Australia. Conceded by Abdülkerim Bardakci.",
+            "type": null
+          },
+          {
+            "time": "15'",
+            "text": "Offside, Türkiye. Baris Alper Yilmaz is caught offside.",
+            "type": null
+          },
+          {
+            "time": "16'",
+            "text": "Corner, Australia. Conceded by Merih Demiral.",
+            "type": null
+          },
+          {
+            "time": "17'",
+            "text": "Attempt missed. Alessandro Circati (Australia) header from the left side of the six yard box is high and wide to the left. Assisted by Connor Metcalfe with a cross following a corner.",
+            "type": null
+          },
+          {
+            "time": "18'",
+            "text": "Foul by Alessandro Circati (Australia).",
+            "type": null
+          },
+          {
+            "time": "18'",
+            "text": "Orkun Kökçü (Türkiye) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "19'",
+            "text": "Attempt missed. Ferdi Kadioglu (Türkiye) right footed shot from outside the box is too high. Assisted by Hakan Çalhanoglu.",
+            "type": null
+          },
+          {
+            "time": "22'",
+            "text": "Mohamed Touré (Australia) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "22'",
+            "text": "Foul by Ismail Yüksek (Türkiye).",
+            "type": null
+          },
+          {
+            "time": "23'",
+            "text": "Delay in match for a drinks break.",
+            "type": null
+          },
+          {
+            "time": "25'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
+          },
+          {
+            "time": "27'",
+            "text": "Attempt saved. Arda Güler (Türkiye) right footed shot from the centre of the box is saved in the centre of the goal by Patrick Beach (Australia).",
+            "type": null
+          },
+          {
+            "time": "27'",
+            "text": "Goal! Australia 1, Türkiye 0. Nestory Irankunda (Australia) right footed shot from the centre of the box to the bottom left corner. Assisted by Paul Okon-Engstler.",
+            "type": null
+          },
+          {
+            "time": "30'",
+            "text": "Attempt saved. Abdülkerim Bardakci (Türkiye) left footed shot from outside the box is saved in the top left corner by Patrick Beach (Australia).",
+            "type": null
+          },
+          {
+            "time": "30'",
+            "text": "Attempt missed. Hakan Çalhanoglu (Türkiye) right footed shot from outside the box is high and wide to the right. Assisted by Orkun Kökçü.",
+            "type": null
+          },
+          {
+            "time": "33'",
+            "text": "Kerem Aktürkoglu (Türkiye) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "33'",
+            "text": "Foul by Harry Souttar (Australia).",
+            "type": null
+          },
+          {
+            "time": "34'",
+            "text": "Foul by Mohamed Touré (Australia).",
+            "type": null
+          },
+          {
+            "time": "34'",
+            "text": "Hakan Çalhanoglu (Türkiye) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "35'",
+            "text": "Arda Güler (Türkiye) wins a free kick on the right wing.",
+            "type": null
+          },
+          {
+            "time": "35'",
+            "text": "Foul by Nestory Irankunda (Australia).",
+            "type": null
+          },
+          {
+            "time": "36'",
+            "text": "Attempt missed. Orkun Kökçü (Türkiye) right footed shot from the centre of the box misses to the right. Assisted by Kerem Aktürkoglu with a headed pass.",
+            "type": null
+          },
+          {
+            "time": "39'",
+            "text": "Attempt missed. Jordan Bos (Australia) left footed shot from outside the box is high and wide to the left. Assisted by Paul Okon-Engstler.",
+            "type": null
+          },
+          {
+            "time": "39'",
+            "text": "Delay in match (Türkiye).",
+            "type": null
+          },
+          {
+            "time": "39'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
+          },
+          {
+            "time": "42'",
+            "text": "Attempt missed. Arda Güler (Türkiye) left footed shot from outside the box is high and wide to the left. Assisted by Orkun Kökçü.",
+            "type": null
+          },
+          {
+            "time": "44'",
+            "text": "VAR Decision: Other Decision Cancelled.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Attempt saved. Nestory Irankunda (Australia) right footed shot from the centre of the box is saved in the centre of the goal by Ugurcan Çakir (Türkiye). Assisted by Jordan Bos.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Fourth official has announced 4 minutes of added time.",
+            "type": null
+          },
+          {
+            "time": "45'+4'",
+            "text": "Attempt blocked. Kerem Aktürkoglu (Türkiye) left footed shot from the centre of the box is blocked.",
+            "type": null
+          },
+          {
+            "time": "45'+5'",
+            "text": "First Half ends, Australia 1, Türkiye 0.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Substitution, Türkiye. Kenan Yildiz replaces Baris Alper Yilmaz.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Second Half begins Australia 1, Türkiye 0.",
+            "type": null
+          },
+          {
+            "time": "46'",
+            "text": "Attempt saved. Hakan Çalhanoglu (Türkiye) right footed shot from outside the box is saved in the centre of the goal by Patrick Beach (Australia). Assisted by Ferdi Kadioglu.",
+            "type": null
+          },
+          {
+            "time": "47'",
+            "text": "Merih Demiral (Türkiye) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "47'",
+            "text": "Foul by Mohamed Touré (Australia).",
+            "type": null
+          },
+          {
+            "time": "48'",
+            "text": "Attempt blocked. Jordan Bos (Australia) right footed shot from the left side of the box is blocked. Assisted by Mohamed Touré.",
+            "type": null
+          },
+          {
+            "time": "48'",
+            "text": "Corner, Australia. Conceded by Merih Demiral.",
+            "type": null
+          },
+          {
+            "time": "49'",
+            "text": "Attempt missed. Jacob Italiano (Australia) right footed shot from outside the box is high and wide to the right. Assisted by Harry Souttar following a corner.",
+            "type": null
+          },
+          {
+            "time": "50'",
+            "text": "Attempt blocked. Hakan Çalhanoglu (Türkiye) right footed shot from the centre of the box is blocked.",
+            "type": null
+          },
+          {
+            "time": "50'",
+            "text": "Attempt blocked. Ismail Yüksek (Türkiye) left footed shot from outside the box is blocked.",
             "type": null
           }
         ],
@@ -54485,27 +55201,51 @@
               {
                 "name": "totalShots",
                 "displayName": "Total Shots",
-                "leader": null
+                "leader": {
+                  "name": "Jordan Bos",
+                  "shortName": "J. Bos",
+                  "jersey": "5",
+                  "position": "Defender",
+                  "value": "2",
+                  "summary": "0 SOG, 0.08 xG",
+                  "stats": [
+                    {
+                      "name": "totalShots",
+                      "value": "2",
+                      "label": "SHOT"
+                    },
+                    {
+                      "name": "shotsOnTarget",
+                      "value": "0",
+                      "label": "SOG"
+                    },
+                    {
+                      "name": "expectedGoals",
+                      "value": "0.08",
+                      "label": "xG"
+                    }
+                  ]
+                }
               },
               {
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "Alessandro Circati",
-                  "shortName": "A. Circati",
-                  "jersey": "3",
+                  "name": "Cameron Burgess",
+                  "shortName": "C. Burgess",
+                  "jersey": "21",
                   "position": "Defender",
-                  "value": "2",
-                  "summary": "2 PASS",
+                  "value": "38",
+                  "summary": "41 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "2",
+                      "value": "38",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "2",
+                      "value": "41",
                       "label": "PASS"
                     }
                   ]
@@ -54515,22 +55255,27 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Paul Okon-Engstler",
-                  "shortName": "P. Okon-Engstler",
-                  "jersey": "24",
-                  "position": "Midfielder",
-                  "value": "1",
-                  "summary": "0 TKLW",
+                  "name": "Alessandro Circati",
+                  "shortName": "A. Circati",
+                  "jersey": "3",
+                  "position": "Defender",
+                  "value": "13",
+                  "summary": "0 TKLW, 2 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "1",
+                      "value": "13",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
                       "value": "0",
                       "label": "TKLW"
+                    },
+                    {
+                      "name": "duelsWon",
+                      "value": "2",
+                      "label": "DUELW"
                     }
                   ]
                 }
@@ -54538,7 +55283,31 @@
               {
                 "name": "saves",
                 "displayName": "Saves",
-                "leader": null
+                "leader": {
+                  "name": "Patrick Beach",
+                  "shortName": "P. Beach",
+                  "jersey": "18",
+                  "position": "Goalkeeper",
+                  "value": "7",
+                  "summary": "7 SOGA, 1.24 xGC",
+                  "stats": [
+                    {
+                      "name": "saves",
+                      "value": "7",
+                      "label": "SV"
+                    },
+                    {
+                      "name": "shotsOnGoalAgainst",
+                      "value": "7",
+                      "label": "SOGA"
+                    },
+                    {
+                      "name": "expectedGoalsConceded",
+                      "value": "1.24",
+                      "label": "xGC"
+                    }
+                  ]
+                }
               }
             ]
           },
@@ -54549,27 +55318,51 @@
               {
                 "name": "totalShots",
                 "displayName": "Total Shots",
-                "leader": null
+                "leader": {
+                  "name": "Arda Güler",
+                  "shortName": "A. Güler",
+                  "jersey": "8",
+                  "position": "Midfielder",
+                  "value": "7",
+                  "summary": "2 SOG, 0.21 xG",
+                  "stats": [
+                    {
+                      "name": "totalShots",
+                      "value": "7",
+                      "label": "SHOT"
+                    },
+                    {
+                      "name": "shotsOnTarget",
+                      "value": "2",
+                      "label": "SOG"
+                    },
+                    {
+                      "name": "expectedGoals",
+                      "value": "0.21",
+                      "label": "xG"
+                    }
+                  ]
+                }
               },
               {
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "Hakan Çalhanoglu",
-                  "shortName": "H. Çalhanoglu",
-                  "jersey": "10",
-                  "position": "Midfielder",
-                  "value": "8",
-                  "summary": "8 PASS",
+                  "name": "Abdülkerim Bardakçi",
+                  "shortName": "A. Bardakçi",
+                  "jersey": "14",
+                  "position": "Defender",
+                  "value": "82",
+                  "summary": "88 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "8",
+                      "value": "82",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "8",
+                      "value": "88",
                       "label": "PASS"
                     }
                   ]
@@ -54579,16 +55372,16 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Ismail Yüksek",
-                  "shortName": "I. Yüksek",
-                  "jersey": "16",
-                  "position": "Midfielder",
-                  "value": "2",
-                  "summary": "1 TKLW, 1 DUELW",
+                  "name": "Abdülkerim Bardakçi",
+                  "shortName": "A. Bardakçi",
+                  "jersey": "14",
+                  "position": "Defender",
+                  "value": "10",
+                  "summary": "1 TKLW, 8 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "2",
+                      "value": "10",
                       "label": "DINT"
                     },
                     {
@@ -54598,7 +55391,7 @@
                     },
                     {
                       "name": "duelsWon",
-                      "value": "1",
+                      "value": "8",
                       "label": "DUELW"
                     }
                   ]
@@ -54607,7 +55400,31 @@
               {
                 "name": "saves",
                 "displayName": "Saves",
-                "leader": null
+                "leader": {
+                  "name": "Ugurcan Çakir",
+                  "shortName": "U. Çakir",
+                  "jersey": "23",
+                  "position": "Goalkeeper",
+                  "value": "2",
+                  "summary": "4 SOGA, 0.81 xGC",
+                  "stats": [
+                    {
+                      "name": "saves",
+                      "value": "2",
+                      "label": "SV"
+                    },
+                    {
+                      "name": "shotsOnGoalAgainst",
+                      "value": "4",
+                      "label": "SOGA"
+                    },
+                    {
+                      "name": "expectedGoalsConceded",
+                      "value": "0.81",
+                      "label": "xGC"
+                    }
+                  ]
+                }
               }
             ]
           }
