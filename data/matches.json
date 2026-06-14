@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-14T20:35:39.745Z",
+    "lastUpdated": "2026-06-14T21:05:10.762Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -61419,9 +61419,9 @@
       "shortName": "JPN @ NED",
       "status": {
         "state": "in",
-        "detail": "34'",
-        "shortDetail": "34'",
-        "clock": "34'",
+        "detail": "HT",
+        "shortDetail": "HT",
+        "clock": "45'+3'",
         "period": 1,
         "completed": false
       },
@@ -61462,7 +61462,7 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "2",
+                "value": "3",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -61478,7 +61478,7 @@
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "2",
+                "value": "3",
                 "label": "Corner Kicks"
               },
               "saves": {
@@ -61486,11 +61486,11 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "67.8",
+                "value": "69.2",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "3",
+                "value": "4",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
@@ -61498,7 +61498,7 @@
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.7",
+                "value": "0.5",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -61510,11 +61510,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "216",
+                "value": "307",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "241",
+                "value": "340",
                 "label": "Passes"
               },
               "passPct": {
@@ -61526,19 +61526,19 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "7",
+                "value": "11",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.4",
+                "value": "0.3",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "15",
+                "value": "18",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "7",
+                "value": "9",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -61583,7 +61583,7 @@
             "homeAway": "away",
             "stats": {
               "foulsCommitted": {
-                "value": "1",
+                "value": "3",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -61603,15 +61603,15 @@
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "1",
+                "value": "2",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "32.2",
+                "value": "30.8",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "1",
+                "value": "3",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
@@ -61631,11 +61631,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "96",
+                "value": "130",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "112",
+                "value": "147",
                 "label": "Passes"
               },
               "passPct": {
@@ -61643,27 +61643,27 @@
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "0",
+                "value": "1",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "6",
+                "value": "8",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.0",
+                "value": "0.1",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "9",
+                "value": "12",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "5",
+                "value": "8",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.6",
+                "value": "0.7",
                 "label": "Long Balls %"
               },
               "blockedShots": {
@@ -61683,15 +61683,15 @@
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "2",
+                "value": "3",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "16",
+                "value": "21",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "16",
+                "value": "21",
                 "label": "Clearances"
               }
             }
@@ -62125,7 +62125,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -62509,7 +62509,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -62535,7 +62535,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -63869,7 +63869,7 @@
                   },
                   {
                     "name": "saves",
-                    "value": "1",
+                    "value": "2",
                     "label": "SV"
                   },
                   {
@@ -63996,7 +63996,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -64320,7 +64320,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -64380,7 +64380,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -64542,7 +64542,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -64649,7 +64649,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -66044,6 +66044,19 @@
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
+          },
+          {
+            "id": "49513090",
+            "type": "Halftime",
+            "clock": "45'+3'",
+            "period": 1,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": "First Half ends, Netherlands 0, Japan 0.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
           }
         ],
         "commentary": [
@@ -66134,12 +66147,72 @@
           },
           {
             "time": "34'",
-            "text": "Attempt saved. Donyell Malen (Netherlands) header from the centre of the box is saved.",
+            "text": "Attempt saved. Donyell Malen (Netherlands) header from the centre of the box is saved in the centre of the goal by Zion Suzuki (Japan). Assisted by Tijjani Reijnders with a cross.",
             "type": null
           },
           {
             "time": "34'",
-            "text": "Attempt missed. Micky van de Ven (Netherlands) header from the centre of the box following a corner.",
+            "text": "Attempt missed. Micky van de Ven (Netherlands) header from the right side of the box is too high. Assisted by Tijjani Reijnders with a cross following a corner.",
+            "type": null
+          },
+          {
+            "time": "35'",
+            "text": "Handball by Keito Nakamura (Japan).",
+            "type": null
+          },
+          {
+            "time": "36'",
+            "text": "Attempt missed. Cody Gakpo (Netherlands) right footed shot from the centre of the box is high and wide to the right. Assisted by Denzel Dumfries following a set piece situation.",
+            "type": null
+          },
+          {
+            "time": "43'",
+            "text": "Attempt missed. Keito Nakamura (Japan) right footed shot from the left side of the box is close, but misses to the left. Assisted by Tsuyoshi Watanabe with a cross.",
+            "type": null
+          },
+          {
+            "time": "44'",
+            "text": "Takefusa Kubo (Japan) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "44'",
+            "text": "Foul by Frenkie de Jong (Netherlands).",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Attempt missed. Ayase Ueda (Japan) right footed shot from the right side of the box is close, but misses to the right. Assisted by Daichi Kamada with a through ball.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Fourth official has announced 3 minutes of added time.",
+            "type": null
+          },
+          {
+            "time": "45'+1'",
+            "text": "Crysencio Summerville (Netherlands) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "45'+1'",
+            "text": "Foul by Hiroki Ito (Japan).",
+            "type": null
+          },
+          {
+            "time": "45'+2'",
+            "text": "Corner, Netherlands. Conceded by Keito Nakamura.",
+            "type": null
+          },
+          {
+            "time": "45'+3'",
+            "text": "First Half ends, Netherlands 0, Japan 0.",
+            "type": null
+          },
+          {
+            "time": "45'+3'",
+            "text": "First Half ends, Netherlands 0, Japan 0.",
             "type": null
           }
         ],
@@ -66171,7 +66244,7 @@
                   "jersey": "18",
                   "position": "Forward",
                   "value": "2",
-                  "summary": "2 SOG, 0.06 xG",
+                  "summary": "2 SOG, 0.14 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -66185,7 +66258,7 @@
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.06",
+                      "value": "0.14",
                       "label": "xG"
                     }
                   ]
@@ -66195,21 +66268,21 @@
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "Jan Paul van Hecke",
-                  "shortName": "J. van Hecke",
-                  "jersey": "6",
+                  "name": "Virgil van Dijk",
+                  "shortName": "V. van Dijk",
+                  "jersey": "4",
                   "position": "Defender",
-                  "value": "45",
-                  "summary": "48 PASS",
+                  "value": "68",
+                  "summary": "74 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "45",
+                      "value": "68",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "48",
+                      "value": "74",
                       "label": "PASS"
                     }
                   ]
@@ -66259,12 +66332,12 @@
                 "name": "totalShots",
                 "displayName": "Total Shots",
                 "leader": {
-                  "name": "Hiroki Ito",
-                  "shortName": "H. Ito",
-                  "jersey": "21",
-                  "position": "Defender",
+                  "name": "Ayase Ueda",
+                  "shortName": "A. Ueda",
+                  "jersey": "18",
+                  "position": "Forward",
                   "value": "1",
-                  "summary": "0 SOG, 0.03 xG",
+                  "summary": "0 SOG, 0.07 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -66278,7 +66351,7 @@
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.03",
+                      "value": "0.07",
                       "label": "xG"
                     }
                   ]
@@ -66292,17 +66365,17 @@
                   "shortName": "D. Kamada",
                   "jersey": "15",
                   "position": "Midfielder",
-                  "value": "17",
-                  "summary": "21 PASS",
+                  "value": "26",
+                  "summary": "30 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "17",
+                      "value": "26",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "21",
+                      "value": "30",
                       "label": "PASS"
                     }
                   ]
@@ -66316,12 +66389,12 @@
                   "shortName": "T. Watanabe",
                   "jersey": "16",
                   "position": "Defender",
-                  "value": "5",
-                  "summary": "1 TKLW, 2 DUELW",
+                  "value": "6",
+                  "summary": "1 TKLW, 3 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "5",
+                      "value": "6",
                       "label": "DINT"
                     },
                     {
@@ -66331,7 +66404,7 @@
                     },
                     {
                       "name": "duelsWon",
-                      "value": "2",
+                      "value": "3",
                       "label": "DUELW"
                     }
                   ]
@@ -66345,22 +66418,22 @@
                   "shortName": "Z. Suzuki",
                   "jersey": "1",
                   "position": "Goalkeeper",
-                  "value": "1",
-                  "summary": "1 SOGA, 0.06 xGC",
+                  "value": "2",
+                  "summary": "2 SOGA, 0.34 xGC",
                   "stats": [
                     {
                       "name": "saves",
-                      "value": "1",
+                      "value": "2",
                       "label": "SV"
                     },
                     {
                       "name": "shotsOnGoalAgainst",
-                      "value": "1",
+                      "value": "2",
                       "label": "SOGA"
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.06",
+                      "value": "0.34",
                       "label": "xGC"
                     }
                   ]
