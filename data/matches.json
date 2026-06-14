@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-14T23:20:47.691Z",
+    "lastUpdated": "2026-06-14T23:54:41.856Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -61713,7 +61713,7 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "59.8",
+                "value": "59.7",
                 "label": "Possession"
               },
               "totalShots": {
@@ -61741,7 +61741,7 @@
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "525",
+                "value": "524",
                 "label": "Passes"
               },
               "passPct": {
@@ -61793,11 +61793,11 @@
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "22",
+                "value": "23",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "22",
+                "value": "23",
                 "label": "Clearances"
               }
             }
@@ -61834,7 +61834,7 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "40.2",
+                "value": "40.3",
                 "label": "Possession"
               },
               "totalShots": {
@@ -66431,19 +66431,6 @@
             "ownGoal": false
           },
           {
-            "id": "49514200",
-            "type": "End Delay",
-            "clock": "69'",
-            "period": 2,
-            "teamId": "449",
-            "teamName": "Netherlands",
-            "athletes": [],
-            "text": "Delay over. They are ready to continue.",
-            "shootout": false,
-            "penaltyKick": false,
-            "ownGoal": false
-          },
-          {
             "id": "49514199",
             "type": "End Delay",
             "clock": "69'",
@@ -66452,6 +66439,19 @@
             "teamName": "Japan",
             "athletes": [],
             "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49514200",
+            "type": "End Delay",
+            "clock": "69'",
+            "period": 2,
+            "teamId": "449",
+            "teamName": "Netherlands",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -67158,12 +67158,12 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Virgil van Dijk",
-                  "shortName": "V. van Dijk",
-                  "jersey": "4",
+                  "name": "Jan Paul van Hecke",
+                  "shortName": "J. van Hecke",
+                  "jersey": "6",
                   "position": "Defender",
                   "value": "9",
-                  "summary": "0 TKLW, 3 DUELW",
+                  "summary": "1 TKLW, 5 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
@@ -67172,12 +67172,12 @@
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "0",
+                      "value": "1",
                       "label": "TKLW"
                     },
                     {
                       "name": "duelsWon",
-                      "value": "3",
+                      "value": "5",
                       "label": "DUELW"
                     }
                   ]
@@ -67275,12 +67275,12 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Tsuyoshi Watanabe",
-                  "shortName": "T. Watanabe",
-                  "jersey": "16",
+                  "name": "Shogo Taniguchi",
+                  "shortName": "S. Taniguchi",
+                  "jersey": "3",
                   "position": "Defender",
                   "value": "9",
-                  "summary": "2 TKLW, 6 DUELW",
+                  "summary": "0 TKLW, 1 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
@@ -67289,12 +67289,12 @@
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "2",
+                      "value": "0",
                       "label": "TKLW"
                     },
                     {
                       "name": "duelsWon",
-                      "value": "6",
+                      "value": "1",
                       "label": "DUELW"
                     }
                   ]
@@ -67341,9 +67341,9 @@
       "shortName": "ECU @ CIV",
       "status": {
         "state": "in",
-        "detail": "17'",
-        "shortDetail": "17'",
-        "clock": "17'",
+        "detail": "HT",
+        "shortDetail": "HT",
+        "clock": "45'+4'",
         "period": 1,
         "completed": false
       },
@@ -67384,11 +67384,11 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "2",
+                "value": "8",
                 "label": "Fouls"
               },
               "yellowCards": {
-                "value": "0",
+                "value": "3",
                 "label": "Yellow Cards"
               },
               "redCards": {
@@ -67400,7 +67400,7 @@
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "0",
+                "value": "2",
                 "label": "Corner Kicks"
               },
               "saves": {
@@ -67408,19 +67408,19 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "52.7",
+                "value": "45.2",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "1",
+                "value": "6",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "0",
+                "value": "1",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.0",
+                "value": "0.2",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -67432,11 +67432,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "90",
+                "value": "193",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "109",
+                "value": "233",
                 "label": "Passes"
               },
               "passPct": {
@@ -67444,23 +67444,23 @@
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "0",
+                "value": "1",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "0",
+                "value": "5",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.0",
+                "value": "0.2",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "10",
+                "value": "20",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "4",
+                "value": "8",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -67468,31 +67468,31 @@
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "1",
+                "value": "3",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "1",
+                "value": "4",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "2",
+                "value": "7",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.5",
+                "value": "0.6",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "1",
+                "value": "5",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "3",
+                "value": "9",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "3",
+                "value": "9",
                 "label": "Clearances"
               }
             }
@@ -67505,7 +67505,7 @@
             "homeAway": "away",
             "stats": {
               "foulsCommitted": {
-                "value": "1",
+                "value": "3",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -67525,15 +67525,15 @@
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "0",
+                "value": "1",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "47.3",
+                "value": "54.8",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "2",
+                "value": "6",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
@@ -67553,35 +67553,35 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "81",
+                "value": "248",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "97",
+                "value": "285",
                 "label": "Passes"
               },
               "passPct": {
-                "value": "0.8",
+                "value": "0.9",
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "0",
+                "value": "1",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "0",
+                "value": "2",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.0",
+                "value": "0.5",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "9",
+                "value": "18",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "2",
+                "value": "4",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -67593,27 +67593,27 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "2",
+                "value": "7",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "5",
+                "value": "11",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.4",
+                "value": "0.6",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "3",
+                "value": "6",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "1",
+                "value": "11",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "1",
+                "value": "11",
                 "label": "Clearances"
               }
             }
@@ -67804,7 +67804,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -67864,7 +67864,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -67966,12 +67966,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -67991,88 +67991,7 @@
                   },
                   {
                     "name": "yellowCards",
-                    "value": "0",
-                    "label": "YC"
-                  },
-                  {
-                    "name": "goalsConceded",
-                    "value": "0",
-                    "label": "GA"
-                  },
-                  {
-                    "name": "shotsFaced",
-                    "value": "0",
-                    "label": "SHF"
-                  },
-                  {
-                    "name": "goalAssists",
-                    "value": "0",
-                    "label": "A"
-                  },
-                  {
-                    "name": "offsides",
-                    "value": "0",
-                    "label": "OF"
-                  },
-                  {
-                    "name": "shotsOnTarget",
-                    "value": "0",
-                    "label": "SOG"
-                  },
-                  {
-                    "name": "totalGoals",
-                    "value": "0",
-                    "label": "G"
-                  },
-                  {
-                    "name": "totalShots",
-                    "value": "0",
-                    "label": "SHOT"
-                  }
-                ]
-              },
-              {
-                "id": "194711",
-                "name": "Franck Kessié",
-                "shortName": "F. Kessié",
-                "position": "Center Left Midfielder",
-                "starter": true,
-                "subbedIn": false,
-                "subbedOut": false,
-                "stats": [
-                  {
-                    "name": "appearances",
                     "value": "1",
-                    "label": "APP"
-                  },
-                  {
-                    "name": "foulsCommitted",
-                    "value": "1",
-                    "label": "FC"
-                  },
-                  {
-                    "name": "foulsSuffered",
-                    "value": "1",
-                    "label": "FA"
-                  },
-                  {
-                    "name": "ownGoals",
-                    "value": "0",
-                    "label": "OG"
-                  },
-                  {
-                    "name": "redCards",
-                    "value": "0",
-                    "label": "RC"
-                  },
-                  {
-                    "name": "subIns",
-                    "value": "0",
-                    "label": "SUB"
-                  },
-                  {
-                    "name": "yellowCards",
-                    "value": "0",
                     "label": "YC"
                   },
                   {
@@ -68116,7 +68035,7 @@
                 "id": "184118",
                 "name": "Seko Fofana",
                 "shortName": "S. Fofana",
-                "position": "Center Right Midfielder",
+                "position": "Center Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
                 "subbedOut": false,
@@ -68128,7 +68047,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -68153,7 +68072,7 @@
                   },
                   {
                     "name": "yellowCards",
-                    "value": "0",
+                    "value": "1",
                     "label": "YC"
                   },
                   {
@@ -68188,7 +68107,88 @@
                   },
                   {
                     "name": "totalShots",
+                    "value": "2",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "194711",
+                "name": "Franck Kessié",
+                "shortName": "F. Kessié",
+                "position": "Center Right Midfielder",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
                     "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "3",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "1",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "1",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
                     "label": "SHOT"
                   }
                 ]
@@ -68421,7 +68421,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -68431,7 +68431,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -68512,7 +68512,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -69791,7 +69791,7 @@
                   },
                   {
                     "name": "saves",
-                    "value": "0",
+                    "value": "1",
                     "label": "SV"
                   },
                   {
@@ -69918,7 +69918,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -70166,7 +70166,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -70247,7 +70247,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -70308,9 +70308,9 @@
                 ]
               },
               {
-                "id": "277352",
-                "name": "Gonzalo Plata",
-                "shortName": "G. Plata",
+                "id": "265926",
+                "name": "John Yeboah",
+                "shortName": "J. Yeboah",
                 "position": "Right Midfielder",
                 "starter": true,
                 "subbedIn": false,
@@ -70383,7 +70383,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "3",
                     "label": "SHOT"
                   }
                 ]
@@ -70404,12 +70404,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "2",
+                    "value": "4",
                     "label": "FA"
                   },
                   {
@@ -70490,7 +70490,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -70545,15 +70545,15 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
               },
               {
-                "id": "265926",
-                "name": "John Yeboah",
-                "shortName": "J. Yeboah",
+                "id": "277352",
+                "name": "Gonzalo Plata",
+                "shortName": "G. Plata",
                 "position": "Center Right Forward",
                 "starter": true,
                 "subbedIn": false,
@@ -70626,7 +70626,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "1",
+                    "value": "0",
                     "label": "SHOT"
                   }
                 ]
@@ -71862,6 +71862,177 @@
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
+          },
+          {
+            "id": "49518202",
+            "type": "Start Delay",
+            "clock": "20'",
+            "period": 1,
+            "teamId": "209",
+            "teamName": "Ecuador",
+            "athletes": [],
+            "text": "Delay in match because of an injury Moisés Caicedo (Ecuador).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49518201",
+            "type": "Start Delay",
+            "clock": "20'",
+            "period": 1,
+            "teamId": "4789",
+            "teamName": "Ivory Coast",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49518236",
+            "type": "End Delay",
+            "clock": "20'",
+            "period": 1,
+            "teamId": "209",
+            "teamName": "Ecuador",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49518235",
+            "type": "End Delay",
+            "clock": "20'",
+            "period": 1,
+            "teamId": "4789",
+            "teamName": "Ivory Coast",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49518503",
+            "type": "Start Delay",
+            "clock": "24'",
+            "period": 1,
+            "teamId": "4789",
+            "teamName": "Ivory Coast",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49518508",
+            "type": "Start Delay",
+            "clock": "24'",
+            "period": 1,
+            "teamId": "209",
+            "teamName": "Ecuador",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49518597",
+            "type": "End Delay",
+            "clock": "27'",
+            "period": 1,
+            "teamId": "4789",
+            "teamName": "Ivory Coast",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49518598",
+            "type": "End Delay",
+            "clock": "27'",
+            "period": 1,
+            "teamId": "209",
+            "teamName": "Ecuador",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49518659",
+            "type": "Yellow Card",
+            "clock": "28'",
+            "period": 1,
+            "teamId": "4789",
+            "teamName": "Ivory Coast",
+            "athletes": [
+              {
+                "id": "184118",
+                "name": "Seko Fofana"
+              }
+            ],
+            "text": "Seko Fofana (Côte d'Ivoire) is shown the yellow card for a bad foul.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49519020",
+            "type": "Yellow Card",
+            "clock": "38'",
+            "period": 1,
+            "teamId": "4789",
+            "teamName": "Ivory Coast",
+            "athletes": [
+              {
+                "id": "194711",
+                "name": "Franck Kessié"
+              }
+            ],
+            "text": "Franck Kessie (Côte d'Ivoire) is shown the yellow card for a bad foul.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49519088",
+            "type": "Yellow Card",
+            "clock": "40'",
+            "period": 1,
+            "teamId": "4789",
+            "teamName": "Ivory Coast",
+            "athletes": [
+              {
+                "id": "346636",
+                "name": "Guela Doué"
+              }
+            ],
+            "text": "Guéla Doué (Côte d'Ivoire) is shown the yellow card for a bad foul.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49519448",
+            "type": "Halftime",
+            "clock": "45'+5'",
+            "period": 1,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
           }
         ],
         "commentary": [
@@ -71917,7 +72088,187 @@
           },
           {
             "time": "16'",
-            "text": "Attempt blocked. Seko Fofana (Côte d'Ivoire) right footed shot from outside the box is blocked.",
+            "text": "Attempt blocked. Seko Fofana (Côte d'Ivoire) right footed shot from outside the box is blocked. Assisted by Yan Diomande.",
+            "type": null
+          },
+          {
+            "time": "18'",
+            "text": "Attempt saved. Elye Wahi (Côte d'Ivoire) right footed shot from the centre of the box is saved in the bottom right corner by Hernán Galíndez (Ecuador). Assisted by Yan Diomande.",
+            "type": null
+          },
+          {
+            "time": "19'",
+            "text": "Corner, Côte d'Ivoire. Conceded by Joel Ordóñez.",
+            "type": null
+          },
+          {
+            "time": "20'",
+            "text": "Delay in match because of an injury Moisés Caicedo (Ecuador).",
+            "type": null
+          },
+          {
+            "time": "20'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
+          },
+          {
+            "time": "22'",
+            "text": "Enner Valencia (Ecuador) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "22'",
+            "text": "Foul by Wilfried Singo (Côte d'Ivoire).",
+            "type": null
+          },
+          {
+            "time": "23'",
+            "text": "John Yeboah (Ecuador) hits the bar with a left footed shot from outside the box.",
+            "type": null
+          },
+          {
+            "time": "24'",
+            "text": "Attempt missed. Alan Minda (Ecuador) right footed shot from outside the box misses to the right.",
+            "type": null
+          },
+          {
+            "time": "24'",
+            "text": "Delay in match for a drinks break.",
+            "type": null
+          },
+          {
+            "time": "27'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
+          },
+          {
+            "time": "28'",
+            "text": "Moisés Caicedo (Ecuador) wins a free kick on the right wing.",
+            "type": null
+          },
+          {
+            "time": "28'",
+            "text": "Foul by Seko Fofana (Côte d'Ivoire).",
+            "type": null
+          },
+          {
+            "time": "28'",
+            "text": "Seko Fofana (Côte d'Ivoire) is shown the yellow card for a bad foul.",
+            "type": null
+          },
+          {
+            "time": "30'",
+            "text": "Alan Minda (Ecuador) hits the bar with a right footed shot from the centre of the box. Assisted by Pedro Vite with a through ball.",
+            "type": null
+          },
+          {
+            "time": "30'",
+            "text": "Attempt missed. John Yeboah (Ecuador) left footed shot from outside the box misses to the left. Assisted by Moisés Caicedo.",
+            "type": null
+          },
+          {
+            "time": "33'",
+            "text": "Attempt missed. Seko Fofana (Côte d'Ivoire) right footed shot from outside the box is high and wide to the right. Assisted by Franck Kessie.",
+            "type": null
+          },
+          {
+            "time": "35'",
+            "text": "Attempt blocked. Nicolas Pépé (Côte d'Ivoire) left footed shot from the centre of the box is blocked. Assisted by Yan Diomande.",
+            "type": null
+          },
+          {
+            "time": "37'",
+            "text": "Guéla Doué (Côte d'Ivoire) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "37'",
+            "text": "Foul by Enner Valencia (Ecuador).",
+            "type": null
+          },
+          {
+            "time": "37'",
+            "text": "Foul by Guéla Doué (Côte d'Ivoire).",
+            "type": null
+          },
+          {
+            "time": "37'",
+            "text": "Alan Minda (Ecuador) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "38'",
+            "text": "Foul by Franck Kessie (Côte d'Ivoire).",
+            "type": null
+          },
+          {
+            "time": "38'",
+            "text": "Piero Hincapié (Ecuador) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "38'",
+            "text": "Franck Kessie (Côte d'Ivoire) is shown the yellow card for a bad foul.",
+            "type": null
+          },
+          {
+            "time": "40'",
+            "text": "Foul by Guéla Doué (Côte d'Ivoire).",
+            "type": null
+          },
+          {
+            "time": "40'",
+            "text": "Enner Valencia (Ecuador) wins a free kick on the left wing.",
+            "type": null
+          },
+          {
+            "time": "40'",
+            "text": "Guéla Doué (Côte d'Ivoire) is shown the yellow card for a bad foul.",
+            "type": null
+          },
+          {
+            "time": "41'",
+            "text": "Foul by Willian Pacho (Ecuador).",
+            "type": null
+          },
+          {
+            "time": "41'",
+            "text": "Guéla Doué (Côte d'Ivoire) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Fourth official has announced 4 minutes of added time.",
+            "type": null
+          },
+          {
+            "time": "45'+2'",
+            "text": "Corner, Côte d'Ivoire. Conceded by Pedro Vite.",
+            "type": null
+          },
+          {
+            "time": "45'+2'",
+            "text": "Attempt missed. Wilfried Singo (Côte d'Ivoire) right footed shot from the centre of the box is too high. Assisted by Guéla Doué with a cross following a corner.",
+            "type": null
+          },
+          {
+            "time": "45'+3'",
+            "text": "Attempt blocked. Nicolas Pépé (Côte d'Ivoire) left footed shot from outside the box is blocked. Assisted by Yan Diomande.",
+            "type": null
+          },
+          {
+            "time": "45'+4'",
+            "text": "Foul by Franck Kessie (Côte d'Ivoire).",
+            "type": null
+          },
+          {
+            "time": "45'+4'",
+            "text": "Moisés Caicedo (Ecuador) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "45'+5'",
+            "text": "First Half ends, Côte d'Ivoire 0, Ecuador 0.",
             "type": null
           }
         ],
@@ -71944,16 +72295,16 @@
                 "name": "totalShots",
                 "displayName": "Total Shots",
                 "leader": {
-                  "name": "Seko Fofana",
-                  "shortName": "S. Fofana",
-                  "jersey": "6",
-                  "position": "Midfielder",
-                  "value": "1",
-                  "summary": "0 SOG, 0.04 xG",
+                  "name": "Nicolas Pépé",
+                  "shortName": "N. Pépé",
+                  "jersey": "19",
+                  "position": "Forward",
+                  "value": "2",
+                  "summary": "0 SOG, 0.25 xG",
                   "stats": [
                     {
                       "name": "totalShots",
-                      "value": "1",
+                      "value": "2",
                       "label": "SHOT"
                     },
                     {
@@ -71963,7 +72314,7 @@
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.04",
+                      "value": "0.25",
                       "label": "xG"
                     }
                   ]
@@ -71973,21 +72324,21 @@
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "Emmanuel Agbadou",
-                  "shortName": "E. Agbadou",
-                  "jersey": "20",
-                  "position": "Defender",
-                  "value": "16",
-                  "summary": "17 PASS",
+                  "name": "Franck Kessié",
+                  "shortName": "F. Kessié",
+                  "jersey": "8",
+                  "position": "Midfielder",
+                  "value": "31",
+                  "summary": "35 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "16",
+                      "value": "31",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "17",
+                      "value": "35",
                       "label": "PASS"
                     }
                   ]
@@ -71997,22 +72348,27 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Wilfried Singo",
-                  "shortName": "W. Singo",
-                  "jersey": "5",
+                  "name": "Guela Doué",
+                  "shortName": "G. Doué",
+                  "jersey": "17",
                   "position": "Defender",
-                  "value": "2",
-                  "summary": "0 TKLW",
+                  "value": "6",
+                  "summary": "1 TKLW, 4 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "2",
+                      "value": "6",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "0",
+                      "value": "1",
                       "label": "TKLW"
+                    },
+                    {
+                      "name": "duelsWon",
+                      "value": "4",
+                      "label": "DUELW"
                     }
                   ]
                 }
@@ -72032,16 +72388,16 @@
                 "name": "totalShots",
                 "displayName": "Total Shots",
                 "leader": {
-                  "name": "Moisés Caicedo",
-                  "shortName": "M. Caicedo",
-                  "jersey": "23",
-                  "position": "Midfielder",
-                  "value": "1",
-                  "summary": "0 SOG, 0.03 xG",
+                  "name": "John Yeboah",
+                  "shortName": "J. Yeboah",
+                  "jersey": "9",
+                  "position": "Forward",
+                  "value": "3",
+                  "summary": "0 SOG, 0.14 xG",
                   "stats": [
                     {
                       "name": "totalShots",
-                      "value": "1",
+                      "value": "3",
                       "label": "SHOT"
                     },
                     {
@@ -72051,7 +72407,7 @@
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.03",
+                      "value": "0.14",
                       "label": "xG"
                     }
                   ]
@@ -72065,17 +72421,17 @@
                   "shortName": "W. Pacho",
                   "jersey": "6",
                   "position": "Defender",
-                  "value": "14",
-                  "summary": "17 PASS",
+                  "value": "48",
+                  "summary": "53 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "14",
+                      "value": "48",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "17",
+                      "value": "53",
                       "label": "PASS"
                     }
                   ]
@@ -72085,16 +72441,16 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Alan Franco",
-                  "shortName": "A. Franco",
-                  "jersey": "21",
-                  "position": "Midfielder",
-                  "value": "3",
-                  "summary": "1 TKLW, 1 DUELW",
+                  "name": "Willian Pacho",
+                  "shortName": "W. Pacho",
+                  "jersey": "6",
+                  "position": "Defender",
+                  "value": "7",
+                  "summary": "1 TKLW, 2 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "3",
+                      "value": "7",
                       "label": "DINT"
                     },
                     {
@@ -72104,7 +72460,7 @@
                     },
                     {
                       "name": "duelsWon",
-                      "value": "1",
+                      "value": "2",
                       "label": "DUELW"
                     }
                   ]
@@ -72113,7 +72469,31 @@
               {
                 "name": "saves",
                 "displayName": "Saves",
-                "leader": null
+                "leader": {
+                  "name": "Hernán Galíndez",
+                  "shortName": "H. Galíndez",
+                  "jersey": "1",
+                  "position": "Goalkeeper",
+                  "value": "1",
+                  "summary": "1 SOGA, 0.73 xGC",
+                  "stats": [
+                    {
+                      "name": "saves",
+                      "value": "1",
+                      "label": "SV"
+                    },
+                    {
+                      "name": "shotsOnGoalAgainst",
+                      "value": "1",
+                      "label": "SOGA"
+                    },
+                    {
+                      "name": "expectedGoalsConceded",
+                      "value": "0.73",
+                      "label": "xGC"
+                    }
+                  ]
+                }
               }
             ]
           }
