@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-15T05:20:30.929Z",
+    "lastUpdated": "2026-06-15T17:38:30.636Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -73252,7 +73252,7 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "49.1",
+                "value": "48.7",
                 "label": "Possession"
               },
               "totalShots": {
@@ -73276,11 +73276,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "279",
+                "value": "278",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "355",
+                "value": "356",
                 "label": "Passes"
               },
               "passPct": {
@@ -73316,7 +73316,7 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "10",
+                "value": "9",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
@@ -73324,19 +73324,19 @@
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.7",
+                "value": "0.6",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "8",
+                "value": "6",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "24",
+                "value": "23",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "24",
+                "value": "23",
                 "label": "Clearances"
               }
             }
@@ -73373,7 +73373,7 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "50.9",
+                "value": "51.3",
                 "label": "Possession"
               },
               "totalShots": {
@@ -73397,11 +73397,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "288",
+                "value": "292",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "364",
+                "value": "371",
                 "label": "Passes"
               },
               "passPct": {
@@ -73421,7 +73421,7 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "54",
+                "value": "53",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
@@ -73429,7 +73429,7 @@
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.4",
+                "value": "0.5",
                 "label": "Long Balls %"
               },
               "blockedShots": {
@@ -73437,11 +73437,11 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "11",
+                "value": "12",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "20",
+                "value": "21",
                 "label": "Tackles"
               },
               "tacklePct": {
@@ -73449,15 +73449,15 @@
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "5",
+                "value": "6",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "15",
+                "value": "13",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "15",
+                "value": "13",
                 "label": "Clearances"
               }
             }
@@ -78257,7 +78257,7 @@
           {
             "id": "49521705",
             "type": "End Delay",
-            "clock": "87'",
+            "clock": "86'",
             "period": 2,
             "teamId": "466",
             "teamName": "Sweden",
@@ -78270,7 +78270,7 @@
           {
             "id": "49521741",
             "type": "Substitution",
-            "clock": "90'+1'",
+            "clock": "90'",
             "period": 2,
             "teamId": "466",
             "teamName": "Sweden",
@@ -78580,7 +78580,7 @@
           },
           {
             "time": "55'",
-            "text": "Attempt missed. Montassar Talbi (Tunisia) header from the centre of the box is high and wide to the left. Assisted by Hannibal Mejbri with a cross following a corner.",
+            "text": "Attempt missed. Montassar Talbi (Tunisia) header from the centre of the box misses to the left. Assisted by Hannibal Mejbri with a cross following a corner.",
             "type": null
           },
           {
@@ -78675,16 +78675,16 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Gabriel Gudmundsson",
-                  "shortName": "G. Gudmundsson",
-                  "jersey": "5",
-                  "position": "Defender",
-                  "value": "10",
-                  "summary": "1 TKLW, 7 DUELW",
+                  "name": "Alexander Bernhardsson",
+                  "shortName": "A. Bernhardsson",
+                  "jersey": "21",
+                  "position": "Forward",
+                  "value": "9",
+                  "summary": "1 TKLW, 8 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "10",
+                      "value": "9",
                       "label": "DINT"
                     },
                     {
@@ -78694,7 +78694,7 @@
                     },
                     {
                       "name": "duelsWon",
-                      "value": "7",
+                      "value": "8",
                       "label": "DUELW"
                     }
                   ]
@@ -78709,7 +78709,7 @@
                   "jersey": "23",
                   "position": "Goalkeeper",
                   "value": "1",
-                  "summary": "2 SOGA, 0.29 xGC",
+                  "summary": "2 SOGA, 0.28 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -78723,7 +78723,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.29",
+                      "value": "0.28",
                       "label": "xGC"
                     }
                   ]
@@ -78796,12 +78796,12 @@
                   "shortName": "M. Ben Hamida",
                   "jersey": "21",
                   "position": "Defender",
-                  "value": "13",
+                  "value": "14",
                   "summary": "3 TKLW, 6 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "13",
+                      "value": "14",
                       "label": "DINT"
                     },
                     {
@@ -78826,7 +78826,7 @@
                   "jersey": "1",
                   "position": "Goalkeeper",
                   "value": "1",
-                  "summary": "6 SOGA, 1.37 xGC",
+                  "summary": "6 SOGA, 1.33 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -78840,7 +78840,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "1.37",
+                      "value": "1.33",
                       "label": "xGC"
                     }
                   ]
@@ -78857,10 +78857,11 @@
       "name": "Cape Verde at Spain",
       "shortName": "CPV @ ESP",
       "status": {
-        "state": "pre",
-        "detail": "Mon, June 15th at 12:00 PM EDT",
-        "shortDetail": "Scheduled",
-        "clock": "0'",
+        "state": "in",
+        "detail": "76'",
+        "shortDetail": "76'",
+        "clock": "76'",
+        "period": 2,
         "completed": false
       },
       "venue": {
@@ -78868,7 +78869,7 @@
         "city": "Atlanta, Georgia",
         "country": "USA"
       },
-      "attendance": null,
+      "attendance": 67640,
       "home": {
         "id": "164",
         "name": "Spain",
@@ -78889,7 +78890,5334 @@
         "record": "0-0-0",
         "form": "WWLLL"
       },
-      "group": null
+      "group": null,
+      "details": {
+        "teamStats": [
+          {
+            "id": "164",
+            "name": "Spain",
+            "abbr": "ESP",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+            "homeAway": "home",
+            "stats": {
+              "foulsCommitted": {
+                "value": "8",
+                "label": "Fouls"
+              },
+              "yellowCards": {
+                "value": "0",
+                "label": "Yellow Cards"
+              },
+              "redCards": {
+                "value": "0",
+                "label": "Red Cards"
+              },
+              "offsides": {
+                "value": "2",
+                "label": "Offsides"
+              },
+              "wonCorners": {
+                "value": "7",
+                "label": "Corner Kicks"
+              },
+              "saves": {
+                "value": "0",
+                "label": "Saves"
+              },
+              "possessionPct": {
+                "value": "73.1",
+                "label": "POSSESSION"
+              },
+              "totalShots": {
+                "value": "20",
+                "label": "SHOTS"
+              },
+              "shotsOnTarget": {
+                "value": "6",
+                "label": "ON GOAL"
+              },
+              "shotPct": {
+                "value": "0.3",
+                "label": "On Target %"
+              },
+              "penaltyKickGoals": {
+                "value": "0",
+                "label": "Penalty Goals"
+              },
+              "penaltyKickShots": {
+                "value": "0",
+                "label": "Penalty Kicks Taken"
+              },
+              "accuratePasses": {
+                "value": "607",
+                "label": "Accurate Passes"
+              },
+              "totalPasses": {
+                "value": "654",
+                "label": "Passes"
+              },
+              "passPct": {
+                "value": "0.9",
+                "label": "Pass Completion %"
+              },
+              "accurateCrosses": {
+                "value": "4",
+                "label": "Accurate Crosses"
+              },
+              "totalCrosses": {
+                "value": "25",
+                "label": "Crosses"
+              },
+              "crossPct": {
+                "value": "0.2",
+                "label": "Cross %"
+              },
+              "totalLongBalls": {
+                "value": "26",
+                "label": "Long Balls"
+              },
+              "accurateLongBalls": {
+                "value": "21",
+                "label": "Accurate Long Balls"
+              },
+              "longballPct": {
+                "value": "0.8",
+                "label": "Long Balls %"
+              },
+              "blockedShots": {
+                "value": "5",
+                "label": "Blocked Shots"
+              },
+              "effectiveTackles": {
+                "value": "10",
+                "label": "Effective Tackles"
+              },
+              "totalTackles": {
+                "value": "11",
+                "label": "Tackles"
+              },
+              "tacklePct": {
+                "value": "0.9",
+                "label": "Tackle %"
+              },
+              "interceptions": {
+                "value": "5",
+                "label": "Interceptions"
+              },
+              "effectiveClearance": {
+                "value": "4",
+                "label": "Effective Clearances"
+              },
+              "totalClearance": {
+                "value": "4",
+                "label": "Clearances"
+              }
+            }
+          },
+          {
+            "id": "2597",
+            "name": "Cape Verde",
+            "abbr": "CPV",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+            "homeAway": "away",
+            "stats": {
+              "foulsCommitted": {
+                "value": "1",
+                "label": "Fouls"
+              },
+              "yellowCards": {
+                "value": "1",
+                "label": "Yellow Cards"
+              },
+              "redCards": {
+                "value": "0",
+                "label": "Red Cards"
+              },
+              "offsides": {
+                "value": "3",
+                "label": "Offsides"
+              },
+              "wonCorners": {
+                "value": "0",
+                "label": "Corner Kicks"
+              },
+              "saves": {
+                "value": "6",
+                "label": "Saves"
+              },
+              "possessionPct": {
+                "value": "26.9",
+                "label": "POSSESSION"
+              },
+              "totalShots": {
+                "value": "3",
+                "label": "SHOTS"
+              },
+              "shotsOnTarget": {
+                "value": "0",
+                "label": "ON GOAL"
+              },
+              "shotPct": {
+                "value": "0.0",
+                "label": "On Target %"
+              },
+              "penaltyKickGoals": {
+                "value": "0",
+                "label": "Penalty Goals"
+              },
+              "penaltyKickShots": {
+                "value": "0",
+                "label": "Penalty Kicks Taken"
+              },
+              "accuratePasses": {
+                "value": "180",
+                "label": "Accurate Passes"
+              },
+              "totalPasses": {
+                "value": "239",
+                "label": "Passes"
+              },
+              "passPct": {
+                "value": "0.8",
+                "label": "Pass Completion %"
+              },
+              "accurateCrosses": {
+                "value": "0",
+                "label": "Accurate Crosses"
+              },
+              "totalCrosses": {
+                "value": "3",
+                "label": "Crosses"
+              },
+              "crossPct": {
+                "value": "0.0",
+                "label": "Cross %"
+              },
+              "totalLongBalls": {
+                "value": "47",
+                "label": "Long Balls"
+              },
+              "accurateLongBalls": {
+                "value": "16",
+                "label": "Accurate Long Balls"
+              },
+              "longballPct": {
+                "value": "0.3",
+                "label": "Long Balls %"
+              },
+              "blockedShots": {
+                "value": "1",
+                "label": "Blocked Shots"
+              },
+              "effectiveTackles": {
+                "value": "8",
+                "label": "Effective Tackles"
+              },
+              "totalTackles": {
+                "value": "13",
+                "label": "Tackles"
+              },
+              "tacklePct": {
+                "value": "0.6",
+                "label": "Tackle %"
+              },
+              "interceptions": {
+                "value": "12",
+                "label": "Interceptions"
+              },
+              "effectiveClearance": {
+                "value": "26",
+                "label": "Effective Clearances"
+              },
+              "totalClearance": {
+                "value": "26",
+                "label": "Clearances"
+              }
+            }
+          }
+        ],
+        "lineups": [
+          {
+            "teamId": "164",
+            "teamName": "Spain",
+            "abbr": "ESP",
+            "formation": "4-3-3",
+            "players": [
+              {
+                "id": "222375",
+                "name": "Unai Simón",
+                "shortName": "U. Simón",
+                "position": "Goalkeeper",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "saves",
+                    "value": "0",
+                    "label": "SV"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "159317",
+                "name": "Aymeric Laporte",
+                "shortName": "A. Laporte",
+                "position": "Center Left Defender",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "1",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "2",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "368992",
+                "name": "Pau Cubarsí",
+                "shortName": "P. Cubarsí",
+                "position": "Center Right Defender",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "1",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "259910",
+                "name": "Marc Cucurella",
+                "shortName": "M. Cucurella",
+                "position": "Left Back",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "1",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "1",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "1",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "206474",
+                "name": "Marcos Llorente",
+                "shortName": "M. Llorente",
+                "position": "Right Back",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "1",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "1",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "231828",
+                "name": "Rodri",
+                "shortName": "Rodri",
+                "position": "Center Midfielder",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "1",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "1",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "250465",
+                "name": "Pedri",
+                "shortName": "Pedri",
+                "position": "Left Midfielder",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "1",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "1",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "1",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "214596",
+                "name": "Fabián Ruiz",
+                "shortName": "F. Ruiz",
+                "position": "Right Midfielder",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": true,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "1",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "5",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "229018",
+                "name": "Mikel Oyarzabal",
+                "shortName": "M. Oyarzabal",
+                "position": "Forward",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "1",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "3",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "323702",
+                "name": "Gavi",
+                "shortName": "Gavi",
+                "position": "Left Forward",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": true,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "2",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "1",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "265869",
+                "name": "Ferran Torres",
+                "shortName": "F. Torres",
+                "position": "Right Forward",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "2",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "1",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "4",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "196176",
+                "name": "David Raya",
+                "shortName": "D. Raya",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "saves",
+                    "value": "0",
+                    "label": "SV"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "397545",
+                "name": "Víctor Muñoz",
+                "shortName": "V. Muñoz",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "362150",
+                "name": "Lamine Yamal",
+                "shortName": "L. Yamal",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": true,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "1",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "297370",
+                "name": "Yéremy Pino",
+                "shortName": "Y. Pino",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "287266",
+                "name": "Martín Zubimendi",
+                "shortName": "M. Zubimendi",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "227765",
+                "name": "Dani Olmo",
+                "shortName": "D. Olmo",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "312146",
+                "name": "Nico Williams",
+                "shortName": "N. Williams",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "209581",
+                "name": "Mikel Merino",
+                "shortName": "M. Merino",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": true,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "1",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "1",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "1",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "1",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "268533",
+                "name": "Pedro Porro",
+                "shortName": "P. Porro",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "214995",
+                "name": "Borja Iglesias",
+                "shortName": "B. Iglesias",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "297362",
+                "name": "Joan García",
+                "shortName": "J. García",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "saves",
+                    "value": "0",
+                    "label": "SV"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "297373",
+                "name": "Álex Baena",
+                "shortName": "Á. Baena",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "166396",
+                "name": "Alejandro Grimaldo",
+                "shortName": "A. Grimaldo",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "332613",
+                "name": "Marc Pubill",
+                "shortName": "M. Pubill",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "128714",
+                "name": "Eric García",
+                "shortName": "E. García",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "teamId": "2597",
+            "teamName": "Cape Verde",
+            "abbr": "CPV",
+            "formation": "4-1-4-1",
+            "players": [
+              {
+                "id": "181330",
+                "name": "Vozinha",
+                "shortName": "Vozinha",
+                "position": "Goalkeeper",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "1",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "saves",
+                    "value": "6",
+                    "label": "SV"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "214683",
+                "name": "Diney Borges",
+                "shortName": "D. Borges",
+                "position": "Center Left Defender",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "257716",
+                "name": "Pico Lopes",
+                "shortName": "P. Lopes",
+                "position": "Center Right Defender",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "327173",
+                "name": "Kevin Pina",
+                "shortName": "K. Pina",
+                "position": "Defensive Midfielder",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "1",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "332394",
+                "name": "Sidny Lopes Cabral",
+                "shortName": "S. Lopes Cabral",
+                "position": "Left Back",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": true,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "1",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "2",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "1",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "180113",
+                "name": "Steven Moreira",
+                "shortName": "S. Moreira",
+                "position": "Right Back",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "1",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "227441",
+                "name": "Jamiro Monteiro",
+                "shortName": "J. Monteiro",
+                "position": "Center Left Midfielder",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "222236",
+                "name": "Laros Duarte",
+                "shortName": "L. Duarte",
+                "position": "Center Right Midfielder",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": true,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "250059",
+                "name": "Jovane Cabral",
+                "shortName": "J. Cabral",
+                "position": "Left Midfielder",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": true,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "1",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "135216",
+                "name": "Ryan Mendes",
+                "shortName": "R. Mendes",
+                "position": "Right Midfielder",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "2",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "2",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "330211",
+                "name": "Dailon Livramento",
+                "shortName": "D. Livramento",
+                "position": "Forward",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": true,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "1",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "1",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "1",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "148146",
+                "name": "Stopira",
+                "shortName": "Stopira",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "260758",
+                "name": "Márcio Rosa",
+                "shortName": "M. Rosa",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "saves",
+                    "value": "0",
+                    "label": "SV"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "366092",
+                "name": "Hélio Varela",
+                "shortName": "H. Varela",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "365810",
+                "name": "Wagner Pina",
+                "shortName": "W. Pina",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "310261",
+                "name": "Gilson Benchimol",
+                "shortName": "G. Benchimol",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "175012",
+                "name": "Garry Rodrigues",
+                "shortName": "G. Rodrigues",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "304076",
+                "name": "Telmo Arcanjo",
+                "shortName": "T. Arcanjo",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "271675",
+                "name": "Willy Semedo",
+                "shortName": "W. Semedo",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": true,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "1",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "271129",
+                "name": "Logan Costa",
+                "shortName": "L. Costa",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "101251",
+                "name": "Yannick Semedo",
+                "shortName": "Y. Semedo",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "224798",
+                "name": "Nuno da Costa",
+                "shortName": "N. da Costa",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": true,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "1",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "318631",
+                "name": "João Paulo",
+                "shortName": "J. Paulo",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": true,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "1",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "265874",
+                "name": "CJ dos Santos",
+                "shortName": "C. dos Santos",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "saves",
+                    "value": "0",
+                    "label": "SV"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "378479",
+                "name": "Kelvin Pires",
+                "shortName": "K. Pires",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "0",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "246442",
+                "name": "Deroy Duarte",
+                "shortName": "D. Duarte",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": true,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "1",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "0",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "keyEvents": [
+          {
+            "id": "49521938",
+            "type": "Kickoff",
+            "clock": null,
+            "period": 1,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": "First Half begins.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49521986",
+            "type": "Start Delay",
+            "clock": "4'",
+            "period": 1,
+            "teamId": "164",
+            "teamName": "Spain",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49521988",
+            "type": "End Delay",
+            "clock": "4'",
+            "period": 1,
+            "teamId": "164",
+            "teamName": "Spain",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49522229",
+            "type": "Yellow Card",
+            "clock": "16'",
+            "period": 1,
+            "teamId": "2597",
+            "teamName": "Cape Verde",
+            "athletes": [
+              {
+                "id": "332394",
+                "name": "Sidny Lopes Cabral"
+              }
+            ],
+            "text": "Sidny Cabral (Cabo Verde) is shown the yellow card for a bad foul.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49522362",
+            "type": "Start Delay",
+            "clock": "23'",
+            "period": 1,
+            "teamId": "164",
+            "teamName": "Spain",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49522361",
+            "type": "Start Delay",
+            "clock": "23'",
+            "period": 1,
+            "teamId": "2597",
+            "teamName": "Cape Verde",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49522363",
+            "type": "End Delay",
+            "clock": "26'",
+            "period": 1,
+            "teamId": "164",
+            "teamName": "Spain",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49522364",
+            "type": "End Delay",
+            "clock": "26'",
+            "period": 1,
+            "teamId": "2597",
+            "teamName": "Cape Verde",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49522769",
+            "type": "Halftime",
+            "clock": "45'+5'",
+            "period": 1,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49522776",
+            "type": "Start 2nd Half",
+            "clock": "45'",
+            "period": 2,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49523044",
+            "type": "Substitution",
+            "clock": "61'",
+            "period": 2,
+            "teamId": "2597",
+            "teamName": "Cape Verde",
+            "athletes": [
+              {
+                "id": "271675",
+                "name": "Willy Semedo"
+              },
+              {
+                "id": "250059",
+                "name": "Jovane Cabral"
+              }
+            ],
+            "text": "Substitution, Cabo Verde. Willy Semedo replaces Jovane Cabral because of an injury.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49523045",
+            "type": "Substitution",
+            "clock": "61'",
+            "period": 2,
+            "teamId": "2597",
+            "teamName": "Cape Verde",
+            "athletes": [
+              {
+                "id": "246442",
+                "name": "Deroy Duarte"
+              },
+              {
+                "id": "222236",
+                "name": "Laros Duarte"
+              }
+            ],
+            "text": "Substitution, Cabo Verde. Deroy Duarte replaces Laros Duarte.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49523046",
+            "type": "Substitution",
+            "clock": "61'",
+            "period": 2,
+            "teamId": "2597",
+            "teamName": "Cape Verde",
+            "athletes": [
+              {
+                "id": "224798",
+                "name": "Nuno da Costa"
+              },
+              {
+                "id": "330211",
+                "name": "Dailon Livramento"
+              }
+            ],
+            "text": "Substitution, Cabo Verde. Nuno da Costa replaces Dailon Livramento.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49523128",
+            "type": "Start Delay",
+            "clock": "65'",
+            "period": 2,
+            "teamId": "164",
+            "teamName": "Spain",
+            "athletes": [],
+            "text": "Delay in match because of an injury Aymeric Laporte (Spain).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49523129",
+            "type": "Start Delay",
+            "clock": "65'",
+            "period": 2,
+            "teamId": "2597",
+            "teamName": "Cape Verde",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49523131",
+            "type": "End Delay",
+            "clock": "65'",
+            "period": 2,
+            "teamId": "164",
+            "teamName": "Spain",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49523132",
+            "type": "End Delay",
+            "clock": "65'",
+            "period": 2,
+            "teamId": "2597",
+            "teamName": "Cape Verde",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49523193",
+            "type": "Start Delay",
+            "clock": "68'",
+            "period": 2,
+            "teamId": "164",
+            "teamName": "Spain",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49523192",
+            "type": "Start Delay",
+            "clock": "68'",
+            "period": 2,
+            "teamId": "2597",
+            "teamName": "Cape Verde",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49523195",
+            "type": "End Delay",
+            "clock": "71'",
+            "period": 2,
+            "teamId": "164",
+            "teamName": "Spain",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49523198",
+            "type": "End Delay",
+            "clock": "71'",
+            "period": 2,
+            "teamId": "2597",
+            "teamName": "Cape Verde",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49523196",
+            "type": "Substitution",
+            "clock": "71'",
+            "period": 2,
+            "teamId": "164",
+            "teamName": "Spain",
+            "athletes": [
+              {
+                "id": "209581",
+                "name": "Mikel Merino"
+              },
+              {
+                "id": "214596",
+                "name": "Fabián Ruiz"
+              }
+            ],
+            "text": "Substitution, Spain. Mikel Merino replaces Fabián Ruiz.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49523197",
+            "type": "Substitution",
+            "clock": "71'",
+            "period": 2,
+            "teamId": "164",
+            "teamName": "Spain",
+            "athletes": [
+              {
+                "id": "362150",
+                "name": "Lamine Yamal"
+              },
+              {
+                "id": "323702",
+                "name": "Gavi"
+              }
+            ],
+            "text": "Substitution, Spain. Lamine Yamal replaces Gavi.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49523291",
+            "type": "Substitution",
+            "clock": "76'",
+            "period": 2,
+            "teamId": "2597",
+            "teamName": "Cape Verde",
+            "athletes": [
+              {
+                "id": "318631",
+                "name": "João Paulo"
+              },
+              {
+                "id": "332394",
+                "name": "Sidny Lopes Cabral"
+              }
+            ],
+            "text": "Substitution, Cabo Verde. João Paulo replaces Sidny Cabral.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          }
+        ],
+        "commentary": [
+          {
+            "time": null,
+            "text": "Lineups are announced and players are warming up.",
+            "type": null
+          },
+          {
+            "time": null,
+            "text": "First Half begins.",
+            "type": null
+          },
+          {
+            "time": "2'",
+            "text": "Ryan Mendes (Cabo Verde) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "2'",
+            "text": "Foul by Marc Cucurella (Spain).",
+            "type": null
+          },
+          {
+            "time": "4'",
+            "text": "VAR Decision: Other Decision Cancelled.",
+            "type": null
+          },
+          {
+            "time": "10'",
+            "text": "Corner, Spain. Conceded by Jovane Cabral.",
+            "type": null
+          },
+          {
+            "time": "15'",
+            "text": "Handball by Gavi (Spain).",
+            "type": null
+          },
+          {
+            "time": "15'",
+            "text": "Attempt saved. Pedri (Spain) right footed shot from outside the box is saved in the centre of the goal by Vozinha (Cabo Verde).",
+            "type": null
+          },
+          {
+            "time": "16'",
+            "text": "Foul by Sidny Cabral (Cabo Verde).",
+            "type": null
+          },
+          {
+            "time": "16'",
+            "text": "Marcos Llorente (Spain) wins a free kick on the right wing.",
+            "type": null
+          },
+          {
+            "time": "16'",
+            "text": "Sidny Cabral (Cabo Verde) is shown the yellow card for a bad foul.",
+            "type": null
+          },
+          {
+            "time": "19'",
+            "text": "Attempt missed. Fabián Ruiz (Spain) left footed shot from outside the box misses to the left.",
+            "type": null
+          },
+          {
+            "time": "20'",
+            "text": "Attempt blocked. Pau Cubarsí (Spain) right footed shot from outside the box is blocked. Assisted by Rodri.",
+            "type": null
+          },
+          {
+            "time": "20'",
+            "text": "Offside, Cabo Verde. Dailon Livramento is caught offside.",
+            "type": null
+          },
+          {
+            "time": "22'",
+            "text": "Offside, Cabo Verde. Ryan Mendes is caught offside.",
+            "type": null
+          },
+          {
+            "time": "23'",
+            "text": "Delay in match for a drinks break.",
+            "type": null
+          },
+          {
+            "time": "26'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
+          },
+          {
+            "time": "27'",
+            "text": "Attempt blocked. Steven Moreira (Cabo Verde) right footed shot from the right side of the box is blocked.",
+            "type": null
+          },
+          {
+            "time": "29'",
+            "text": "Attempt blocked. Gavi (Spain) right footed shot from the left side of the box is blocked. Assisted by Marc Cucurella.",
+            "type": null
+          },
+          {
+            "time": "29'",
+            "text": "Attempt missed. Marc Cucurella (Spain) right footed shot from the left side of the box is too high.",
+            "type": null
+          },
+          {
+            "time": "33'",
+            "text": "Offside, Cabo Verde. Ryan Mendes is caught offside.",
+            "type": null
+          },
+          {
+            "time": "34'",
+            "text": "Foul by Ferran Torres (Spain).",
+            "type": null
+          },
+          {
+            "time": "34'",
+            "text": "Sidny Cabral (Cabo Verde) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "35'",
+            "text": "Foul by Ferran Torres (Spain).",
+            "type": null
+          },
+          {
+            "time": "35'",
+            "text": "Sidny Cabral (Cabo Verde) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "35'",
+            "text": "Attempt missed. Dailon Livramento (Cabo Verde) right footed shot from more than 35 yards misses to the left following a fast break.",
+            "type": null
+          },
+          {
+            "time": "36'",
+            "text": "Offside, Spain. Marc Cucurella is caught offside.",
+            "type": null
+          },
+          {
+            "time": "37'",
+            "text": "Foul by Marcos Llorente (Spain).",
+            "type": null
+          },
+          {
+            "time": "37'",
+            "text": "Dailon Livramento (Cabo Verde) wins a free kick on the left wing.",
+            "type": null
+          },
+          {
+            "time": "38'",
+            "text": "Attempt missed. Jovane Cabral (Cabo Verde) right footed shot from long range on the left is too high. Assisted by Sidny Cabral following a set piece situation.",
+            "type": null
+          },
+          {
+            "time": "39'",
+            "text": "Ferran Torres (Spain) hits the bar with a right footed shot from very close range. Assisted by Marc Cucurella with a headed pass.",
+            "type": null
+          },
+          {
+            "time": "39'",
+            "text": "Attempt saved. Mikel Oyarzabal (Spain) header from the centre of the box is saved in the top centre of the goal by Vozinha (Cabo Verde). Assisted by Ferran Torres.",
+            "type": null
+          },
+          {
+            "time": "39'",
+            "text": "Corner, Spain. Conceded by Vozinha.",
+            "type": null
+          },
+          {
+            "time": "40'",
+            "text": "Attempt blocked. Ferran Torres (Spain) header from very close range is blocked. Assisted by Pedri with a cross.",
+            "type": null
+          },
+          {
+            "time": "41'",
+            "text": "Attempt missed. Fabián Ruiz (Spain) left footed shot from outside the box is high and wide to the left. Assisted by Mikel Oyarzabal following a corner.",
+            "type": null
+          },
+          {
+            "time": "43'",
+            "text": "Offside, Spain. Pedri is caught offside.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Attempt saved. Ferran Torres (Spain) left footed shot from the centre of the box is saved in the centre of the goal by Vozinha (Cabo Verde).",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Fourth official has announced 4 minutes of added time.",
+            "type": null
+          },
+          {
+            "time": "45'+2'",
+            "text": "Corner, Spain. Conceded by Jovane Cabral.",
+            "type": null
+          },
+          {
+            "time": "45'+3'",
+            "text": "Attempt saved. Aymeric Laporte (Spain) header from the centre of the box is saved in the bottom left corner by Vozinha (Cabo Verde).",
+            "type": null
+          },
+          {
+            "time": "45'+3'",
+            "text": "Corner, Spain. Conceded by Vozinha.",
+            "type": null
+          },
+          {
+            "time": "45'+3'",
+            "text": "Attempt blocked. Rodri (Spain) header from the left side of the six yard box is blocked. Assisted by Pedri with a cross.",
+            "type": null
+          },
+          {
+            "time": "45'+4'",
+            "text": "Attempt missed. Mikel Oyarzabal (Spain) header from very close range misses to the right. Assisted by Marcos Llorente with a cross.",
+            "type": null
+          },
+          {
+            "time": "45'+5'",
+            "text": "First Half ends, Spain 0, Cabo Verde 0.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Second Half begins Spain 0, Cabo Verde 0.",
+            "type": null
+          },
+          {
+            "time": "48'",
+            "text": "Attempt missed. Mikel Oyarzabal (Spain) header from the centre of the box misses to the right. Assisted by Pedri with a cross.",
+            "type": null
+          },
+          {
+            "time": "48'",
+            "text": "Attempt missed. Fabián Ruiz (Spain) left footed shot from outside the box is just a bit too high. Assisted by Marcos Llorente.",
+            "type": null
+          },
+          {
+            "time": "51'",
+            "text": "Attempt missed. Fabián Ruiz (Spain) left footed shot from outside the box is too high. Assisted by Pedri.",
+            "type": null
+          },
+          {
+            "time": "52'",
+            "text": "Foul by Gavi (Spain).",
+            "type": null
+          },
+          {
+            "time": "52'",
+            "text": "Ryan Mendes (Cabo Verde) wins a free kick in the defensive half.",
+            "type": null
+          }
+        ],
+        "gameInfo": {
+          "attendance": null,
+          "venue": {
+            "name": "Mercedes-Benz Stadium",
+            "city": "Atlanta, Georgia",
+            "country": "USA"
+          },
+          "officials": [
+            {
+              "name": "Adham Mohammad",
+              "position": "Referee"
+            }
+          ]
+        },
+        "leaders": [
+          {
+            "teamId": "164",
+            "teamName": "Spain",
+            "categories": [
+              {
+                "name": "totalShots",
+                "displayName": "Total Shots",
+                "leader": {
+                  "name": "Fabián Ruiz",
+                  "shortName": "F. Ruiz",
+                  "jersey": "8",
+                  "position": "Midfielder",
+                  "value": "5",
+                  "summary": "1 SOG, 0.32 xG",
+                  "stats": [
+                    {
+                      "name": "totalShots",
+                      "value": "5",
+                      "label": "SHOT"
+                    },
+                    {
+                      "name": "shotsOnTarget",
+                      "value": "1",
+                      "label": "SOG"
+                    },
+                    {
+                      "name": "expectedGoals",
+                      "value": "0.32",
+                      "label": "xG"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "accuratePasses",
+                "displayName": "Accurate Passes",
+                "leader": {
+                  "name": "Rodri",
+                  "shortName": "Rodri",
+                  "jersey": "16",
+                  "position": "Midfielder",
+                  "value": "100",
+                  "summary": "108 PASS",
+                  "stats": [
+                    {
+                      "name": "accuratePasses",
+                      "value": "100",
+                      "label": "AC.PASS"
+                    },
+                    {
+                      "name": "totalPasses",
+                      "value": "108",
+                      "label": "PASS"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "defensiveInterventions",
+                "displayName": "Defensive Interventions",
+                "leader": {
+                  "name": "Pau Cubarsí",
+                  "shortName": "P. Cubarsí",
+                  "jersey": "22",
+                  "position": "Defender",
+                  "value": "5",
+                  "summary": "0 TKLW, 1 DUELW",
+                  "stats": [
+                    {
+                      "name": "defensiveInterventions",
+                      "value": "5",
+                      "label": "DINT"
+                    },
+                    {
+                      "name": "effectiveTackles",
+                      "value": "0",
+                      "label": "TKLW"
+                    },
+                    {
+                      "name": "duelsWon",
+                      "value": "1",
+                      "label": "DUELW"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "saves",
+                "displayName": "Saves",
+                "leader": null
+              }
+            ]
+          },
+          {
+            "teamId": "2597",
+            "teamName": "Cape Verde",
+            "categories": [
+              {
+                "name": "totalShots",
+                "displayName": "Total Shots",
+                "leader": {
+                  "name": "Dailon Livramento",
+                  "shortName": "D. Livramento",
+                  "jersey": "19",
+                  "position": "Forward",
+                  "value": "1",
+                  "summary": "0 SOG, 0.02 xG",
+                  "stats": [
+                    {
+                      "name": "totalShots",
+                      "value": "1",
+                      "label": "SHOT"
+                    },
+                    {
+                      "name": "shotsOnTarget",
+                      "value": "0",
+                      "label": "SOG"
+                    },
+                    {
+                      "name": "expectedGoals",
+                      "value": "0.02",
+                      "label": "xG"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "accuratePasses",
+                "displayName": "Accurate Passes",
+                "leader": {
+                  "name": "Pico Lopes",
+                  "shortName": "P. Lopes",
+                  "jersey": "4",
+                  "position": "Defender",
+                  "value": "30",
+                  "summary": "40 PASS",
+                  "stats": [
+                    {
+                      "name": "accuratePasses",
+                      "value": "30",
+                      "label": "AC.PASS"
+                    },
+                    {
+                      "name": "totalPasses",
+                      "value": "40",
+                      "label": "PASS"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "defensiveInterventions",
+                "displayName": "Defensive Interventions",
+                "leader": {
+                  "name": "Sidny Lopes Cabral",
+                  "shortName": "S. Lopes Cabral",
+                  "jersey": "13",
+                  "position": "Defender",
+                  "value": "13",
+                  "summary": "1 TKLW, 5 DUELW",
+                  "stats": [
+                    {
+                      "name": "defensiveInterventions",
+                      "value": "13",
+                      "label": "DINT"
+                    },
+                    {
+                      "name": "effectiveTackles",
+                      "value": "1",
+                      "label": "TKLW"
+                    },
+                    {
+                      "name": "duelsWon",
+                      "value": "5",
+                      "label": "DUELW"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "saves",
+                "displayName": "Saves",
+                "leader": {
+                  "name": "Vozinha",
+                  "shortName": "Vozinha",
+                  "jersey": "1",
+                  "position": "Goalkeeper",
+                  "value": "6",
+                  "summary": "6 SOGA, 1.92 xGC",
+                  "stats": [
+                    {
+                      "name": "saves",
+                      "value": "6",
+                      "label": "SV"
+                    },
+                    {
+                      "name": "shotsOnGoalAgainst",
+                      "value": "6",
+                      "label": "SOGA"
+                    },
+                    {
+                      "name": "expectedGoalsConceded",
+                      "value": "1.92",
+                      "label": "xGC"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "760426",
