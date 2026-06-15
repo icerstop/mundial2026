@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-15T23:12:53.531Z",
+    "lastUpdated": "2026-06-15T23:59:38.631Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -89855,9 +89855,9 @@
       "shortName": "URU @ KSA",
       "status": {
         "state": "in",
-        "detail": "46'",
-        "shortDetail": "46'",
-        "clock": "46'",
+        "detail": "90'+3'",
+        "shortDetail": "90'+3'",
+        "clock": "90'+3'",
         "period": 2,
         "completed": false
       },
@@ -89882,7 +89882,7 @@
         "name": "Uruguay",
         "abbr": "URU",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
-        "score": "0",
+        "score": "1",
         "winner": false,
         "record": "0-0-0",
         "form": "DDLDW"
@@ -89898,7 +89898,7 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "5",
+                "value": "11",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -89918,140 +89918,19 @@
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "2",
+                "value": "7",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "41.4",
+                "value": "34.7",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "5",
+                "value": "7",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
                 "value": "3",
-                "label": "ON GOAL"
-              },
-              "shotPct": {
-                "value": "0.6",
-                "label": "On Target %"
-              },
-              "penaltyKickGoals": {
-                "value": "0",
-                "label": "Penalty Goals"
-              },
-              "penaltyKickShots": {
-                "value": "0",
-                "label": "Penalty Kicks Taken"
-              },
-              "accuratePasses": {
-                "value": "158",
-                "label": "Accurate Passes"
-              },
-              "totalPasses": {
-                "value": "204",
-                "label": "Passes"
-              },
-              "passPct": {
-                "value": "0.8",
-                "label": "Pass Completion %"
-              },
-              "accurateCrosses": {
-                "value": "2",
-                "label": "Accurate Crosses"
-              },
-              "totalCrosses": {
-                "value": "6",
-                "label": "Crosses"
-              },
-              "crossPct": {
-                "value": "0.3",
-                "label": "Cross %"
-              },
-              "totalLongBalls": {
-                "value": "19",
-                "label": "Long Balls"
-              },
-              "accurateLongBalls": {
-                "value": "5",
-                "label": "Accurate Long Balls"
-              },
-              "longballPct": {
-                "value": "0.3",
-                "label": "Long Balls %"
-              },
-              "blockedShots": {
-                "value": "0",
-                "label": "Blocked Shots"
-              },
-              "effectiveTackles": {
-                "value": "4",
-                "label": "Effective Tackles"
-              },
-              "totalTackles": {
-                "value": "6",
-                "label": "Tackles"
-              },
-              "tacklePct": {
-                "value": "0.7",
-                "label": "Tackle %"
-              },
-              "interceptions": {
-                "value": "5",
-                "label": "Interceptions"
-              },
-              "effectiveClearance": {
-                "value": "10",
-                "label": "Effective Clearances"
-              },
-              "totalClearance": {
-                "value": "10",
-                "label": "Clearances"
-              }
-            }
-          },
-          {
-            "id": "212",
-            "name": "Uruguay",
-            "abbr": "URU",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
-            "homeAway": "away",
-            "stats": {
-              "foulsCommitted": {
-                "value": "5",
-                "label": "Fouls"
-              },
-              "yellowCards": {
-                "value": "0",
-                "label": "Yellow Cards"
-              },
-              "redCards": {
-                "value": "0",
-                "label": "Red Cards"
-              },
-              "offsides": {
-                "value": "3",
-                "label": "Offsides"
-              },
-              "wonCorners": {
-                "value": "2",
-                "label": "Corner Kicks"
-              },
-              "saves": {
-                "value": "2",
-                "label": "Saves"
-              },
-              "possessionPct": {
-                "value": "58.6",
-                "label": "POSSESSION"
-              },
-              "totalShots": {
-                "value": "5",
-                "label": "SHOTS"
-              },
-              "shotsOnTarget": {
-                "value": "2",
                 "label": "ON GOAL"
               },
               "shotPct": {
@@ -90067,15 +89946,15 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "244",
+                "value": "232",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "287",
+                "value": "316",
                 "label": "Passes"
               },
               "passPct": {
-                "value": "0.9",
+                "value": "0.7",
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
@@ -90083,23 +89962,23 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "10",
+                "value": "7",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.3",
+                "value": "0.4",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "25",
+                "value": "40",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "14",
+                "value": "10",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.6",
+                "value": "0.3",
                 "label": "Long Balls %"
               },
               "blockedShots": {
@@ -90107,15 +89986,15 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "1",
+                "value": "8",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "2",
+                "value": "11",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.5",
+                "value": "0.7",
                 "label": "Tackle %"
               },
               "interceptions": {
@@ -90123,11 +90002,132 @@
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "12",
+                "value": "33",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "12",
+                "value": "33",
+                "label": "Clearances"
+              }
+            }
+          },
+          {
+            "id": "212",
+            "name": "Uruguay",
+            "abbr": "URU",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+            "homeAway": "away",
+            "stats": {
+              "foulsCommitted": {
+                "value": "6",
+                "label": "Fouls"
+              },
+              "yellowCards": {
+                "value": "0",
+                "label": "Yellow Cards"
+              },
+              "redCards": {
+                "value": "0",
+                "label": "Red Cards"
+              },
+              "offsides": {
+                "value": "6",
+                "label": "Offsides"
+              },
+              "wonCorners": {
+                "value": "9",
+                "label": "Corner Kicks"
+              },
+              "saves": {
+                "value": "2",
+                "label": "Saves"
+              },
+              "possessionPct": {
+                "value": "65.3",
+                "label": "POSSESSION"
+              },
+              "totalShots": {
+                "value": "22",
+                "label": "SHOTS"
+              },
+              "shotsOnTarget": {
+                "value": "8",
+                "label": "ON GOAL"
+              },
+              "shotPct": {
+                "value": "0.4",
+                "label": "On Target %"
+              },
+              "penaltyKickGoals": {
+                "value": "0",
+                "label": "Penalty Goals"
+              },
+              "penaltyKickShots": {
+                "value": "0",
+                "label": "Penalty Kicks Taken"
+              },
+              "accuratePasses": {
+                "value": "501",
+                "label": "Accurate Passes"
+              },
+              "totalPasses": {
+                "value": "570",
+                "label": "Passes"
+              },
+              "passPct": {
+                "value": "0.9",
+                "label": "Pass Completion %"
+              },
+              "accurateCrosses": {
+                "value": "15",
+                "label": "Accurate Crosses"
+              },
+              "totalCrosses": {
+                "value": "38",
+                "label": "Crosses"
+              },
+              "crossPct": {
+                "value": "0.4",
+                "label": "Cross %"
+              },
+              "totalLongBalls": {
+                "value": "40",
+                "label": "Long Balls"
+              },
+              "accurateLongBalls": {
+                "value": "23",
+                "label": "Accurate Long Balls"
+              },
+              "longballPct": {
+                "value": "0.6",
+                "label": "Long Balls %"
+              },
+              "blockedShots": {
+                "value": "5",
+                "label": "Blocked Shots"
+              },
+              "effectiveTackles": {
+                "value": "2",
+                "label": "Effective Tackles"
+              },
+              "totalTackles": {
+                "value": "3",
+                "label": "Tackles"
+              },
+              "tacklePct": {
+                "value": "0.7",
+                "label": "Tackle %"
+              },
+              "interceptions": {
+                "value": "9",
+                "label": "Interceptions"
+              },
+              "effectiveClearance": {
+                "value": "18",
+                "label": "Effective Clearances"
+              },
+              "totalClearance": {
+                "value": "18",
                 "label": "Clearances"
               }
             }
@@ -90186,12 +90186,12 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
                     "name": "saves",
-                    "value": "2",
+                    "value": "7",
                     "label": "SV"
                   },
                   {
@@ -90267,7 +90267,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -90348,7 +90348,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -90390,7 +90390,7 @@
                 "position": "Left Back",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -90429,7 +90429,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -90471,7 +90471,7 @@
                 "position": "Right Back",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -90510,7 +90510,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -90540,7 +90540,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -90591,7 +90591,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -90672,7 +90672,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -90702,7 +90702,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "1",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -90753,7 +90753,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -90795,7 +90795,7 @@
                 "position": "Right Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -90804,7 +90804,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -90834,7 +90834,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -90876,7 +90876,7 @@
                 "position": "Center Left Forward",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -90957,7 +90957,7 @@
                 "position": "Center Right Forward",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -90971,7 +90971,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -90996,7 +90996,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -91442,12 +91442,12 @@
                 "shortName": "A. Lajami",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -91472,7 +91472,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -91523,7 +91523,7 @@
                 "shortName": "A. Al-Hamdan",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
@@ -91604,17 +91604,17 @@
                 "shortName": "N. Al-Dawsari",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "3",
                     "label": "FC"
                   },
                   {
@@ -91634,7 +91634,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -91644,7 +91644,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -91847,7 +91847,7 @@
                 "shortName": "A. Al-Hajji",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
@@ -91928,17 +91928,17 @@
                 "shortName": "N. Boushal",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -91958,7 +91958,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -92411,7 +92411,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -92432,7 +92432,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -92492,7 +92492,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -92654,7 +92654,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -92666,7 +92666,7 @@
                 "position": "Attacking Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -92720,12 +92720,12 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "1",
+                    "value": "2",
                     "label": "OF"
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "1",
+                    "value": "3",
                     "label": "SOG"
                   },
                   {
@@ -92735,7 +92735,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "2",
+                    "value": "5",
                     "label": "SHOT"
                   }
                 ]
@@ -92761,7 +92761,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -92828,7 +92828,7 @@
                 "position": "Right Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -92887,7 +92887,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -92897,7 +92897,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -92990,7 +92990,7 @@
                 "position": "Attacking Midfielder Left",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -93004,7 +93004,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "2",
+                    "value": "3",
                     "label": "FA"
                   },
                   {
@@ -93044,22 +93044,22 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "1",
+                    "value": "2",
                     "label": "OF"
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "1",
+                    "value": "2",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "1",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -93130,7 +93130,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -93140,7 +93140,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -93151,12 +93151,12 @@
                 "shortName": "N. de la Cruz",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -93166,7 +93166,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -93181,7 +93181,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -93211,7 +93211,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -93221,7 +93221,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -93394,12 +93394,12 @@
                 "shortName": "R. Aguirre",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -93424,7 +93424,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -93530,7 +93530,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "1",
                     "label": "OF"
                   },
                   {
@@ -93545,7 +93545,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -93571,7 +93571,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -93626,7 +93626,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -93961,12 +93961,12 @@
                 "shortName": "B. Rodríguez",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -93976,7 +93976,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -93991,7 +93991,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -94031,7 +94031,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -94372,6 +94372,304 @@
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
+          },
+          {
+            "id": "49526256",
+            "type": "Start Delay",
+            "clock": "61'",
+            "period": 2,
+            "teamId": "212",
+            "teamName": "Uruguay",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526257",
+            "type": "Start Delay",
+            "clock": "61'",
+            "period": 2,
+            "teamId": "655",
+            "teamName": "Saudi Arabia",
+            "athletes": [],
+            "text": "Delay in match because of an injury Mohammed Al Owais (Saudi Arabia).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526258",
+            "type": "End Delay",
+            "clock": "63'",
+            "period": 2,
+            "teamId": "655",
+            "teamName": "Saudi Arabia",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526259",
+            "type": "End Delay",
+            "clock": "63'",
+            "period": 2,
+            "teamId": "212",
+            "teamName": "Uruguay",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526260",
+            "type": "Substitution",
+            "clock": "63'",
+            "period": 2,
+            "teamId": "655",
+            "teamName": "Saudi Arabia",
+            "athletes": [
+              {
+                "id": "270417",
+                "name": "Nasser Al-Dawsari"
+              },
+              {
+                "id": "315523",
+                "name": "Musab Al-Juwayr"
+              }
+            ],
+            "text": "Substitution, Saudi Arabia. Nasser Al Dawsari replaces Musab Al Juwayr.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526339",
+            "type": "Start Delay",
+            "clock": "69'",
+            "period": 2,
+            "teamId": "212",
+            "teamName": "Uruguay",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526340",
+            "type": "Start Delay",
+            "clock": "69'",
+            "period": 2,
+            "teamId": "655",
+            "teamName": "Saudi Arabia",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526341",
+            "type": "End Delay",
+            "clock": "72'",
+            "period": 2,
+            "teamId": "212",
+            "teamName": "Uruguay",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526342",
+            "type": "End Delay",
+            "clock": "72'",
+            "period": 2,
+            "teamId": "655",
+            "teamName": "Saudi Arabia",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526343",
+            "type": "Substitution",
+            "clock": "72'",
+            "period": 2,
+            "teamId": "212",
+            "teamName": "Uruguay",
+            "athletes": [
+              {
+                "id": "251889",
+                "name": "Nicolás de la Cruz"
+              },
+              {
+                "id": "241468",
+                "name": "Manuel Ugarte"
+              }
+            ],
+            "text": "Substitution, Uruguay. Nicolás de la Cruz replaces Manuel Ugarte.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526471",
+            "type": "Goal - Volley",
+            "clock": "80'",
+            "period": 2,
+            "teamId": "212",
+            "teamName": "Uruguay",
+            "athletes": [
+              {
+                "id": "287025",
+                "name": "Maxi Araújo"
+              }
+            ],
+            "text": "Goal! Saudi Arabia 1, Uruguay 1. Maxi Araújo (Uruguay) left footed shot from the left side of the six yard box to the bottom left corner.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526473",
+            "type": "Substitution",
+            "clock": "81'",
+            "period": 2,
+            "teamId": "212",
+            "teamName": "Uruguay",
+            "athletes": [
+              {
+                "id": "144325",
+                "name": "Brian Rodríguez"
+              },
+              {
+                "id": "287025",
+                "name": "Maxi Araújo"
+              }
+            ],
+            "text": "Substitution, Uruguay. Brian Rodríguez replaces Maxi Araújo.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526474",
+            "type": "Substitution",
+            "clock": "81'",
+            "period": 2,
+            "teamId": "655",
+            "teamName": "Saudi Arabia",
+            "athletes": [
+              {
+                "id": "331918",
+                "name": "Nawaf Boushal"
+              },
+              {
+                "id": "361692",
+                "name": "Mohammed Abu Al-Shamat"
+              }
+            ],
+            "text": "Substitution, Saudi Arabia. Nawaf Bu Washl replaces Mohammed Abu Al Shamat.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526634",
+            "type": "Substitution",
+            "clock": "90'",
+            "period": 2,
+            "teamId": "212",
+            "teamName": "Uruguay",
+            "athletes": [
+              {
+                "id": "159042",
+                "name": "Rodrigo Aguirre"
+              },
+              {
+                "id": "295847",
+                "name": "Federico Viñas"
+              }
+            ],
+            "text": "Substitution, Uruguay. Rodrigo Aguirre replaces Federico Viñas.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526665",
+            "type": "Substitution",
+            "clock": "90'+3'",
+            "period": 2,
+            "teamId": "655",
+            "teamName": "Saudi Arabia",
+            "athletes": [
+              {
+                "id": "294239",
+                "name": "Abdullah Al-Hamdan"
+              },
+              {
+                "id": "330543",
+                "name": "Moteb Al-Harbi"
+              }
+            ],
+            "text": "Abdullah Al-Hamdan (Saudi Arabia) Substitution at 90'+3'",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526664",
+            "type": "Substitution",
+            "clock": "90'+3'",
+            "period": 2,
+            "teamId": "655",
+            "teamName": "Saudi Arabia",
+            "athletes": [
+              {
+                "id": "296972",
+                "name": "Ali Lajami"
+              },
+              {
+                "id": "286011",
+                "name": "Saud Abdulhamid"
+              }
+            ],
+            "text": "Substitution, Saudi Arabia. Ali Lajami replaces Saud Abdulhamid.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49526667",
+            "type": "Substitution",
+            "clock": "90'+3'",
+            "period": 2,
+            "teamId": "655",
+            "teamName": "Saudi Arabia",
+            "athletes": [
+              {
+                "id": "357660",
+                "name": "Ala Al-Hajji"
+              },
+              {
+                "id": "283331",
+                "name": "Feras Al-Brikan"
+              }
+            ],
+            "text": "Ala Al-Hajji (Saudi Arabia) Substitution at 90'+3'",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
           }
         ],
         "commentary": [
@@ -94619,6 +94917,11 @@
             "time": "45'",
             "text": "Second Half begins Saudi Arabia 1, Uruguay 0.",
             "type": null
+          },
+          {
+            "time": "46'",
+            "text": "Attempt saved. Federico Viñas (Uruguay) header from the centre of the box is saved in the centre of the goal by Mohammed Al Owais (Saudi Arabia). Assisted by Guillermo Varela with a cross.",
+            "type": null
           }
         ],
         "gameInfo": {
@@ -94644,12 +94947,12 @@
                 "name": "totalShots",
                 "displayName": "Total Shots",
                 "leader": {
-                  "name": "Abdulelah Al-Amri",
-                  "shortName": "A. Al-Amri",
-                  "jersey": "4",
-                  "position": "Defender",
+                  "name": "Mohamed Kanno",
+                  "shortName": "M. Kanno",
+                  "jersey": "23",
+                  "position": "Midfielder",
                   "value": "2",
-                  "summary": "2 SOG, 0.86 xG",
+                  "summary": "1 SOG, 0.11 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -94658,12 +94961,12 @@
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "2",
+                      "value": "1",
                       "label": "SOG"
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.86",
+                      "value": "0.11",
                       "label": "xG"
                     }
                   ]
@@ -94673,21 +94976,21 @@
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "Musab Al-Juwayr",
-                  "shortName": "M. Al-Juwayr",
-                  "jersey": "7",
+                  "name": "Mohamed Kanno",
+                  "shortName": "M. Kanno",
+                  "jersey": "23",
                   "position": "Midfielder",
-                  "value": "23",
-                  "summary": "30 PASS",
+                  "value": "32",
+                  "summary": "36 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "23",
+                      "value": "32",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "30",
+                      "value": "36",
                       "label": "PASS"
                     }
                   ]
@@ -94701,22 +95004,22 @@
                   "shortName": "M. Al-Harbi",
                   "jersey": "24",
                   "position": "Defender",
-                  "value": "5",
-                  "summary": "0 TKLW, 4 DUELW",
+                  "value": "12",
+                  "summary": "1 TKLW, 6 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "5",
+                      "value": "12",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "0",
+                      "value": "1",
                       "label": "TKLW"
                     },
                     {
                       "name": "duelsWon",
-                      "value": "4",
+                      "value": "6",
                       "label": "DUELW"
                     }
                   ]
@@ -94730,22 +95033,22 @@
                   "shortName": "M. Al-Owais",
                   "jersey": "21",
                   "position": "Goalkeeper",
-                  "value": "2",
-                  "summary": "2 SOGA, 0.38 xGC",
+                  "value": "7",
+                  "summary": "8 SOGA, 1.49 xGC",
                   "stats": [
                     {
                       "name": "saves",
-                      "value": "2",
+                      "value": "7",
                       "label": "SV"
                     },
                     {
                       "name": "shotsOnGoalAgainst",
-                      "value": "2",
+                      "value": "8",
                       "label": "SOGA"
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.38",
+                      "value": "1.49",
                       "label": "xGC"
                     }
                   ]
@@ -94765,22 +95068,22 @@
                   "shortName": "F. Viñas",
                   "jersey": "21",
                   "position": "Forward",
-                  "value": "2",
-                  "summary": "1 SOG, 0.10 xG",
+                  "value": "5",
+                  "summary": "3 SOG, 0.50 xG",
                   "stats": [
                     {
                       "name": "totalShots",
-                      "value": "2",
+                      "value": "5",
                       "label": "SHOT"
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "1",
+                      "value": "3",
                       "label": "SOG"
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.10",
+                      "value": "0.50",
                       "label": "xG"
                     }
                   ]
@@ -94794,18 +95097,23 @@
                   "shortName": "M. Olivera",
                   "jersey": "16",
                   "position": "Defender",
-                  "value": "53",
-                  "summary": "56 PASS",
+                  "value": "98",
+                  "summary": "101 PASS, 1 BCC",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "53",
+                      "value": "98",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "56",
+                      "value": "101",
                       "label": "PASS"
+                    },
+                    {
+                      "name": "bigChanceCreated",
+                      "value": "1",
+                      "label": "BCC"
                     }
                   ]
                 }
@@ -94818,12 +95126,12 @@
                   "shortName": "M. Olivera",
                   "jersey": "16",
                   "position": "Defender",
-                  "value": "6",
-                  "summary": "1 TKLW, 6 DUELW",
+                  "value": "9",
+                  "summary": "1 TKLW, 8 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "6",
+                      "value": "9",
                       "label": "DINT"
                     },
                     {
@@ -94833,7 +95141,7 @@
                     },
                     {
                       "name": "duelsWon",
-                      "value": "6",
+                      "value": "8",
                       "label": "DUELW"
                     }
                   ]
@@ -94848,7 +95156,7 @@
                   "jersey": "23",
                   "position": "Goalkeeper",
                   "value": "2",
-                  "summary": "3 SOGA, 0.91 xGC",
+                  "summary": "3 SOGA, 0.99 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -94862,7 +95170,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.91",
+                      "value": "0.99",
                       "label": "xGC"
                     }
                   ]
