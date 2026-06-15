@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-15T22:28:21.195Z",
+    "lastUpdated": "2026-06-15T23:12:53.531Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -89855,10 +89855,10 @@
       "shortName": "URU @ KSA",
       "status": {
         "state": "in",
-        "detail": "24'",
-        "shortDetail": "24'",
-        "clock": "24'",
-        "period": 1,
+        "detail": "46'",
+        "shortDetail": "46'",
+        "clock": "46'",
+        "period": 2,
         "completed": false
       },
       "venue": {
@@ -89872,7 +89872,7 @@
         "name": "Saudi Arabia",
         "abbr": "KSA",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
-        "score": "0",
+        "score": "1",
         "winner": false,
         "record": "0-0-0",
         "form": "DWLLL"
@@ -89898,11 +89898,11 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "2",
+                "value": "5",
                 "label": "Fouls"
               },
               "yellowCards": {
-                "value": "0",
+                "value": "1",
                 "label": "Yellow Cards"
               },
               "redCards": {
@@ -89914,27 +89914,27 @@
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "1",
+                "value": "4",
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "1",
+                "value": "2",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "44.2",
+                "value": "41.4",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "1",
+                "value": "5",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "0",
+                "value": "3",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.0",
+                "value": "0.6",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -89946,11 +89946,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "114",
+                "value": "158",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "139",
+                "value": "204",
                 "label": "Passes"
               },
               "passPct": {
@@ -89958,23 +89958,23 @@
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "0",
+                "value": "2",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "2",
+                "value": "6",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.0",
+                "value": "0.3",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "8",
+                "value": "19",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "2",
+                "value": "5",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -89986,11 +89986,11 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "2",
+                "value": "4",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "3",
+                "value": "6",
                 "label": "Tackles"
               },
               "tacklePct": {
@@ -89998,15 +89998,15 @@
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "4",
+                "value": "5",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "3",
+                "value": "10",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "3",
+                "value": "10",
                 "label": "Clearances"
               }
             }
@@ -90019,7 +90019,7 @@
             "homeAway": "away",
             "stats": {
               "foulsCommitted": {
-                "value": "1",
+                "value": "5",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -90031,31 +90031,31 @@
                 "label": "Red Cards"
               },
               "offsides": {
-                "value": "1",
+                "value": "3",
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "1",
+                "value": "2",
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "0",
+                "value": "2",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "55.8",
+                "value": "58.6",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "3",
+                "value": "5",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "1",
+                "value": "2",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.3",
+                "value": "0.4",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -90067,11 +90067,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "150",
+                "value": "244",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "174",
+                "value": "287",
                 "label": "Passes"
               },
               "passPct": {
@@ -90079,27 +90079,27 @@
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "2",
+                "value": "3",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "3",
+                "value": "10",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.7",
+                "value": "0.3",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "17",
+                "value": "25",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "9",
+                "value": "14",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.5",
+                "value": "0.6",
                 "label": "Long Balls %"
               },
               "blockedShots": {
@@ -90111,23 +90111,23 @@
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "1",
+                "value": "2",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "1.0",
+                "value": "0.5",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "4",
+                "value": "6",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "4",
+                "value": "12",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "4",
+                "value": "12",
                 "label": "Clearances"
               }
             }
@@ -90161,7 +90161,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -90191,7 +90191,7 @@
                   },
                   {
                     "name": "saves",
-                    "value": "1",
+                    "value": "2",
                     "label": "SV"
                   },
                   {
@@ -90318,7 +90318,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -90343,7 +90343,7 @@
                   },
                   {
                     "name": "yellowCards",
-                    "value": "0",
+                    "value": "1",
                     "label": "YC"
                   },
                   {
@@ -90368,17 +90368,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "2",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -90404,7 +90404,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "3",
                     "label": "FA"
                   },
                   {
@@ -90480,12 +90480,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -90621,7 +90621,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -90692,7 +90692,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -90702,7 +90702,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -90885,7 +90885,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -92252,7 +92252,7 @@
             "teamId": "212",
             "teamName": "Uruguay",
             "abbr": "URU",
-            "formation": "4-4-2",
+            "formation": "4-2-3-1",
             "players": [
               {
                 "id": "108622",
@@ -92300,12 +92300,12 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
                     "name": "saves",
-                    "value": "0",
+                    "value": "2",
                     "label": "SV"
                   },
                   {
@@ -92381,7 +92381,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -92437,7 +92437,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -92462,7 +92462,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -92504,7 +92504,7 @@
                 "position": "Left Back",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -92543,7 +92543,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -92558,7 +92558,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "1",
                     "label": "OF"
                   },
                   {
@@ -92624,7 +92624,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -92660,10 +92660,10 @@
                 ]
               },
               {
-                "id": "215772",
-                "name": "Rodrigo Bentancur",
-                "shortName": "R. Bentancur",
-                "position": "Center Left Midfielder",
+                "id": "295847",
+                "name": "Federico Viñas",
+                "shortName": "F. Viñas",
+                "position": "Attacking Midfielder",
                 "starter": true,
                 "subbedIn": false,
                 "subbedOut": false,
@@ -92705,7 +92705,88 @@
                   },
                   {
                     "name": "goalsConceded",
+                    "value": "1",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
                     "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "1",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "1",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "2",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "215772",
+                "name": "Rodrigo Bentancur",
+                "shortName": "R. Bentancur",
+                "position": "Left Midfielder",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "1",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -92744,168 +92825,6 @@
                 "id": "241468",
                 "name": "Manuel Ugarte",
                 "shortName": "M. Ugarte",
-                "position": "Center Right Midfielder",
-                "starter": true,
-                "subbedIn": false,
-                "subbedOut": false,
-                "stats": [
-                  {
-                    "name": "appearances",
-                    "value": "1",
-                    "label": "APP"
-                  },
-                  {
-                    "name": "foulsCommitted",
-                    "value": "0",
-                    "label": "FC"
-                  },
-                  {
-                    "name": "foulsSuffered",
-                    "value": "0",
-                    "label": "FA"
-                  },
-                  {
-                    "name": "ownGoals",
-                    "value": "0",
-                    "label": "OG"
-                  },
-                  {
-                    "name": "redCards",
-                    "value": "0",
-                    "label": "RC"
-                  },
-                  {
-                    "name": "subIns",
-                    "value": "0",
-                    "label": "SUB"
-                  },
-                  {
-                    "name": "yellowCards",
-                    "value": "0",
-                    "label": "YC"
-                  },
-                  {
-                    "name": "goalsConceded",
-                    "value": "0",
-                    "label": "GA"
-                  },
-                  {
-                    "name": "shotsFaced",
-                    "value": "0",
-                    "label": "SHF"
-                  },
-                  {
-                    "name": "goalAssists",
-                    "value": "0",
-                    "label": "A"
-                  },
-                  {
-                    "name": "offsides",
-                    "value": "0",
-                    "label": "OF"
-                  },
-                  {
-                    "name": "shotsOnTarget",
-                    "value": "0",
-                    "label": "SOG"
-                  },
-                  {
-                    "name": "totalGoals",
-                    "value": "0",
-                    "label": "G"
-                  },
-                  {
-                    "name": "totalShots",
-                    "value": "0",
-                    "label": "SHOT"
-                  }
-                ]
-              },
-              {
-                "id": "287025",
-                "name": "Maxi Araújo",
-                "shortName": "M. Araújo",
-                "position": "Left Midfielder",
-                "starter": true,
-                "subbedIn": false,
-                "subbedOut": false,
-                "stats": [
-                  {
-                    "name": "appearances",
-                    "value": "1",
-                    "label": "APP"
-                  },
-                  {
-                    "name": "foulsCommitted",
-                    "value": "0",
-                    "label": "FC"
-                  },
-                  {
-                    "name": "foulsSuffered",
-                    "value": "0",
-                    "label": "FA"
-                  },
-                  {
-                    "name": "ownGoals",
-                    "value": "0",
-                    "label": "OG"
-                  },
-                  {
-                    "name": "redCards",
-                    "value": "0",
-                    "label": "RC"
-                  },
-                  {
-                    "name": "subIns",
-                    "value": "0",
-                    "label": "SUB"
-                  },
-                  {
-                    "name": "yellowCards",
-                    "value": "0",
-                    "label": "YC"
-                  },
-                  {
-                    "name": "goalsConceded",
-                    "value": "0",
-                    "label": "GA"
-                  },
-                  {
-                    "name": "shotsFaced",
-                    "value": "0",
-                    "label": "SHF"
-                  },
-                  {
-                    "name": "goalAssists",
-                    "value": "0",
-                    "label": "A"
-                  },
-                  {
-                    "name": "offsides",
-                    "value": "0",
-                    "label": "OF"
-                  },
-                  {
-                    "name": "shotsOnTarget",
-                    "value": "1",
-                    "label": "SOG"
-                  },
-                  {
-                    "name": "totalGoals",
-                    "value": "0",
-                    "label": "G"
-                  },
-                  {
-                    "name": "totalShots",
-                    "value": "1",
-                    "label": "SHOT"
-                  }
-                ]
-              },
-              {
-                "id": "235818",
-                "name": "Federico Valverde",
-                "shortName": "F. Valverde",
                 "position": "Right Midfielder",
                 "starter": true,
                 "subbedIn": false,
@@ -92948,7 +92867,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -92987,10 +92906,10 @@
                 "id": "271788",
                 "name": "Darwin Núñez",
                 "shortName": "D. Núñez",
-                "position": "Center Left Forward",
+                "position": "Forward",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -92999,7 +92918,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -93029,7 +92948,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -93059,16 +92978,16 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
               },
               {
-                "id": "295847",
-                "name": "Federico Viñas",
-                "shortName": "F. Viñas",
-                "position": "Center Right Forward",
+                "id": "287025",
+                "name": "Maxi Araújo",
+                "shortName": "M. Araújo",
+                "position": "Attacking Midfielder Left",
                 "starter": true,
                 "subbedIn": false,
                 "subbedOut": false,
@@ -93080,7 +92999,88 @@
                   },
                   {
                     "name": "foulsCommitted",
+                    "value": "1",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "2",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
                     "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "1",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "1",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "1",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "1",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "235818",
+                "name": "Federico Valverde",
+                "shortName": "F. Valverde",
+                "position": "Attacking Midfielder Right",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -93110,7 +93110,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -93125,7 +93125,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "1",
+                    "value": "0",
                     "label": "OF"
                   },
                   {
@@ -93140,7 +93140,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "1",
+                    "value": "0",
                     "label": "SHOT"
                   }
                 ]
@@ -93475,12 +93475,12 @@
                 "shortName": "J. Sanabria",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -93505,7 +93505,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -93556,12 +93556,12 @@
                 "shortName": "A. Canobbio",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -93586,7 +93586,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -94223,7 +94223,7 @@
             "teamId": "212",
             "teamName": "Uruguay",
             "athletes": [],
-            "text": null,
+            "text": "Delay in match for a drinks break.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -94237,6 +94237,138 @@
             "teamName": "Saudi Arabia",
             "athletes": [],
             "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49525662",
+            "type": "End Delay",
+            "clock": "27'",
+            "period": 1,
+            "teamId": "212",
+            "teamName": "Uruguay",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49525663",
+            "type": "End Delay",
+            "clock": "27'",
+            "period": 1,
+            "teamId": "655",
+            "teamName": "Saudi Arabia",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49525862",
+            "type": "Goal",
+            "clock": "41'",
+            "period": 1,
+            "teamId": "655",
+            "teamName": "Saudi Arabia",
+            "athletes": [
+              {
+                "id": "256667",
+                "name": "Abdulelah Al-Amri"
+              }
+            ],
+            "text": "Goal! Saudi Arabia 1, Uruguay 0. Abdulelah Al Amri (Saudi Arabia) right footed shot from very close range to the centre of the goal following a corner.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49525912",
+            "type": "Yellow Card",
+            "clock": "44'",
+            "period": 1,
+            "teamId": "655",
+            "teamName": "Saudi Arabia",
+            "athletes": [
+              {
+                "id": "256667",
+                "name": "Abdulelah Al-Amri"
+              }
+            ],
+            "text": "Abdulelah Al Amri (Saudi Arabia) is shown the yellow card for a bad foul.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49525977",
+            "type": "Halftime",
+            "clock": "45'+5'",
+            "period": 1,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49525980",
+            "type": "Substitution",
+            "clock": "45'",
+            "period": 2,
+            "teamId": "212",
+            "teamName": "Uruguay",
+            "athletes": [
+              {
+                "id": "287497",
+                "name": "Juan Manuel Sanabria"
+              },
+              {
+                "id": "254032",
+                "name": "Matías Viña"
+              }
+            ],
+            "text": "Substitution, Uruguay. Juan Manuel Sanabria replaces Matías Viña.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49525981",
+            "type": "Substitution",
+            "clock": "45'",
+            "period": 2,
+            "teamId": "212",
+            "teamName": "Uruguay",
+            "athletes": [
+              {
+                "id": "241466",
+                "name": "Agustín Canobbio"
+              },
+              {
+                "id": "271788",
+                "name": "Darwin Núñez"
+              }
+            ],
+            "text": "Substitution, Uruguay. Agustín Canobbio replaces Darwin Núñez.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49525984",
+            "type": "Start 2nd Half",
+            "clock": "45'",
+            "period": 2,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": "Second Half begins Saudi Arabia 1, Uruguay 0.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -94305,7 +94437,7 @@
           },
           {
             "time": "21'",
-            "text": "Attempt missed. Rodrigo Bentancur (Uruguay) header from the centre of the box misses to the right. Assisted by Maxi Araújo with a cross following a set piece situation.",
+            "text": "Attempt missed. Rodrigo Bentancur (Uruguay) header from the centre of the box misses to the right following a set piece situation.",
             "type": null
           },
           {
@@ -94316,6 +94448,176 @@
           {
             "time": "23'",
             "text": "Offside, Uruguay. Federico Viñas is caught offside.",
+            "type": null
+          },
+          {
+            "time": "23'",
+            "text": "Delay in match for a drinks break.",
+            "type": null
+          },
+          {
+            "time": "27'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
+          },
+          {
+            "time": "28'",
+            "text": "Sebastián Cáceres (Uruguay) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "28'",
+            "text": "Foul by Musab Al Juwayr (Saudi Arabia).",
+            "type": null
+          },
+          {
+            "time": "30'",
+            "text": "Foul by Maxi Araújo (Uruguay).",
+            "type": null
+          },
+          {
+            "time": "30'",
+            "text": "Saud Abdulhamid (Saudi Arabia) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "31'",
+            "text": "Maxi Araújo (Uruguay) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "31'",
+            "text": "Foul by Saud Abdulhamid (Saudi Arabia).",
+            "type": null
+          },
+          {
+            "time": "31'",
+            "text": "Foul by Federico Valverde (Uruguay).",
+            "type": null
+          },
+          {
+            "time": "31'",
+            "text": "Moteb Al Harbi (Saudi Arabia) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "34'",
+            "text": "Mohammed Al Owais (Saudi Arabia) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "34'",
+            "text": "Foul by Darwin Núñez (Uruguay).",
+            "type": null
+          },
+          {
+            "time": "36'",
+            "text": "Foul by Rodrigo Bentancur (Uruguay).",
+            "type": null
+          },
+          {
+            "time": "36'",
+            "text": "Moteb Al Harbi (Saudi Arabia) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "37'",
+            "text": "Corner, Saudi Arabia. Conceded by Fernando Muslera.",
+            "type": null
+          },
+          {
+            "time": "38'",
+            "text": "Attempt saved. Abdulelah Al Amri (Saudi Arabia) right footed shot from the centre of the box is saved in the top centre of the goal by Fernando Muslera (Uruguay).",
+            "type": null
+          },
+          {
+            "time": "38'",
+            "text": "Corner, Saudi Arabia. Conceded by Fernando Muslera.",
+            "type": null
+          },
+          {
+            "time": "39'",
+            "text": "Attempt missed. Abdullah Al Khaibari (Saudi Arabia) right footed shot from outside the box misses to the right.",
+            "type": null
+          },
+          {
+            "time": "40'",
+            "text": "Corner, Saudi Arabia. Conceded by Manuel Ugarte.",
+            "type": null
+          },
+          {
+            "time": "40'",
+            "text": "Attempt saved. Mohamed Kanno (Saudi Arabia) header from the centre of the box is saved in the centre of the goal by Fernando Muslera (Uruguay). Assisted by Musab Al Juwayr with a cross.",
+            "type": null
+          },
+          {
+            "time": "41'",
+            "text": "Goal! Saudi Arabia 1, Uruguay 0. Abdulelah Al Amri (Saudi Arabia) right footed shot from very close range to the centre of the goal following a corner.",
+            "type": null
+          },
+          {
+            "time": "44'",
+            "text": "Foul by Abdulelah Al Amri (Saudi Arabia).",
+            "type": null
+          },
+          {
+            "time": "44'",
+            "text": "Maxi Araújo (Uruguay) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "44'",
+            "text": "Abdulelah Al Amri (Saudi Arabia) is shown the yellow card for a bad foul.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Attempt saved. Federico Viñas (Uruguay) header from the centre of the box is saved in the top left corner by Mohammed Al Owais (Saudi Arabia). Assisted by Maxi Araújo with a cross.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Corner, Uruguay. Conceded by Abdulelah Al Amri.",
+            "type": null
+          },
+          {
+            "time": "45'+1'",
+            "text": "Attempt missed. Darwin Núñez (Uruguay) header from the left side of the six yard box misses to the right. Assisted by Maxi Araújo with a cross following a corner.",
+            "type": null
+          },
+          {
+            "time": "45'+1'",
+            "text": "Fourth official has announced 4 minutes of added time.",
+            "type": null
+          },
+          {
+            "time": "45'+1'",
+            "text": "Offside, Uruguay. Maxi Araújo is caught offside.",
+            "type": null
+          },
+          {
+            "time": "45'+4'",
+            "text": "Offside, Uruguay. Matías Viña is caught offside.",
+            "type": null
+          },
+          {
+            "time": "45'+5'",
+            "text": "First Half ends, Saudi Arabia 1, Uruguay 0.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Substitution, Uruguay. Juan Manuel Sanabria replaces Matías Viña.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Substitution, Uruguay. Agustín Canobbio replaces Darwin Núñez.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Second Half begins Saudi Arabia 1, Uruguay 0.",
             "type": null
           }
         ],
@@ -94342,26 +94644,26 @@
                 "name": "totalShots",
                 "displayName": "Total Shots",
                 "leader": {
-                  "name": "Salem Al-Dawsari",
-                  "shortName": "S. Al-Dawsari",
-                  "jersey": "10",
-                  "position": "Midfielder",
-                  "value": "1",
-                  "summary": "0 SOG, 0.03 xG",
+                  "name": "Abdulelah Al-Amri",
+                  "shortName": "A. Al-Amri",
+                  "jersey": "4",
+                  "position": "Defender",
+                  "value": "2",
+                  "summary": "2 SOG, 0.86 xG",
                   "stats": [
                     {
                       "name": "totalShots",
-                      "value": "1",
+                      "value": "2",
                       "label": "SHOT"
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "0",
+                      "value": "2",
                       "label": "SOG"
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.03",
+                      "value": "0.86",
                       "label": "xG"
                     }
                   ]
@@ -94375,17 +94677,17 @@
                   "shortName": "M. Al-Juwayr",
                   "jersey": "7",
                   "position": "Midfielder",
-                  "value": "17",
-                  "summary": "22 PASS",
+                  "value": "23",
+                  "summary": "30 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "17",
+                      "value": "23",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "22",
+                      "value": "30",
                       "label": "PASS"
                     }
                   ]
@@ -94395,16 +94697,16 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Abdullah Al-Khaibari",
-                  "shortName": "A. Al-Khaibari",
-                  "jersey": "15",
-                  "position": "Midfielder",
-                  "value": "3",
-                  "summary": "0 TKLW, 1 DUELW",
+                  "name": "Moteb Al-Harbi",
+                  "shortName": "M. Al-Harbi",
+                  "jersey": "24",
+                  "position": "Defender",
+                  "value": "5",
+                  "summary": "0 TKLW, 4 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "3",
+                      "value": "5",
                       "label": "DINT"
                     },
                     {
@@ -94414,7 +94716,7 @@
                     },
                     {
                       "name": "duelsWon",
-                      "value": "1",
+                      "value": "4",
                       "label": "DUELW"
                     }
                   ]
@@ -94428,22 +94730,22 @@
                   "shortName": "M. Al-Owais",
                   "jersey": "21",
                   "position": "Goalkeeper",
-                  "value": "1",
-                  "summary": "1 SOGA, 0.21 xGC",
+                  "value": "2",
+                  "summary": "2 SOGA, 0.38 xGC",
                   "stats": [
                     {
                       "name": "saves",
-                      "value": "1",
+                      "value": "2",
                       "label": "SV"
                     },
                     {
                       "name": "shotsOnGoalAgainst",
-                      "value": "1",
+                      "value": "2",
                       "label": "SOGA"
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.21",
+                      "value": "0.38",
                       "label": "xGC"
                     }
                   ]
@@ -94463,22 +94765,22 @@
                   "shortName": "F. Viñas",
                   "jersey": "21",
                   "position": "Forward",
-                  "value": "1",
-                  "summary": "0 SOG, 0.05 xG",
+                  "value": "2",
+                  "summary": "1 SOG, 0.10 xG",
                   "stats": [
                     {
                       "name": "totalShots",
-                      "value": "1",
+                      "value": "2",
                       "label": "SHOT"
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "0",
+                      "value": "1",
                       "label": "SOG"
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.05",
+                      "value": "0.10",
                       "label": "xG"
                     }
                   ]
@@ -94492,17 +94794,17 @@
                   "shortName": "M. Olivera",
                   "jersey": "16",
                   "position": "Defender",
-                  "value": "35",
-                  "summary": "37 PASS",
+                  "value": "53",
+                  "summary": "56 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "35",
+                      "value": "53",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "37",
+                      "value": "56",
                       "label": "PASS"
                     }
                   ]
@@ -94512,22 +94814,27 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Manuel Ugarte",
-                  "shortName": "M. Ugarte",
-                  "jersey": "5",
-                  "position": "Midfielder",
-                  "value": "3",
-                  "summary": "0 TKLW",
+                  "name": "Mathías Olivera",
+                  "shortName": "M. Olivera",
+                  "jersey": "16",
+                  "position": "Defender",
+                  "value": "6",
+                  "summary": "1 TKLW, 6 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "3",
+                      "value": "6",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "0",
+                      "value": "1",
                       "label": "TKLW"
+                    },
+                    {
+                      "name": "duelsWon",
+                      "value": "6",
+                      "label": "DUELW"
                     }
                   ]
                 }
@@ -94535,7 +94842,31 @@
               {
                 "name": "saves",
                 "displayName": "Saves",
-                "leader": null
+                "leader": {
+                  "name": "Fernando Muslera",
+                  "shortName": "F. Muslera",
+                  "jersey": "23",
+                  "position": "Goalkeeper",
+                  "value": "2",
+                  "summary": "3 SOGA, 0.91 xGC",
+                  "stats": [
+                    {
+                      "name": "saves",
+                      "value": "2",
+                      "label": "SV"
+                    },
+                    {
+                      "name": "shotsOnGoalAgainst",
+                      "value": "3",
+                      "label": "SOGA"
+                    },
+                    {
+                      "name": "expectedGoalsConceded",
+                      "value": "0.91",
+                      "label": "xGC"
+                    }
+                  ]
+                }
               }
             ]
           }
