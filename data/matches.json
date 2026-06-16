@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-16T01:32:18.853Z",
+    "lastUpdated": "2026-06-16T02:36:32.972Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -95229,10 +95229,10 @@
       "shortName": "NZL @ IRN",
       "status": {
         "state": "in",
-        "detail": "27'",
-        "shortDetail": "27'",
-        "clock": "27'",
-        "period": 1,
+        "detail": "68'",
+        "shortDetail": "68'",
+        "clock": "68'",
+        "period": 2,
         "completed": false
       },
       "venue": {
@@ -95246,7 +95246,7 @@
         "name": "Iran",
         "abbr": "IRN",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
-        "score": "0",
+        "score": "2",
         "winner": false,
         "record": "0-0-0",
         "form": "WWWLL"
@@ -95256,7 +95256,7 @@
         "name": "New Zealand",
         "abbr": "NZL",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
-        "score": "1",
+        "score": "2",
         "winner": false,
         "record": "0-0-0",
         "form": "LLWLL"
@@ -95272,7 +95272,7 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "1",
+                "value": "5",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -95284,148 +95284,27 @@
                 "label": "Red Cards"
               },
               "offsides": {
-                "value": "0",
+                "value": "2",
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "0",
+                "value": "2",
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "1",
+                "value": "5",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "48.6",
+                "value": "46.8",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "2",
-                "label": "SHOTS"
-              },
-              "shotsOnTarget": {
-                "value": "1",
-                "label": "ON GOAL"
-              },
-              "shotPct": {
-                "value": "0.5",
-                "label": "On Target %"
-              },
-              "penaltyKickGoals": {
-                "value": "0",
-                "label": "Penalty Goals"
-              },
-              "penaltyKickShots": {
-                "value": "0",
-                "label": "Penalty Kicks Taken"
-              },
-              "accuratePasses": {
-                "value": "117",
-                "label": "Accurate Passes"
-              },
-              "totalPasses": {
-                "value": "140",
-                "label": "Passes"
-              },
-              "passPct": {
-                "value": "0.8",
-                "label": "Pass Completion %"
-              },
-              "accurateCrosses": {
-                "value": "0",
-                "label": "Accurate Crosses"
-              },
-              "totalCrosses": {
-                "value": "3",
-                "label": "Crosses"
-              },
-              "crossPct": {
-                "value": "0.0",
-                "label": "Cross %"
-              },
-              "totalLongBalls": {
-                "value": "20",
-                "label": "Long Balls"
-              },
-              "accurateLongBalls": {
                 "value": "10",
-                "label": "Accurate Long Balls"
-              },
-              "longballPct": {
-                "value": "0.5",
-                "label": "Long Balls %"
-              },
-              "blockedShots": {
-                "value": "0",
-                "label": "Blocked Shots"
-              },
-              "effectiveTackles": {
-                "value": "3",
-                "label": "Effective Tackles"
-              },
-              "totalTackles": {
-                "value": "6",
-                "label": "Tackles"
-              },
-              "tacklePct": {
-                "value": "0.5",
-                "label": "Tackle %"
-              },
-              "interceptions": {
-                "value": "2",
-                "label": "Interceptions"
-              },
-              "effectiveClearance": {
-                "value": "13",
-                "label": "Effective Clearances"
-              },
-              "totalClearance": {
-                "value": "13",
-                "label": "Clearances"
-              }
-            }
-          },
-          {
-            "id": "2666",
-            "name": "New Zealand",
-            "abbr": "NZL",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
-            "homeAway": "away",
-            "stats": {
-              "foulsCommitted": {
-                "value": "2",
-                "label": "Fouls"
-              },
-              "yellowCards": {
-                "value": "0",
-                "label": "Yellow Cards"
-              },
-              "redCards": {
-                "value": "0",
-                "label": "Red Cards"
-              },
-              "offsides": {
-                "value": "0",
-                "label": "Offsides"
-              },
-              "wonCorners": {
-                "value": "1",
-                "label": "Corner Kicks"
-              },
-              "saves": {
-                "value": "1",
-                "label": "Saves"
-              },
-              "possessionPct": {
-                "value": "51.4",
-                "label": "POSSESSION"
-              },
-              "totalShots": {
-                "value": "6",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "2",
+                "value": "3",
                 "label": "ON GOAL"
               },
               "shotPct": {
@@ -95441,11 +95320,132 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "132",
+                "value": "248",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "146",
+                "value": "317",
+                "label": "Passes"
+              },
+              "passPct": {
+                "value": "0.8",
+                "label": "Pass Completion %"
+              },
+              "accurateCrosses": {
+                "value": "4",
+                "label": "Accurate Crosses"
+              },
+              "totalCrosses": {
+                "value": "11",
+                "label": "Crosses"
+              },
+              "crossPct": {
+                "value": "0.4",
+                "label": "Cross %"
+              },
+              "totalLongBalls": {
+                "value": "50",
+                "label": "Long Balls"
+              },
+              "accurateLongBalls": {
+                "value": "25",
+                "label": "Accurate Long Balls"
+              },
+              "longballPct": {
+                "value": "0.5",
+                "label": "Long Balls %"
+              },
+              "blockedShots": {
+                "value": "2",
+                "label": "Blocked Shots"
+              },
+              "effectiveTackles": {
+                "value": "7",
+                "label": "Effective Tackles"
+              },
+              "totalTackles": {
+                "value": "13",
+                "label": "Tackles"
+              },
+              "tacklePct": {
+                "value": "0.5",
+                "label": "Tackle %"
+              },
+              "interceptions": {
+                "value": "13",
+                "label": "Interceptions"
+              },
+              "effectiveClearance": {
+                "value": "17",
+                "label": "Effective Clearances"
+              },
+              "totalClearance": {
+                "value": "17",
+                "label": "Clearances"
+              }
+            }
+          },
+          {
+            "id": "2666",
+            "name": "New Zealand",
+            "abbr": "NZL",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+            "homeAway": "away",
+            "stats": {
+              "foulsCommitted": {
+                "value": "5",
+                "label": "Fouls"
+              },
+              "yellowCards": {
+                "value": "0",
+                "label": "Yellow Cards"
+              },
+              "redCards": {
+                "value": "0",
+                "label": "Red Cards"
+              },
+              "offsides": {
+                "value": "0",
+                "label": "Offsides"
+              },
+              "wonCorners": {
+                "value": "1",
+                "label": "Corner Kicks"
+              },
+              "saves": {
+                "value": "1",
+                "label": "Saves"
+              },
+              "possessionPct": {
+                "value": "53.2",
+                "label": "POSSESSION"
+              },
+              "totalShots": {
+                "value": "12",
+                "label": "SHOTS"
+              },
+              "shotsOnTarget": {
+                "value": "7",
+                "label": "ON GOAL"
+              },
+              "shotPct": {
+                "value": "0.6",
+                "label": "On Target %"
+              },
+              "penaltyKickGoals": {
+                "value": "0",
+                "label": "Penalty Goals"
+              },
+              "penaltyKickShots": {
+                "value": "0",
+                "label": "Penalty Kicks Taken"
+              },
+              "accuratePasses": {
+                "value": "320",
+                "label": "Accurate Passes"
+              },
+              "totalPasses": {
+                "value": "368",
                 "label": "Passes"
               },
               "passPct": {
@@ -95457,7 +95457,7 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "5",
+                "value": "9",
                 "label": "Crosses"
               },
               "crossPct": {
@@ -95465,15 +95465,15 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "10",
+                "value": "27",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "8",
+                "value": "16",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.8",
+                "value": "0.6",
                 "label": "Long Balls %"
               },
               "blockedShots": {
@@ -95481,11 +95481,11 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "2",
+                "value": "8",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "3",
+                "value": "11",
                 "label": "Tackles"
               },
               "tacklePct": {
@@ -95493,15 +95493,15 @@
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "8",
+                "value": "13",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "4",
+                "value": "14",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "4",
+                "value": "14",
                 "label": "Clearances"
               }
             }
@@ -95560,12 +95560,12 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
                     "name": "saves",
-                    "value": "1",
+                    "value": "5",
                     "label": "SV"
                   },
                   {
@@ -95611,7 +95611,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -95641,7 +95641,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -95656,7 +95656,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "1",
                     "label": "OF"
                   },
                   {
@@ -95692,7 +95692,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -95722,7 +95722,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -95803,7 +95803,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -95884,7 +95884,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -95894,7 +95894,7 @@
                   },
                   {
                     "name": "goalAssists",
-                    "value": "0",
+                    "value": "1",
                     "label": "A"
                   },
                   {
@@ -95904,17 +95904,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -95965,7 +95965,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -96007,7 +96007,7 @@
                 "position": "Center Right Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -96046,7 +96046,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -96061,7 +96061,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "1",
                     "label": "OF"
                   },
                   {
@@ -96076,7 +96076,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -96088,7 +96088,7 @@
                 "position": "Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -96208,7 +96208,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -96228,17 +96228,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -96264,7 +96264,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -96289,7 +96289,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -96331,7 +96331,7 @@
                 "position": "Center Right Forward",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -96345,7 +96345,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -96400,7 +96400,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "3",
                     "label": "SHOT"
                   }
                 ]
@@ -96411,12 +96411,12 @@
                 "shortName": "M. Ghayedi",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -96426,7 +96426,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -96441,7 +96441,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -96451,7 +96451,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -96481,7 +96481,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -96492,17 +96492,17 @@
                 "shortName": "A. Alipour",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -96522,7 +96522,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -96532,7 +96532,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -96978,12 +96978,12 @@
                 "shortName": "E. Hajsafi",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -97008,7 +97008,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -97649,7 +97649,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -97674,7 +97674,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -97755,7 +97755,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -97811,7 +97811,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -97836,7 +97836,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -97878,7 +97878,7 @@
                 "position": "Left Back",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -97892,7 +97892,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -97917,7 +97917,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -97937,7 +97937,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -97947,7 +97947,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -97968,7 +97968,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -97998,7 +97998,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -98079,7 +98079,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -98099,7 +98099,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "1",
+                    "value": "2",
                     "label": "SOG"
                   },
                   {
@@ -98109,7 +98109,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "2",
+                    "value": "3",
                     "label": "SHOT"
                   }
                 ]
@@ -98130,7 +98130,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -98160,7 +98160,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -98241,7 +98241,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -98322,7 +98322,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -98332,7 +98332,7 @@
                   },
                   {
                     "name": "goalAssists",
-                    "value": "1",
+                    "value": "2",
                     "label": "A"
                   },
                   {
@@ -98342,7 +98342,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -98352,7 +98352,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "1",
+                    "value": "3",
                     "label": "SHOT"
                   }
                 ]
@@ -98373,7 +98373,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -98403,7 +98403,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -98423,17 +98423,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "1",
+                    "value": "2",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "1",
+                    "value": "2",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "1",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -98445,7 +98445,7 @@
                 "position": "Attacking Midfielder Right",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -98459,7 +98459,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -98484,7 +98484,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -98504,7 +98504,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -98514,7 +98514,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "1",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -98606,7 +98606,7 @@
                 "shortName": "B. Old",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
@@ -99497,12 +99497,12 @@
                 "shortName": "R. Thomas",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -99527,7 +99527,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -99672,7 +99672,7 @@
           },
           {
             "id": "49528195",
-            "type": "Goal - Volley",
+            "type": "Goal",
             "clock": "7'",
             "period": 1,
             "teamId": "2666",
@@ -99693,19 +99693,6 @@
             "ownGoal": false
           },
           {
-            "id": "49528682",
-            "type": "Start Delay",
-            "clock": "17'",
-            "period": 1,
-            "teamId": "2666",
-            "teamName": "New Zealand",
-            "athletes": [],
-            "text": null,
-            "shootout": false,
-            "penaltyKick": false,
-            "ownGoal": false
-          },
-          {
             "id": "49528683",
             "type": "Start Delay",
             "clock": "17'",
@@ -99714,6 +99701,19 @@
             "teamName": "Iran",
             "athletes": [],
             "text": "Delay in match because of an injury Shahriyar Moghanloo (IR Iran).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49528682",
+            "type": "Start Delay",
+            "clock": "17'",
+            "period": 1,
+            "teamId": "2666",
+            "teamName": "New Zealand",
+            "athletes": [],
+            "text": null,
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -99771,6 +99771,19 @@
             "ownGoal": false
           },
           {
+            "id": "49529060",
+            "type": "End Delay",
+            "clock": "28'",
+            "period": 1,
+            "teamId": "2666",
+            "teamName": "New Zealand",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
             "id": "49529059",
             "type": "End Delay",
             "clock": "28'",
@@ -99784,10 +99797,325 @@
             "ownGoal": false
           },
           {
-            "id": "49529060",
-            "type": "End Delay",
-            "clock": "28'",
+            "id": "49529312",
+            "type": "Goal",
+            "clock": "32'",
             "period": 1,
+            "teamId": "469",
+            "teamName": "Iran",
+            "athletes": [
+              {
+                "id": "218086",
+                "name": "Ramin Rezaeian"
+              }
+            ],
+            "text": "Goal! IR Iran 1, New Zealand 1. Ramin Rezaeian (IR Iran) right footed shot from the centre of the box to the bottom left corner.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49529371",
+            "type": "Start Delay",
+            "clock": "35'",
+            "period": 1,
+            "teamId": "469",
+            "teamName": "Iran",
+            "athletes": [],
+            "text": "Delay in match because of an injury Shahriyar Moghanloo (IR Iran).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49529372",
+            "type": "Start Delay",
+            "clock": "35'",
+            "period": 1,
+            "teamId": "2666",
+            "teamName": "New Zealand",
+            "athletes": [],
+            "text": "Delay in match because of an injury Marko Stamenic (New Zealand).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49529374",
+            "type": "End Delay",
+            "clock": "35'",
+            "period": 1,
+            "teamId": "2666",
+            "teamName": "New Zealand",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49529373",
+            "type": "End Delay",
+            "clock": "35'",
+            "period": 1,
+            "teamId": "469",
+            "teamName": "Iran",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49529603",
+            "type": "Start Delay",
+            "clock": "39'",
+            "period": 1,
+            "teamId": "469",
+            "teamName": "Iran",
+            "athletes": [],
+            "text": "Delay in match because of an injury Saeid Ezatolahi (IR Iran).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49529601",
+            "type": "Start Delay",
+            "clock": "39'",
+            "period": 1,
+            "teamId": "2666",
+            "teamName": "New Zealand",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49529651",
+            "type": "End Delay",
+            "clock": "41'",
+            "period": 1,
+            "teamId": "469",
+            "teamName": "Iran",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49529652",
+            "type": "End Delay",
+            "clock": "41'",
+            "period": 1,
+            "teamId": "2666",
+            "teamName": "New Zealand",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49530101",
+            "type": "Halftime",
+            "clock": "45'+7'",
+            "period": 1,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": "First Half ends, IR Iran 1, New Zealand 1.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49530194",
+            "type": "Substitution",
+            "clock": "45'",
+            "period": 2,
+            "teamId": "469",
+            "teamName": "Iran",
+            "athletes": [
+              {
+                "id": "256581",
+                "name": "Mehdi Ghayedi"
+              },
+              {
+                "id": "339178",
+                "name": "Arya Yousefi"
+              }
+            ],
+            "text": "Substitution, IR Iran. Mehdi Ghayedi replaces Arya Yousefi.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49530215",
+            "type": "Start 2nd Half",
+            "clock": "45'",
+            "period": 2,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49530328",
+            "type": "Substitution",
+            "clock": "53'",
+            "period": 2,
+            "teamId": "469",
+            "teamName": "Iran",
+            "athletes": [
+              {
+                "id": "219617",
+                "name": "Ali Alipour"
+              },
+              {
+                "id": "308077",
+                "name": "Shahriyar Moghanloo"
+              }
+            ],
+            "text": "Substitution, IR Iran. Ali Alipour replaces Shahriyar Moghanloo.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49530353",
+            "type": "Goal",
+            "clock": "54'",
+            "period": 2,
+            "teamId": "2666",
+            "teamName": "New Zealand",
+            "athletes": [
+              {
+                "id": "266555",
+                "name": "Elijah Just"
+              },
+              {
+                "id": "134190",
+                "name": "Chris Wood"
+              }
+            ],
+            "text": "Goal! IR Iran 1, New Zealand 2. Elijah Just (New Zealand) right footed shot from the right side of the box to the centre of the goal. Assisted by Chris Wood following a fast break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49530497",
+            "type": "Goal - Header",
+            "clock": "64'",
+            "period": 2,
+            "teamId": "469",
+            "teamName": "Iran",
+            "athletes": [
+              {
+                "id": "296999",
+                "name": "Mohammad Mohebbi"
+              },
+              {
+                "id": "218086",
+                "name": "Ramin Rezaeian"
+              }
+            ],
+            "text": "Goal! IR Iran 2, New Zealand 2. Mohammad Mohebbi (IR Iran) header from the centre of the box to the bottom left corner. Assisted by Ramin Rezaeian with a cross.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49530499",
+            "type": "Substitution",
+            "clock": "65'",
+            "period": 2,
+            "teamId": "469",
+            "teamName": "Iran",
+            "athletes": [
+              {
+                "id": "203453",
+                "name": "Ehsan Hajsafi"
+              },
+              {
+                "id": "235519",
+                "name": "Saman Ghoddos"
+              }
+            ],
+            "text": "Substitution, IR Iran. Ehsan Hajisafi replaces Saman Ghoddos.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49530532",
+            "type": "Substitution",
+            "clock": "68'",
+            "period": 2,
+            "teamId": "2666",
+            "teamName": "New Zealand",
+            "athletes": [
+              {
+                "id": "156146",
+                "name": "Ryan Thomas"
+              },
+              {
+                "id": "228279",
+                "name": "Callum McCowatt"
+              }
+            ],
+            "text": "Substitution, New Zealand. Ryan Thomas replaces Callum McCowatt.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49530534",
+            "type": "Substitution",
+            "clock": "68'",
+            "period": 2,
+            "teamId": "2666",
+            "teamName": "New Zealand",
+            "athletes": [
+              {
+                "id": "297802",
+                "name": "Ben Old"
+              },
+              {
+                "id": "266554",
+                "name": "Liberato Cacace"
+              }
+            ],
+            "text": "Ben Old (New Zealand) Substitution at 68'",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49530535",
+            "type": "Start Delay",
+            "clock": "68'",
+            "period": 2,
+            "teamId": "469",
+            "teamName": "Iran",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49530536",
+            "type": "Start Delay",
+            "clock": "68'",
+            "period": 2,
             "teamId": "2666",
             "teamName": "New Zealand",
             "athletes": [],
@@ -99860,7 +100188,7 @@
           },
           {
             "time": "14'",
-            "text": "Attempt blocked. Chris Wood (New Zealand) right footed shot from the centre of the box is blocked. Assisted by Callum McCowatt.",
+            "text": "Attempt blocked. Chris Wood (New Zealand) right footed shot from the centre of the box is blocked.",
             "type": null
           },
           {
@@ -99897,6 +100225,156 @@
             "time": "25'",
             "text": "Delay in match for a drinks break.",
             "type": null
+          },
+          {
+            "time": "28'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
+          },
+          {
+            "time": "29'",
+            "text": "Attempt missed. Saman Ghoddos (IR Iran) right footed shot from outside the box misses to the right.",
+            "type": null
+          },
+          {
+            "time": "29'",
+            "text": "Attempt saved. Liberato Cacace (New Zealand) left footed shot from the left side of the box is saved in the bottom right corner by Alireza Beiranvand (IR Iran). Assisted by Sarpreet Singh.",
+            "type": null
+          },
+          {
+            "time": "30'",
+            "text": "Attempt missed. Saman Ghoddos (IR Iran) left footed shot from the right side of the box is too high. Assisted by Mohammad Mohebbi.",
+            "type": null
+          },
+          {
+            "time": "32'",
+            "text": "Attempt blocked. Shahriyar Moghanloo (IR Iran) right footed shot from the centre of the box is blocked.",
+            "type": null
+          },
+          {
+            "time": "32'",
+            "text": "Goal! IR Iran 1, New Zealand 1. Ramin Rezaeian (IR Iran) right footed shot from the centre of the box to the bottom left corner.",
+            "type": null
+          },
+          {
+            "time": "35'",
+            "text": "Delay in match because of an injury Shahriyar Moghanloo (IR Iran).",
+            "type": null
+          },
+          {
+            "time": "35'",
+            "text": "Delay in match because of an injury Marko Stamenic (New Zealand).",
+            "type": null
+          },
+          {
+            "time": "35'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
+          },
+          {
+            "time": "37'",
+            "text": "Shahriyar Moghanloo (IR Iran) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "37'",
+            "text": "Foul by Marko Stamenic (New Zealand).",
+            "type": null
+          },
+          {
+            "time": "39'",
+            "text": "Delay in match because of an injury Saeid Ezatolahi (IR Iran).",
+            "type": null
+          },
+          {
+            "time": "41'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
+          },
+          {
+            "time": "43'",
+            "text": "Liberato Cacace (New Zealand) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "43'",
+            "text": "Foul by Shoja Khalilzadeh (IR Iran).",
+            "type": null
+          },
+          {
+            "time": "44'",
+            "text": "Attempt saved. Chris Wood (New Zealand) right footed shot from outside the box is saved in the centre of the goal by Alireza Beiranvand (IR Iran).",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Fourth official has announced 6 minutes of added time.",
+            "type": null
+          },
+          {
+            "time": "45'+1'",
+            "text": "Attempt saved. Callum McCowatt (New Zealand) left footed shot from outside the box is saved in the bottom right corner by Alireza Beiranvand (IR Iran). Assisted by Chris Wood.",
+            "type": null
+          },
+          {
+            "time": "45'+3'",
+            "text": "Attempt missed. Shahriyar Moghanloo (IR Iran) header from the right side of the six yard box is close, but misses the top right corner. Assisted by Arya Yousefi.",
+            "type": null
+          },
+          {
+            "time": "45'+4'",
+            "text": "Mehdi Taremi (IR Iran) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "45'+4'",
+            "text": "Foul by Elijah Just (New Zealand).",
+            "type": null
+          },
+          {
+            "time": "45'+5'",
+            "text": "Offside, IR Iran. Ali Nemati is caught offside.",
+            "type": null
+          },
+          {
+            "time": "45'+7'",
+            "text": "First Half ends, IR Iran 1, New Zealand 1.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Substitution, IR Iran. Mehdi Ghayedi replaces Arya Yousefi.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Second Half begins IR Iran 1, New Zealand 1.",
+            "type": null
+          },
+          {
+            "time": "47'",
+            "text": "Attempt missed. Chris Wood (New Zealand) right footed shot from outside the box is high and wide to the right. Assisted by Max Crocombe.",
+            "type": null
+          },
+          {
+            "time": "48'",
+            "text": "Corner, IR Iran. Conceded by Tim Payne.",
+            "type": null
+          },
+          {
+            "time": "49'",
+            "text": "Attempt blocked. Mehdi Ghayedi (IR Iran) right footed shot from outside the box is blocked. Assisted by Ali Nemati with a headed pass.",
+            "type": null
+          },
+          {
+            "time": "51'",
+            "text": "Attempt missed. Shahriyar Moghanloo (IR Iran) left footed shot from outside the box is high and wide to the left. Assisted by Ramin Rezaeian.",
+            "type": null
+          },
+          {
+            "time": "53'",
+            "text": "Substitution, IR Iran. Ali Alipour replaces Shahriyar Moghanloo.",
+            "type": null
           }
         ],
         "gameInfo": {
@@ -99922,26 +100400,26 @@
                 "name": "totalShots",
                 "displayName": "Total Shots",
                 "leader": {
-                  "name": "Arya Yousefi",
-                  "shortName": "A. Yousefi",
-                  "jersey": "17",
-                  "position": "Defender",
-                  "value": "1",
-                  "summary": "1 SOG, 0.04 xG",
+                  "name": "Shahriyar Moghanloo",
+                  "shortName": "S. Moghanloo",
+                  "jersey": "20",
+                  "position": "Forward",
+                  "value": "3",
+                  "summary": "0 SOG, 0.18 xG",
                   "stats": [
                     {
                       "name": "totalShots",
-                      "value": "1",
+                      "value": "3",
                       "label": "SHOT"
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "1",
+                      "value": "0",
                       "label": "SOG"
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.04",
+                      "value": "0.18",
                       "label": "xG"
                     }
                   ]
@@ -99955,17 +100433,17 @@
                   "shortName": "A. Nemati",
                   "jersey": "19",
                   "position": "Defender",
-                  "value": "26",
-                  "summary": "28 PASS",
+                  "value": "47",
+                  "summary": "51 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "26",
+                      "value": "47",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "28",
+                      "value": "51",
                       "label": "PASS"
                     }
                   ]
@@ -99979,12 +100457,12 @@
                   "shortName": "A. Nemati",
                   "jersey": "19",
                   "position": "Defender",
-                  "value": "6",
+                  "value": "10",
                   "summary": "0 TKLW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "6",
+                      "value": "10",
                       "label": "DINT"
                     },
                     {
@@ -100003,22 +100481,22 @@
                   "shortName": "A. Beiranvand",
                   "jersey": "1",
                   "position": "Goalkeeper",
-                  "value": "1",
-                  "summary": "2 SOGA, 0.43 xGC",
+                  "value": "5",
+                  "summary": "7 SOGA, 0.74 xGC",
                   "stats": [
                     {
                       "name": "saves",
-                      "value": "1",
+                      "value": "5",
                       "label": "SV"
                     },
                     {
                       "name": "shotsOnGoalAgainst",
-                      "value": "2",
+                      "value": "7",
                       "label": "SOGA"
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.43",
+                      "value": "0.74",
                       "label": "xGC"
                     }
                   ]
@@ -100038,17 +100516,17 @@
                   "shortName": "S. Singh",
                   "jersey": "10",
                   "position": "Midfielder",
-                  "value": "2",
-                  "summary": "1 SOG, 0.15 xG",
+                  "value": "3",
+                  "summary": "2 SOG, 0.15 xG",
                   "stats": [
                     {
                       "name": "totalShots",
-                      "value": "2",
+                      "value": "3",
                       "label": "SHOT"
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "1",
+                      "value": "2",
                       "label": "SOG"
                     },
                     {
@@ -100067,17 +100545,17 @@
                   "shortName": "M. Stamenic",
                   "jersey": "8",
                   "position": "Midfielder",
-                  "value": "23",
-                  "summary": "25 PASS",
+                  "value": "47",
+                  "summary": "53 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "23",
+                      "value": "47",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "25",
+                      "value": "53",
                       "label": "PASS"
                     }
                   ]
@@ -100091,22 +100569,22 @@
                   "shortName": "F. Surman",
                   "jersey": "16",
                   "position": "Defender",
-                  "value": "7",
-                  "summary": "1 TKLW, 1 DUELW",
+                  "value": "13",
+                  "summary": "2 TKLW, 4 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "7",
+                      "value": "13",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "1",
+                      "value": "2",
                       "label": "TKLW"
                     },
                     {
                       "name": "duelsWon",
-                      "value": "1",
+                      "value": "4",
                       "label": "DUELW"
                     }
                   ]
@@ -100121,7 +100599,7 @@
                   "jersey": "1",
                   "position": "Goalkeeper",
                   "value": "1",
-                  "summary": "1 SOGA, 0.17 xGC",
+                  "summary": "3 SOGA, 1.17 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -100130,12 +100608,12 @@
                     },
                     {
                       "name": "shotsOnGoalAgainst",
-                      "value": "1",
+                      "value": "3",
                       "label": "SOGA"
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.17",
+                      "value": "1.17",
                       "label": "xGC"
                     }
                   ]
