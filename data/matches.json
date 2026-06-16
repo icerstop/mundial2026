@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-16T19:05:24.689Z",
+    "lastUpdated": "2026-06-16T20:16:53.949Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -100929,10 +100929,10 @@
       "shortName": "SEN @ FRA",
       "status": {
         "state": "in",
-        "detail": "2'",
-        "shortDetail": "2'",
-        "clock": "2'",
-        "period": 1,
+        "detail": "52'",
+        "shortDetail": "52'",
+        "clock": "52'",
+        "period": 2,
         "completed": false
       },
       "venue": {
@@ -100972,7 +100972,7 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "0",
+                "value": "3",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -100984,23 +100984,23 @@
                 "label": "Red Cards"
               },
               "offsides": {
-                "value": "0",
+                "value": "1",
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "0",
+                "value": "3",
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "0",
+                "value": "1",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "15.8",
+                "value": "57.2",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "0",
+                "value": "2",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
@@ -101020,15 +101020,15 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "0",
+                "value": "324",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "3",
+                "value": "373",
                 "label": "Passes"
               },
               "passPct": {
-                "value": "0.0",
+                "value": "0.9",
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
@@ -101036,7 +101036,7 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "0",
+                "value": "6",
                 "label": "Crosses"
               },
               "crossPct": {
@@ -101044,43 +101044,43 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "3",
+                "value": "25",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "0",
+                "value": "8",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.0",
+                "value": "0.3",
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "0",
+                "value": "1",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "0",
+                "value": "9",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "0",
+                "value": "11",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.0",
+                "value": "0.8",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "0",
+                "value": "3",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "1",
+                "value": "6",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "1",
+                "value": "6",
                 "label": "Clearances"
               }
             }
@@ -101093,7 +101093,7 @@
             "homeAway": "away",
             "stats": {
               "foulsCommitted": {
-                "value": "0",
+                "value": "6",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -101105,11 +101105,11 @@
                 "label": "Red Cards"
               },
               "offsides": {
-                "value": "0",
+                "value": "1",
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "1",
+                "value": "2",
                 "label": "Corner Kicks"
               },
               "saves": {
@@ -101117,19 +101117,19 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "84.2",
+                "value": "42.8",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "0",
+                "value": "5",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "0",
+                "value": "1",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.0",
+                "value": "0.2",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -101141,15 +101141,15 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "13",
+                "value": "237",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "15",
+                "value": "283",
                 "label": "Passes"
               },
               "passPct": {
-                "value": "0.9",
+                "value": "0.8",
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
@@ -101157,7 +101157,7 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "1",
+                "value": "3",
                 "label": "Crosses"
               },
               "crossPct": {
@@ -101165,43 +101165,43 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "2",
+                "value": "34",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "0",
+                "value": "14",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.0",
+                "value": "0.4",
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "0",
+                "value": "1",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "0",
+                "value": "6",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "0",
+                "value": "9",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.0",
+                "value": "0.7",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "1",
+                "value": "5",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "0",
+                "value": "11",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "0",
+                "value": "11",
                 "label": "Clearances"
               }
             }
@@ -101235,7 +101235,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -101265,7 +101265,7 @@
                   },
                   {
                     "name": "saves",
-                    "value": "0",
+                    "value": "1",
                     "label": "SV"
                   },
                   {
@@ -101296,9 +101296,9 @@
                 ]
               },
               {
-                "id": "222793",
-                "name": "Dayot Upamecano",
-                "shortName": "D. Upamecano",
+                "id": "277385",
+                "name": "William Saliba",
+                "shortName": "W. Saliba",
                 "position": "Center Left Defender",
                 "starter": true,
                 "subbedIn": false,
@@ -101377,9 +101377,9 @@
                 ]
               },
               {
-                "id": "277385",
-                "name": "William Saliba",
-                "shortName": "W. Saliba",
+                "id": "222793",
+                "name": "Dayot Upamecano",
+                "shortName": "D. Upamecano",
                 "position": "Center Right Defender",
                 "starter": true,
                 "subbedIn": false,
@@ -101392,12 +101392,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -101554,7 +101554,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -101599,7 +101599,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "1",
                     "label": "OF"
                   },
                   {
@@ -101640,7 +101640,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -101695,7 +101695,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -101716,7 +101716,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -101964,7 +101964,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -102019,7 +102019,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -102045,7 +102045,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -103326,7 +103326,7 @@
             "teamId": "654",
             "teamName": "Senegal",
             "abbr": "SEN",
-            "formation": "4-3-3",
+            "formation": "4-2-3-1",
             "players": [
               {
                 "id": "238362",
@@ -103734,10 +103734,10 @@
                 ]
               },
               {
-                "id": "144517",
-                "name": "Idrissa Gueye",
-                "shortName": "I. Gueye",
-                "position": "Center Midfielder",
+                "id": "38721",
+                "name": "Lamine Camara",
+                "shortName": "L. Camara",
+                "position": "Attacking Midfielder",
                 "starter": true,
                 "subbedIn": false,
                 "subbedOut": false,
@@ -103749,7 +103749,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -103830,7 +103830,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -103896,9 +103896,9 @@
                 ]
               },
               {
-                "id": "38721",
-                "name": "Lamine Camara",
-                "shortName": "L. Camara",
+                "id": "144517",
+                "name": "Idrissa Gueye",
+                "shortName": "I. Gueye",
                 "position": "Right Midfielder",
                 "starter": true,
                 "subbedIn": false,
@@ -103911,7 +103911,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -103992,7 +103992,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -104037,7 +104037,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "1",
                     "label": "OF"
                   },
                   {
@@ -104052,7 +104052,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -104061,7 +104061,7 @@
                 "id": "169797",
                 "name": "Sadio Mané",
                 "shortName": "S. Mané",
-                "position": "Left Forward",
+                "position": "Attacking Midfielder Left",
                 "starter": true,
                 "subbedIn": false,
                 "subbedOut": false,
@@ -104078,7 +104078,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "3",
                     "label": "FA"
                   },
                   {
@@ -104123,7 +104123,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -104133,7 +104133,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -104142,7 +104142,7 @@
                 "id": "241012",
                 "name": "Ismaïla Sarr",
                 "shortName": "I. Sarr",
-                "position": "Right Forward",
+                "position": "Attacking Midfielder Right",
                 "starter": true,
                 "subbedIn": false,
                 "subbedOut": false,
@@ -104214,7 +104214,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "3",
                     "label": "SHOT"
                   }
                 ]
@@ -105450,6 +105450,136 @@
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
+          },
+          {
+            "id": "49531513",
+            "type": "Start Delay",
+            "clock": "26'",
+            "period": 1,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49531512",
+            "type": "Start Delay",
+            "clock": "26'",
+            "period": 1,
+            "teamId": "654",
+            "teamName": "Senegal",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49531519",
+            "type": "End Delay",
+            "clock": "30'",
+            "period": 1,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49531518",
+            "type": "End Delay",
+            "clock": "30'",
+            "period": 1,
+            "teamId": "654",
+            "teamName": "Senegal",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49531714",
+            "type": "Start Delay",
+            "clock": "40'",
+            "period": 1,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49531715",
+            "type": "Start Delay",
+            "clock": "40'",
+            "period": 1,
+            "teamId": "654",
+            "teamName": "Senegal",
+            "athletes": [],
+            "text": "Delay in match because of an injury Ismaïla Sarr (Senegal).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49531717",
+            "type": "End Delay",
+            "clock": "42'",
+            "period": 1,
+            "teamId": "654",
+            "teamName": "Senegal",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49531716",
+            "type": "End Delay",
+            "clock": "42'",
+            "period": 1,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49531885",
+            "type": "Halftime",
+            "clock": "45'+7'",
+            "period": 1,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49531890",
+            "type": "Start 2nd Half",
+            "clock": "45'",
+            "period": 2,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": "Second Half begins France 0, Senegal 0.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
           }
         ],
         "commentary": [
@@ -105466,6 +105596,191 @@
           {
             "time": "2'",
             "text": "Corner, Senegal. Conceded by Théo Hernández.",
+            "type": null
+          },
+          {
+            "time": "3'",
+            "text": "Foul by Nicolas Jackson (Senegal).",
+            "type": null
+          },
+          {
+            "time": "3'",
+            "text": "Mike Maignan (France) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "4'",
+            "text": "Sadio Mané (Senegal) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "4'",
+            "text": "Foul by Adrien Rabiot (France).",
+            "type": null
+          },
+          {
+            "time": "7'",
+            "text": "Attempt blocked. Ismaïla Sarr (Senegal) right footed shot from the right side of the box is blocked. Assisted by Nicolas Jackson.",
+            "type": null
+          },
+          {
+            "time": "8'",
+            "text": "Offside, Senegal. Nicolas Jackson is caught offside.",
+            "type": null
+          },
+          {
+            "time": "15'",
+            "text": "Foul by Idrissa Gueye (Senegal).",
+            "type": null
+          },
+          {
+            "time": "15'",
+            "text": "Désiré Doué (France) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "19'",
+            "text": "Attempt blocked. Ousmane Dembélé (France) left footed shot from outside the box is blocked. Assisted by Michael Olise.",
+            "type": null
+          },
+          {
+            "time": "21'",
+            "text": "Corner, France. Conceded by Sadio Mané.",
+            "type": null
+          },
+          {
+            "time": "22'",
+            "text": "Sadio Mané (Senegal) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "22'",
+            "text": "Foul by Dayot Upamecano (France).",
+            "type": null
+          },
+          {
+            "time": "23'",
+            "text": "Corner, France. Conceded by Krépin Diatta.",
+            "type": null
+          },
+          {
+            "time": "25'",
+            "text": "Nicolas Jackson (Senegal) hits the left post with a left footed shot from the left side of the box. Assisted by El Hadji Malick Diouf following a fast break.",
+            "type": null
+          },
+          {
+            "time": "25'",
+            "text": "Corner, Senegal. Conceded by Mike Maignan.",
+            "type": null
+          },
+          {
+            "time": "26'",
+            "text": "Delay in match for a drinks break.",
+            "type": null
+          },
+          {
+            "time": "30'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
+          },
+          {
+            "time": "30'",
+            "text": "Foul by Lamine Camara (Senegal).",
+            "type": null
+          },
+          {
+            "time": "30'",
+            "text": "Ousmane Dembélé (France) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "31'",
+            "text": "Attempt missed. Ismaïla Sarr (Senegal) right footed shot from outside the box is high and wide to the right. Assisted by Nicolas Jackson.",
+            "type": null
+          },
+          {
+            "time": "32'",
+            "text": "Sadio Mané (Senegal) wins a free kick on the left wing.",
+            "type": null
+          },
+          {
+            "time": "32'",
+            "text": "Foul by Jules Koundé (France).",
+            "type": null
+          },
+          {
+            "time": "40'",
+            "text": "Attempt saved. Sadio Mané (Senegal) right footed shot from outside the box is saved in the top centre of the goal by Mike Maignan (France). Assisted by Ismaïla Sarr.",
+            "type": null
+          },
+          {
+            "time": "40'",
+            "text": "Delay in match because of an injury Ismaïla Sarr (Senegal).",
+            "type": null
+          },
+          {
+            "time": "42'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
+          },
+          {
+            "time": "43'",
+            "text": "Handball by Pape Gueye (Senegal).",
+            "type": null
+          },
+          {
+            "time": "44'",
+            "text": "Corner, France. Conceded by Kalidou Koulibaly.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Fourth official has announced 6 minutes of added time.",
+            "type": null
+          },
+          {
+            "time": "45'+6'",
+            "text": "Attempt missed. Ismaïla Sarr (Senegal) right footed shot from the centre of the box is too high.",
+            "type": null
+          },
+          {
+            "time": "45'+7'",
+            "text": "First Half ends, France 0, Senegal 0.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Second Half begins France 0, Senegal 0.",
+            "type": null
+          },
+          {
+            "time": "46'",
+            "text": "Michael Olise (France) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "46'",
+            "text": "Foul by Lamine Camara (Senegal).",
+            "type": null
+          },
+          {
+            "time": "47'",
+            "text": "Attempt missed. Désiré Doué (France) left footed shot from outside the box is close, but misses to the left. Assisted by Dayot Upamecano.",
+            "type": null
+          },
+          {
+            "time": "48'",
+            "text": "Dayot Upamecano (France) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "48'",
+            "text": "Foul by Nicolas Jackson (Senegal).",
+            "type": null
+          },
+          {
+            "time": "50'",
+            "text": "Offside, France. Jules Koundé is caught offside.",
             "type": null
           }
         ],
@@ -105491,33 +105806,81 @@
               {
                 "name": "totalShots",
                 "displayName": "Total Shots",
-                "leader": null
+                "leader": {
+                  "name": "Désiré Doué",
+                  "shortName": "D. Doué",
+                  "jersey": "20",
+                  "position": "Forward",
+                  "value": "1",
+                  "summary": "0 SOG, 0.04 xG",
+                  "stats": [
+                    {
+                      "name": "totalShots",
+                      "value": "1",
+                      "label": "SHOT"
+                    },
+                    {
+                      "name": "shotsOnTarget",
+                      "value": "0",
+                      "label": "SOG"
+                    },
+                    {
+                      "name": "expectedGoals",
+                      "value": "0.04",
+                      "label": "xG"
+                    }
+                  ]
+                }
               },
               {
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
-                "leader": null
+                "leader": {
+                  "name": "Dayot Upamecano",
+                  "shortName": "D. Upamecano",
+                  "jersey": "4",
+                  "position": "Defender",
+                  "value": "52",
+                  "summary": "60 PASS",
+                  "stats": [
+                    {
+                      "name": "accuratePasses",
+                      "value": "52",
+                      "label": "AC.PASS"
+                    },
+                    {
+                      "name": "totalPasses",
+                      "value": "60",
+                      "label": "PASS"
+                    }
+                  ]
+                }
               },
               {
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Theo Hernández",
-                  "shortName": "T. Hernández",
-                  "jersey": "19",
+                  "name": "Dayot Upamecano",
+                  "shortName": "D. Upamecano",
+                  "jersey": "4",
                   "position": "Defender",
-                  "value": "1",
-                  "summary": "0 TKLW",
+                  "value": "11",
+                  "summary": "4 TKLW, 5 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "1",
+                      "value": "11",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "0",
+                      "value": "4",
                       "label": "TKLW"
+                    },
+                    {
+                      "name": "duelsWon",
+                      "value": "5",
+                      "label": "DUELW"
                     }
                   ]
                 }
@@ -105525,7 +105888,31 @@
               {
                 "name": "saves",
                 "displayName": "Saves",
-                "leader": null
+                "leader": {
+                  "name": "Mike Maignan",
+                  "shortName": "M. Maignan",
+                  "jersey": "16",
+                  "position": "Goalkeeper",
+                  "value": "1",
+                  "summary": "1 SOGA, 0.44 xGC",
+                  "stats": [
+                    {
+                      "name": "saves",
+                      "value": "1",
+                      "label": "SV"
+                    },
+                    {
+                      "name": "shotsOnGoalAgainst",
+                      "value": "1",
+                      "label": "SOGA"
+                    },
+                    {
+                      "name": "expectedGoalsConceded",
+                      "value": "0.44",
+                      "label": "xGC"
+                    }
+                  ]
+                }
               }
             ]
           },
@@ -105536,27 +105923,51 @@
               {
                 "name": "totalShots",
                 "displayName": "Total Shots",
-                "leader": null
+                "leader": {
+                  "name": "Ismaïla Sarr",
+                  "shortName": "I. Sarr",
+                  "jersey": "18",
+                  "position": "Forward",
+                  "value": "3",
+                  "summary": "0 SOG, 0.28 xG",
+                  "stats": [
+                    {
+                      "name": "totalShots",
+                      "value": "3",
+                      "label": "SHOT"
+                    },
+                    {
+                      "name": "shotsOnTarget",
+                      "value": "0",
+                      "label": "SOG"
+                    },
+                    {
+                      "name": "expectedGoals",
+                      "value": "0.28",
+                      "label": "xG"
+                    }
+                  ]
+                }
               },
               {
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "Sadio Mané",
-                  "shortName": "S. Mané",
-                  "jersey": "10",
-                  "position": "Forward",
-                  "value": "3",
-                  "summary": "3 PASS",
+                  "name": "Moussa Niakhaté",
+                  "shortName": "M. Niakhaté",
+                  "jersey": "19",
+                  "position": "Defender",
+                  "value": "39",
+                  "summary": "44 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "3",
+                      "value": "39",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "3",
+                      "value": "44",
                       "label": "PASS"
                     }
                   ]
@@ -105566,22 +105977,27 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Kalidou Koulibaly",
-                  "shortName": "K. Koulibaly",
-                  "jersey": "3",
+                  "name": "El Hadji Malick Diouf",
+                  "shortName": "E. Diouf",
+                  "jersey": "25",
                   "position": "Defender",
-                  "value": "1",
-                  "summary": "0 TKLW",
+                  "value": "8",
+                  "summary": "2 TKLW, 3 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "1",
+                      "value": "8",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "0",
+                      "value": "2",
                       "label": "TKLW"
+                    },
+                    {
+                      "name": "duelsWon",
+                      "value": "3",
+                      "label": "DUELW"
                     }
                   ]
                 }
