@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-16T04:05:40.189Z",
+    "lastUpdated": "2026-06-16T17:47:38.256Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -84773,7 +84773,7 @@
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "8",
+                "value": "7",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
@@ -95392,7 +95392,7 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "48.3",
+                "value": "48.5",
                 "label": "Possession"
               },
               "totalShots": {
@@ -95416,11 +95416,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "312",
+                "value": "314",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "407",
+                "value": "409",
                 "label": "Passes"
               },
               "passPct": {
@@ -95440,15 +95440,15 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "63",
+                "value": "61",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "29",
+                "value": "27",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.5",
+                "value": "0.4",
                 "label": "Long Balls %"
               },
               "blockedShots": {
@@ -95513,7 +95513,7 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "51.7",
+                "value": "51.5",
                 "label": "Possession"
               },
               "totalShots": {
@@ -95537,11 +95537,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "377",
+                "value": "376",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "447",
+                "value": "446",
                 "label": "Passes"
               },
               "passPct": {
@@ -95561,7 +95561,7 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "41",
+                "value": "40",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
@@ -95589,15 +95589,15 @@
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "13",
+                "value": "15",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "25",
+                "value": "26",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "25",
+                "value": "26",
                 "label": "Clearances"
               }
             }
@@ -100476,7 +100476,7 @@
           },
           {
             "time": "14'",
-            "text": "Attempt missed. Callum McCowatt (New Zealand) right footed shot from the centre of the box misses to the left following a corner.",
+            "text": "Attempt missed. Callum McCowatt (New Zealand) right footed shot from the right side of the box misses to the left following a corner.",
             "type": null
           },
           {
@@ -100526,7 +100526,7 @@
           },
           {
             "time": "29'",
-            "text": "Attempt missed. Saman Ghoddos (IR Iran) right footed shot from outside the box misses to the right.",
+            "text": "Attempt missed. Saman Ghoddos (IR Iran) right footed shot from outside the box is close, but misses to the right.",
             "type": null
           },
           {
@@ -100698,7 +100698,7 @@
                   "jersey": "20",
                   "position": "Forward",
                   "value": "3",
-                  "summary": "0 SOG, 0.18 xG",
+                  "summary": "0 SOG, 0.20 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -100712,7 +100712,7 @@
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.18",
+                      "value": "0.20",
                       "label": "xG"
                     }
                   ]
@@ -100897,7 +100897,7 @@
                   "jersey": "1",
                   "position": "Goalkeeper",
                   "value": "2",
-                  "summary": "4 SOGA, 1.49 xGC",
+                  "summary": "4 SOGA, 1.50 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -100911,7 +100911,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "1.49",
+                      "value": "1.50",
                       "label": "xGC"
                     }
                   ]
