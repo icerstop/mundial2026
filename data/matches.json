@@ -1,15 +1,15 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-16T20:16:53.949Z",
+    "lastUpdated": "2026-06-16T21:23:38.470Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
-    "completedCount": 16
+    "completedCount": 17
   },
   "stats": {
-    "totalGoals": 46,
-    "matchesPlayed": 16,
-    "avgGoalsPerMatch": "2.88"
+    "totalGoals": 50,
+    "matchesPlayed": 17,
+    "avgGoalsPerMatch": "2.94"
   },
   "topScorers": [
     {
@@ -28,6 +28,25 @@
           "matchId": "760422",
           "clock": "88'",
           "vs": "CUW"
+        }
+      ]
+    },
+    {
+      "id": "231388",
+      "name": "Kylian Mbappé",
+      "teamId": "478",
+      "teamName": "France",
+      "goals": 2,
+      "goalDetails": [
+        {
+          "matchId": "760432",
+          "clock": "66'",
+          "vs": "SEN"
+        },
+        {
+          "matchId": "760432",
+          "clock": "90'+6'",
+          "vs": "SEN"
         }
       ]
     },
@@ -565,6 +584,20 @@
       ]
     },
     {
+      "id": "328238",
+      "name": "Bradley Barcola",
+      "teamId": "478",
+      "teamName": "France",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760432",
+          "clock": "82'",
+          "vs": "SEN"
+        }
+      ]
+    },
+    {
       "id": "328535",
       "name": "Nestory Irankunda",
       "teamId": "628",
@@ -575,6 +608,20 @@
           "matchId": "760421",
           "clock": "27'",
           "vs": "TUR"
+        }
+      ]
+    },
+    {
+      "id": "388522",
+      "name": "Ibrahim Mbaye",
+      "teamId": "654",
+      "teamName": "Senegal",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760432",
+          "clock": "90'+5'",
+          "vs": "FRA"
         }
       ]
     }
@@ -732,6 +779,20 @@
       ]
     },
     {
+      "id": "176203",
+      "name": "Adrien Rabiot",
+      "teamId": "478",
+      "teamName": "France",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760432",
+          "clock": "82'",
+          "vs": "SEN"
+        }
+      ]
+    },
+    {
       "id": "191209",
       "name": "Vladimír Coufal",
       "teamId": "450",
@@ -872,6 +933,20 @@
       ]
     },
     {
+      "id": "268641",
+      "name": "Iliman Ndiaye",
+      "teamId": "654",
+      "teamName": "Senegal",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760432",
+          "clock": "90'+5'",
+          "vs": "FRA"
+        }
+      ]
+    },
+    {
       "id": "274197",
       "name": "Lee Kang-In",
       "teamId": "451",
@@ -924,6 +999,20 @@
           "matchId": "760423",
           "clock": "90'",
           "vs": "ECU"
+        }
+      ]
+    },
+    {
+      "id": "286831",
+      "name": "Michael Olise",
+      "teamId": "478",
+      "teamName": "France",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760432",
+          "clock": "66'",
+          "vs": "SEN"
         }
       ]
     },
@@ -1092,6 +1181,28 @@
       "assistDetails": []
     },
     {
+      "id": "231388",
+      "name": "Kylian Mbappé",
+      "teamId": "478",
+      "teamName": "France",
+      "goals": 2,
+      "assists": 0,
+      "total": 2,
+      "goalDetails": [
+        {
+          "matchId": "760432",
+          "clock": "66'",
+          "vs": "SEN"
+        },
+        {
+          "matchId": "760432",
+          "clock": "90'+6'",
+          "vs": "SEN"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
       "id": "266555",
       "name": "Elijah Just",
       "teamId": "2666",
@@ -1792,6 +1903,23 @@
       "assistDetails": []
     },
     {
+      "id": "328238",
+      "name": "Bradley Barcola",
+      "teamId": "478",
+      "teamName": "France",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760432",
+          "clock": "82'",
+          "vs": "SEN"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
       "id": "328535",
       "name": "Nestory Irankunda",
       "teamId": "628",
@@ -1804,6 +1932,23 @@
           "matchId": "760421",
           "clock": "27'",
           "vs": "TUR"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
+      "id": "388522",
+      "name": "Ibrahim Mbaye",
+      "teamId": "654",
+      "teamName": "Senegal",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760432",
+          "clock": "90'+5'",
+          "vs": "FRA"
         }
       ],
       "assistDetails": []
@@ -1860,6 +2005,23 @@
       ]
     },
     {
+      "id": "176203",
+      "name": "Adrien Rabiot",
+      "teamId": "478",
+      "teamName": "France",
+      "goals": 0,
+      "assists": 1,
+      "total": 1,
+      "goalDetails": [],
+      "assistDetails": [
+        {
+          "matchId": "760432",
+          "clock": "82'",
+          "vs": "SEN"
+        }
+      ]
+    },
+    {
       "id": "191209",
       "name": "Vladimír Coufal",
       "teamId": "450",
@@ -1873,74 +2035,6 @@
           "matchId": "760414",
           "clock": "59'",
           "vs": "KOR"
-        }
-      ]
-    },
-    {
-      "id": "194308",
-      "name": "Roberto Alvarado",
-      "teamId": "203",
-      "teamName": "Mexico",
-      "goals": 0,
-      "assists": 1,
-      "total": 1,
-      "goalDetails": [],
-      "assistDetails": [
-        {
-          "matchId": "760415",
-          "clock": "67'",
-          "vs": "RSA"
-        }
-      ]
-    },
-    {
-      "id": "218522",
-      "name": "Bruno Guimarães",
-      "teamId": "205",
-      "teamName": "Brazil",
-      "goals": 0,
-      "assists": 1,
-      "total": 1,
-      "goalDetails": [],
-      "assistDetails": [
-        {
-          "matchId": "760419",
-          "clock": "32'",
-          "vs": "MAR"
-        }
-      ]
-    },
-    {
-      "id": "225607",
-      "name": "Christian Pulisic",
-      "teamId": "660",
-      "teamName": "United States",
-      "goals": 0,
-      "assists": 1,
-      "total": 1,
-      "goalDetails": [],
-      "assistDetails": [
-        {
-          "matchId": "760417",
-          "clock": "31'",
-          "vs": "PAR"
-        }
-      ]
-    },
-    {
-      "id": "238016",
-      "name": "Koki Ogawa",
-      "teamId": "627",
-      "teamName": "Japan",
-      "goals": 0,
-      "assists": 1,
-      "total": 1,
-      "goalDetails": [],
-      "assistDetails": [
-        {
-          "matchId": "760425",
-          "clock": "89'",
-          "vs": "NED"
         }
       ]
     }
@@ -33630,7 +33724,7 @@
                 "name": "Juan Jose Cáceres"
               }
             ],
-            "text": "Substitution, Paraguay. Gustavo Velázquez replaces Juan José Cáceres.",
+            "text": "Substitution, Paraguay. Gustavo Velázquez replaces Juan José C��ceres.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -100928,38 +101022,38 @@
       "name": "Senegal at France",
       "shortName": "SEN @ FRA",
       "status": {
-        "state": "in",
-        "detail": "52'",
-        "shortDetail": "52'",
-        "clock": "52'",
+        "state": "post",
+        "detail": "FT",
+        "shortDetail": "FT",
+        "clock": "90'+10'",
         "period": 2,
-        "completed": false
+        "completed": true
       },
       "venue": {
         "name": "MetLife Stadium",
         "city": "East Rutherford, New Jersey",
         "country": "USA"
       },
-      "attendance": null,
+      "attendance": 80545,
       "home": {
         "id": "478",
         "name": "France",
         "abbr": "FRA",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-        "score": "0",
-        "winner": false,
-        "record": "0-0-0",
-        "form": "WLWWW"
+        "score": "3",
+        "winner": true,
+        "record": "1-0-0",
+        "form": "WWLWW"
       },
       "away": {
         "id": "654",
         "name": "Senegal",
         "abbr": "SEN",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
-        "score": "0",
+        "score": "1",
         "winner": false,
-        "record": "0-0-0",
-        "form": "DLWWW"
+        "record": "0-0-1",
+        "form": "LDLWW"
       },
       "group": null,
       "details": {
@@ -100972,7 +101066,7 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "3",
+                "value": "5",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -100988,27 +101082,27 @@
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "3",
+                "value": "6",
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "1",
+                "value": "2",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "57.2",
-                "label": "POSSESSION"
+                "value": "53.7",
+                "label": "Possession"
               },
               "totalShots": {
-                "value": "2",
+                "value": "11",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "0",
+                "value": "8",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.0",
+                "value": "0.7",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -101020,11 +101114,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "324",
+                "value": "505",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "373",
+                "value": "576",
                 "label": "Passes"
               },
               "passPct": {
@@ -101036,7 +101130,7 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "6",
+                "value": "9",
                 "label": "Crosses"
               },
               "crossPct": {
@@ -101044,27 +101138,27 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "25",
+                "value": "46",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "8",
+                "value": "21",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.3",
+                "value": "0.5",
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "1",
+                "value": "2",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "9",
+                "value": "14",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "11",
+                "value": "18",
                 "label": "Tackles"
               },
               "tacklePct": {
@@ -101072,15 +101166,15 @@
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "3",
+                "value": "7",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "6",
+                "value": "14",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "6",
+                "value": "14",
                 "label": "Clearances"
               }
             }
@@ -101093,7 +101187,7 @@
             "homeAway": "away",
             "stats": {
               "foulsCommitted": {
-                "value": "6",
+                "value": "9",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -101105,31 +101199,31 @@
                 "label": "Red Cards"
               },
               "offsides": {
-                "value": "1",
+                "value": "3",
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "2",
+                "value": "4",
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "0",
+                "value": "5",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "42.8",
-                "label": "POSSESSION"
+                "value": "46.3",
+                "label": "Possession"
               },
               "totalShots": {
-                "value": "5",
+                "value": "6",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "1",
+                "value": "2",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.2",
+                "value": "0.3",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -101141,39 +101235,39 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "237",
+                "value": "427",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "283",
+                "value": "497",
                 "label": "Passes"
               },
               "passPct": {
-                "value": "0.8",
+                "value": "0.9",
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "0",
+                "value": "1",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "3",
+                "value": "9",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.0",
+                "value": "0.1",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "34",
+                "value": "48",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "14",
+                "value": "25",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.4",
+                "value": "0.5",
                 "label": "Long Balls %"
               },
               "blockedShots": {
@@ -101181,27 +101275,27 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "6",
+                "value": "9",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "9",
+                "value": "14",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.7",
+                "value": "0.6",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "5",
+                "value": "8",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "11",
+                "value": "17",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "11",
+                "value": "17",
                 "label": "Clearances"
               }
             }
@@ -101260,12 +101354,12 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
                     "name": "saves",
-                    "value": "1",
+                    "value": "2",
                     "label": "SV"
                   },
                   {
@@ -101341,7 +101435,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -101422,7 +101516,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -101503,7 +101597,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -101533,7 +101627,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -101584,7 +101678,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -101626,7 +101720,7 @@
                 "position": "Attacking Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -101746,7 +101840,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -101756,7 +101850,7 @@
                   },
                   {
                     "name": "goalAssists",
-                    "value": "0",
+                    "value": "1",
                     "label": "A"
                   },
                   {
@@ -101827,7 +101921,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -101878,12 +101972,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -101908,7 +102002,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -101928,17 +102022,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "4",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "2",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "4",
                     "label": "SHOT"
                   }
                 ]
@@ -101950,7 +102044,7 @@
                 "position": "Attacking Midfielder Left",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -102009,7 +102103,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -102019,7 +102113,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "1",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -102045,7 +102139,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -102070,7 +102164,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -102080,7 +102174,7 @@
                   },
                   {
                     "name": "goalAssists",
-                    "value": "0",
+                    "value": "1",
                     "label": "A"
                   },
                   {
@@ -102090,7 +102184,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "2",
                     "label": "SOG"
                   },
                   {
@@ -102100,7 +102194,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -102840,12 +102934,12 @@
                 "shortName": "R. Cherki",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -102855,7 +102949,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -102870,7 +102964,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -102880,7 +102974,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -103002,12 +103096,12 @@
                 "shortName": "B. Barcola",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -103032,7 +103126,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -103042,7 +103136,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -103062,17 +103156,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -103374,12 +103468,12 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
                     "name": "saves",
-                    "value": "0",
+                    "value": "5",
                     "label": "SV"
                   },
                   {
@@ -103430,7 +103524,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -103455,7 +103549,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -103536,7 +103630,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -103587,7 +103681,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -103617,7 +103711,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -103698,7 +103792,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -103740,7 +103834,7 @@
                 "position": "Attacking Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -103779,7 +103873,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -103821,7 +103915,7 @@
                 "position": "Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -103860,7 +103954,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -103902,7 +103996,7 @@
                 "position": "Right Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -103941,7 +104035,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -103983,7 +104077,7 @@
                 "position": "Forward",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -104022,7 +104116,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -104037,7 +104131,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "1",
+                    "value": "3",
                     "label": "OF"
                   },
                   {
@@ -104103,7 +104197,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -104145,7 +104239,7 @@
                 "position": "Attacking Midfielder Right",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -104184,7 +104278,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -104387,22 +104481,22 @@
                 "shortName": "H. Diarra",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -104417,7 +104511,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -104427,7 +104521,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -104549,12 +104643,12 @@
                 "shortName": "P. Ciss",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -104579,7 +104673,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -104589,7 +104683,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -104873,12 +104967,12 @@
                 "shortName": "B. Dieng",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -104903,7 +104997,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -104913,7 +105007,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -105035,12 +105129,12 @@
                 "shortName": "I. Mbaye",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -105065,7 +105159,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -105075,7 +105169,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -105095,17 +105189,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -105359,12 +105453,12 @@
                 "shortName": "I. Ndiaye",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -105389,7 +105483,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -105399,7 +105493,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -105409,7 +105503,7 @@
                   },
                   {
                     "name": "goalAssists",
-                    "value": "0",
+                    "value": "1",
                     "label": "A"
                   },
                   {
@@ -105504,19 +105598,6 @@
             "ownGoal": false
           },
           {
-            "id": "49531714",
-            "type": "Start Delay",
-            "clock": "40'",
-            "period": 1,
-            "teamId": "478",
-            "teamName": "France",
-            "athletes": [],
-            "text": null,
-            "shootout": false,
-            "penaltyKick": false,
-            "ownGoal": false
-          },
-          {
             "id": "49531715",
             "type": "Start Delay",
             "clock": "40'",
@@ -105525,6 +105606,19 @@
             "teamName": "Senegal",
             "athletes": [],
             "text": "Delay in match because of an injury Ismaïla Sarr (Senegal).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49531714",
+            "type": "Start Delay",
+            "clock": "40'",
+            "period": 1,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [],
+            "text": null,
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -105577,6 +105671,387 @@
             "teamName": null,
             "athletes": [],
             "text": "Second Half begins France 0, Senegal 0.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532121",
+            "type": "Start Delay",
+            "clock": "60'",
+            "period": 2,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532123",
+            "type": "End Delay",
+            "clock": "61'",
+            "period": 2,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532203",
+            "type": "Goal",
+            "clock": "66'",
+            "period": 2,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [
+              {
+                "id": "231388",
+                "name": "Kylian Mbappé"
+              },
+              {
+                "id": "286831",
+                "name": "Michael Olise"
+              }
+            ],
+            "text": "Goal! France 1, Senegal 0. Kylian Mbappé (France) right footed shot from the centre of the box to the centre of the goal. Assisted by Michael Olise with a through ball.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532221",
+            "type": "Start Delay",
+            "clock": "68'",
+            "period": 2,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532222",
+            "type": "Start Delay",
+            "clock": "68'",
+            "period": 2,
+            "teamId": "654",
+            "teamName": "Senegal",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532224",
+            "type": "End Delay",
+            "clock": "71'",
+            "period": 2,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532223",
+            "type": "End Delay",
+            "clock": "71'",
+            "period": 2,
+            "teamId": "654",
+            "teamName": "Senegal",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532273",
+            "type": "Substitution",
+            "clock": "75'",
+            "period": 2,
+            "teamId": "654",
+            "teamName": "Senegal",
+            "athletes": [
+              {
+                "id": "388522",
+                "name": "Ibrahim Mbaye"
+              },
+              {
+                "id": "241012",
+                "name": "Ismaïla Sarr"
+              }
+            ],
+            "text": "Substitution, Senegal. Ibrahim Mbaye replaces Ismaïla Sarr.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532274",
+            "type": "Substitution",
+            "clock": "76'",
+            "period": 2,
+            "teamId": "654",
+            "teamName": "Senegal",
+            "athletes": [
+              {
+                "id": "324991",
+                "name": "Habib Diarra"
+              },
+              {
+                "id": "38721",
+                "name": "Lamine Camara"
+              }
+            ],
+            "text": "Substitution, Senegal. Habib Diarra replaces Lamine Camara.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532335",
+            "type": "Substitution",
+            "clock": "80'",
+            "period": 2,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [
+              {
+                "id": "328238",
+                "name": "Bradley Barcola"
+              },
+              {
+                "id": "229744",
+                "name": "Ousmane Dembélé"
+              }
+            ],
+            "text": "Substitution, France. Bradley Barcola replaces Ousmane Dembélé.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532382",
+            "type": "Goal",
+            "clock": "82'",
+            "period": 2,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [
+              {
+                "id": "328238",
+                "name": "Bradley Barcola"
+              },
+              {
+                "id": "176203",
+                "name": "Adrien Rabiot"
+              }
+            ],
+            "text": "Goal! France 2, Senegal 0. Bradley Barcola (France) right footed shot from the right side of the box to the bottom right corner. Assisted by Adrien Rabiot with a through ball following a fast break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532384",
+            "type": "Substitution",
+            "clock": "83'",
+            "period": 2,
+            "teamId": "654",
+            "teamName": "Senegal",
+            "athletes": [
+              {
+                "id": "268641",
+                "name": "Iliman Ndiaye"
+              },
+              {
+                "id": "255889",
+                "name": "Pape Gueye"
+              }
+            ],
+            "text": "Substitution, Senegal. Iliman Ndiaye replaces Pape Gueye.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532385",
+            "type": "Substitution",
+            "clock": "83'",
+            "period": 2,
+            "teamId": "654",
+            "teamName": "Senegal",
+            "athletes": [
+              {
+                "id": "313889",
+                "name": "Bamba Dieng"
+              },
+              {
+                "id": "308524",
+                "name": "Nicolas Jackson"
+              }
+            ],
+            "text": "Substitution, Senegal. Bamba Dieng replaces Nicolas Jackson.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532443",
+            "type": "Substitution",
+            "clock": "87'",
+            "period": 2,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [
+              {
+                "id": "298008",
+                "name": "Rayan Cherki"
+              },
+              {
+                "id": "336388",
+                "name": "Désiré Doué"
+              }
+            ],
+            "text": "Substitution, France. Rayan Cherki replaces Désiré Doué.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532463",
+            "type": "Substitution",
+            "clock": "88'",
+            "period": 2,
+            "teamId": "654",
+            "teamName": "Senegal",
+            "athletes": [
+              {
+                "id": "294228",
+                "name": "Pathé Ciss"
+              },
+              {
+                "id": "144517",
+                "name": "Idrissa Gueye"
+              }
+            ],
+            "text": "Substitution, Senegal. Pathé Ciss replaces Idrissa Gueye.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532591",
+            "type": "Goal",
+            "clock": "90'+5'",
+            "period": 2,
+            "teamId": "654",
+            "teamName": "Senegal",
+            "athletes": [
+              {
+                "id": "388522",
+                "name": "Ibrahim Mbaye"
+              },
+              {
+                "id": "268641",
+                "name": "Iliman Ndiaye"
+              }
+            ],
+            "text": "Goal! France 2, Senegal 1. Ibrahim Mbaye (Senegal) right footed shot from the right side of the box to the top right corner. Assisted by Iliman Ndiaye following a fast break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532600",
+            "type": "Goal",
+            "clock": "90'+6'",
+            "period": 2,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [
+              {
+                "id": "231388",
+                "name": "Kylian Mbappé"
+              }
+            ],
+            "text": "Goal! France 3, Senegal 1. Kylian Mbappé (France) right footed shot from outside the box to the top left corner.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532636",
+            "type": "Start Delay",
+            "clock": "90'+9'",
+            "period": 2,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [],
+            "text": "Delay in match because of an injury Kylian Mbappé (France).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532634",
+            "type": "Start Delay",
+            "clock": "90'+9'",
+            "period": 2,
+            "teamId": "654",
+            "teamName": "Senegal",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532637",
+            "type": "End Delay",
+            "clock": "90'+9'",
+            "period": 2,
+            "teamId": "478",
+            "teamName": "France",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532638",
+            "type": "End Delay",
+            "clock": "90'+9'",
+            "period": 2,
+            "teamId": "654",
+            "teamName": "Senegal",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49532651",
+            "type": "End Regular Time",
+            "clock": "90'+10'",
+            "period": 2,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": "Second Half ends, France 3, Senegal 1.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -105782,10 +106257,60 @@
             "time": "50'",
             "text": "Offside, France. Jules Koundé is caught offside.",
             "type": null
+          },
+          {
+            "time": "53'",
+            "text": "Attempt saved. Michael Olise (France) left footed shot from the centre of the box is saved in the centre of the goal by Édouard Mendy (Senegal). Assisted by Jules Koundé.",
+            "type": null
+          },
+          {
+            "time": "53'",
+            "text": "Corner, France. Conceded by Édouard Mendy.",
+            "type": null
+          },
+          {
+            "time": "57'",
+            "text": "Attempt saved. Kylian Mbappé (France) right footed shot from the centre of the box is saved in the centre of the goal by Édouard Mendy (Senegal). Assisted by Michael Olise with a through ball.",
+            "type": null
+          },
+          {
+            "time": "57'",
+            "text": "Corner, France. Conceded by Krépin Diatta.",
+            "type": null
+          },
+          {
+            "time": "60'",
+            "text": "VAR Decision: No Penalty France.",
+            "type": null
+          },
+          {
+            "time": "65'",
+            "text": "Attempt blocked. Théo Hernández (France) left footed shot from the centre of the box is blocked. Assisted by Désiré Doué.",
+            "type": null
+          },
+          {
+            "time": "66'",
+            "text": "Goal! France 1, Senegal 0. Kylian Mbappé (France) right footed shot from the centre of the box to the centre of the goal. Assisted by Michael Olise with a through ball.",
+            "type": null
+          },
+          {
+            "time": "68'",
+            "text": "Offside, Senegal. Nicolas Jackson is caught offside.",
+            "type": null
+          },
+          {
+            "time": "68'",
+            "text": "Delay in match for a drinks break.",
+            "type": null
+          },
+          {
+            "time": "71'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
           }
         ],
         "gameInfo": {
-          "attendance": null,
+          "attendance": 80545,
           "venue": {
             "name": "MetLife Stadium",
             "city": "East Rutherford, New Jersey",
@@ -105807,26 +106332,26 @@
                 "name": "totalShots",
                 "displayName": "Total Shots",
                 "leader": {
-                  "name": "Désiré Doué",
-                  "shortName": "D. Doué",
-                  "jersey": "20",
+                  "name": "Kylian Mbappé",
+                  "shortName": "K. Mbappé",
+                  "jersey": "10",
                   "position": "Forward",
-                  "value": "1",
-                  "summary": "0 SOG, 0.04 xG",
+                  "value": "4",
+                  "summary": "4 SOG, 0.79 xG",
                   "stats": [
                     {
                       "name": "totalShots",
-                      "value": "1",
+                      "value": "4",
                       "label": "SHOT"
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "0",
+                      "value": "4",
                       "label": "SOG"
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.04",
+                      "value": "0.79",
                       "label": "xG"
                     }
                   ]
@@ -105840,17 +106365,17 @@
                   "shortName": "D. Upamecano",
                   "jersey": "4",
                   "position": "Defender",
-                  "value": "52",
-                  "summary": "60 PASS",
+                  "value": "70",
+                  "summary": "80 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "52",
+                      "value": "70",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "60",
+                      "value": "80",
                       "label": "PASS"
                     }
                   ]
@@ -105864,22 +106389,22 @@
                   "shortName": "D. Upamecano",
                   "jersey": "4",
                   "position": "Defender",
-                  "value": "11",
-                  "summary": "4 TKLW, 5 DUELW",
+                  "value": "14",
+                  "summary": "5 TKLW, 8 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "11",
+                      "value": "14",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "4",
+                      "value": "5",
                       "label": "TKLW"
                     },
                     {
                       "name": "duelsWon",
-                      "value": "5",
+                      "value": "8",
                       "label": "DUELW"
                     }
                   ]
@@ -105893,22 +106418,22 @@
                   "shortName": "M. Maignan",
                   "jersey": "16",
                   "position": "Goalkeeper",
-                  "value": "1",
-                  "summary": "1 SOGA, 0.44 xGC",
+                  "value": "2",
+                  "summary": "3 SOGA, 0.50 xGC",
                   "stats": [
                     {
                       "name": "saves",
-                      "value": "1",
+                      "value": "2",
                       "label": "SV"
                     },
                     {
                       "name": "shotsOnGoalAgainst",
-                      "value": "1",
+                      "value": "3",
                       "label": "SOGA"
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.44",
+                      "value": "0.50",
                       "label": "xGC"
                     }
                   ]
@@ -105957,17 +106482,17 @@
                   "shortName": "M. Niakhaté",
                   "jersey": "19",
                   "position": "Defender",
-                  "value": "39",
-                  "summary": "44 PASS",
+                  "value": "74",
+                  "summary": "81 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "39",
+                      "value": "74",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "44",
+                      "value": "81",
                       "label": "PASS"
                     }
                   ]
@@ -105981,12 +106506,12 @@
                   "shortName": "E. Diouf",
                   "jersey": "25",
                   "position": "Defender",
-                  "value": "8",
-                  "summary": "2 TKLW, 3 DUELW",
+                  "value": "11",
+                  "summary": "2 TKLW, 6 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "8",
+                      "value": "11",
                       "label": "DINT"
                     },
                     {
@@ -105996,7 +106521,7 @@
                     },
                     {
                       "name": "duelsWon",
-                      "value": "3",
+                      "value": "6",
                       "label": "DUELW"
                     }
                   ]
@@ -106005,7 +106530,31 @@
               {
                 "name": "saves",
                 "displayName": "Saves",
-                "leader": null
+                "leader": {
+                  "name": "Édouard Mendy",
+                  "shortName": "É. Mendy",
+                  "jersey": "16",
+                  "position": "Goalkeeper",
+                  "value": "5",
+                  "summary": "8 SOGA, 1.89 xGC",
+                  "stats": [
+                    {
+                      "name": "saves",
+                      "value": "5",
+                      "label": "SV"
+                    },
+                    {
+                      "name": "shotsOnGoalAgainst",
+                      "value": "8",
+                      "label": "SOGA"
+                    },
+                    {
+                      "name": "expectedGoalsConceded",
+                      "value": "1.89",
+                      "label": "xGC"
+                    }
+                  ]
+                }
               }
             ]
           }
@@ -106997,8 +107546,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WLWWW"
+        "record": "1-0-0",
+        "form": "WWLWW"
       },
       "away": {
         "id": "4375",
@@ -107047,8 +107596,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "DLWWW"
+        "record": "0-0-1",
+        "form": "LDLWW"
       },
       "group": null
     },
@@ -107767,8 +108316,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WLWWW"
+        "record": "1-0-0",
+        "form": "WWLWW"
       },
       "group": null
     },
@@ -107797,8 +108346,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "DLWWW"
+        "record": "0-0-1",
+        "form": "LDLWW"
       },
       "away": {
         "id": "4375",
