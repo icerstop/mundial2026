@@ -3,6 +3,8 @@ import { renderMatches } from '../features/matches.mjs';
 import { renderScorers } from '../features/scorers.mjs';
 import { renderRecords } from '../features/records.mjs';
 import { renderXG } from '../features/xg.mjs';
+import { renderStadiums } from '../features/stadiums.mjs';
+import { renderBracket } from '../features/bracket.mjs';
 
 // ── Navigation ─────────────────────────────────────────────────────────────
 export function setupNav() {
@@ -22,6 +24,10 @@ export function setupNav() {
         renderRecords();
       } else if (section === 'xg') {
         renderXG();
+      } else if (section === 'stadiums') {
+        renderStadiums();
+      } else if (section === 'bracket') {
+        renderBracket();
       }
     });
   });

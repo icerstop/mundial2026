@@ -1,11 +1,21 @@
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import test from 'node:test';
 
+import { buildTournamentBracket, findBracketSlot } from '../js/domain/bracket.mjs';
 import { buildGroupsFromMatches, rankThirdPlaced } from '../js/domain/groups.mjs';
+import { enrichStadiums, findStadiumByVenue, stadiumTotals } from '../js/domain/stadiums.mjs';
 import { getTeamMatches, getTeamTournamentStats } from '../js/domain/team.mjs';
 import { normalizeTeamName } from '../js/domain/teams.mjs';
 import { computeTeamXG, matchXG, xgVerdict } from '../js/domain/xg.mjs';
 import { espnDateStr } from '../js/services/live-scores.mjs';
+
+const tournamentData = JSON.parse(
+  readFileSync(new URL('../data/matches.json', import.meta.url), 'utf8')
+);
+const northAmericaMap = JSON.parse(
+  readFileSync(new URL('../data/north-america.geojson', import.meta.url), 'utf8')
+);
 
 function team(id, name, abbr) {
   return { id, name, abbr, logo: `${id}.png`, score: null, winner: false };
@@ -203,4 +213,39 @@ test('computes team summaries without depending on the modal or DOM', () => {
     },
     { gp: 1, w: 1, gf: 2, possessionAvg: 60 }
   );
+});
+
+test('maps ESPN venue names to the stadium atlas', () => {
+  assert.equal(findStadiumByVenue({ name: 'Estadio Banorte' })?.id, 'mexico-city');
+  assert.equal(findStadiumByVenue({ name: 'GEHA Field at Arrowhead Stadium' })?.id, 'kansas-city');
+  assert.equal(findStadiumByVenue({ name: 'BMO Field' })?.id, 'toronto');
+});
+
+test('summarizes all scheduled matches by stadium', () => {
+  const totals = stadiumTotals(tournamentData);
+  const stadiums = enrichStadiums(tournamentData);
+
+  assert.equal(totals.count, 16);
+  assert.equal(totals.matches, 104);
+  assert.equal(stadiums.find(stadium => stadium.id === 'mexico-city')?.matchCount > 0, true);
+});
+
+test('ships a Natural Earth North America map with host countries', () => {
+  const countries = new Set(northAmericaMap.features.map(feature => feature.properties.iso_a3));
+
+  assert.equal(northAmericaMap.name, 'natural_earth_50m_north_america');
+  assert.equal(northAmericaMap.features.length >= 30, true);
+  assert.equal(countries.has('CAN'), true);
+  assert.equal(countries.has('USA'), true);
+  assert.equal(countries.has('MEX'), true);
+});
+
+test('builds the knockout bracket from official scheduled placeholders', () => {
+  const bracket = buildTournamentBracket(tournamentData);
+  const counts = Object.fromEntries(bracket.rounds.map(round => [round.id, round.matches.length]));
+  const finalHome = findBracketSlot(bracket, 'final-1', 'home');
+
+  assert.deepEqual(counts, { rd32: 16, rd16: 8, qf: 4, sf: 2, final: 1 });
+  assert.equal(finalHome.resolution.candidates.length > 0, true);
+  assert.equal(bracket.rounds[0].matches[0].home.resolution.type, 'group-position');
 });

@@ -46,6 +46,8 @@
         <button class="nav-tab active" data-section="matches">⚽ Mecze</button>
         <button class="nav-tab" data-section="scorers">🏅 Strzelcy</button>
         <button class="nav-tab" data-section="groups">📊 Grupy</button>
+        <button class="nav-tab" data-section="bracket">🧩 Drabinka</button>
+        <button class="nav-tab" data-section="stadiums">🏟️ Stadiony</button>
         <button class="nav-tab" data-section="stats">📈 Statystyki</button>
         <button class="nav-tab" data-section="xg">🎯 xG</button>
         <button class="nav-tab" data-section="records">🏆 Rekordy</button>
@@ -112,6 +114,36 @@
         </div>
         <div id="thirdPlaceTable">
           <!-- third-placed teams ranking, filled by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Bracket Section -->
+    <section class="section" id="section-bracket" style="display:none;">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">
+            <span class="icon">🧩</span>
+            Drabinka
+          </h2>
+        </div>
+        <div id="bracketView">
+          <!-- filled by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Stadiums Section -->
+    <section class="section" id="section-stadiums" style="display:none;">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">
+            <span class="icon">🏟️</span>
+            Stadiony
+          </h2>
+        </div>
+        <div id="stadiumsView">
+          <!-- filled by JS -->
         </div>
       </div>
     </section>

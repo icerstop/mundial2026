@@ -5,6 +5,8 @@ import { renderHeroStats } from './features/hero.mjs';
 import { renderMatches, startLiveClockTicker } from './features/matches.mjs';
 import { renderScorers } from './features/scorers.mjs';
 import { renderGroups } from './features/groups.mjs';
+import { renderBracket, selectBracketSlot } from './features/bracket.mjs';
+import { renderStadiums, selectStadium, setStadiumCountry } from './features/stadiums.mjs';
 import { renderTournamentStats } from './features/tournament-stats.mjs';
 import { renderXG } from './features/xg.mjs';
 import { openDrill, closeDrill, setDrillFilter, setDrillMode, setupDrillModal } from './features/drilldown.mjs';
@@ -23,6 +25,8 @@ export function renderAll() {
   renderMatches();
   renderScorers();
   renderGroups();
+  renderBracket();
+  renderStadiums();
   renderTournamentStats();
   renderRecords();
   renderXG();
@@ -92,6 +96,9 @@ Object.assign(window, {
   closeDrill,
   setDrillMode,
   setDrillFilter,
+  selectBracketSlot,
+  selectStadium,
+  setStadiumCountry,
 });
 
 document.addEventListener('DOMContentLoaded', () => {
