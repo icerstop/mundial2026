@@ -1,5 +1,6 @@
 import { state } from '../core/state.mjs';
 import { formatDate, shortenPosition } from '../core/format.mjs';
+import { isOwnGoal, isPenalty } from '../domain/goal-kind.mjs';
 import { fetchAndUpdateLiveMatch, getLiveModalBadge, startLiveModalPolling, stopLiveModalPolling } from '../services/live-scores.mjs';
 
 // ── Match Modal ────────────────────────────────────────────────────────────
@@ -138,10 +139,12 @@ export function openMatchModal(matchId) {
           else if (textLower.includes('red') || textLower.includes('czerw')) { typeClass = 'card-red'; icon = '🟥'; }
           else if (textLower.includes('sub') || textLower.includes('zmian')) { typeClass = 'sub'; icon = '🔄'; }
 
+          const ownGoal = isOwnGoal(e);
+          const penalty = isPenalty(e);
           let athletesText = (e.athletes || []).map(a => a.shortName || a.name).join(', ');
           if (typeClass === 'goal') {
             const scorer = e.athletes?.[0] ? (e.athletes[0].shortName || e.athletes[0].name) : '';
-            const assister = e.athletes?.[1] && !e.ownGoal ? (e.athletes[1].shortName || e.athletes[1].name) : '';
+            const assister = e.athletes?.[1] && !ownGoal ? (e.athletes[1].shortName || e.athletes[1].name) : '';
             athletesText = assister ? `${scorer} (as. ${assister})` : scorer;
           }
 
@@ -152,8 +155,8 @@ export function openMatchModal(matchId) {
               <span class="timeline-item__text">
                 ${athletesText}
                 ${e.teamName ? `<span style="color:var(--muted)"> (${e.teamName})</span>` : ''}
-                ${e.ownGoal ? ' <span style="color:var(--red)">(samobój)</span>' : ''}
-                ${e.penaltyKick ? ' <span style="color:var(--yellow)">(karny)</span>' : ''}
+                ${typeClass === 'goal' && ownGoal ? ' <span style="color:var(--red)">(samobój)</span>' : ''}
+                ${typeClass === 'goal' && penalty ? ' <span style="color:var(--yellow)">(karny)</span>' : ''}
               </span>
             </div>
           `;

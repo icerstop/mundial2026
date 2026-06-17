@@ -210,6 +210,18 @@
   text-overflow: ellipsis;
 }
 
+.match-event__tag {
+  margin-left: 5px;
+  padding: 1px 5px;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.match-event__tag--pen { background: rgba(52, 152, 219, 0.18); color: var(--blue); }
+.match-event__tag--og { background: rgba(231, 76, 60, 0.18); color: var(--red); }
+
 .match-event__time {
   color: var(--yellow);
   font-weight: 600;

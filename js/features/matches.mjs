@@ -1,5 +1,6 @@
 import { state } from '../core/state.mjs';
 import { formatDate, formatTime } from '../core/format.mjs';
+import { isOwnGoal, isPenalty } from '../domain/goal-kind.mjs';
 
 export function renderMatches() {
   const el = document.getElementById('matchesGrid');
@@ -90,15 +91,19 @@ export function renderMatchCard(m) {
 
     if (goals.length > 0) {
       const renderGoal = e => {
+        const ownGoal = isOwnGoal(e);
+        const penalty = isPenalty(e);
         const scorer = e.athletes?.[0] ? (e.athletes[0].shortName || e.athletes[0].name) : '';
-        const assister = e.athletes?.[1] && !e.ownGoal ? (e.athletes[1].shortName || e.athletes[1].name) : '';
+        const assister = e.athletes?.[1] && !ownGoal ? (e.athletes[1].shortName || e.athletes[1].name) : '';
         const playerText = assister ? `${scorer} (as. ${assister})` : scorer;
+        const tag = ownGoal ? '<span class="match-event__tag match-event__tag--og">sam.</span>'
+          : penalty ? '<span class="match-event__tag match-event__tag--pen">k.</span>' : '';
 
         return `
           <div class="match-event">
             <span class="match-event__time">${e.clock || ''}</span>
             <span class="match-event__icon">⚽</span>
-            <span class="match-event__text">${playerText}${e.ownGoal ? ' (s.s.)' : ''}${e.penaltyKick ? ' (k.)' : ''}</span>
+            <span class="match-event__text">${playerText}${tag}</span>
           </div>
         `;
       };
