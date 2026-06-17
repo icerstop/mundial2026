@@ -1,15 +1,15 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-17T21:35:08.151Z",
+    "lastUpdated": "2026-06-17T22:20:13.199Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
-    "completedCount": 21
+    "completedCount": 22
   },
   "stats": {
-    "totalGoals": 64,
-    "matchesPlayed": 21,
-    "avgGoalsPerMatch": "3.05"
+    "totalGoals": 70,
+    "matchesPlayed": 22,
+    "avgGoalsPerMatch": "3.18"
   },
   "topScorers": [
     {
@@ -33,6 +33,25 @@
           "matchId": "760433",
           "clock": "76'",
           "vs": "ALG"
+        }
+      ]
+    },
+    {
+      "id": "142200",
+      "name": "Harry Kane",
+      "teamId": "448",
+      "teamName": "England",
+      "goals": 2,
+      "goalDetails": [
+        {
+          "matchId": "760437",
+          "clock": "12'",
+          "vs": "CRO"
+        },
+        {
+          "matchId": "760437",
+          "clock": "42'",
+          "vs": "CRO"
         }
       ]
     },
@@ -319,6 +338,20 @@
       ]
     },
     {
+      "id": "230945",
+      "name": "Marcus Rashford",
+      "teamId": "448",
+      "teamName": "England",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760437",
+          "clock": "85'",
+          "vs": "CRO"
+        }
+      ]
+    },
+    {
       "id": "233075",
       "name": "Julián Quiñones",
       "teamId": "203",
@@ -459,6 +492,20 @@
       ]
     },
     {
+      "id": "277128",
+      "name": "Petar Musa",
+      "teamId": "477",
+      "teamName": "Croatia",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760437",
+          "clock": "45'+5'",
+          "vs": "ENG"
+        }
+      ]
+    },
+    {
       "id": "280061",
       "name": "Hwang In-Beom",
       "teamId": "451",
@@ -567,6 +614,20 @@
           "matchId": "760417",
           "clock": "90'+8'",
           "vs": "PAR"
+        }
+      ]
+    },
+    {
+      "id": "291281",
+      "name": "Jude Bellingham",
+      "teamId": "448",
+      "teamName": "England",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760437",
+          "clock": "47'",
+          "vs": "CRO"
         }
       ]
     },
@@ -683,72 +744,16 @@
       ]
     },
     {
-      "id": "317285",
-      "name": "Livano Comenencia",
-      "teamId": "11678",
-      "teamName": "Curaçao",
+      "id": "311475",
+      "name": "Martin Baturina",
+      "teamId": "477",
+      "teamName": "Croatia",
       "goals": 1,
       "goalDetails": [
         {
-          "matchId": "760422",
-          "clock": "21'",
-          "vs": "GER"
-        }
-      ]
-    },
-    {
-      "id": "320908",
-      "name": "Ali Olwan",
-      "teamId": "2917",
-      "teamName": "Jordan",
-      "goals": 1,
-      "goalDetails": [
-        {
-          "matchId": "760431",
-          "clock": "50'",
-          "vs": "AUT"
-        }
-      ]
-    },
-    {
-      "id": "328238",
-      "name": "Bradley Barcola",
-      "teamId": "478",
-      "teamName": "France",
-      "goals": 1,
-      "goalDetails": [
-        {
-          "matchId": "760432",
-          "clock": "82'",
-          "vs": "SEN"
-        }
-      ]
-    },
-    {
-      "id": "328535",
-      "name": "Nestory Irankunda",
-      "teamId": "628",
-      "teamName": "Australia",
-      "goals": 1,
-      "goalDetails": [
-        {
-          "matchId": "760421",
-          "clock": "27'",
-          "vs": "TUR"
-        }
-      ]
-    },
-    {
-      "id": "355061",
-      "name": "João Neves",
-      "teamId": "482",
-      "teamName": "Portugal",
-      "goals": 1,
-      "goalDetails": [
-        {
-          "matchId": "760435",
-          "clock": "6'",
-          "vs": "COD"
+          "matchId": "760437",
+          "clock": "36'",
+          "vs": "ENG"
         }
       ]
     }
@@ -874,6 +879,20 @@
           "matchId": "760433",
           "clock": "76'",
           "vs": "ALG"
+        }
+      ]
+    },
+    {
+      "id": "103485",
+      "name": "Ivan Perisic",
+      "teamId": "477",
+      "teamName": "Croatia",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760437",
+          "clock": "45'+5'",
+          "vs": "ENG"
         }
       ]
     },
@@ -1060,6 +1079,34 @@
       ]
     },
     {
+      "id": "238262",
+      "name": "Declan Rice",
+      "teamId": "448",
+      "teamName": "England",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760437",
+          "clock": "42'",
+          "vs": "CRO"
+        }
+      ]
+    },
+    {
+      "id": "238472",
+      "name": "Elliot Anderson",
+      "teamId": "448",
+      "teamName": "England",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760437",
+          "clock": "47'",
+          "vs": "CRO"
+        }
+      ]
+    },
+    {
       "id": "238886",
       "name": "Xaver Schlager",
       "teamId": "474",
@@ -1200,6 +1247,20 @@
       ]
     },
     {
+      "id": "280555",
+      "name": "Bukayo Saka",
+      "teamId": "448",
+      "teamName": "England",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760437",
+          "clock": "85'",
+          "vs": "CRO"
+        }
+      ]
+    },
+    {
       "id": "286569",
       "name": "Wilfried Singo",
       "teamId": "4789",
@@ -1326,6 +1387,20 @@
       ]
     },
     {
+      "id": "341494",
+      "name": "Petar Sucic",
+      "teamId": "477",
+      "teamName": "Croatia",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760437",
+          "clock": "36'",
+          "vs": "ENG"
+        }
+      ]
+    },
+    {
       "id": "356379",
       "name": "Lucas Bergvall",
       "teamId": "466",
@@ -1437,6 +1512,28 @@
           "vs": "CUW"
         }
       ]
+    },
+    {
+      "id": "142200",
+      "name": "Harry Kane",
+      "teamId": "448",
+      "teamName": "England",
+      "goals": 2,
+      "assists": 0,
+      "total": 2,
+      "goalDetails": [
+        {
+          "matchId": "760437",
+          "clock": "12'",
+          "vs": "CRO"
+        },
+        {
+          "matchId": "760437",
+          "clock": "42'",
+          "vs": "CRO"
+        }
+      ],
+      "assistDetails": []
     },
     {
       "id": "231182",
@@ -1899,6 +1996,23 @@
       "assistDetails": []
     },
     {
+      "id": "230945",
+      "name": "Marcus Rashford",
+      "teamId": "448",
+      "teamName": "England",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760437",
+          "clock": "85'",
+          "vs": "CRO"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
       "id": "233075",
       "name": "Julián Quiñones",
       "teamId": "203",
@@ -2013,6 +2127,23 @@
           "matchId": "760425",
           "clock": "57'",
           "vs": "NED"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
+      "id": "277128",
+      "name": "Petar Musa",
+      "teamId": "477",
+      "teamName": "Croatia",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760437",
+          "clock": "45'+5'",
+          "vs": "ENG"
         }
       ],
       "assistDetails": []
@@ -2137,6 +2268,23 @@
       "assistDetails": []
     },
     {
+      "id": "291281",
+      "name": "Jude Bellingham",
+      "teamId": "448",
+      "teamName": "England",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760437",
+          "clock": "47'",
+          "vs": "CRO"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
       "id": "291630",
       "name": "Amad Diallo",
       "teamId": "4789",
@@ -2234,74 +2382,6 @@
           "matchId": "760424",
           "clock": "43'",
           "vs": "SWE"
-        }
-      ],
-      "assistDetails": []
-    },
-    {
-      "id": "304572",
-      "name": "Ismael Saibari",
-      "teamId": "2869",
-      "teamName": "Morocco",
-      "goals": 1,
-      "assists": 0,
-      "total": 1,
-      "goalDetails": [
-        {
-          "matchId": "760419",
-          "clock": "21'",
-          "vs": "BRA"
-        }
-      ],
-      "assistDetails": []
-    },
-    {
-      "id": "305118",
-      "name": "Jovo Lukic",
-      "teamId": "452",
-      "teamName": "Bosnia-Herzegovina",
-      "goals": 1,
-      "assists": 0,
-      "total": 1,
-      "goalDetails": [
-        {
-          "matchId": "760416",
-          "clock": "21'",
-          "vs": "CAN"
-        }
-      ],
-      "assistDetails": []
-    },
-    {
-      "id": "317285",
-      "name": "Livano Comenencia",
-      "teamId": "11678",
-      "teamName": "Curaçao",
-      "goals": 1,
-      "assists": 0,
-      "total": 1,
-      "goalDetails": [
-        {
-          "matchId": "760422",
-          "clock": "21'",
-          "vs": "GER"
-        }
-      ],
-      "assistDetails": []
-    },
-    {
-      "id": "320908",
-      "name": "Ali Olwan",
-      "teamId": "2917",
-      "teamName": "Jordan",
-      "goals": 1,
-      "assists": 0,
-      "total": 1,
-      "goalDetails": [
-        {
-          "matchId": "760431",
-          "clock": "50'",
-          "vs": "AUT"
         }
       ],
       "assistDetails": []
@@ -17065,7 +17145,7 @@
           },
           {
             "time": "11'",
-            "text": "Juli��n Quiñones (Mexico) wins a free kick on the left wing.",
+            "text": "Julián Quiñones (Mexico) wins a free kick on the left wing.",
             "type": null
           },
           {
@@ -129455,28 +129535,28 @@
       "name": "Croatia at England",
       "shortName": "CRO @ ENG",
       "status": {
-        "state": "in",
-        "detail": "70'",
-        "shortDetail": "70'",
-        "clock": "70'",
+        "state": "post",
+        "detail": "FT",
+        "shortDetail": "FT",
+        "clock": "90'+7'",
         "period": 2,
-        "completed": false
+        "completed": true
       },
       "venue": {
         "name": "AT&T Stadium",
         "city": "Arlington, Texas",
         "country": "USA"
       },
-      "attendance": null,
+      "attendance": 70389,
       "home": {
         "id": "448",
         "name": "England",
         "abbr": "ENG",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-        "score": "3",
-        "winner": false,
-        "record": "0-0-0",
-        "form": "WWLDW"
+        "score": "4",
+        "winner": true,
+        "record": "1-0-0",
+        "form": "WWWLD"
       },
       "away": {
         "id": "477",
@@ -129485,8 +129565,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
         "score": "2",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WLLWW"
+        "record": "0-0-1",
+        "form": "LWLLW"
       },
       "group": null,
       "details": {
@@ -129499,7 +129579,7 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "8",
+                "value": "10",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -129519,19 +129599,19 @@
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "0",
+                "value": "3",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "55.6",
-                "label": "POSSESSION"
+                "value": "51.7",
+                "label": "Possession"
               },
               "totalShots": {
-                "value": "19",
+                "value": "22",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "10",
+                "value": "11",
                 "label": "ON GOAL"
               },
               "shotPct": {
@@ -129547,11 +129627,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "315",
+                "value": "406",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "366",
+                "value": "473",
                 "label": "Passes"
               },
               "passPct": {
@@ -129571,15 +129651,15 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "31",
+                "value": "42",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "10",
+                "value": "16",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.3",
+                "value": "0.4",
                 "label": "Long Balls %"
               },
               "blockedShots": {
@@ -129587,27 +129667,27 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "2",
+                "value": "7",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "4",
+                "value": "9",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.5",
+                "value": "0.8",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "6",
+                "value": "7",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "7",
+                "value": "16",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "7",
+                "value": "16",
                 "label": "Clearances"
               }
             }
@@ -129620,7 +129700,7 @@
             "homeAway": "away",
             "stats": {
               "foulsCommitted": {
-                "value": "8",
+                "value": "12",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -129632,11 +129712,11 @@
                 "label": "Red Cards"
               },
               "offsides": {
-                "value": "0",
+                "value": "1",
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "1",
+                "value": "2",
                 "label": "Corner Kicks"
               },
               "saves": {
@@ -129644,15 +129724,15 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "44.4",
-                "label": "POSSESSION"
+                "value": "48.3",
+                "label": "Possession"
               },
               "totalShots": {
-                "value": "4",
+                "value": "10",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "2",
+                "value": "5",
                 "label": "ON GOAL"
               },
               "shotPct": {
@@ -129668,15 +129748,15 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "248",
+                "value": "380",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "296",
+                "value": "442",
                 "label": "Passes"
               },
               "passPct": {
-                "value": "0.8",
+                "value": "0.9",
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
@@ -129684,19 +129764,19 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "5",
+                "value": "13",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.4",
+                "value": "0.2",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "36",
+                "value": "42",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "13",
+                "value": "18",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -129704,31 +129784,31 @@
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "0",
+                "value": "2",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "4",
+                "value": "7",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "6",
+                "value": "11",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.7",
+                "value": "0.6",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "4",
+                "value": "7",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "15",
+                "value": "17",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "15",
+                "value": "17",
                 "label": "Clearances"
               }
             }
@@ -129792,7 +129872,7 @@
                   },
                   {
                     "name": "saves",
-                    "value": "0",
+                    "value": "3",
                     "label": "SV"
                   },
                   {
@@ -129829,7 +129909,7 @@
                 "position": "Center Left Defender",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -129924,7 +130004,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -130081,7 +130161,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -130153,7 +130233,7 @@
                 "position": "Attacking Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -130234,7 +130314,7 @@
                 "position": "Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -130324,7 +130404,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "2",
+                    "value": "3",
                     "label": "FC"
                   },
                   {
@@ -130364,7 +130444,7 @@
                   },
                   {
                     "name": "goalAssists",
-                    "value": "0",
+                    "value": "1",
                     "label": "A"
                   },
                   {
@@ -130455,7 +130535,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "4",
+                    "value": "3",
                     "label": "SOG"
                   },
                   {
@@ -130465,7 +130545,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "6",
+                    "value": "7",
                     "label": "SHOT"
                   }
                 ]
@@ -130477,7 +130557,7 @@
                 "position": "Attacking Midfielder Left",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -130558,7 +130638,7 @@
                 "position": "Attacking Midfielder Right",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -130638,12 +130718,12 @@
                 "shortName": "M. Rogers",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -130653,7 +130733,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -130668,7 +130748,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -131205,12 +131285,12 @@
                 "shortName": "D. Spence",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -131235,7 +131315,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -131265,7 +131345,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -131275,7 +131355,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -131448,12 +131528,12 @@
                 "shortName": "M. Guéhi",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -131478,7 +131558,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -131610,12 +131690,12 @@
                 "shortName": "M. Rashford",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -131640,7 +131720,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -131670,17 +131750,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -131691,12 +131771,12 @@
                 "shortName": "B. Saka",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -131706,7 +131786,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -131721,7 +131801,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -131741,7 +131821,7 @@
                   },
                   {
                     "name": "goalAssists",
-                    "value": "0",
+                    "value": "1",
                     "label": "A"
                   },
                   {
@@ -131820,7 +131900,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "3",
+                    "value": "4",
                     "label": "GA"
                   },
                   {
@@ -131982,7 +132062,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "3",
+                    "value": "4",
                     "label": "GA"
                   },
                   {
@@ -132012,7 +132092,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -132063,7 +132143,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "3",
+                    "value": "4",
                     "label": "GA"
                   },
                   {
@@ -132105,7 +132185,7 @@
                 "position": "Center Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -132276,7 +132356,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -132306,7 +132386,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "3",
+                    "value": "4",
                     "label": "GA"
                   },
                   {
@@ -132387,7 +132467,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "3",
+                    "value": "4",
                     "label": "GA"
                   },
                   {
@@ -132402,7 +132482,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "1",
                     "label": "OF"
                   },
                   {
@@ -132510,7 +132590,7 @@
                 "position": "Center Left Forward",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -132600,7 +132680,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -132630,7 +132710,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "3",
+                    "value": "4",
                     "label": "GA"
                   },
                   {
@@ -132660,7 +132740,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -132671,17 +132751,17 @@
                 "shortName": "N. Vlasic",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -132701,7 +132781,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -132711,7 +132791,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -133010,7 +133090,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -133035,7 +133115,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -133055,7 +133135,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -133065,7 +133145,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -133167,12 +133247,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -133197,7 +133277,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -133217,7 +133297,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -133227,7 +133307,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -133238,12 +133318,12 @@
                 "shortName": "A. Kramaric",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -133268,7 +133348,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -133278,7 +133358,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -133308,7 +133388,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -133764,7 +133844,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -133779,12 +133859,12 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "1",
                     "label": "OF"
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -133794,7 +133874,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -134122,9 +134202,13 @@
               {
                 "id": "291281",
                 "name": "Jude Bellingham"
+              },
+              {
+                "id": "238472",
+                "name": "Elliot Anderson"
               }
             ],
-            "text": "Goal! England 3, Croatia 2. Jude Bellingham (England) right footed shot from the right side of the box to the bottom left corner.",
+            "text": "Goal! England 3, Croatia 2. Jude Bellingham (England) right footed shot from the right side of the box to the bottom left corner. Assisted by Elliot Anderson.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -134217,6 +134301,221 @@
             "teamName": "Croatia",
             "athletes": [],
             "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49541451",
+            "type": "Substitution",
+            "clock": "72'",
+            "period": 2,
+            "teamId": "448",
+            "teamName": "England",
+            "athletes": [
+              {
+                "id": "265653",
+                "name": "Morgan Rogers"
+              },
+              {
+                "id": "238262",
+                "name": "Declan Rice"
+              }
+            ],
+            "text": "Substitution, England. Morgan Rogers replaces Declan Rice.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49541454",
+            "type": "Substitution",
+            "clock": "72'",
+            "period": 2,
+            "teamId": "448",
+            "teamName": "England",
+            "athletes": [
+              {
+                "id": "280555",
+                "name": "Bukayo Saka"
+              },
+              {
+                "id": "293236",
+                "name": "Noni Madueke"
+              }
+            ],
+            "text": "Substitution, England. Bukayo Saka replaces Noni Madueke.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49541452",
+            "type": "Substitution",
+            "clock": "72'",
+            "period": 2,
+            "teamId": "448",
+            "teamName": "England",
+            "athletes": [
+              {
+                "id": "230945",
+                "name": "Marcus Rashford"
+              },
+              {
+                "id": "268782",
+                "name": "Anthony Gordon"
+              }
+            ],
+            "text": "Substitution, England. Marcus Rashford replaces Anthony Gordon.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49541455",
+            "type": "End Delay",
+            "clock": "72'",
+            "period": 2,
+            "teamId": "448",
+            "teamName": "England",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49541453",
+            "type": "End Delay",
+            "clock": "72'",
+            "period": 2,
+            "teamId": "477",
+            "teamName": "Croatia",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49541564",
+            "type": "Substitution",
+            "clock": "78'",
+            "period": 2,
+            "teamId": "477",
+            "teamName": "Croatia",
+            "athletes": [
+              {
+                "id": "206378",
+                "name": "Nikola Vlasic"
+              },
+              {
+                "id": "311475",
+                "name": "Martin Baturina"
+              }
+            ],
+            "text": "Substitution, Croatia. Nikola Vlasic replaces Martin Baturina.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49541565",
+            "type": "Substitution",
+            "clock": "79'",
+            "period": 2,
+            "teamId": "477",
+            "teamName": "Croatia",
+            "athletes": [
+              {
+                "id": "139520",
+                "name": "Andrej Kramaric"
+              },
+              {
+                "id": "189668",
+                "name": "Mario Pasalic"
+              }
+            ],
+            "text": "Substitution, Croatia. Andrej Kramaric replaces Mario Pasalic.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49541575",
+            "type": "Substitution",
+            "clock": "80'",
+            "period": 2,
+            "teamId": "448",
+            "teamName": "England",
+            "athletes": [
+              {
+                "id": "267711",
+                "name": "Djed Spence"
+              },
+              {
+                "id": "291281",
+                "name": "Jude Bellingham"
+              }
+            ],
+            "text": "Substitution, England. Djed Spence replaces Jude Bellingham.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49541683",
+            "type": "Goal",
+            "clock": "85'",
+            "period": 2,
+            "teamId": "448",
+            "teamName": "England",
+            "athletes": [
+              {
+                "id": "230945",
+                "name": "Marcus Rashford"
+              },
+              {
+                "id": "280555",
+                "name": "Bukayo Saka"
+              }
+            ],
+            "text": "Goal! England 4, Croatia 2. Marcus Rashford (England) right footed shot from the centre of the box to the bottom right corner. Assisted by Bukayo Saka.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49541685",
+            "type": "Substitution",
+            "clock": "87'",
+            "period": 2,
+            "teamId": "448",
+            "teamName": "England",
+            "athletes": [
+              {
+                "id": "265907",
+                "name": "Marc Guéhi"
+              },
+              {
+                "id": "157974",
+                "name": "John Stones"
+              }
+            ],
+            "text": "Substitution, England. Marc Guéhi replaces John Stones.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49541870",
+            "type": "End Regular Time",
+            "clock": "90'+7'",
+            "period": 2,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": "Second Half ends, England 4, Croatia 2.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -134465,7 +134764,7 @@
           },
           {
             "time": "47'",
-            "text": "Goal! England 3, Croatia 2. Jude Bellingham (England) right footed shot from the right side of the box to the bottom left corner.",
+            "text": "Goal! England 3, Croatia 2. Jude Bellingham (England) right footed shot from the right side of the box to the bottom left corner. Assisted by Elliot Anderson.",
             "type": null
           },
           {
@@ -134475,7 +134774,7 @@
           }
         ],
         "gameInfo": {
-          "attendance": null,
+          "attendance": 70389,
           "venue": {
             "name": "AT&T Stadium",
             "city": "Arlington, Texas",
@@ -134501,22 +134800,22 @@
                   "shortName": "H. Kane",
                   "jersey": "9",
                   "position": "Forward",
-                  "value": "6",
-                  "summary": "4 SOG, 0.99 xG",
+                  "value": "7",
+                  "summary": "3 SOG, 1.05 xG",
                   "stats": [
                     {
                       "name": "totalShots",
-                      "value": "6",
+                      "value": "7",
                       "label": "SHOT"
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "4",
+                      "value": "3",
                       "label": "SOG"
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.99",
+                      "value": "1.05",
                       "label": "xG"
                     }
                   ]
@@ -134530,17 +134829,17 @@
                   "shortName": "E. Konsa",
                   "jersey": "2",
                   "position": "Defender",
-                  "value": "54",
-                  "summary": "56 PASS",
+                  "value": "67",
+                  "summary": "71 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "54",
+                      "value": "67",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "56",
+                      "value": "71",
                       "label": "PASS"
                     }
                   ]
@@ -134550,26 +134849,26 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Jude Bellingham",
-                  "shortName": "J. Bellingham",
-                  "jersey": "10",
+                  "name": "Elliot Anderson",
+                  "shortName": "E. Anderson",
+                  "jersey": "8",
                   "position": "Midfielder",
-                  "value": "6",
-                  "summary": "2 TKLW, 4 DUELW",
+                  "value": "10",
+                  "summary": "1 TKLW, 6 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "6",
+                      "value": "10",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "2",
+                      "value": "1",
                       "label": "TKLW"
                     },
                     {
                       "name": "duelsWon",
-                      "value": "4",
+                      "value": "6",
                       "label": "DUELW"
                     }
                   ]
@@ -134578,7 +134877,31 @@
               {
                 "name": "saves",
                 "displayName": "Saves",
-                "leader": null
+                "leader": {
+                  "name": "Jordan Pickford",
+                  "shortName": "J. Pickford",
+                  "jersey": "1",
+                  "position": "Goalkeeper",
+                  "value": "3",
+                  "summary": "5 SOGA, 0.71 xGC",
+                  "stats": [
+                    {
+                      "name": "saves",
+                      "value": "3",
+                      "label": "SV"
+                    },
+                    {
+                      "name": "shotsOnGoalAgainst",
+                      "value": "5",
+                      "label": "SOGA"
+                    },
+                    {
+                      "name": "expectedGoalsConceded",
+                      "value": "0.71",
+                      "label": "xGC"
+                    }
+                  ]
+                }
               }
             ]
           },
@@ -134590,12 +134913,12 @@
                 "name": "totalShots",
                 "displayName": "Total Shots",
                 "leader": {
-                  "name": "Martin Baturina",
-                  "shortName": "M. Baturina",
-                  "jersey": "16",
+                  "name": "Petar Sucic",
+                  "shortName": "P. Sucic",
+                  "jersey": "17",
                   "position": "Midfielder",
                   "value": "1",
-                  "summary": "1 SOG, 0.05 xG",
+                  "summary": "0 SOG, 0.01 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -134604,12 +134927,12 @@
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "1",
+                      "value": "0",
                       "label": "SOG"
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.05",
+                      "value": "0.01",
                       "label": "xG"
                     }
                   ]
@@ -134623,17 +134946,17 @@
                   "shortName": "J. Sutalo",
                   "jersey": "6",
                   "position": "Defender",
-                  "value": "46",
-                  "summary": "51 PASS",
+                  "value": "62",
+                  "summary": "69 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "46",
+                      "value": "62",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "51",
+                      "value": "69",
                       "label": "PASS"
                     }
                   ]
@@ -134677,7 +135000,7 @@
                   "jersey": "1",
                   "position": "Goalkeeper",
                   "value": "7",
-                  "summary": "10 SOGA, 2.43 xGC",
+                  "summary": "11 SOGA, 2.80 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -134686,12 +135009,12 @@
                     },
                     {
                       "name": "shotsOnGoalAgainst",
-                      "value": "10",
+                      "value": "11",
                       "label": "SOGA"
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "2.43",
+                      "value": "2.80",
                       "label": "xGC"
                     }
                   ]
@@ -134702,18 +135025,18 @@
         ],
         "xg": {
           "home": {
-            "xg": 2.426,
-            "npxg": 1.638,
-            "xgot": 2.62,
-            "xa": 0.739,
-            "xga": 0.408
+            "xg": 2.798,
+            "npxg": 2.01,
+            "xgot": 3.204,
+            "xa": 1.058,
+            "xga": 0.713
           },
           "away": {
-            "xg": 0.408,
-            "npxg": 0.408,
-            "xgot": 0.198,
-            "xa": 0.696,
-            "xga": 2.426
+            "xg": 0.713,
+            "npxg": 0.713,
+            "xgot": 0.588,
+            "xa": 0.838,
+            "xga": 2.798
           }
         }
       }
@@ -135663,8 +135986,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WWLDW"
+        "record": "1-0-0",
+        "form": "WWWLD"
       },
       "away": {
         "id": "4469",
@@ -135713,8 +136036,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WLLWW"
+        "record": "0-0-1",
+        "form": "LWLLW"
       },
       "group": null
     },
@@ -136503,8 +136826,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WLLWW"
+        "record": "0-0-1",
+        "form": "LWLLW"
       },
       "away": {
         "id": "4469",
@@ -136553,8 +136876,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WWLDW"
+        "record": "1-0-0",
+        "form": "WWWLD"
       },
       "group": null
     },
