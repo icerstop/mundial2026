@@ -1,4 +1,6 @@
 import { state } from '../core/state.mjs';
+import { isOwnGoal, isPenalty } from '../domain/goal-kind.mjs';
+import { goalBucketOf } from '../domain/insights.mjs';
 
 // ── Drill-through (Power BI style) ──────────────────────────────────────────
 function _sumTeamStat(m, key) {
@@ -10,6 +12,34 @@ function _drillTeamStat(m, key) {
     return { name: team.name, logo: team.logo, value: parseInt(t.stats?.[key]?.value || 0) };
   });
 }
+
+// Goal-event drills (donut slices, timing buckets): list the actual goals.
+// Completed + live matches, matching what the analytics charts show.
+function _collectGoals(predicate) {
+  const out = [];
+  for (const m of state.data?.matches || []) {
+    if (!m.status?.completed && m.status?.state !== 'in') continue;
+    for (const e of m.details?.keyEvents || []) {
+      const isGoal = e.type === 'Goal' || (e.text || '').toLowerCase().includes('goal');
+      if (!isGoal || e.shootout || !predicate(e)) continue;
+      out.push({
+        matchId: m.id,
+        teams: `${m.home.abbr || m.home.name} ${m.home.score}–${m.away.score} ${m.away.abbr || m.away.name}`,
+        scorer: e.athletes?.[0]?.shortName || e.athletes?.[0]?.name || '—',
+        clock: e.clock || '',
+        teamName: e.teamName || '',
+        live: !m.status.completed,
+      });
+    }
+  }
+  return out;
+}
+const _goalKindPred = {
+  open: e => !isOwnGoal(e) && !isPenalty(e) && !(e.type || '').toLowerCase().includes('header'),
+  header: e => !isOwnGoal(e) && !isPenalty(e) && (e.type || '').toLowerCase().includes('header'),
+  penalty: e => !isOwnGoal(e) && isPenalty(e),
+  own: e => isOwnGoal(e),
+};
 
 // Each stat: how a match contributes (matchValue) and how it splits per team (teamSplit)
 const DRILL = {
@@ -25,14 +55,22 @@ const DRILL = {
   wonCorners:    { label: 'Rzuty rożne', unit: 'rożnych', teamView: true, matchValue: m => _sumTeamStat(m, 'wonCorners'), teamSplit: m => _drillTeamStat(m, 'wonCorners') },
   foulsCommitted:{ label: 'Faule', unit: 'fauli', teamView: true, matchValue: m => _sumTeamStat(m, 'foulsCommitted'), teamSplit: m => _drillTeamStat(m, 'foulsCommitted') },
   offsides:      { label: 'Spalone', unit: 'spalonych', teamView: true, matchValue: m => _sumTeamStat(m, 'offsides'), teamSplit: m => _drillTeamStat(m, 'offsides') },
+  yellowCards:   { label: 'Żółte kartki', unit: 'kartek', teamView: true, matchValue: m => _sumTeamStat(m, 'yellowCards'), teamSplit: m => _drillTeamStat(m, 'yellowCards') },
+  redCards:      { label: 'Czerwone kartki', unit: 'kartek', teamView: true, matchValue: m => _sumTeamStat(m, 'redCards'), teamSplit: m => _drillTeamStat(m, 'redCards') },
+  accuratePasses:{ label: 'Podania celne', unit: 'podań', teamView: true, matchValue: m => _sumTeamStat(m, 'accuratePasses'), teamSplit: m => _drillTeamStat(m, 'accuratePasses') },
   attendance:    { label: 'Frekwencja', unit: 'kibiców', teamView: false, matchValue: m => m.attendance || 0, teamSplit: () => [] },
+  // Goal-event drills (kind: 'goals') — used by the analytics donut & timing chart
+  goalKind:      { kind: 'goals', label: 'Gole', collect: opts => _collectGoals(_goalKindPred[opts.kind] || (() => true)) },
+  goalBucket:    { kind: 'goals', label: 'Gole', collect: opts => _collectGoals(e => goalBucketOf(e) === opts.bucket) },
 };
 
-let drillState = { statId: null, mode: 'match', filter: '', day: null };
+const GOAL_KIND_LABEL = { open: 'z gry (nogą)', header: 'głową', penalty: 'z karnego', own: 'samobójcze' };
+
+let drillState = { statId: null, mode: 'match', filter: '', day: null, opts: {} };
 
 export function openDrill(statId, opts = {}) {
   if (!DRILL[statId] || !state.data?.matches) return;
-  drillState = { statId, mode: 'match', filter: '', day: opts.day || null };
+  drillState = { statId, mode: 'match', filter: '', day: opts.day || null, opts };
   document.getElementById('drillOverlay').classList.add('active');
   document.body.style.overflow = 'hidden';
   renderDrill();
@@ -48,10 +86,20 @@ function _dayLabel(day) { const [, mo, da] = day.split('-'); return `${da}.${mo}
 function _fmtNum(n) { return n.toLocaleString('pl-PL'); }
 function _drillEmpty() { return `<div class="empty-state" style="padding:24px;"><div class="empty-state__text" style="color:var(--muted);">Brak danych do wyświetlenia</div></div>`; }
 
+function _drillTitle(spec) {
+  if (spec.kind === 'goals') {
+    const o = drillState.opts || {};
+    if (o.kind) return `⚽ Gole ${GOAL_KIND_LABEL[o.kind] || ''}`.trim();
+    if (o.bucket) return `⏱️ Gole w przedziale ${o.bucket}'`;
+    return '⚽ Gole';
+  }
+  return `📊 ${spec.label}${drillState.day ? ' · ' + _dayLabel(drillState.day) : ''}`;
+}
+
 export function renderDrill() {
   const spec = DRILL[drillState.statId];
   if (!spec) return;
-  document.getElementById('drillTitle').textContent = `📊 ${spec.label}${drillState.day ? ' · ' + _dayLabel(drillState.day) : ''}`;
+  document.getElementById('drillTitle').textContent = _drillTitle(spec);
   document.getElementById('drillBody').innerHTML = `
     <div class="drill-toolbar">
       ${spec.teamView ? `
@@ -59,7 +107,7 @@ export function renderDrill() {
         <button class="${drillState.mode === 'match' ? 'active' : ''}" onclick="setDrillMode('match')">Mecze</button>
         <button class="${drillState.mode === 'team' ? 'active' : ''}" onclick="setDrillMode('team')">Drużyny</button>
       </div>` : '<div></div>'}
-      <input class="drill-filter" type="text" placeholder="Filtruj drużynę…" value="${drillState.filter}" oninput="setDrillFilter(this.value)">
+      <input class="drill-filter" type="text" placeholder="${spec.kind === 'goals' ? 'Filtruj zawodnika / drużynę…' : 'Filtruj drużynę…'}" value="${drillState.filter}" oninput="setDrillFilter(this.value)">
     </div>
     <div class="drill-total" id="drillTotal"></div>
     <div class="drill-list" id="drillList"></div>`;
@@ -68,6 +116,28 @@ export function renderDrill() {
 
 export function renderDrillList() {
   const spec = DRILL[drillState.statId];
+  const listEl0 = document.getElementById('drillList');
+  const totalEl0 = document.getElementById('drillTotal');
+
+  // Goal-event drill: flat list of goals (scorer · minute · match)
+  if (spec.kind === 'goals') {
+    let goals = spec.collect(drillState.opts || {});
+    const f0 = drillState.filter.trim().toLowerCase();
+    if (f0) goals = goals.filter(g => `${g.teams} ${g.scorer} ${g.teamName}`.toLowerCase().includes(f0));
+    const liveN = goals.filter(g => g.live).length;
+    totalEl0.innerHTML = `Łącznie: <b>${goals.length}</b> ${goals.length === 1 ? 'gol' : 'goli'}${liveN ? ` · w tym ${liveN} na żywo` : ''}`;
+    listEl0.innerHTML = goals.length ? goals.map((g, i) => `
+      <button class="drill-row" onclick="closeDrill(); openMatchModal('${g.matchId}')">
+        <span class="drill-row__rank">${String(i + 1).padStart(2, '0')}</span>
+        <span class="drill-row__main">
+          <span class="drill-row__teams">${g.scorer}${g.live ? ' <span style="color:var(--red);font-size:.7rem;">●&nbsp;LIVE</span>' : ''}</span>
+          <span class="drill-row__meta">${g.clock || ''}${g.teamName ? ' · ' + g.teamName : ''} · ${g.teams}</span>
+        </span>
+        <span class="drill-row__val">⚽</span>
+      </button>`).join('') : _drillEmpty();
+    return;
+  }
+
   let completed = state.data.matches.filter(m => m.status.completed);
   if (drillState.day) completed = completed.filter(m => (m.date || '').slice(0, 10) === drillState.day);
   const f = drillState.filter.trim().toLowerCase();

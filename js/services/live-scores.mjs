@@ -211,9 +211,33 @@ export async function refreshLiveScores() {
   }
 }
 
+// Pull full summaries (keyEvents/teamStats) for in-progress matches into global
+// state, so analytics (goal timing/anatomy) and the grid cards reflect live goals
+// without needing a modal open. Runs after refreshLiveScores so statuses are fresh.
+export async function refreshLiveDetails() {
+  if (!state.data?.matches) return;
+  const live = state.data.matches.filter(m => m.status.state === 'in' && m.id !== state.live.pollingId);
+  if (live.length === 0) return;
+
+  let changed = false;
+  for (const m of live) {
+    try {
+      const res = await fetch(`${ESPN_BASE}/summary?event=${m.id}`);
+      if (!res.ok) continue;
+      const data = await res.json();
+      m.details = parseSummaryForModal(data);
+      cacheLive(m); // survive the next Firebase push
+      syncLiveCard(m.id); // surface live goals on the card
+      changed = true;
+    } catch { /* transient — try again next tick */ }
+  }
+  if (changed) actions.renderAll?.();
+}
+
 export function startLiveScoreRefresh() {
-  refreshLiveScores();                   // immediate on load — corrects frozen snapshots
-  setInterval(refreshLiveScores, 30000); // then every 30s
+  const tick = () => refreshLiveScores().then(refreshLiveDetails);
+  tick();                    // immediate on load — corrects frozen snapshots
+  setInterval(tick, 30000);  // then every 30s
 }
 
 

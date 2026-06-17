@@ -12,6 +12,7 @@ import { renderRecords } from './features/records.mjs';
 import { openMatchModal, closeMatchModal, setupModal } from './features/match-modal.mjs';
 import { openTeamModal, closeTeamModal, setupTeamModal } from './features/team-modal.mjs';
 import { setupMatchFilter, setupNav, setupRecordFilter, setupScorerFilter } from './ui/navigation.mjs';
+import { setupTooltip } from './ui/tooltip.mjs';
 import { applyLiveOverride, startLiveScoreRefresh } from './services/live-scores.mjs';
 import { startDataSource } from './services/data-source.mjs';
 
@@ -49,6 +50,7 @@ function initializeUi() {
   setupTeamModal();
   setupModal();
   setupDrillModal();
+  setupTooltip();
   startLiveClockTicker();
   startLiveScoreRefresh();
   initialized = true;

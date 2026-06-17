@@ -1,5 +1,6 @@
 import { state } from '../core/state.mjs';
 import { recomputeStats } from './hero.mjs';
+import { buildInsightsHTML } from './insights.mjs';
 
 // ── Tournament Stats ───────────────────────────────────────────────────────
 // All-time benchmarks for record comparisons
@@ -137,12 +138,12 @@ export function renderTournamentStats() {
           <div class="ts-progress"><span style="width:${Math.min(100, totalGoals / WC_RECORD_GOALS * 100).toFixed(1)}%"></span></div>
         </div>
         <div class="ts-record__metric">
-          <div class="ts-record__big">${projected}</div>
+          <div class="ts-record__big ts-record__big--drill" onclick="openDrill('goals')" title="Pokaż rozbicie">${projected} <i class="drill-cue">⤢</i></div>
           <div class="ts-record__lbl">Projekcja na ${totalMatches} meczów (tempo ${avg.toFixed(2)}/mecz)</div>
           <div class="ts-record__delta ${projDelta >= 0 ? 'up' : 'down'}">${projDelta >= 0 ? '▲ +' : '▼ '}${projDelta} vs rekord</div>
         </div>
         <div class="ts-record__metric">
-          <div class="ts-record__big">${avg.toFixed(2)}<span> / ${WC_RECORD_AVG}</span></div>
+          <div class="ts-record__big ts-record__big--drill" onclick="openDrill('goals')" title="Pokaż rozbicie">${avg.toFixed(2)}<span> / ${WC_RECORD_AVG}</span> <i class="drill-cue">⤢</i></div>
           <div class="ts-record__lbl">Śr. goli/mecz vs Mundial 2022</div>
           <div class="ts-record__delta ${avgDelta >= 0 ? 'up' : 'down'}">${avgDelta >= 0 ? '▲ +' : '▼ '}${avgDelta.toFixed(2)} / mecz</div>
         </div>
@@ -177,29 +178,29 @@ export function renderTournamentStats() {
       items: [
         { label: 'Strzały łącznie', value: totalShots, drill: 'totalShots' },
         { label: 'Strzały celne', value: totalOnTarget, drill: 'shotsOnTarget' },
-        { label: 'Celność strzałów', value: totalShots > 0 ? ((totalOnTarget / totalShots) * 100).toFixed(1) + '%' : '—' },
-        { label: 'Śr. strzałów / mecz', value: n > 0 ? (totalShots / n).toFixed(1) : '—' },
+        { label: 'Celność strzałów', value: totalShots > 0 ? ((totalOnTarget / totalShots) * 100).toFixed(1) + '%' : '—', drill: 'shotsOnTarget' },
+        { label: 'Śr. strzałów / mecz', value: n > 0 ? (totalShots / n).toFixed(1) : '—', drill: 'totalShots' },
         { label: 'Gole łącznie', value: state.data.stats.totalGoals, drill: 'goals' },
-        { label: 'Śr. goli / mecz', value: state.data.stats.avgGoalsPerMatch },
+        { label: 'Śr. goli / mecz', value: state.data.stats.avgGoalsPerMatch, drill: 'goals' },
       ]
     },
     {
       title: '⚙️ Podania i posiadanie',
       items: [
         { label: 'Podania łącznie', value: totalPasses.toLocaleString('pl'), drill: 'totalPasses' },
-        { label: 'Śr. podań / mecz', value: n > 0 ? Math.round(totalPasses / n).toLocaleString('pl') : '—' },
+        { label: 'Śr. podań / mecz', value: n > 0 ? Math.round(totalPasses / n).toLocaleString('pl') : '—', drill: 'totalPasses' },
         { label: 'Kornery łącznie', value: totalCorners, drill: 'wonCorners' },
-        { label: 'Śr. kornerów / mecz', value: n > 0 ? (totalCorners / n).toFixed(1) : '—' },
+        { label: 'Śr. kornerów / mecz', value: n > 0 ? (totalCorners / n).toFixed(1) : '—', drill: 'wonCorners' },
       ]
     },
     {
       title: '🛡️ Dyscyplina i inne',
       items: [
         { label: 'Faule łącznie', value: totalFouls, drill: 'foulsCommitted' },
-        { label: 'Śr. fauli / mecz', value: n > 0 ? (totalFouls / n).toFixed(1) : '—' },
+        { label: 'Śr. fauli / mecz', value: n > 0 ? (totalFouls / n).toFixed(1) : '—', drill: 'foulsCommitted' },
         { label: 'Spalone łącznie', value: totalOffsides, drill: 'offsides' },
         { label: 'Łączna frekwencja', value: totalAttendance.toLocaleString('pl'), drill: 'attendance' },
-        { label: 'Śr. frekwencja / mecz', value: n > 0 ? Math.round(totalAttendance / n).toLocaleString('pl') : '—' },
+        { label: 'Śr. frekwencja / mecz', value: n > 0 ? Math.round(totalAttendance / n).toLocaleString('pl') : '—', drill: 'attendance' },
       ]
     },
   ];
@@ -216,5 +217,5 @@ export function renderTournamentStats() {
     </div>
   `).join('');
 
-  el.innerHTML = recordCard + avgChart + goalsChart + attChart + aggregateCards;
+  el.innerHTML = recordCard + avgChart + goalsChart + attChart + aggregateCards + buildInsightsHTML();
 }

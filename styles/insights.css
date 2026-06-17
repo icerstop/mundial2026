@@ -1,0 +1,121 @@
+/* Global floating tooltip (driven by ui/tooltip.mjs via [data-tip]) */
+.app-tip {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  max-width: 260px;
+  background: var(--bg-card);
+  border: 1px solid var(--yellow-dim);
+  color: var(--text);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow);
+  opacity: 0;
+  transition: opacity 0.12s ease;
+}
+.app-tip.visible { opacity: 1; }
+
+/* ── Analizy / wizualizacje ─────────────────────────────────────────────── */
+/* Divider band that separates the core stats from the analytics block (same tab) */
+.ts-section-break {
+  border: none;
+  border-top: 2px solid var(--yellow-dim);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  padding: 18px 4px 0;
+  margin-top: 8px;
+}
+.ts-section-break .ts-card__title { font-size: 1.15rem; }
+.ts-section-break .xg-note { margin-top: 6px; }
+
+/* 1. Goal-timing histogram */
+.gt-bar { fill: var(--yellow); transition: fill var(--transition-fast); }
+.gt-bar--stop { fill: var(--yellow-dim); }
+.gt-barwrap { cursor: pointer; }
+.gt-barwrap:hover .gt-bar { fill: #ffd84d; }
+.gt-divider { stroke: var(--border); stroke-width: 1.5; stroke-dasharray: 4 4; }
+.gt-half { fill: var(--muted); font-size: 9px; letter-spacing: 0.12em; font-weight: 700; }
+
+/* KPI strip (shared by several cards) */
+.ins-kpis {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;
+  margin-top: 16px;
+}
+.ins-kpi {
+  background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm);
+  padding: 12px 8px; text-align: center;
+}
+.ins-kpi__v { display: block; font-size: 1.4rem; font-weight: 800; color: var(--yellow); line-height: 1; }
+.ins-kpi__l { display: block; margin-top: 6px; font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+
+/* 2. Anatomy donut */
+.anatomy { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; justify-content: center; }
+.donut-svg { width: 168px; height: 168px; flex-shrink: 0; }
+.donut-arc { transition: stroke-dasharray var(--transition); }
+.donut-total { fill: var(--text); font-size: 34px; font-weight: 800; }
+.donut-sub { fill: var(--muted); font-size: 11px; letter-spacing: 0.14em; }
+.anatomy__legend { display: flex; flex-direction: column; gap: 6px; min-width: 200px; }
+.anatomy__row { display: flex; align-items: center; gap: 10px; }
+.anatomy__row--click {
+  width: 100%; background: transparent; border: 1px solid transparent; cursor: pointer;
+  font: inherit; color: inherit; text-align: left; padding: 6px 8px; border-radius: var(--radius-sm);
+  transition: background var(--transition-fast), border-color var(--transition-fast);
+}
+.anatomy__row--click:hover { background: var(--bg-card-hover); border-color: var(--border); }
+.anatomy__row--click .drill-cue { opacity: 0; margin-left: 2px; }
+.anatomy__row--click:hover .drill-cue { opacity: 0.7; }
+.anatomy__dot { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
+.anatomy__lbl { color: var(--text-dim); font-size: 0.9rem; flex: 1; }
+.anatomy__val { color: var(--text); font-weight: 700; }
+.anatomy__val small { color: var(--muted); font-weight: 600; }
+.donut-arc { cursor: pointer; }
+
+/* 3. Attack/Defense quadrant */
+.q-divider { stroke: var(--border); stroke-width: 1.5; stroke-dasharray: 5 4; }
+.q-dot { fill: var(--text-dim); stroke: var(--bg-card); stroke-width: 2; }
+.q-dot--good { fill: var(--green); }
+.q-label { fill: var(--text); font-size: 10px; font-weight: 700; }
+.q-pt { cursor: pointer; }
+.q-pt:hover .q-dot { fill: var(--yellow); r: 6; }
+.q-zone { font-size: 10px; font-weight: 800; letter-spacing: 0.06em; opacity: 0.55; }
+.q-zone--elite { fill: var(--green); }
+.q-zone--wall { fill: var(--blue); }
+.q-zone--wild { fill: var(--yellow); }
+.q-zone--crisis { fill: var(--red); }
+
+/* 4. Style-fingerprint radars */
+.radar-legendwrap { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; margin-bottom: 18px; }
+.radar-legend { display: flex; flex-direction: column; align-items: center; flex-shrink: 0; }
+.radar-legend__cap { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: -6px; }
+.radar-legendwrap .xg-note { flex: 1; min-width: 240px; }
+.radar-svg { width: 100%; height: auto; display: block; overflow: visible; }
+.radar-ring { fill: none; stroke: var(--border); stroke-width: 1; }
+.radar-spoke { stroke: var(--border); stroke-width: 1; }
+.radar-poly { fill: var(--yellow-glow); stroke: var(--yellow); stroke-width: 2; stroke-linejoin: round; }
+.radar-axislabel { fill: var(--muted); font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+/* Corner hover targets — reveal exact value via the global tooltip (ui/tooltip.mjs) */
+.radar-vertex { fill: var(--yellow); fill-opacity: 0.3; stroke: var(--bg-card); stroke-width: 1.5; cursor: pointer; transition: fill-opacity var(--transition-fast); }
+.radar-vertex:hover { fill-opacity: 1; }
+
+.radar-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  gap: 10px;
+}
+.radar-cell {
+  background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm);
+  padding: 8px 6px 6px; cursor: pointer;
+  transition: border-color var(--transition-fast), transform var(--transition-fast);
+}
+.radar-cell:hover { border-color: var(--yellow-dim); transform: translateY(-2px); }
+.radar-cell__name {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  margin-top: 4px; font-size: 0.8rem; font-weight: 700; color: var(--text-dim);
+}
+
+@media (max-width: 560px) {
+  .ins-kpis { grid-template-columns: repeat(2, 1fr); }
+  .radar-grid { grid-template-columns: repeat(auto-fill, minmax(108px, 1fr)); }
+}
