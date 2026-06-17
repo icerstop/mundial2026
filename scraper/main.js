@@ -14,6 +14,7 @@ const { parseScoreboardEvent } = require('./parsers/scoreboard');
 const { parseStandings } = require('./parsers/standings');
 const { parseSummary } = require('./parsers/summary');
 const { shouldRunScrape } = require('./schedule');
+const { enrichMatchXG } = require('./services/match-xg');
 const { loadRosters } = require('./services/rosters');
 
 async function fetchMatches() {
@@ -56,6 +57,7 @@ async function enrichMatches(matches) {
     try {
       const data = await fetchJSON(`${BASE}/summary?event=${match.id}`);
       match.details = parseSummary(data);
+      await enrichMatchXG(match);
       console.log(`  Details fetched: ${match.shortName}`);
       await sleep(300);
     } catch (error) {

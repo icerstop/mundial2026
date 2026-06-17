@@ -2,6 +2,9 @@
 const path = require('path');
 
 const BASE = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world';
+// Core API exposes advanced per-team stats (xG, npxG, xGOT, xA, xGA) that the
+// public summary endpoint only surfaces indirectly via the goalkeeper leader.
+const CORE = 'https://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world';
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 const DATA_DIR = path.join(PROJECT_ROOT, 'data');
 const OUT_FILE = path.join(DATA_DIR, 'matches.json');
@@ -64,6 +67,7 @@ const COACH_OVERRIDES = {
 
 module.exports = {
   BASE,
+  CORE,
   COACH_OVERRIDES,
   DATA_DIR,
   FIREBASE_DB_SECRET,

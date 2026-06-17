@@ -1,4 +1,6 @@
-export function matchXG(match) {
+// Legacy source: a team's xG = the opposing goalkeeper's expectedGoalsConceded,
+// taken from the summary "saves" leader. Empty whenever that keeper made 0 saves.
+function legacyXGConceded(match) {
   const expectedGoalsConceded = {};
   for (const team of match.details?.leaders || []) {
     const saves = (team.categories || []).find(category => category.name === 'saves');
@@ -9,15 +11,24 @@ export function matchXG(match) {
       expectedGoalsConceded[team.teamId] = parseFloat(value);
     }
   }
+  return expectedGoalsConceded;
+}
 
-  return {
-    homeXG: match.away.id in expectedGoalsConceded
-      ? expectedGoalsConceded[match.away.id]
-      : null,
-    awayXG: match.home.id in expectedGoalsConceded
-      ? expectedGoalsConceded[match.home.id]
-      : null,
-  };
+// Prefer direct per-team xG from the core API (details.xg, also carries
+// npxG/xGOT/xA/xGA); fall back to the goalkeeper-derived value for matches the
+// core API hasn't published advanced stats for.
+export function matchXG(match) {
+  const direct = match.details?.xg;
+  const conceded = legacyXGConceded(match);
+
+  const homeXG = direct?.home?.xg != null
+    ? direct.home.xg
+    : (match.away.id in conceded ? conceded[match.away.id] : null);
+  const awayXG = direct?.away?.xg != null
+    ? direct.away.xg
+    : (match.home.id in conceded ? conceded[match.home.id] : null);
+
+  return { homeXG, awayXG };
 }
 
 export function xgVerdict(match) {
