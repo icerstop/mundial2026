@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-17T08:04:15.093Z",
+    "lastUpdated": "2026-06-17T16:51:48.259Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -40949,8 +40949,8 @@
               },
               {
                 "id": "231050",
-                "name": "Raphinha",
-                "shortName": "Raphinha",
+                "name": "Raphinha ",
+                "shortName": "Raphinha ",
                 "position": "Attacking Midfielder",
                 "starter": true,
                 "subbedIn": false,
@@ -41516,8 +41516,8 @@
               },
               {
                 "id": "176948",
-                "name": "Ederson",
-                "shortName": "Ederson",
+                "name": "Ederson ",
+                "shortName": "Ederson ",
                 "position": "Substitute",
                 "starter": false,
                 "subbedIn": false,
@@ -45547,8 +45547,8 @@
                 "name": "totalShots",
                 "displayName": "Total Shots",
                 "leader": {
-                  "name": "Raphinha",
-                  "shortName": "Raphinha",
+                  "name": "Raphinha ",
+                  "shortName": "Raphinha ",
                   "jersey": "11",
                   "position": "Forward",
                   "value": "2",
@@ -80022,8 +80022,8 @@
               },
               {
                 "id": "231828",
-                "name": "Rodri",
-                "shortName": "Rodri",
+                "name": "Rodri ",
+                "shortName": "Rodri ",
                 "position": "Center Midfielder",
                 "starter": true,
                 "subbedIn": false,
@@ -80103,8 +80103,8 @@
               },
               {
                 "id": "250465",
-                "name": "Pedri",
-                "shortName": "Pedri",
+                "name": "Pedri ",
+                "shortName": "Pedri ",
                 "position": "Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
@@ -80346,8 +80346,8 @@
               },
               {
                 "id": "323702",
-                "name": "Gavi",
-                "shortName": "Gavi",
+                "name": "Gavi ",
+                "shortName": "Gavi ",
                 "position": "Left Forward",
                 "starter": true,
                 "subbedIn": false,
@@ -83897,19 +83897,6 @@
             "ownGoal": false
           },
           {
-            "id": "49522361",
-            "type": "Start Delay",
-            "clock": "23'",
-            "period": 1,
-            "teamId": "2597",
-            "teamName": "Cape Verde",
-            "athletes": [],
-            "text": null,
-            "shootout": false,
-            "penaltyKick": false,
-            "ownGoal": false
-          },
-          {
             "id": "49522362",
             "type": "Start Delay",
             "clock": "23'",
@@ -83918,6 +83905,19 @@
             "teamName": "Spain",
             "athletes": [],
             "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49522361",
+            "type": "Start Delay",
+            "clock": "23'",
+            "period": 1,
+            "teamId": "2597",
+            "teamName": "Cape Verde",
+            "athletes": [],
+            "text": null,
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -84180,7 +84180,7 @@
               },
               {
                 "id": "323702",
-                "name": "Gavi"
+                "name": "Gavi "
               }
             ],
             "text": "Substitution, Spain. Lamine Yamal replaces Gavi.",
@@ -84294,7 +84294,7 @@
               },
               {
                 "id": "231828",
-                "name": "Rodri"
+                "name": "Rodri "
               }
             ],
             "text": "Substitution, Spain. Nico Williams replaces Rodri.",
@@ -84312,7 +84312,7 @@
             "athletes": [
               {
                 "id": "250465",
-                "name": "Pedri"
+                "name": "Pedri "
               }
             ],
             "text": "Pedri (Spain) is shown the yellow card for a bad foul.",
@@ -84638,8 +84638,8 @@
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "Rodri",
-                  "shortName": "Rodri",
+                  "name": "Rodri ",
+                  "shortName": "Rodri ",
                   "jersey": "16",
                   "position": "Midfielder",
                   "value": "116",
@@ -93996,8 +93996,8 @@
               },
               {
                 "id": "241466",
-                "name": "Agustín Canobbio",
-                "shortName": "A. Canobbio",
+                "name": "Agustín Cano",
+                "shortName": "A. Cano",
                 "position": "Substitute",
                 "starter": false,
                 "subbedIn": true,
@@ -94792,7 +94792,7 @@
             "athletes": [
               {
                 "id": "241466",
-                "name": "Agustín Canobbio"
+                "name": "Agustín Cano"
               },
               {
                 "id": "271788",
@@ -94967,7 +94967,7 @@
           },
           {
             "id": "49526471",
-            "type": "Goal - Volley",
+            "type": "Goal",
             "clock": "80'",
             "period": 2,
             "teamId": "212",
@@ -112287,7 +112287,7 @@
                   "name": "Merchas Doski",
                   "shortName": "M. Doski",
                   "jersey": "23",
-                  "position": "Defender",
+                  "position": "Midfielder",
                   "value": "10",
                   "summary": "5 TKLW, 11 DUELW",
                   "stats": [
@@ -118047,7 +118047,7 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "488",
+                "value": "487",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
@@ -118075,7 +118075,7 @@
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "19",
+                "value": "18",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -118168,11 +118168,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "240",
+                "value": "241",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "331",
+                "value": "332",
                 "label": "Passes"
               },
               "passPct": {
@@ -118192,11 +118192,11 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "51",
+                "value": "52",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "22",
+                "value": "23",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -123366,7 +123366,7 @@
           },
           {
             "time": "45'+4'",
-            "text": "Attempt missed. Sasa Kalajdzic (Austria) right footed shot from outside the box is too high. Assisted by Marcel Sabitzer.",
+            "text": "Attempt missed. Sasa Kalajdzic (Austria) right footed shot from outside the box is high and wide to the right. Assisted by Marcel Sabitzer.",
             "type": null
           },
           {
@@ -123428,7 +123428,7 @@
                   "jersey": "5",
                   "position": "Defender",
                   "value": "2",
-                  "summary": "0 SOG, 0.14 xG",
+                  "summary": "0 SOG, 0.17 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -123442,7 +123442,7 @@
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.14",
+                      "value": "0.17",
                       "label": "xG"
                     }
                   ]
@@ -123510,7 +123510,7 @@
                   "jersey": "1",
                   "position": "Goalkeeper",
                   "value": "3",
-                  "summary": "4 SOGA, 0.53 xGC",
+                  "summary": "4 SOGA, 0.46 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -123524,7 +123524,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.53",
+                      "value": "0.46",
                       "label": "xGC"
                     }
                   ]
@@ -123545,7 +123545,7 @@
                   "jersey": "9",
                   "position": "Forward",
                   "value": "4",
-                  "summary": "2 SOG, 0.32 xG",
+                  "summary": "2 SOG, 0.25 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -123559,7 +123559,7 @@
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.32",
+                      "value": "0.25",
                       "label": "xG"
                     }
                   ]
@@ -123627,7 +123627,7 @@
                   "jersey": "1",
                   "position": "Goalkeeper",
                   "value": "1",
-                  "summary": "4 SOGA, 1.66 xGC",
+                  "summary": "4 SOGA, 1.69 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -123641,7 +123641,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "1.66",
+                      "value": "1.69",
                       "label": "xGC"
                     }
                   ]
