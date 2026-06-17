@@ -1,15 +1,15 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-17T05:54:53.397Z",
+    "lastUpdated": "2026-06-17T08:04:15.093Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
-    "completedCount": 19
+    "completedCount": 20
   },
   "stats": {
-    "totalGoals": 58,
-    "matchesPlayed": 19,
-    "avgGoalsPerMatch": "3.05"
+    "totalGoals": 62,
+    "matchesPlayed": 20,
+    "avgGoalsPerMatch": "3.10"
   },
   "topScorers": [
     {
@@ -147,6 +147,20 @@
           "matchId": "760424",
           "clock": "90'+6'",
           "vs": "TUN"
+        }
+      ]
+    },
+    {
+      "id": "98193",
+      "name": "Marko Arnautovic",
+      "teamId": "474",
+      "teamName": "Austria",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760431",
+          "clock": "90'+12'",
+          "vs": "JOR"
         }
       ]
     },
@@ -315,6 +329,20 @@
           "matchId": "760424",
           "clock": "30'",
           "vs": "TUN"
+        }
+      ]
+    },
+    {
+      "id": "238296",
+      "name": "Romano Schmid",
+      "teamId": "474",
+      "teamName": "Austria",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760431",
+          "clock": "21'",
+          "vs": "JOR"
         }
       ]
     },
@@ -655,6 +683,20 @@
       ]
     },
     {
+      "id": "320908",
+      "name": "Ali Olwan",
+      "teamId": "2917",
+      "teamName": "Jordan",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760431",
+          "clock": "50'",
+          "vs": "AUT"
+        }
+      ]
+    },
+    {
       "id": "328238",
       "name": "Bradley Barcola",
       "teamId": "478",
@@ -990,6 +1032,20 @@
       ]
     },
     {
+      "id": "238886",
+      "name": "Xaver Schlager",
+      "teamId": "474",
+      "teamName": "Austria",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760431",
+          "clock": "21'",
+          "vs": "JOR"
+        }
+      ]
+    },
+    {
       "id": "246532",
       "name": "Brahim Díaz",
       "teamId": "2869",
@@ -1126,6 +1182,20 @@
           "matchId": "760432",
           "clock": "66'",
           "vs": "SEN"
+        }
+      ]
+    },
+    {
+      "id": "295462",
+      "name": "Noor Al-Rawabdeh",
+      "teamId": "2917",
+      "teamName": "Jordan",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760431",
+          "clock": "50'",
+          "vs": "AUT"
         }
       ]
     },
@@ -1617,6 +1687,23 @@
       ]
     },
     {
+      "id": "98193",
+      "name": "Marko Arnautovic",
+      "teamId": "474",
+      "teamName": "Austria",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760431",
+          "clock": "90'+12'",
+          "vs": "JOR"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
       "id": "151714",
       "name": "Ladislav Krejcí",
       "teamId": "450",
@@ -1765,6 +1852,23 @@
           "matchId": "760415",
           "clock": "9'",
           "vs": "RSA"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
+      "id": "238296",
+      "name": "Romano Schmid",
+      "teamId": "474",
+      "teamName": "Austria",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760431",
+          "clock": "21'",
+          "vs": "JOR"
         }
       ],
       "assistDetails": []
@@ -2127,6 +2231,23 @@
       "assistDetails": []
     },
     {
+      "id": "320908",
+      "name": "Ali Olwan",
+      "teamId": "2917",
+      "teamName": "Jordan",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760431",
+          "clock": "50'",
+          "vs": "AUT"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
       "id": "328238",
       "name": "Bradley Barcola",
       "teamId": "478",
@@ -2142,57 +2263,6 @@
         }
       ],
       "assistDetails": []
-    },
-    {
-      "id": "328535",
-      "name": "Nestory Irankunda",
-      "teamId": "628",
-      "teamName": "Australia",
-      "goals": 1,
-      "assists": 0,
-      "total": 1,
-      "goalDetails": [
-        {
-          "matchId": "760421",
-          "clock": "27'",
-          "vs": "TUR"
-        }
-      ],
-      "assistDetails": []
-    },
-    {
-      "id": "388522",
-      "name": "Ibrahim Mbaye",
-      "teamId": "654",
-      "teamName": "Senegal",
-      "goals": 1,
-      "assists": 0,
-      "total": 1,
-      "goalDetails": [
-        {
-          "matchId": "760432",
-          "clock": "90'+5'",
-          "vs": "FRA"
-        }
-      ],
-      "assistDetails": []
-    },
-    {
-      "id": "20975",
-      "name": "Julio Enciso",
-      "teamId": "210",
-      "teamName": "Paraguay",
-      "goals": 0,
-      "assists": 1,
-      "total": 1,
-      "goalDetails": [],
-      "assistDetails": [
-        {
-          "matchId": "760417",
-          "clock": "73'",
-          "vs": "USA"
-        }
-      ]
     }
   ],
   "groups": [],
@@ -117885,28 +117955,28 @@
       "name": "Jordan at Austria",
       "shortName": "JOR @ AUT",
       "status": {
-        "state": "in",
-        "detail": "89'",
-        "shortDetail": "89'",
-        "clock": "89'",
+        "state": "post",
+        "detail": "FT",
+        "shortDetail": "FT",
+        "clock": "90'+14'",
         "period": 2,
-        "completed": false
+        "completed": true
       },
       "venue": {
         "name": "Levi's Stadium",
         "city": "Santa Clara, California",
         "country": "USA"
       },
-      "attendance": null,
+      "attendance": 68527,
       "home": {
         "id": "474",
         "name": "Austria",
         "abbr": "AUT",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
-        "score": "2",
-        "winner": false,
-        "record": "0-0-0",
-        "form": "WWWDW"
+        "score": "3",
+        "winner": true,
+        "record": "1-0-0",
+        "form": "WWWWD"
       },
       "away": {
         "id": "2917",
@@ -117915,8 +117985,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
         "score": "1",
         "winner": false,
-        "record": "0-0-0",
-        "form": "LLDDD"
+        "record": "0-0-1",
+        "form": "LLLDD"
       },
       "group": null,
       "details": {
@@ -117929,7 +117999,7 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "10",
+                "value": "12",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -117945,7 +118015,7 @@
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "3",
+                "value": "4",
                 "label": "Corner Kicks"
               },
               "saves": {
@@ -117953,19 +118023,19 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "64.4",
-                "label": "POSSESSION"
+                "value": "63.2",
+                "label": "Possession"
               },
               "totalShots": {
-                "value": "8",
+                "value": "11",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "2",
+                "value": "4",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.3",
+                "value": "0.4",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -117973,19 +118043,19 @@
                 "label": "Penalty Goals"
               },
               "penaltyKickShots": {
-                "value": "0",
+                "value": "1",
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "442",
+                "value": "488",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "518",
+                "value": "580",
                 "label": "Passes"
               },
               "passPct": {
-                "value": "0.9",
+                "value": "0.8",
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
@@ -117993,7 +118063,7 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "15",
+                "value": "17",
                 "label": "Crosses"
               },
               "crossPct": {
@@ -118001,7 +118071,7 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "43",
+                "value": "47",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
@@ -118017,27 +118087,27 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "6",
+                "value": "7",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "13",
+                "value": "17",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.5",
+                "value": "0.4",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "9",
+                "value": "15",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "20",
+                "value": "24",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "20",
+                "value": "24",
                 "label": "Clearances"
               }
             }
@@ -118050,7 +118120,7 @@
             "homeAway": "away",
             "stats": {
               "foulsCommitted": {
-                "value": "6",
+                "value": "7",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -118070,15 +118140,15 @@
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "0",
+                "value": "1",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "35.6",
-                "label": "POSSESSION"
+                "value": "36.8",
+                "label": "Possession"
               },
               "totalShots": {
-                "value": "10",
+                "value": "11",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
@@ -118098,11 +118168,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "209",
+                "value": "240",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "280",
+                "value": "331",
                 "label": "Passes"
               },
               "passPct": {
@@ -118114,7 +118184,7 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "14",
+                "value": "15",
                 "label": "Crosses"
               },
               "crossPct": {
@@ -118122,11 +118192,11 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "45",
+                "value": "51",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "20",
+                "value": "22",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -118138,11 +118208,11 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "4",
+                "value": "6",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "11",
+                "value": "15",
                 "label": "Tackles"
               },
               "tacklePct": {
@@ -118150,15 +118220,15 @@
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "10",
+                "value": "12",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "28",
+                "value": "39",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "28",
+                "value": "39",
                 "label": "Clearances"
               }
             }
@@ -118511,7 +118581,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "2",
+                    "value": "3",
                     "label": "FC"
                   },
                   {
@@ -118652,7 +118722,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -118754,7 +118824,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -119857,17 +119927,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "2",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -120331,12 +120401,12 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "2",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
                     "name": "saves",
-                    "value": "0",
+                    "value": "1",
                     "label": "SV"
                   },
                   {
@@ -120412,7 +120482,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "2",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -120655,7 +120725,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "2",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -120736,7 +120806,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "2",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -120792,7 +120862,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -120817,7 +120887,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "2",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -121060,7 +121130,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "2",
+                    "value": "3",
                     "label": "GA"
                   },
                   {
@@ -121192,7 +121262,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -121222,7 +121292,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "1",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -121303,7 +121373,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -121708,7 +121778,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -121951,7 +122021,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -122321,7 +122391,7 @@
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -122346,7 +122416,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -122356,7 +122426,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -122386,7 +122456,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -122575,28 +122645,6 @@
             "ownGoal": false
           },
           {
-            "id": "49538265",
-            "type": "Substitution",
-            "clock": "59'",
-            "period": 2,
-            "teamId": "474",
-            "teamName": "Austria",
-            "athletes": [
-              {
-                "id": "294317",
-                "name": "Carney Chukwuemeka"
-              },
-              {
-                "id": "238886",
-                "name": "Xaver Schlager"
-              }
-            ],
-            "text": "Substitution, Austria. Carney Chukwuemeka replaces Xaver Schlager.",
-            "shootout": false,
-            "penaltyKick": false,
-            "ownGoal": false
-          },
-          {
             "id": "49538266",
             "type": "Substitution",
             "clock": "59'",
@@ -122614,6 +122662,28 @@
               }
             ],
             "text": "Substitution, Austria. Kevin Danso replaces David Alaba.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538265",
+            "type": "Substitution",
+            "clock": "59'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [
+              {
+                "id": "294317",
+                "name": "Carney Chukwuemeka"
+              },
+              {
+                "id": "238886",
+                "name": "Xaver Schlager"
+              }
+            ],
+            "text": "Substitution, Austria. Carney Chukwuemeka replaces Xaver Schlager.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -122807,6 +122877,19 @@
             "ownGoal": false
           },
           {
+            "id": "49538837",
+            "type": "Start Delay",
+            "clock": "78'",
+            "period": 2,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [],
+            "text": "Delay in match because of an injury Abdallah Nasib (Jordan).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
             "id": "49538445",
             "type": "Start Delay",
             "clock": "78'",
@@ -122815,6 +122898,19 @@
             "teamName": "Austria",
             "athletes": [],
             "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538838",
+            "type": "End Delay",
+            "clock": "78'",
+            "period": 2,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -122969,6 +123065,19 @@
             "ownGoal": false
           },
           {
+            "id": "49538612",
+            "type": "End Delay",
+            "clock": "89'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
             "id": "49538611",
             "type": "End Delay",
             "clock": "89'",
@@ -122982,14 +123091,58 @@
             "ownGoal": false
           },
           {
-            "id": "49538612",
-            "type": "End Delay",
-            "clock": "89'",
+            "id": "49538827",
+            "type": "Start Delay",
+            "clock": "90'+10'",
             "period": 2,
             "teamId": "474",
             "teamName": "Austria",
             "athletes": [],
             "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538830",
+            "type": "End Delay",
+            "clock": "90'+12'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538832",
+            "type": "Penalty - Scored",
+            "clock": "90'+12'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [
+              {
+                "id": "98193",
+                "name": "Marko Arnautovic"
+              }
+            ],
+            "text": "Goal! Austria 3, Jordan 1. Marko Arnautovic (Austria) converts the penalty with a right footed shot to the bottom left corner.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538836",
+            "type": "End Regular Time",
+            "clock": "90'+14'",
+            "period": 2,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": "Second Half ends, Austria 3, Jordan 1.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -123123,7 +123276,7 @@
           },
           {
             "time": "34'",
-            "text": "Attempt saved. Ali Olwan (Jordan) right footed shot from the right side of the box is saved in the top left corner by Alexander Schlager (Austria). Assisted by Ehsan Haddad with a headed pass.",
+            "text": "Attempt saved. Ali Olwan (Jordan) right footed shot from the right side of the box is saved in the bottom left corner by Alexander Schlager (Austria). Assisted by Ehsan Haddad with a headed pass.",
             "type": null
           },
           {
@@ -123248,7 +123401,7 @@
           }
         ],
         "gameInfo": {
-          "attendance": null,
+          "attendance": 68527,
           "venue": {
             "name": "Levi's Stadium",
             "city": "Santa Clara, California",
@@ -123270,12 +123423,12 @@
                 "name": "totalShots",
                 "displayName": "Total Shots",
                 "leader": {
-                  "name": "Sasa Kalajdzic",
-                  "shortName": "S. Kalajdzic",
-                  "jersey": "14",
-                  "position": "Forward",
+                  "name": "Stefan Posch",
+                  "shortName": "S. Posch",
+                  "jersey": "5",
+                  "position": "Defender",
                   "value": "2",
-                  "summary": "0 SOG, 0.12 xG",
+                  "summary": "0 SOG, 0.14 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -123289,7 +123442,7 @@
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.12",
+                      "value": "0.14",
                       "label": "xG"
                     }
                   ]
@@ -123303,17 +123456,17 @@
                   "shortName": "P. Lienhart",
                   "jersey": "15",
                   "position": "Defender",
-                  "value": "71",
-                  "summary": "78 PASS",
+                  "value": "79",
+                  "summary": "86 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "71",
+                      "value": "79",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "78",
+                      "value": "86",
                       "label": "PASS"
                     }
                   ]
@@ -123323,16 +123476,16 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Xaver Schlager",
-                  "shortName": "X. Schlager",
-                  "jersey": "4",
-                  "position": "Midfielder",
-                  "value": "10",
-                  "summary": "1 TKLW, 6 DUELW",
+                  "name": "Philipp Lienhart",
+                  "shortName": "P. Lienhart",
+                  "jersey": "15",
+                  "position": "Defender",
+                  "value": "12",
+                  "summary": "1 TKLW, 3 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "10",
+                      "value": "12",
                       "label": "DINT"
                     },
                     {
@@ -123342,7 +123495,7 @@
                     },
                     {
                       "name": "duelsWon",
-                      "value": "6",
+                      "value": "3",
                       "label": "DUELW"
                     }
                   ]
@@ -123357,7 +123510,7 @@
                   "jersey": "1",
                   "position": "Goalkeeper",
                   "value": "3",
-                  "summary": "4 SOGA, 0.51 xGC",
+                  "summary": "4 SOGA, 0.53 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -123371,7 +123524,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.51",
+                      "value": "0.53",
                       "label": "xGC"
                     }
                   ]
@@ -123420,17 +123573,17 @@
                   "shortName": "Y. Al-Arab",
                   "jersey": "5",
                   "position": "Defender",
-                  "value": "39",
-                  "summary": "42 PASS",
+                  "value": "40",
+                  "summary": "45 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "39",
+                      "value": "40",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "42",
+                      "value": "45",
                       "label": "PASS"
                     }
                   ]
@@ -123444,12 +123597,12 @@
                   "shortName": "Y. Al-Arab",
                   "jersey": "5",
                   "position": "Defender",
-                  "value": "15",
+                  "value": "17",
                   "summary": "3 TKLW, 6 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "15",
+                      "value": "17",
                       "label": "DINT"
                     },
                     {
@@ -123468,7 +123621,31 @@
               {
                 "name": "saves",
                 "displayName": "Saves",
-                "leader": null
+                "leader": {
+                  "name": "Yazeed Abulaila",
+                  "shortName": "Y. Abulaila",
+                  "jersey": "1",
+                  "position": "Goalkeeper",
+                  "value": "1",
+                  "summary": "4 SOGA, 1.66 xGC",
+                  "stats": [
+                    {
+                      "name": "saves",
+                      "value": "1",
+                      "label": "SV"
+                    },
+                    {
+                      "name": "shotsOnGoalAgainst",
+                      "value": "4",
+                      "label": "SOGA"
+                    },
+                    {
+                      "name": "expectedGoalsConceded",
+                      "value": "1.66",
+                      "label": "xGC"
+                    }
+                  ]
+                }
               }
             ]
           }
@@ -124310,8 +124487,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WWWDW"
+        "record": "1-0-0",
+        "form": "WWWWD"
       },
       "group": null
     },
@@ -124420,8 +124597,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "LLDDD"
+        "record": "0-0-1",
+        "form": "LLLDD"
       },
       "away": {
         "id": "624",
@@ -125510,8 +125687,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WWWDW"
+        "record": "1-0-0",
+        "form": "WWWWD"
       },
       "group": null
     },
@@ -125540,8 +125717,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "LLDDD"
+        "record": "0-0-1",
+        "form": "LLLDD"
       },
       "away": {
         "id": "202",
