@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-17T19:02:17.352Z",
+    "lastUpdated": "2026-06-17T19:53:34.923Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -123792,7 +123792,7 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "723",
+                "value": "724",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
@@ -128904,7 +128904,7 @@
           },
           {
             "time": "52'",
-            "text": "Corner, Portugal. Conceded by Steve Kapuadi.",
+            "text": "Corner, Portugal. Conceded by Lionel Mpasi.",
             "type": null
           },
           {
@@ -128961,7 +128961,7 @@
                   "jersey": "7",
                   "position": "Forward",
                   "value": "3",
-                  "summary": "0 SOG, 0.50 xG",
+                  "summary": "0 SOG, 0.46 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -128975,7 +128975,7 @@
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.50",
+                      "value": "0.46",
                       "label": "xG"
                     }
                   ]
