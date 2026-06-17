@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-17T04:05:40.709Z",
+    "lastUpdated": "2026-06-17T05:54:53.397Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -100018,7 +100018,7 @@
           },
           {
             "id": "49528195",
-            "type": "Goal - Volley",
+            "type": "Goal",
             "clock": "7'",
             "period": 1,
             "teamId": "2666",
@@ -112440,7 +112440,7 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "47.9",
+                "value": "47.8",
                 "label": "Possession"
               },
               "totalShots": {
@@ -112468,7 +112468,7 @@
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "563",
+                "value": "561",
                 "label": "Passes"
               },
               "passPct": {
@@ -112480,7 +112480,7 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "5",
+                "value": "6",
                 "label": "Crosses"
               },
               "crossPct": {
@@ -112504,11 +112504,11 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "17",
+                "value": "19",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "25",
+                "value": "27",
                 "label": "Tackles"
               },
               "tacklePct": {
@@ -112516,15 +112516,15 @@
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "12",
+                "value": "10",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "15",
+                "value": "17",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "15",
+                "value": "17",
                 "label": "Clearances"
               }
             }
@@ -112561,7 +112561,7 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "52.1",
+                "value": "52.2",
                 "label": "Possession"
               },
               "totalShots": {
@@ -112585,11 +112585,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "559",
+                "value": "563",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "608",
+                "value": "609",
                 "label": "Passes"
               },
               "passPct": {
@@ -112601,7 +112601,7 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "8",
+                "value": "9",
                 "label": "Crosses"
               },
               "crossPct": {
@@ -112609,11 +112609,11 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "24",
+                "value": "25",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "14",
+                "value": "15",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -112629,7 +112629,7 @@
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "16",
+                "value": "17",
                 "label": "Tackles"
               },
               "tacklePct": {
@@ -112641,11 +112641,11 @@
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "11",
+                "value": "12",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "11",
+                "value": "12",
                 "label": "Clearances"
               }
             }
@@ -115265,7 +115265,7 @@
                 "position": "Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": true,
+                "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
@@ -117358,7 +117358,7 @@
                 "name": "Nabil Bentaleb"
               }
             ],
-            "text": "Substitution, Algeria. Adil Boulbina replaces Nabil Bentaleb.",
+            "text": "Substitution, Algeria. Adil Boulbina replaces Ibrahim Maza.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -117376,11 +117376,11 @@
                 "name": "Ramiz Zerrouki"
               },
               {
-                "id": "361212",
-                "name": "Ibrahim Maza"
+                "id": "179187",
+                "name": "Nabil Bentaleb"
               }
             ],
-            "text": "Substitution, Algeria. Ramiz Zerrouki replaces Ibrahim Maza.",
+            "text": "Substitution, Algeria. Ramiz Zerrouki replaces Nabil Bentaleb.",
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -117679,7 +117679,7 @@
                   "jersey": "10",
                   "position": "Forward",
                   "value": "6",
-                  "summary": "4 SOG, 1.03 xG",
+                  "summary": "4 SOG, 1.05 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -117693,7 +117693,7 @@
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "1.03",
+                      "value": "1.05",
                       "label": "xG"
                     }
                   ]
@@ -117731,22 +117731,22 @@
                   "shortName": "E. Fernández",
                   "jersey": "24",
                   "position": "Midfielder",
-                  "value": "10",
-                  "summary": "2 TKLW, 4 DUELW",
+                  "value": "11",
+                  "summary": "3 TKLW, 5 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "10",
+                      "value": "11",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "2",
+                      "value": "3",
                       "label": "TKLW"
                     },
                     {
                       "name": "duelsWon",
-                      "value": "4",
+                      "value": "5",
                       "label": "DUELW"
                     }
                   ]
@@ -117772,7 +117772,7 @@
                   "jersey": "10",
                   "position": "Midfielder",
                   "value": "3",
-                  "summary": "0 SOG, 0.07 xG",
+                  "summary": "0 SOG, 0.08 xG",
                   "stats": [
                     {
                       "name": "totalShots",
@@ -117786,7 +117786,7 @@
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.07",
+                      "value": "0.08",
                       "label": "xG"
                     }
                   ]
@@ -117825,7 +117825,7 @@
                   "jersey": "15",
                   "position": "Defender",
                   "value": "7",
-                  "summary": "3 TKLW, 6 DUELW",
+                  "summary": "3 TKLW, 8 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
@@ -117839,7 +117839,7 @@
                     },
                     {
                       "name": "duelsWon",
-                      "value": "6",
+                      "value": "8",
                       "label": "DUELW"
                     }
                   ]
@@ -117854,7 +117854,7 @@
                   "jersey": "23",
                   "position": "Goalkeeper",
                   "value": "3",
-                  "summary": "6 SOGA, 1.24 xGC",
+                  "summary": "6 SOGA, 1.26 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -117868,7 +117868,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "1.24",
+                      "value": "1.26",
                       "label": "xGC"
                     }
                   ]
@@ -117886,10 +117886,10 @@
       "shortName": "JOR @ AUT",
       "status": {
         "state": "in",
-        "detail": "2'",
-        "shortDetail": "2'",
-        "clock": "2'",
-        "period": 1,
+        "detail": "89'",
+        "shortDetail": "89'",
+        "clock": "89'",
+        "period": 2,
         "completed": false
       },
       "venue": {
@@ -117903,7 +117903,7 @@
         "name": "Austria",
         "abbr": "AUT",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
-        "score": "0",
+        "score": "2",
         "winner": false,
         "record": "0-0-0",
         "form": "WWWDW"
@@ -117913,7 +117913,7 @@
         "name": "Jordan",
         "abbr": "JOR",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
-        "score": "0",
+        "score": "1",
         "winner": false,
         "record": "0-0-0",
         "form": "LLDDD"
@@ -117929,11 +117929,11 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "0",
+                "value": "10",
                 "label": "Fouls"
               },
               "yellowCards": {
-                "value": "0",
+                "value": "1",
                 "label": "Yellow Cards"
               },
               "redCards": {
@@ -117941,31 +117941,31 @@
                 "label": "Red Cards"
               },
               "offsides": {
-                "value": "0",
+                "value": "3",
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "0",
+                "value": "3",
                 "label": "Corner Kicks"
               },
               "saves": {
-                "value": "0",
+                "value": "3",
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "78.6",
+                "value": "64.4",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "0",
+                "value": "8",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "0",
+                "value": "2",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.0",
+                "value": "0.3",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -117977,67 +117977,67 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "9",
+                "value": "442",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "11",
+                "value": "518",
                 "label": "Passes"
               },
               "passPct": {
-                "value": "0.8",
+                "value": "0.9",
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "0",
+                "value": "3",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "0",
+                "value": "15",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.0",
+                "value": "0.2",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "2",
+                "value": "43",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "0",
+                "value": "19",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.0",
+                "value": "0.4",
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "0",
+                "value": "1",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "0",
+                "value": "6",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "0",
+                "value": "13",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.0",
+                "value": "0.5",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "0",
+                "value": "9",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "0",
+                "value": "20",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "0",
+                "value": "20",
                 "label": "Clearances"
               }
             }
@@ -118050,7 +118050,7 @@
             "homeAway": "away",
             "stats": {
               "foulsCommitted": {
-                "value": "0",
+                "value": "6",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -118062,11 +118062,11 @@
                 "label": "Red Cards"
               },
               "offsides": {
-                "value": "0",
+                "value": "1",
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "0",
+                "value": "3",
                 "label": "Corner Kicks"
               },
               "saves": {
@@ -118074,19 +118074,19 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "21.4",
+                "value": "35.6",
                 "label": "POSSESSION"
               },
               "totalShots": {
-                "value": "1",
+                "value": "10",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
-                "value": "0",
+                "value": "4",
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.0",
+                "value": "0.4",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -118098,11 +118098,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "2",
+                "value": "209",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "3",
+                "value": "280",
                 "label": "Passes"
               },
               "passPct": {
@@ -118110,55 +118110,55 @@
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "0",
+                "value": "3",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "0",
+                "value": "14",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.0",
+                "value": "0.2",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "0",
+                "value": "45",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "0",
+                "value": "20",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.0",
+                "value": "0.4",
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "0",
+                "value": "2",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "0",
+                "value": "4",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "0",
+                "value": "11",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.0",
+                "value": "0.4",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "1",
+                "value": "10",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "2",
+                "value": "28",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "2",
+                "value": "28",
                 "label": "Clearances"
               }
             }
@@ -118217,12 +118217,12 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
                     "name": "saves",
-                    "value": "0",
+                    "value": "3",
                     "label": "SV"
                   },
                   {
@@ -118253,13 +118253,13 @@
                 ]
               },
               {
-                "id": "238906",
-                "name": "Stefan Posch",
-                "shortName": "S. Posch",
+                "id": "118444",
+                "name": "David Alaba",
+                "shortName": "D. Alaba",
                 "position": "Center Left Defender",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -118298,7 +118298,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -118328,7 +118328,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -118379,88 +118379,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
-                    "label": "GA"
-                  },
-                  {
-                    "name": "shotsFaced",
-                    "value": "0",
-                    "label": "SHF"
-                  },
-                  {
-                    "name": "goalAssists",
-                    "value": "0",
-                    "label": "A"
-                  },
-                  {
-                    "name": "offsides",
-                    "value": "0",
-                    "label": "OF"
-                  },
-                  {
-                    "name": "shotsOnTarget",
-                    "value": "0",
-                    "label": "SOG"
-                  },
-                  {
-                    "name": "totalGoals",
-                    "value": "0",
-                    "label": "G"
-                  },
-                  {
-                    "name": "totalShots",
-                    "value": "0",
-                    "label": "SHOT"
-                  }
-                ]
-              },
-              {
-                "id": "169189",
-                "name": "Konrad Laimer",
-                "shortName": "K. Laimer",
-                "position": "Left Back",
-                "starter": true,
-                "subbedIn": false,
-                "subbedOut": false,
-                "stats": [
-                  {
-                    "name": "appearances",
                     "value": "1",
-                    "label": "APP"
-                  },
-                  {
-                    "name": "foulsCommitted",
-                    "value": "0",
-                    "label": "FC"
-                  },
-                  {
-                    "name": "foulsSuffered",
-                    "value": "0",
-                    "label": "FA"
-                  },
-                  {
-                    "name": "ownGoals",
-                    "value": "0",
-                    "label": "OG"
-                  },
-                  {
-                    "name": "redCards",
-                    "value": "0",
-                    "label": "RC"
-                  },
-                  {
-                    "name": "subIns",
-                    "value": "0",
-                    "label": "SUB"
-                  },
-                  {
-                    "name": "yellowCards",
-                    "value": "0",
-                    "label": "YC"
-                  },
-                  {
-                    "name": "goalsConceded",
-                    "value": "0",
                     "label": "GA"
                   },
                   {
@@ -118499,6 +118418,87 @@
                 "id": "239574",
                 "name": "Phillipp Mwene",
                 "shortName": "P. Mwene",
+                "position": "Left Back",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": true,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "1",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "0",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "1",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "0",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "0",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "238906",
+                "name": "Stefan Posch",
+                "shortName": "S. Posch",
                 "position": "Right Back",
                 "starter": true,
                 "subbedIn": false,
@@ -118511,12 +118511,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -118541,7 +118541,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -118571,15 +118571,15 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
               },
               {
-                "id": "238296",
-                "name": "Romano Schmid",
-                "shortName": "R. Schmid",
+                "id": "169189",
+                "name": "Konrad Laimer",
+                "shortName": "K. Laimer",
                 "position": "Attacking Midfielder",
                 "starter": true,
                 "subbedIn": false,
@@ -118592,7 +118592,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "3",
                     "label": "FC"
                   },
                   {
@@ -118622,7 +118622,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -118637,7 +118637,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "2",
                     "label": "OF"
                   },
                   {
@@ -118658,13 +118658,13 @@
                 ]
               },
               {
-                "id": "118444",
-                "name": "David Alaba",
-                "shortName": "D. Alaba",
+                "id": "238886",
+                "name": "Xaver Schlager",
+                "shortName": "X. Schlager",
                 "position": "Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -118673,7 +118673,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -118703,7 +118703,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -118713,7 +118713,7 @@
                   },
                   {
                     "name": "goalAssists",
-                    "value": "0",
+                    "value": "1",
                     "label": "A"
                   },
                   {
@@ -118759,7 +118759,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -118784,7 +118784,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -118826,7 +118826,7 @@
                 "position": "Forward",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -118835,12 +118835,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -118895,7 +118895,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -118941,12 +118941,12 @@
                   },
                   {
                     "name": "yellowCards",
-                    "value": "0",
+                    "value": "1",
                     "label": "YC"
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -118976,19 +118976,19 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
               },
               {
-                "id": "238886",
-                "name": "Xaver Schlager",
-                "shortName": "X. Schlager",
+                "id": "238296",
+                "name": "Romano Schmid",
+                "shortName": "R. Schmid",
                 "position": "Attacking Midfielder Right",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -119027,7 +119027,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -119047,17 +119047,17 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
                     "name": "totalGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "G"
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -119311,17 +119311,17 @@
                 "shortName": "C. Chukwuemeka",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -119341,7 +119341,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -119371,7 +119371,7 @@
                   },
                   {
                     "name": "shotsOnTarget",
-                    "value": "0",
+                    "value": "1",
                     "label": "SOG"
                   },
                   {
@@ -119381,7 +119381,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -119392,12 +119392,12 @@
                 "shortName": "P. Wanner",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -119422,7 +119422,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -119797,12 +119797,12 @@
                 "shortName": "M. Arnautovic",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -119812,7 +119812,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -119827,7 +119827,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -119837,7 +119837,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -119852,7 +119852,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "1",
                     "label": "OF"
                   },
                   {
@@ -120121,12 +120121,12 @@
                 "shortName": "P. Wimmer",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -120151,7 +120151,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -120202,12 +120202,12 @@
                 "shortName": "K. Danso",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -120217,7 +120217,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -120232,7 +120232,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -120283,7 +120283,7 @@
             "teamId": "2917",
             "teamName": "Jordan",
             "abbr": "JOR",
-            "formation": "5-4-1",
+            "formation": "3-4-2-1",
             "players": [
               {
                 "id": "235212",
@@ -120331,7 +120331,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -120392,7 +120392,7 @@
                   },
                   {
                     "name": "ownGoals",
-                    "value": "0",
+                    "value": "1",
                     "label": "OG"
                   },
                   {
@@ -120412,7 +120412,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -120454,7 +120454,7 @@
                 "position": "Center Left Defender",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -120493,7 +120493,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -120535,7 +120535,7 @@
                 "position": "Center Right Defender",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -120544,12 +120544,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -120574,7 +120574,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -120605,168 +120605,6 @@
                   {
                     "name": "totalShots",
                     "value": "0",
-                    "label": "SHOT"
-                  }
-                ]
-              },
-              {
-                "id": "317847",
-                "name": "Mohannad Abu Taha",
-                "shortName": "M. Abu Taha",
-                "position": "Left Back",
-                "starter": true,
-                "subbedIn": false,
-                "subbedOut": false,
-                "stats": [
-                  {
-                    "name": "appearances",
-                    "value": "1",
-                    "label": "APP"
-                  },
-                  {
-                    "name": "foulsCommitted",
-                    "value": "0",
-                    "label": "FC"
-                  },
-                  {
-                    "name": "foulsSuffered",
-                    "value": "0",
-                    "label": "FA"
-                  },
-                  {
-                    "name": "ownGoals",
-                    "value": "0",
-                    "label": "OG"
-                  },
-                  {
-                    "name": "redCards",
-                    "value": "0",
-                    "label": "RC"
-                  },
-                  {
-                    "name": "subIns",
-                    "value": "0",
-                    "label": "SUB"
-                  },
-                  {
-                    "name": "yellowCards",
-                    "value": "0",
-                    "label": "YC"
-                  },
-                  {
-                    "name": "goalsConceded",
-                    "value": "0",
-                    "label": "GA"
-                  },
-                  {
-                    "name": "shotsFaced",
-                    "value": "0",
-                    "label": "SHF"
-                  },
-                  {
-                    "name": "goalAssists",
-                    "value": "0",
-                    "label": "A"
-                  },
-                  {
-                    "name": "offsides",
-                    "value": "0",
-                    "label": "OF"
-                  },
-                  {
-                    "name": "shotsOnTarget",
-                    "value": "0",
-                    "label": "SOG"
-                  },
-                  {
-                    "name": "totalGoals",
-                    "value": "0",
-                    "label": "G"
-                  },
-                  {
-                    "name": "totalShots",
-                    "value": "0",
-                    "label": "SHOT"
-                  }
-                ]
-              },
-              {
-                "id": "229021",
-                "name": "Ehsan Haddad",
-                "shortName": "E. Haddad",
-                "position": "Right Back",
-                "starter": true,
-                "subbedIn": false,
-                "subbedOut": false,
-                "stats": [
-                  {
-                    "name": "appearances",
-                    "value": "1",
-                    "label": "APP"
-                  },
-                  {
-                    "name": "foulsCommitted",
-                    "value": "0",
-                    "label": "FC"
-                  },
-                  {
-                    "name": "foulsSuffered",
-                    "value": "0",
-                    "label": "FA"
-                  },
-                  {
-                    "name": "ownGoals",
-                    "value": "0",
-                    "label": "OG"
-                  },
-                  {
-                    "name": "redCards",
-                    "value": "0",
-                    "label": "RC"
-                  },
-                  {
-                    "name": "subIns",
-                    "value": "0",
-                    "label": "SUB"
-                  },
-                  {
-                    "name": "yellowCards",
-                    "value": "0",
-                    "label": "YC"
-                  },
-                  {
-                    "name": "goalsConceded",
-                    "value": "0",
-                    "label": "GA"
-                  },
-                  {
-                    "name": "shotsFaced",
-                    "value": "0",
-                    "label": "SHF"
-                  },
-                  {
-                    "name": "goalAssists",
-                    "value": "0",
-                    "label": "A"
-                  },
-                  {
-                    "name": "offsides",
-                    "value": "0",
-                    "label": "OF"
-                  },
-                  {
-                    "name": "shotsOnTarget",
-                    "value": "0",
-                    "label": "SOG"
-                  },
-                  {
-                    "name": "totalGoals",
-                    "value": "0",
-                    "label": "G"
-                  },
-                  {
-                    "name": "totalShots",
-                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -120817,7 +120655,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -120827,7 +120665,7 @@
                   },
                   {
                     "name": "goalAssists",
-                    "value": "0",
+                    "value": "1",
                     "label": "A"
                   },
                   {
@@ -120868,12 +120706,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "3",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -120898,7 +120736,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -120934,9 +120772,9 @@
                 ]
               },
               {
-                "id": "320908",
-                "name": "Ali Olwan",
-                "shortName": "A. Olwan",
+                "id": "317847",
+                "name": "Mohannad Abu Taha",
+                "shortName": "M. Abu Taha",
                 "position": "Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
@@ -120949,7 +120787,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -120979,7 +120817,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -121015,13 +120853,13 @@
                 ]
               },
               {
-                "id": "392204",
-                "name": "Odeh Fakhoury",
-                "shortName": "O. Fakhoury",
+                "id": "229021",
+                "name": "Ehsan Haddad",
+                "shortName": "E. Haddad",
                 "position": "Right Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -121035,7 +120873,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -121060,7 +120898,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
+                    "value": "2",
                     "label": "GA"
                   },
                   {
@@ -121090,7 +120928,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -121102,6 +120940,249 @@
                 "position": "Forward",
                 "starter": true,
                 "subbedIn": false,
+                "subbedOut": true,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "1",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "1",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "2",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "1",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "1",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "4",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "320908",
+                "name": "Ali Olwan",
+                "shortName": "A. Olwan",
+                "position": "Center Left Forward",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": false,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "2",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "2",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "2",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "1",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "4",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "392204",
+                "name": "Odeh Fakhoury",
+                "shortName": "O. Fakhoury",
+                "position": "Center Right Forward",
+                "starter": true,
+                "subbedIn": false,
+                "subbedOut": true,
+                "stats": [
+                  {
+                    "name": "appearances",
+                    "value": "1",
+                    "label": "APP"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "value": "0",
+                    "label": "FC"
+                  },
+                  {
+                    "name": "foulsSuffered",
+                    "value": "2",
+                    "label": "FA"
+                  },
+                  {
+                    "name": "ownGoals",
+                    "value": "0",
+                    "label": "OG"
+                  },
+                  {
+                    "name": "redCards",
+                    "value": "0",
+                    "label": "RC"
+                  },
+                  {
+                    "name": "subIns",
+                    "value": "0",
+                    "label": "SUB"
+                  },
+                  {
+                    "name": "yellowCards",
+                    "value": "0",
+                    "label": "YC"
+                  },
+                  {
+                    "name": "goalsConceded",
+                    "value": "2",
+                    "label": "GA"
+                  },
+                  {
+                    "name": "shotsFaced",
+                    "value": "0",
+                    "label": "SHF"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "value": "0",
+                    "label": "A"
+                  },
+                  {
+                    "name": "offsides",
+                    "value": "0",
+                    "label": "OF"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "value": "1",
+                    "label": "SOG"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "value": "0",
+                    "label": "G"
+                  },
+                  {
+                    "name": "totalShots",
+                    "value": "1",
+                    "label": "SHOT"
+                  }
+                ]
+              },
+              {
+                "id": "289005",
+                "name": "Saleem Obaid",
+                "shortName": "S. Obaid",
+                "position": "Substitute",
+                "starter": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
@@ -121131,7 +121212,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -121141,88 +121222,7 @@
                   },
                   {
                     "name": "goalsConceded",
-                    "value": "0",
-                    "label": "GA"
-                  },
-                  {
-                    "name": "shotsFaced",
-                    "value": "0",
-                    "label": "SHF"
-                  },
-                  {
-                    "name": "goalAssists",
-                    "value": "0",
-                    "label": "A"
-                  },
-                  {
-                    "name": "offsides",
-                    "value": "0",
-                    "label": "OF"
-                  },
-                  {
-                    "name": "shotsOnTarget",
-                    "value": "0",
-                    "label": "SOG"
-                  },
-                  {
-                    "name": "totalGoals",
-                    "value": "0",
-                    "label": "G"
-                  },
-                  {
-                    "name": "totalShots",
-                    "value": "0",
-                    "label": "SHOT"
-                  }
-                ]
-              },
-              {
-                "id": "289005",
-                "name": "Saleem Obaid",
-                "shortName": "S. Obaid",
-                "position": "Substitute",
-                "starter": false,
-                "subbedIn": false,
-                "subbedOut": false,
-                "stats": [
-                  {
-                    "name": "appearances",
-                    "value": "0",
-                    "label": "APP"
-                  },
-                  {
-                    "name": "foulsCommitted",
-                    "value": "0",
-                    "label": "FC"
-                  },
-                  {
-                    "name": "foulsSuffered",
-                    "value": "0",
-                    "label": "FA"
-                  },
-                  {
-                    "name": "ownGoals",
-                    "value": "0",
-                    "label": "OG"
-                  },
-                  {
-                    "name": "redCards",
-                    "value": "0",
-                    "label": "RC"
-                  },
-                  {
-                    "name": "subIns",
-                    "value": "0",
-                    "label": "SUB"
-                  },
-                  {
-                    "name": "yellowCards",
-                    "value": "0",
-                    "label": "YC"
-                  },
-                  {
-                    "name": "goalsConceded",
-                    "value": "0",
+                    "value": "1",
                     "label": "GA"
                   },
                   {
@@ -121263,12 +121263,12 @@
                 "shortName": "M. Al-Mardi",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -121293,7 +121293,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -121668,12 +121668,12 @@
                 "shortName": "S. Al-Rosan",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -121698,7 +121698,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -121911,12 +121911,12 @@
                 "shortName": "M. Al-Daoud",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -121941,7 +121941,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -122316,7 +122316,7 @@
                 "shortName": "A. Azaizeh",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
@@ -122407,6 +122407,592 @@
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
+          },
+          {
+            "id": "49537647",
+            "type": "Goal",
+            "clock": "21'",
+            "period": 1,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [
+              {
+                "id": "238296",
+                "name": "Romano Schmid"
+              },
+              {
+                "id": "238886",
+                "name": "Xaver Schlager"
+              }
+            ],
+            "text": "Goal! Austria 1, Jordan 0. Romano Schmid (Austria) right footed shot from outside the box to the top right corner. Assisted by Xaver Schlager.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49537668",
+            "type": "Start Delay",
+            "clock": "23'",
+            "period": 1,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49537669",
+            "type": "Start Delay",
+            "clock": "23'",
+            "period": 1,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49537673",
+            "type": "End Delay",
+            "clock": "26'",
+            "period": 1,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49537672",
+            "type": "End Delay",
+            "clock": "26'",
+            "period": 1,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538036",
+            "type": "Halftime",
+            "clock": "45'+5'",
+            "period": 1,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538041",
+            "type": "Substitution",
+            "clock": "45'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [
+              {
+                "id": "98193",
+                "name": "Marko Arnautovic"
+              },
+              {
+                "id": "259131",
+                "name": "Sasa Kalajdzic"
+              }
+            ],
+            "text": "Substitution, Austria. Marko Arnautovic replaces Sasa Kalajdzic.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538048",
+            "type": "Start 2nd Half",
+            "clock": "45'",
+            "period": 2,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538122",
+            "type": "Goal",
+            "clock": "50'",
+            "period": 2,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [
+              {
+                "id": "320908",
+                "name": "Ali Olwan"
+              },
+              {
+                "id": "295462",
+                "name": "Noor Al-Rawabdeh"
+              }
+            ],
+            "text": "Goal! Austria 1, Jordan 1. Ali Olwan (Jordan) right footed shot from the left side of the box to the bottom right corner. Assisted by Noor Al Rawabdeh following a fast break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538264",
+            "type": "Substitution",
+            "clock": "59'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [
+              {
+                "id": "333399",
+                "name": "Paul Wanner"
+              },
+              {
+                "id": "239574",
+                "name": "Phillipp Mwene"
+              }
+            ],
+            "text": "Substitution, Austria. Paul Wanner replaces Phillipp Mwene.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538265",
+            "type": "Substitution",
+            "clock": "59'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [
+              {
+                "id": "294317",
+                "name": "Carney Chukwuemeka"
+              },
+              {
+                "id": "238886",
+                "name": "Xaver Schlager"
+              }
+            ],
+            "text": "Substitution, Austria. Carney Chukwuemeka replaces Xaver Schlager.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538266",
+            "type": "Substitution",
+            "clock": "59'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [
+              {
+                "id": "250543",
+                "name": "Kevin Danso"
+              },
+              {
+                "id": "118444",
+                "name": "David Alaba"
+              }
+            ],
+            "text": "Substitution, Austria. Kevin Danso replaces David Alaba.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538355",
+            "type": "Start Delay",
+            "clock": "63'",
+            "period": 2,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [],
+            "text": "Delay in match because of an injury Yazeed Abulaila (Jordan).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538356",
+            "type": "Start Delay",
+            "clock": "63'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538361",
+            "type": "End Delay",
+            "clock": "65'",
+            "period": 2,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538360",
+            "type": "End Delay",
+            "clock": "65'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538422",
+            "type": "Start Delay",
+            "clock": "70'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538424",
+            "type": "End Delay",
+            "clock": "71'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538426",
+            "type": "Substitution",
+            "clock": "72'",
+            "period": 2,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [
+              {
+                "id": "289005",
+                "name": "Saleem Obaid"
+              },
+              {
+                "id": "286761",
+                "name": "Mohammad Abualnadi"
+              }
+            ],
+            "text": "Substitution, Jordan. Saleem Obaid replaces Mohammad Abu Al Nadi.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538427",
+            "type": "Start Delay",
+            "clock": "72'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538428",
+            "type": "Start Delay",
+            "clock": "72'",
+            "period": 2,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538429",
+            "type": "End Delay",
+            "clock": "75'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538430",
+            "type": "End Delay",
+            "clock": "75'",
+            "period": 2,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538442",
+            "type": "Own Goal",
+            "clock": "76'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [
+              {
+                "id": "274269",
+                "name": "Yazan Al-Arab"
+              }
+            ],
+            "text": "Own Goal by Yazan Al Arab, Jordan. Austria 2, Jordan 1.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538447",
+            "type": "Yellow Card",
+            "clock": "77'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [
+              {
+                "id": "173907",
+                "name": "Marcel Sabitzer"
+              }
+            ],
+            "text": "Marcel Sabitzer (Austria) is shown the yellow card.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538445",
+            "type": "Start Delay",
+            "clock": "78'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538448",
+            "type": "End Delay",
+            "clock": "78'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538497",
+            "type": "Substitution",
+            "clock": "81'",
+            "period": 2,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [
+              {
+                "id": "374200",
+                "name": "Saed Al-Rosan"
+              },
+              {
+                "id": "317819",
+                "name": "Abdallah Nasib"
+              }
+            ],
+            "text": "Substitution, Jordan. Saed Al Rosan replaces Abdallah Nasib because of an injury.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538498",
+            "type": "Substitution",
+            "clock": "81'",
+            "period": 2,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [
+              {
+                "id": "229023",
+                "name": "Mahmoud Al-Mardi"
+              },
+              {
+                "id": "229021",
+                "name": "Ehsan Haddad"
+              }
+            ],
+            "text": "Substitution, Jordan. Mahmoud Al Mardi replaces Ehsan Haddad.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538518",
+            "type": "Substitution",
+            "clock": "83'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [
+              {
+                "id": "300095",
+                "name": "Patrick Wimmer"
+              },
+              {
+                "id": "238296",
+                "name": "Romano Schmid"
+              }
+            ],
+            "text": "Substitution, Austria. Patrick Wimmer replaces Romano Schmid.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538606",
+            "type": "Start Delay",
+            "clock": "87'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [],
+            "text": "Delay in match because of an injury Stefan Posch (Austria).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538607",
+            "type": "Start Delay",
+            "clock": "87'",
+            "period": 2,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [],
+            "text": "Delay in match because of an injury Odeh Fakhoury (Jordan).",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538608",
+            "type": "Substitution",
+            "clock": "88'",
+            "period": 2,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [
+              {
+                "id": "321486",
+                "name": "Mohammad Al-Daoud"
+              },
+              {
+                "id": "257489",
+                "name": "Mousa Al-Tamari"
+              }
+            ],
+            "text": "Substitution, Jordan. Mohammad Al Daoud replaces Mousa Al Tamari.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538610",
+            "type": "Substitution",
+            "clock": "89'",
+            "period": 2,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [
+              {
+                "id": "400062",
+                "name": "Ali Azaizeh"
+              },
+              {
+                "id": "392204",
+                "name": "Odeh Fakhoury"
+              }
+            ],
+            "text": "Substitution, Jordan. Ali Azaizeh replaces Odeh Fakhoury.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538611",
+            "type": "End Delay",
+            "clock": "89'",
+            "period": 2,
+            "teamId": "2917",
+            "teamName": "Jordan",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49538612",
+            "type": "End Delay",
+            "clock": "89'",
+            "period": 2,
+            "teamId": "474",
+            "teamName": "Austria",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
           }
         ],
         "commentary": [
@@ -122418,6 +123004,246 @@
           {
             "time": null,
             "text": "First Half begins.",
+            "type": null
+          },
+          {
+            "time": "2'",
+            "text": "Attempt missed. Ehsan Haddad (Jordan) right footed shot from a difficult angle on the right is close, but misses to the right. Assisted by Nizar Al Rashdan.",
+            "type": null
+          },
+          {
+            "time": "7'",
+            "text": "Handball by Konrad Laimer (Austria).",
+            "type": null
+          },
+          {
+            "time": "9'",
+            "text": "Attempt saved. Mousa Al Tamari (Jordan) left footed shot from outside the box is saved in the bottom right corner by Alexander Schlager (Austria). Assisted by Odeh Fakhoury.",
+            "type": null
+          },
+          {
+            "time": "11'",
+            "text": "Attempt missed. David Alaba (Austria) left footed shot from outside the box misses to the right.",
+            "type": null
+          },
+          {
+            "time": "12'",
+            "text": "Offside, Austria. Konrad Laimer is caught offside.",
+            "type": null
+          },
+          {
+            "time": "13'",
+            "text": "Foul by Abdallah Nasib (Jordan).",
+            "type": null
+          },
+          {
+            "time": "13'",
+            "text": "Sasa Kalajdzic (Austria) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "13'",
+            "text": "Foul by Xaver Schlager (Austria).",
+            "type": null
+          },
+          {
+            "time": "13'",
+            "text": "Odeh Fakhoury (Jordan) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "16'",
+            "text": "Corner, Austria. Conceded by Mohammad Abu Al Nadi.",
+            "type": null
+          },
+          {
+            "time": "17'",
+            "text": "Mousa Al Tamari (Jordan) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "17'",
+            "text": "Foul by Konrad Laimer (Austria).",
+            "type": null
+          },
+          {
+            "time": "17'",
+            "text": "Attempt saved. Odeh Fakhoury (Jordan) right footed shot from outside the box is saved in the top centre of the goal by Alexander Schlager (Austria). Assisted by Noor Al Rawabdeh.",
+            "type": null
+          },
+          {
+            "time": "17'",
+            "text": "Corner, Jordan. Conceded by Alexander Schlager.",
+            "type": null
+          },
+          {
+            "time": "19'",
+            "text": "Attempt blocked. Marcel Sabitzer (Austria) left footed shot from outside the box is blocked. Assisted by Sasa Kalajdzic.",
+            "type": null
+          },
+          {
+            "time": "19'",
+            "text": "Offside, Austria. Konrad Laimer is caught offside.",
+            "type": null
+          },
+          {
+            "time": "21'",
+            "text": "Goal! Austria 1, Jordan 0. Romano Schmid (Austria) right footed shot from outside the box to the top right corner. Assisted by Xaver Schlager.",
+            "type": null
+          },
+          {
+            "time": "22'",
+            "text": "Corner, Jordan. Conceded by David Alaba.",
+            "type": null
+          },
+          {
+            "time": "22'",
+            "text": "Ali Olwan (Jordan) hits the bar with a header from the left side of the six yard box. Assisted by Mohannad Abu Taha with a cross following a corner.",
+            "type": null
+          },
+          {
+            "time": "23'",
+            "text": "Delay in match for a drinks break.",
+            "type": null
+          },
+          {
+            "time": "26'",
+            "text": "Delay over. They are ready to continue.",
+            "type": null
+          },
+          {
+            "time": "30'",
+            "text": "Attempt missed. Sasa Kalajdzic (Austria) header from the centre of the box misses to the right. Assisted by Phillipp Mwene.",
+            "type": null
+          },
+          {
+            "time": "33'",
+            "text": "Attempt missed. Stefan Posch (Austria) right footed shot from the centre of the box is high and wide to the left.",
+            "type": null
+          },
+          {
+            "time": "34'",
+            "text": "Attempt saved. Ali Olwan (Jordan) right footed shot from the right side of the box is saved in the top left corner by Alexander Schlager (Austria). Assisted by Ehsan Haddad with a headed pass.",
+            "type": null
+          },
+          {
+            "time": "34'",
+            "text": "Attempt blocked. Mousa Al Tamari (Jordan) left footed shot from the centre of the box is blocked.",
+            "type": null
+          },
+          {
+            "time": "37'",
+            "text": "Abdallah Nasib (Jordan) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "37'",
+            "text": "Foul by Sasa Kalajdzic (Austria).",
+            "type": null
+          },
+          {
+            "time": "40'",
+            "text": "Foul by Nizar Al Rashdan (Jordan).",
+            "type": null
+          },
+          {
+            "time": "40'",
+            "text": "Sasa Kalajdzic (Austria) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "41'",
+            "text": "Ehsan Haddad (Jordan) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "41'",
+            "text": "Foul by Xaver Schlager (Austria).",
+            "type": null
+          },
+          {
+            "time": "42'",
+            "text": "Foul by Phillipp Mwene (Austria).",
+            "type": null
+          },
+          {
+            "time": "42'",
+            "text": "Ali Olwan (Jordan) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "42'",
+            "text": "Corner, Jordan. Conceded by Stefan Posch.",
+            "type": null
+          },
+          {
+            "time": "43'",
+            "text": "Foul by Stefan Posch (Austria).",
+            "type": null
+          },
+          {
+            "time": "43'",
+            "text": "Odeh Fakhoury (Jordan) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "44'",
+            "text": "Attempt missed. Mousa Al Tamari (Jordan) left footed shot from outside the box misses to the right. Assisted by Odeh Fakhoury following a set piece situation.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Fourth official has announced 4 minutes of added time.",
+            "type": null
+          },
+          {
+            "time": "45'+1'",
+            "text": "Attempt missed. Mousa Al Tamari (Jordan) left footed shot from the right side of the box is close, but misses to the right. Assisted by Ehsan Haddad.",
+            "type": null
+          },
+          {
+            "time": "45'+1'",
+            "text": "Nicolas Seiwald (Austria) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "45'+1'",
+            "text": "Foul by Nizar Al Rashdan (Jordan).",
+            "type": null
+          },
+          {
+            "time": "45'+4'",
+            "text": "Attempt missed. Sasa Kalajdzic (Austria) right footed shot from outside the box is too high. Assisted by Marcel Sabitzer.",
+            "type": null
+          },
+          {
+            "time": "45'+5'",
+            "text": "First Half ends, Austria 1, Jordan 0.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Substitution, Austria. Marko Arnautovic replaces Sasa Kalajdzic.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Second Half begins Austria 1, Jordan 0.",
+            "type": null
+          },
+          {
+            "time": "50'",
+            "text": "Goal! Austria 1, Jordan 1. Ali Olwan (Jordan) right footed shot from the left side of the box to the bottom right corner. Assisted by Noor Al Rawabdeh following a fast break.",
+            "type": null
+          },
+          {
+            "time": "55'",
+            "text": "Attempt blocked. Ali Olwan (Jordan) right footed shot from the centre of the box is blocked. Assisted by Mousa Al Tamari.",
+            "type": null
+          },
+          {
+            "time": "56'",
+            "text": "Stefan Posch (Austria) wins a free kick on the right wing.",
             "type": null
           }
         ],
@@ -122443,27 +123269,51 @@
               {
                 "name": "totalShots",
                 "displayName": "Total Shots",
-                "leader": null
+                "leader": {
+                  "name": "Sasa Kalajdzic",
+                  "shortName": "S. Kalajdzic",
+                  "jersey": "14",
+                  "position": "Forward",
+                  "value": "2",
+                  "summary": "0 SOG, 0.12 xG",
+                  "stats": [
+                    {
+                      "name": "totalShots",
+                      "value": "2",
+                      "label": "SHOT"
+                    },
+                    {
+                      "name": "shotsOnTarget",
+                      "value": "0",
+                      "label": "SOG"
+                    },
+                    {
+                      "name": "expectedGoals",
+                      "value": "0.12",
+                      "label": "xG"
+                    }
+                  ]
+                }
               },
               {
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "David Alaba",
-                  "shortName": "D. Alaba",
-                  "jersey": "8",
+                  "name": "Philipp Lienhart",
+                  "shortName": "P. Lienhart",
+                  "jersey": "15",
                   "position": "Defender",
-                  "value": "3",
-                  "summary": "4 PASS",
+                  "value": "71",
+                  "summary": "78 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "3",
+                      "value": "71",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "4",
+                      "value": "78",
                       "label": "PASS"
                     }
                   ]
@@ -122472,12 +123322,60 @@
               {
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
-                "leader": null
+                "leader": {
+                  "name": "Xaver Schlager",
+                  "shortName": "X. Schlager",
+                  "jersey": "4",
+                  "position": "Midfielder",
+                  "value": "10",
+                  "summary": "1 TKLW, 6 DUELW",
+                  "stats": [
+                    {
+                      "name": "defensiveInterventions",
+                      "value": "10",
+                      "label": "DINT"
+                    },
+                    {
+                      "name": "effectiveTackles",
+                      "value": "1",
+                      "label": "TKLW"
+                    },
+                    {
+                      "name": "duelsWon",
+                      "value": "6",
+                      "label": "DUELW"
+                    }
+                  ]
+                }
               },
               {
                 "name": "saves",
                 "displayName": "Saves",
-                "leader": null
+                "leader": {
+                  "name": "Alexander Schlager",
+                  "shortName": "A. Schlager",
+                  "jersey": "1",
+                  "position": "Goalkeeper",
+                  "value": "3",
+                  "summary": "4 SOGA, 0.51 xGC",
+                  "stats": [
+                    {
+                      "name": "saves",
+                      "value": "3",
+                      "label": "SV"
+                    },
+                    {
+                      "name": "shotsOnGoalAgainst",
+                      "value": "4",
+                      "label": "SOGA"
+                    },
+                    {
+                      "name": "expectedGoalsConceded",
+                      "value": "0.51",
+                      "label": "xGC"
+                    }
+                  ]
+                }
               }
             ]
           },
@@ -122489,26 +123387,26 @@
                 "name": "totalShots",
                 "displayName": "Total Shots",
                 "leader": {
-                  "name": "Ehsan Haddad",
-                  "shortName": "E. Haddad",
-                  "jersey": "23",
-                  "position": "Defender",
-                  "value": "1",
-                  "summary": "0 SOG, 0.05 xG",
+                  "name": "Ali Olwan",
+                  "shortName": "A. Olwan",
+                  "jersey": "9",
+                  "position": "Forward",
+                  "value": "4",
+                  "summary": "2 SOG, 0.32 xG",
                   "stats": [
                     {
                       "name": "totalShots",
-                      "value": "1",
+                      "value": "4",
                       "label": "SHOT"
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "0",
+                      "value": "2",
                       "label": "SOG"
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.05",
+                      "value": "0.32",
                       "label": "xG"
                     }
                   ]
@@ -122518,21 +123416,21 @@
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "Nizar Al-Rashdan",
-                  "shortName": "N. Al-Rashdan",
-                  "jersey": "21",
-                  "position": "Midfielder",
-                  "value": "1",
-                  "summary": "2 PASS",
+                  "name": "Yazan Al-Arab",
+                  "shortName": "Y. Al-Arab",
+                  "jersey": "5",
+                  "position": "Defender",
+                  "value": "39",
+                  "summary": "42 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "1",
+                      "value": "39",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "2",
+                      "value": "42",
                       "label": "PASS"
                     }
                   ]
@@ -122542,26 +123440,26 @@
                 "name": "defensiveInterventions",
                 "displayName": "Defensive Interventions",
                 "leader": {
-                  "name": "Mohannad Abu Taha",
-                  "shortName": "M. Abu Taha",
-                  "jersey": "20",
+                  "name": "Yazan Al-Arab",
+                  "shortName": "Y. Al-Arab",
+                  "jersey": "5",
                   "position": "Defender",
-                  "value": "1",
-                  "summary": "0 TKLW, 1 DUELW",
+                  "value": "15",
+                  "summary": "3 TKLW, 6 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "1",
+                      "value": "15",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "0",
+                      "value": "3",
                       "label": "TKLW"
                     },
                     {
                       "name": "duelsWon",
-                      "value": "1",
+                      "value": "6",
                       "label": "DUELW"
                     }
                   ]
