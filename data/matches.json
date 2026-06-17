@@ -1,15 +1,15 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-17T17:56:52.863Z",
+    "lastUpdated": "2026-06-17T19:02:17.352Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
-    "completedCount": 20
+    "completedCount": 21
   },
   "stats": {
-    "totalGoals": 62,
-    "matchesPlayed": 20,
-    "avgGoalsPerMatch": "3.10"
+    "totalGoals": 64,
+    "matchesPlayed": 21,
+    "avgGoalsPerMatch": "3.05"
   },
   "topScorers": [
     {
@@ -301,6 +301,20 @@
           "matchId": "760424",
           "clock": "84'",
           "vs": "TUN"
+        }
+      ]
+    },
+    {
+      "id": "224077",
+      "name": "Yoane Wissa",
+      "teamId": "2850",
+      "teamName": "Congo DR",
+      "goals": 1,
+      "goalDetails": [
+        {
+          "matchId": "760435",
+          "clock": "45'+5'",
+          "vs": "POR"
         }
       ]
     },
@@ -725,16 +739,16 @@
       ]
     },
     {
-      "id": "388522",
-      "name": "Ibrahim Mbaye",
-      "teamId": "654",
-      "teamName": "Senegal",
+      "id": "355061",
+      "name": "João Neves",
+      "teamId": "482",
+      "teamName": "Portugal",
       "goals": 1,
       "goalDetails": [
         {
-          "matchId": "760432",
-          "clock": "90'+5'",
-          "vs": "FRA"
+          "matchId": "760435",
+          "clock": "6'",
+          "vs": "COD"
         }
       ]
     }
@@ -874,6 +888,20 @@
           "matchId": "760422",
           "clock": "38'",
           "vs": "CUW"
+        }
+      ]
+    },
+    {
+      "id": "165892",
+      "name": "Arthur Masuaku",
+      "teamId": "2850",
+      "teamName": "Congo DR",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760435",
+          "clock": "45'+5'",
+          "vs": "POR"
         }
       ]
     },
@@ -1070,6 +1098,20 @@
           "matchId": "760417",
           "clock": "90'+8'",
           "vs": "PAR"
+        }
+      ]
+    },
+    {
+      "id": "256115",
+      "name": "Pedro Neto",
+      "teamId": "482",
+      "teamName": "Portugal",
+      "assists": 1,
+      "assistDetails": [
+        {
+          "matchId": "760435",
+          "clock": "6'",
+          "vs": "COD"
         }
       ]
     },
@@ -1840,6 +1882,23 @@
       "assistDetails": []
     },
     {
+      "id": "224077",
+      "name": "Yoane Wissa",
+      "teamId": "2850",
+      "teamName": "Congo DR",
+      "goals": 1,
+      "assists": 0,
+      "total": 1,
+      "goalDetails": [
+        {
+          "matchId": "760435",
+          "clock": "45'+5'",
+          "vs": "POR"
+        }
+      ],
+      "assistDetails": []
+    },
+    {
       "id": "233075",
       "name": "Julián Quiñones",
       "teamId": "203",
@@ -2243,23 +2302,6 @@
           "matchId": "760431",
           "clock": "50'",
           "vs": "AUT"
-        }
-      ],
-      "assistDetails": []
-    },
-    {
-      "id": "328238",
-      "name": "Bradley Barcola",
-      "teamId": "478",
-      "teamName": "France",
-      "goals": 1,
-      "assists": 0,
-      "total": 1,
-      "goalDetails": [
-        {
-          "matchId": "760432",
-          "clock": "82'",
-          "vs": "SEN"
         }
       ],
       "assistDetails": []
@@ -123658,19 +123700,19 @@
       "name": "Congo DR at Portugal",
       "shortName": "COD @ POR",
       "status": {
-        "state": "in",
-        "detail": "HT",
-        "shortDetail": "HT",
-        "clock": "45'+6'",
-        "period": 1,
-        "completed": false
+        "state": "post",
+        "detail": "FT",
+        "shortDetail": "FT",
+        "clock": "90'+5'",
+        "period": 2,
+        "completed": true
       },
       "venue": {
         "name": "NRG Stadium",
         "city": "Houston, Texas",
         "country": "USA"
       },
-      "attendance": null,
+      "attendance": 68777,
       "home": {
         "id": "482",
         "name": "Portugal",
@@ -123678,8 +123720,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
         "score": "1",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WWWDW"
+        "record": "0-1-0",
+        "form": "DWWWD"
       },
       "away": {
         "id": "2850",
@@ -123688,8 +123730,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
         "score": "1",
         "winner": false,
-        "record": "0-0-0",
-        "form": "LDWWL"
+        "record": "0-1-0",
+        "form": "DLDWW"
       },
       "group": null,
       "details": {
@@ -123702,11 +123744,11 @@
             "homeAway": "home",
             "stats": {
               "foulsCommitted": {
-                "value": "3",
+                "value": "9",
                 "label": "Fouls"
               },
               "yellowCards": {
-                "value": "1",
+                "value": "3",
                 "label": "Yellow Cards"
               },
               "redCards": {
@@ -123714,11 +123756,11 @@
                 "label": "Red Cards"
               },
               "offsides": {
-                "value": "1",
+                "value": "3",
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "1",
+                "value": "5",
                 "label": "Corner Kicks"
               },
               "saves": {
@@ -123726,11 +123768,11 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "79.7",
-                "label": "POSSESSION"
+                "value": "75.4",
+                "label": "Possession"
               },
               "totalShots": {
-                "value": "2",
+                "value": "7",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
@@ -123738,7 +123780,7 @@
                 "label": "ON GOAL"
               },
               "shotPct": {
-                "value": "0.5",
+                "value": "0.1",
                 "label": "On Target %"
               },
               "penaltyKickGoals": {
@@ -123750,11 +123792,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "460",
+                "value": "723",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "489",
+                "value": "783",
                 "label": "Passes"
               },
               "passPct": {
@@ -123762,55 +123804,55 @@
                 "label": "Pass Completion %"
               },
               "accurateCrosses": {
-                "value": "2",
+                "value": "6",
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "10",
+                "value": "23",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.2",
+                "value": "0.3",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "30",
+                "value": "65",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "21",
+                "value": "42",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.7",
+                "value": "0.6",
                 "label": "Long Balls %"
               },
               "blockedShots": {
-                "value": "1",
+                "value": "2",
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "4",
+                "value": "6",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "7",
+                "value": "11",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.6",
+                "value": "0.5",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "0",
+                "value": "2",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "6",
+                "value": "10",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "6",
+                "value": "10",
                 "label": "Clearances"
               }
             }
@@ -123823,7 +123865,7 @@
             "homeAway": "away",
             "stats": {
               "foulsCommitted": {
-                "value": "5",
+                "value": "10",
                 "label": "Fouls"
               },
               "yellowCards": {
@@ -123835,11 +123877,11 @@
                 "label": "Red Cards"
               },
               "offsides": {
-                "value": "1",
+                "value": "2",
                 "label": "Offsides"
               },
               "wonCorners": {
-                "value": "3",
+                "value": "4",
                 "label": "Corner Kicks"
               },
               "saves": {
@@ -123847,11 +123889,11 @@
                 "label": "Saves"
               },
               "possessionPct": {
-                "value": "20.3",
-                "label": "POSSESSION"
+                "value": "24.6",
+                "label": "Possession"
               },
               "totalShots": {
-                "value": "6",
+                "value": "8",
                 "label": "SHOTS"
               },
               "shotsOnTarget": {
@@ -123871,11 +123913,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "98",
+                "value": "197",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "120",
+                "value": "251",
                 "label": "Passes"
               },
               "passPct": {
@@ -123887,19 +123929,19 @@
                 "label": "Accurate Crosses"
               },
               "totalCrosses": {
-                "value": "6",
+                "value": "9",
                 "label": "Crosses"
               },
               "crossPct": {
-                "value": "0.2",
+                "value": "0.1",
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "16",
+                "value": "41",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "4",
+                "value": "11",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
@@ -123911,27 +123953,27 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "4",
+                "value": "11",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "8",
+                "value": "19",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.5",
+                "value": "0.6",
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "3",
+                "value": "5",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "13",
+                "value": "28",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "13",
+                "value": "28",
                 "label": "Clearances"
               }
             }
@@ -124041,7 +124083,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -124122,7 +124164,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -124147,7 +124189,7 @@
                   },
                   {
                     "name": "yellowCards",
-                    "value": "0",
+                    "value": "1",
                     "label": "YC"
                   },
                   {
@@ -124194,7 +124236,7 @@
                 "position": "Left Back",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -124208,7 +124250,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "3",
                     "label": "FA"
                   },
                   {
@@ -124329,7 +124371,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "1",
                     "label": "OF"
                   },
                   {
@@ -124365,12 +124407,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -124425,7 +124467,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "1",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -124437,7 +124479,7 @@
                 "position": "Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -124446,7 +124488,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -124668,7 +124710,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "3",
                     "label": "SHOT"
                   }
                 ]
@@ -124680,7 +124722,7 @@
                 "position": "Attacking Midfielder Left",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -124761,7 +124803,7 @@
                 "position": "Attacking Midfielder Right",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -125489,17 +125531,17 @@
                 "shortName": "F. Conceição",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -125519,7 +125561,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -125544,7 +125586,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "0",
+                    "value": "1",
                     "label": "OF"
                   },
                   {
@@ -125559,7 +125601,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -125570,17 +125612,17 @@
                 "shortName": "N. Semedo",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -125600,12 +125642,12 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
                     "name": "yellowCards",
-                    "value": "0",
+                    "value": "1",
                     "label": "YC"
                   },
                   {
@@ -125651,12 +125693,12 @@
                 "shortName": "G. Ramos",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -125681,7 +125723,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -125813,12 +125855,12 @@
                 "shortName": "R. Leão",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -125843,7 +125885,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -126296,7 +126338,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "0",
+                    "value": "1",
                     "label": "SHOT"
                   }
                 ]
@@ -126389,7 +126431,7 @@
                 "position": "Left Back",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -126470,7 +126512,7 @@
                 "position": "Right Back",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -126479,7 +126521,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
@@ -126560,7 +126602,7 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
@@ -126632,7 +126674,7 @@
                 "position": "Center Left Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -126641,12 +126683,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "1",
+                    "value": "2",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "1",
+                    "value": "2",
                     "label": "FA"
                   },
                   {
@@ -126713,7 +126755,7 @@
                 "position": "Center Right Midfielder",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -126794,7 +126836,7 @@
                 "position": "Center Left Forward",
                 "starter": true,
                 "subbedIn": false,
-                "subbedOut": false,
+                "subbedOut": true,
                 "stats": [
                   {
                     "name": "appearances",
@@ -126803,12 +126845,12 @@
                   },
                   {
                     "name": "foulsCommitted",
-                    "value": "0",
+                    "value": "1",
                     "label": "FC"
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -126848,7 +126890,7 @@
                   },
                   {
                     "name": "offsides",
-                    "value": "1",
+                    "value": "2",
                     "label": "OF"
                   },
                   {
@@ -126863,7 +126905,7 @@
                   },
                   {
                     "name": "totalShots",
-                    "value": "1",
+                    "value": "2",
                     "label": "SHOT"
                   }
                 ]
@@ -126889,7 +126931,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "3",
                     "label": "FA"
                   },
                   {
@@ -126955,12 +126997,12 @@
                 "shortName": "J. Kayembe",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -126970,7 +127012,7 @@
                   },
                   {
                     "name": "foulsSuffered",
-                    "value": "0",
+                    "value": "1",
                     "label": "FA"
                   },
                   {
@@ -126985,7 +127027,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -127198,12 +127240,12 @@
                 "shortName": "G. Kalulu",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -127228,7 +127270,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -127360,12 +127402,12 @@
                 "shortName": "S. Banza",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -127390,7 +127432,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -127441,12 +127483,12 @@
                 "shortName": "N. Sadiki",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -127471,7 +127513,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -128008,12 +128050,12 @@
                 "shortName": "C. Pickel",
                 "position": "Substitute",
                 "starter": false,
-                "subbedIn": false,
+                "subbedIn": true,
                 "subbedOut": false,
                 "stats": [
                   {
                     "name": "appearances",
-                    "value": "0",
+                    "value": "1",
                     "label": "APP"
                   },
                   {
@@ -128038,7 +128080,7 @@
                   },
                   {
                     "name": "subIns",
-                    "value": "0",
+                    "value": "1",
                     "label": "SUB"
                   },
                   {
@@ -128325,6 +128367,318 @@
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
+          },
+          {
+            "id": "49539671",
+            "type": "Substitution",
+            "clock": "45'",
+            "period": 2,
+            "teamId": "482",
+            "teamName": "Portugal",
+            "athletes": [
+              {
+                "id": "312659",
+                "name": "Francisco Conceição"
+              },
+              {
+                "id": "199833",
+                "name": "Bernardo Silva"
+              }
+            ],
+            "text": "Substitution, Portugal. Francisco Conceição replaces Bernardo Silva.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49539676",
+            "type": "Start 2nd Half",
+            "clock": "45'",
+            "period": 2,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": "Second Half begins Portugal 1, Congo DR 1.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49539831",
+            "type": "Substitution",
+            "clock": "57'",
+            "period": 2,
+            "teamId": "2850",
+            "teamName": "Congo DR",
+            "athletes": [
+              {
+                "id": "340240",
+                "name": "Noah Sadiki"
+              },
+              {
+                "id": "345988",
+                "name": "Ngal'ayel Mukau"
+              }
+            ],
+            "text": "Substitution, Congo DR. Noah Sadiki replaces Ngal'ayel Mukau.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49540006",
+            "type": "Start Delay",
+            "clock": "69'",
+            "period": 2,
+            "teamId": "482",
+            "teamName": "Portugal",
+            "athletes": [],
+            "text": "Delay in match for a drinks break.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49540005",
+            "type": "Start Delay",
+            "clock": "69'",
+            "period": 2,
+            "teamId": "2850",
+            "teamName": "Congo DR",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49540008",
+            "type": "End Delay",
+            "clock": "71'",
+            "period": 2,
+            "teamId": "482",
+            "teamName": "Portugal",
+            "athletes": [],
+            "text": "Delay over. They are ready to continue.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49540009",
+            "type": "End Delay",
+            "clock": "71'",
+            "period": 2,
+            "teamId": "2850",
+            "teamName": "Congo DR",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49540010",
+            "type": "Substitution",
+            "clock": "71'",
+            "period": 2,
+            "teamId": "482",
+            "teamName": "Portugal",
+            "athletes": [
+              {
+                "id": "258917",
+                "name": "Rafael Leão"
+              },
+              {
+                "id": "256115",
+                "name": "Pedro Neto"
+              }
+            ],
+            "text": "Substitution, Portugal. Rafael Leão replaces Pedro Neto.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49540011",
+            "type": "Substitution",
+            "clock": "72'",
+            "period": 2,
+            "teamId": "482",
+            "teamName": "Portugal",
+            "athletes": [
+              {
+                "id": "222670",
+                "name": "Nélson Semedo"
+              },
+              {
+                "id": "290591",
+                "name": "Nuno Mendes"
+              }
+            ],
+            "text": "Substitution, Portugal. Nélson Semedo replaces Nuno Mendes.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49540045",
+            "type": "Substitution",
+            "clock": "74'",
+            "period": 2,
+            "teamId": "2850",
+            "teamName": "Congo DR",
+            "athletes": [
+              {
+                "id": "235875",
+                "name": "Charles Pickel"
+              },
+              {
+                "id": "268986",
+                "name": "Edo Kayembe"
+              }
+            ],
+            "text": "Substitution, Congo DR. Charles Pickel replaces Edo Kayembe.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49540046",
+            "type": "Substitution",
+            "clock": "74'",
+            "period": 2,
+            "teamId": "2850",
+            "teamName": "Congo DR",
+            "athletes": [
+              {
+                "id": "204329",
+                "name": "Joris Kayembe"
+              },
+              {
+                "id": "165892",
+                "name": "Arthur Masuaku"
+              }
+            ],
+            "text": "Substitution, Congo DR. Joris Kayembe replaces Arthur Masuaku.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49540184",
+            "type": "Substitution",
+            "clock": "83'",
+            "period": 2,
+            "teamId": "482",
+            "teamName": "Portugal",
+            "athletes": [
+              {
+                "id": "288896",
+                "name": "Gonçalo Ramos"
+              },
+              {
+                "id": "288897",
+                "name": "Vitinha "
+              }
+            ],
+            "text": "Substitution, Portugal. Gonçalo Ramos replaces Vitinha.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49540213",
+            "type": "Substitution",
+            "clock": "85'",
+            "period": 2,
+            "teamId": "2850",
+            "teamName": "Congo DR",
+            "athletes": [
+              {
+                "id": "291345",
+                "name": "Gédéon Kalulu"
+              },
+              {
+                "id": "250945",
+                "name": "Aaron Wan-Bissaka"
+              }
+            ],
+            "text": "Substitution, Congo DR. Gédéon Kalulu replaces Aaron Wan-Bissaka.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49540214",
+            "type": "Substitution",
+            "clock": "85'",
+            "period": 2,
+            "teamId": "2850",
+            "teamName": "Congo DR",
+            "athletes": [
+              {
+                "id": "231161",
+                "name": "Simon Banza"
+              },
+              {
+                "id": "147193",
+                "name": "Cédric Bakambu"
+              }
+            ],
+            "text": "Substitution, Congo DR. Simon Banza replaces Cédric Bakambu.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49540257",
+            "type": "Yellow Card",
+            "clock": "88'",
+            "period": 2,
+            "teamId": "482",
+            "teamName": "Portugal",
+            "athletes": [
+              {
+                "id": "222670",
+                "name": "Nélson Semedo"
+              }
+            ],
+            "text": "Nélson Semedo (Portugal) is shown the yellow card for a bad foul.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49540328",
+            "type": "Yellow Card",
+            "clock": "90'+2'",
+            "period": 2,
+            "teamId": "482",
+            "teamName": "Portugal",
+            "athletes": [
+              {
+                "id": "329691",
+                "name": "Tomás Araújo"
+              }
+            ],
+            "text": "Tomás Araújo (Portugal) is shown the yellow card for a bad foul.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49540362",
+            "type": "End Regular Time",
+            "clock": "90'+5'",
+            "period": 2,
+            "teamId": null,
+            "teamName": null,
+            "athletes": [],
+            "text": "Second Half ends, Portugal 1, Congo DR 1.",
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
           }
         ],
         "commentary": [
@@ -128512,10 +128866,75 @@
             "time": "45'+6'",
             "text": "First Half ends, Portugal 1, Congo DR 1.",
             "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Substitution, Portugal. Francisco Conceição replaces Bernardo Silva.",
+            "type": null
+          },
+          {
+            "time": "45'",
+            "text": "Second Half begins Portugal 1, Congo DR 1.",
+            "type": null
+          },
+          {
+            "time": "46'",
+            "text": "Bruno Fernandes (Portugal) wins a free kick in the attacking half.",
+            "type": null
+          },
+          {
+            "time": "46'",
+            "text": "Foul by Samuel Moutoussamy (Congo DR).",
+            "type": null
+          },
+          {
+            "time": "49'",
+            "text": "Yoane Wissa (Congo DR) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "49'",
+            "text": "Foul by Vitinha (Portugal).",
+            "type": null
+          },
+          {
+            "time": "50'",
+            "text": "Offside, Congo DR. Cédric Bakambu is caught offside.",
+            "type": null
+          },
+          {
+            "time": "52'",
+            "text": "Corner, Portugal. Conceded by Steve Kapuadi.",
+            "type": null
+          },
+          {
+            "time": "55'",
+            "text": "Offside, Portugal. João Cancelo is caught offside.",
+            "type": null
+          },
+          {
+            "time": "55'",
+            "text": "Corner, Congo DR. Conceded by Renato Veiga.",
+            "type": null
+          },
+          {
+            "time": "57'",
+            "text": "Bruno Fernandes (Portugal) wins a free kick in the defensive half.",
+            "type": null
+          },
+          {
+            "time": "57'",
+            "text": "Foul by Cédric Bakambu (Congo DR).",
+            "type": null
+          },
+          {
+            "time": "57'",
+            "text": "Substitution, Congo DR. Noah Sadiki replaces Ngal'ayel Mukau.",
+            "type": null
           }
         ],
         "gameInfo": {
-          "attendance": null,
+          "attendance": 68777,
           "venue": {
             "name": "NRG Stadium",
             "city": "Houston, Texas",
@@ -128537,26 +128956,26 @@
                 "name": "totalShots",
                 "displayName": "Total Shots",
                 "leader": {
-                  "name": "João Neves",
-                  "shortName": "J. Neves",
-                  "jersey": "15",
-                  "position": "Midfielder",
-                  "value": "1",
-                  "summary": "1 SOG, 0.05 xG",
+                  "name": "Cristiano Ronaldo",
+                  "shortName": "C. Ronaldo",
+                  "jersey": "7",
+                  "position": "Forward",
+                  "value": "3",
+                  "summary": "0 SOG, 0.50 xG",
                   "stats": [
                     {
                       "name": "totalShots",
-                      "value": "1",
+                      "value": "3",
                       "label": "SHOT"
                     },
                     {
                       "name": "shotsOnTarget",
-                      "value": "1",
+                      "value": "0",
                       "label": "SOG"
                     },
                     {
                       "name": "expectedGoals",
-                      "value": "0.05",
+                      "value": "0.50",
                       "label": "xG"
                     }
                   ]
@@ -128570,17 +128989,17 @@
                   "shortName": "Vitinha ",
                   "jersey": "23",
                   "position": "Midfielder",
-                  "value": "91",
-                  "summary": "96 PASS",
+                  "value": "121",
+                  "summary": "128 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "91",
+                      "value": "121",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "96",
+                      "value": "128",
                       "label": "PASS"
                     }
                   ]
@@ -128594,22 +129013,22 @@
                   "shortName": "J. Cancelo",
                   "jersey": "20",
                   "position": "Defender",
-                  "value": "7",
-                  "summary": "1 TKLW, 3 DUELW",
+                  "value": "12",
+                  "summary": "2 TKLW, 5 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "7",
+                      "value": "12",
                       "label": "DINT"
                     },
                     {
                       "name": "effectiveTackles",
-                      "value": "1",
+                      "value": "2",
                       "label": "TKLW"
                     },
                     {
                       "name": "duelsWon",
-                      "value": "3",
+                      "value": "5",
                       "label": "DUELW"
                     }
                   ]
@@ -128624,7 +129043,7 @@
                   "jersey": "1",
                   "position": "Goalkeeper",
                   "value": "1",
-                  "summary": "2 SOGA, 0.49 xGC",
+                  "summary": "2 SOGA, 0.82 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -128638,7 +129057,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.49",
+                      "value": "0.82",
                       "label": "xGC"
                     }
                   ]
@@ -128683,21 +129102,21 @@
                 "name": "accuratePasses",
                 "displayName": "Accurate Passes",
                 "leader": {
-                  "name": "Ngal'ayel Mukau",
-                  "shortName": "N. Mukau",
-                  "jersey": "6",
-                  "position": "Midfielder",
-                  "value": "14",
-                  "summary": "17 PASS",
+                  "name": "Chancel Mbemba",
+                  "shortName": "C. Mbemba",
+                  "jersey": "22",
+                  "position": "Defender",
+                  "value": "22",
+                  "summary": "30 PASS",
                   "stats": [
                     {
                       "name": "accuratePasses",
-                      "value": "14",
+                      "value": "22",
                       "label": "AC.PASS"
                     },
                     {
                       "name": "totalPasses",
-                      "value": "17",
+                      "value": "30",
                       "label": "PASS"
                     }
                   ]
@@ -128711,12 +129130,12 @@
                   "shortName": "C. Mbemba",
                   "jersey": "22",
                   "position": "Defender",
-                  "value": "9",
-                  "summary": "1 TKLW, 1 DUELW",
+                  "value": "12",
+                  "summary": "1 TKLW, 2 DUELW",
                   "stats": [
                     {
                       "name": "defensiveInterventions",
-                      "value": "9",
+                      "value": "12",
                       "label": "DINT"
                     },
                     {
@@ -128726,7 +129145,7 @@
                     },
                     {
                       "name": "duelsWon",
-                      "value": "1",
+                      "value": "2",
                       "label": "DUELW"
                     }
                   ]
@@ -129687,8 +130106,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WWWDW"
+        "record": "0-1-0",
+        "form": "DWWWD"
       },
       "away": {
         "id": "2570",
@@ -129817,8 +130236,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "LDWWL"
+        "record": "0-1-0",
+        "form": "DLDWW"
       },
       "group": null
     },
@@ -130657,8 +131076,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "WWWDW"
+        "record": "0-1-0",
+        "form": "DWWWD"
       },
       "group": null
     },
@@ -130687,8 +131106,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
         "score": "0",
         "winner": false,
-        "record": "0-0-0",
-        "form": "LDWWL"
+        "record": "0-1-0",
+        "form": "DLDWW"
       },
       "away": {
         "id": "2570",
