@@ -177,11 +177,37 @@
   border-top: 1px solid var(--border);
 }
 
+.match-card__events--split {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.match-card__events-col {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+
+.match-card__events-col--away .match-event {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
 .match-event {
   display: flex;
   align-items: center;
   gap: 8px;
   font-size: 0.8rem;
+  min-width: 0;
+}
+
+.match-event__text {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .match-event__time {

@@ -81,28 +81,34 @@ export function renderMatchCard(m) {
   const homeWinner = m.home.winner ? 'winner' : '';
   const awayWinner = m.away.winner ? 'winner' : '';
 
-  // Key events for completed matches
+  // Key events for completed matches — scorers split to each team's side
   let eventsHTML = '';
   if (m.details?.keyEvents?.length) {
     const goals = m.details.keyEvents.filter(e =>
       e.type === 'Goal' || (e.text && e.text.toLowerCase().includes('goal'))
-    ).slice(0, 6);
+    );
 
     if (goals.length > 0) {
-      eventsHTML = `<div class="match-card__events">
-        ${goals.map(e => {
-          const scorer = e.athletes?.[0] ? (e.athletes[0].shortName || e.athletes[0].name) : '';
-          const assister = e.athletes?.[1] && !e.ownGoal ? (e.athletes[1].shortName || e.athletes[1].name) : '';
-          const playerText = assister ? `${scorer} (as. ${assister})` : scorer;
+      const renderGoal = e => {
+        const scorer = e.athletes?.[0] ? (e.athletes[0].shortName || e.athletes[0].name) : '';
+        const assister = e.athletes?.[1] && !e.ownGoal ? (e.athletes[1].shortName || e.athletes[1].name) : '';
+        const playerText = assister ? `${scorer} (as. ${assister})` : scorer;
 
-          return `
-            <div class="match-event">
-              <span class="match-event__time">${e.clock || ''}</span>
-              <span class="match-event__icon">⚽</span>
-              <span class="match-event__text">${playerText}${e.ownGoal ? ' (s.s.)' : ''}${e.penaltyKick ? ' (k.)' : ''}</span>
-            </div>
-          `;
-        }).join('')}
+        return `
+          <div class="match-event">
+            <span class="match-event__time">${e.clock || ''}</span>
+            <span class="match-event__icon">⚽</span>
+            <span class="match-event__text">${playerText}${e.ownGoal ? ' (s.s.)' : ''}${e.penaltyKick ? ' (k.)' : ''}</span>
+          </div>
+        `;
+      };
+
+      const homeGoals = goals.filter(e => e.teamId === m.home.id).slice(0, 6);
+      const awayGoals = goals.filter(e => e.teamId !== m.home.id).slice(0, 6);
+
+      eventsHTML = `<div class="match-card__events match-card__events--split">
+        <div class="match-card__events-col">${homeGoals.map(renderGoal).join('')}</div>
+        <div class="match-card__events-col match-card__events-col--away">${awayGoals.map(renderGoal).join('')}</div>
       </div>`;
     }
   }
