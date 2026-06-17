@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-17T19:56:35.643Z",
+    "lastUpdated": "2026-06-17T20:50:28.035Z",
     "tournament": "FIFA World Cup 2026",
     "source": "ESPN Public API",
     "matchCount": 104,
@@ -123963,7 +123963,23 @@
               }
             ]
           }
-        ]
+        ],
+        "xg": {
+          "home": {
+            "xg": 1.69,
+            "npxg": 0.902,
+            "xgot": 1.288,
+            "xa": 0.971,
+            "xga": 0.462
+          },
+          "away": {
+            "xg": 0.462,
+            "npxg": 0.462,
+            "xgot": 1.177,
+            "xa": 0.322,
+            "xga": 1.69
+          }
+        }
       }
     },
     {
@@ -124088,15 +124104,15 @@
                 "label": "Cross %"
               },
               "totalLongBalls": {
-                "value": "65",
+                "value": "63",
                 "label": "Long Balls"
               },
               "accurateLongBalls": {
-                "value": "42",
+                "value": "41",
                 "label": "Accurate Long Balls"
               },
               "longballPct": {
-                "value": "0.6",
+                "value": "0.7",
                 "label": "Long Balls %"
               },
               "blockedShots": {
@@ -124108,7 +124124,7 @@
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "11",
+                "value": "12",
                 "label": "Tackles"
               },
               "tacklePct": {
@@ -124116,7 +124132,7 @@
                 "label": "Tackle %"
               },
               "interceptions": {
-                "value": "2",
+                "value": "3",
                 "label": "Interceptions"
               },
               "effectiveClearance": {
@@ -124185,11 +124201,11 @@
                 "label": "Penalty Kicks Taken"
               },
               "accuratePasses": {
-                "value": "197",
+                "value": "195",
                 "label": "Accurate Passes"
               },
               "totalPasses": {
-                "value": "251",
+                "value": "250",
                 "label": "Passes"
               },
               "passPct": {
@@ -124225,15 +124241,15 @@
                 "label": "Blocked Shots"
               },
               "effectiveTackles": {
-                "value": "11",
+                "value": "9",
                 "label": "Effective Tackles"
               },
               "totalTackles": {
-                "value": "19",
+                "value": "17",
                 "label": "Tackles"
               },
               "tacklePct": {
-                "value": "0.6",
+                "value": "0.5",
                 "label": "Tackle %"
               },
               "interceptions": {
@@ -124241,11 +124257,11 @@
                 "label": "Interceptions"
               },
               "effectiveClearance": {
-                "value": "28",
+                "value": "27",
                 "label": "Effective Clearances"
               },
               "totalClearance": {
-                "value": "28",
+                "value": "27",
                 "label": "Clearances"
               }
             }
@@ -128538,7 +128554,7 @@
           {
             "id": "49539286",
             "type": "Start Delay",
-            "clock": "24'",
+            "clock": "23'",
             "period": 1,
             "teamId": "482",
             "teamName": "Portugal",
@@ -128551,7 +128567,20 @@
           {
             "id": "49539287",
             "type": "Start Delay",
-            "clock": "24'",
+            "clock": "23'",
+            "period": 1,
+            "teamId": "2850",
+            "teamName": "Congo DR",
+            "athletes": [],
+            "text": null,
+            "shootout": false,
+            "penaltyKick": false,
+            "ownGoal": false
+          },
+          {
+            "id": "49539288",
+            "type": "End Delay",
+            "clock": "27'",
             "period": 1,
             "teamId": "2850",
             "teamName": "Congo DR",
@@ -128570,19 +128599,6 @@
             "teamName": "Portugal",
             "athletes": [],
             "text": "Delay over. They are ready to continue.",
-            "shootout": false,
-            "penaltyKick": false,
-            "ownGoal": false
-          },
-          {
-            "id": "49539288",
-            "type": "End Delay",
-            "clock": "27'",
-            "period": 1,
-            "teamId": "2850",
-            "teamName": "Congo DR",
-            "athletes": [],
-            "text": null,
             "shootout": false,
             "penaltyKick": false,
             "ownGoal": false
@@ -128996,7 +129012,7 @@
           },
           {
             "time": "13'",
-            "text": "Edo Kayembe (Congo DR) wins a free kick in the defensive half.",
+            "text": "Edo Kayembe (Congo DR) wins a free kick in the attacking half.",
             "type": null
           },
           {
@@ -129020,7 +129036,7 @@
             "type": null
           },
           {
-            "time": "24'",
+            "time": "23'",
             "text": "Delay in match for a drinks break.",
             "type": null
           },
@@ -129315,7 +129331,7 @@
                   "jersey": "1",
                   "position": "Goalkeeper",
                   "value": "1",
-                  "summary": "2 SOGA, 0.82 xGC",
+                  "summary": "2 SOGA, 0.83 xGC",
                   "stats": [
                     {
                       "name": "saves",
@@ -129329,7 +129345,7 @@
                     },
                     {
                       "name": "expectedGoalsConceded",
-                      "value": "0.82",
+                      "value": "0.83",
                       "label": "xGC"
                     }
                   ]
@@ -129433,18 +129449,18 @@
         ],
         "xg": {
           "home": {
-            "xg": 0.644,
-            "npxg": 0.644,
+            "xg": 0.64,
+            "npxg": 0.64,
             "xgot": 0.526,
             "xa": 1.834,
-            "xga": 0.818
+            "xga": 0.83
           },
           "away": {
-            "xg": 0.818,
-            "npxg": 0.818,
+            "xg": 0.83,
+            "npxg": 0.83,
             "xgot": 1.028,
             "xa": 0.713,
-            "xga": 0.644
+            "xga": 0.64
           }
         }
       }
